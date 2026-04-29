@@ -137,3 +137,33 @@ npm run dev
 - OCR 输出为结构化三层结果，而非单一字符串。
 - 图谱分析采用多中心性融合，支持核心节点与关键路径解释。
 - 仅使用当前代码中已接入能力，不依赖未上线模块。
+
+## 11. 开源组件与原创性说明
+
+本项目在开发过程中使用了以下开源代码与组件：
+
+### 前端
+- Vue 3（https://github.com/vuejs/core）
+- Vite（https://github.com/vitejs/vite）
+- Axios（https://github.com/axios/axios）
+- ECharts（https://github.com/apache/echarts）
+
+### 后端
+- FastAPI（https://github.com/tiangolo/fastapi）
+- Uvicorn（https://github.com/encode/uvicorn）
+
+### OCR 与多模态解析
+- PaddleOCR（https://github.com/PaddlePaddle/PaddleOCR）
+- PP-StructureV2（基于 PaddleOCR 的结构化解析模块）
+- OpenCV（https://github.com/opencv/opencv）
+- PyMuPDF（https://github.com/pymupdf/PyMuPDF）
+
+### 自然语言处理
+- LTP（https://github.com/HIT-SCIR/ltp）
+- Qwen 大模型接口（DashScope 平台）
+
+### 图谱构建与分析
+- NetworkX（https://github.com/networkx/networkx）
+
+说明：
+上述开源组件主要用于提供基础能力（如 OCR 识别、PDF 解析、Web 服务、图计算等）。本项目的核心内容为多模态信息解析流程设计、语义抽取与知识图谱构建与分析方法，均为团队自主实现。
