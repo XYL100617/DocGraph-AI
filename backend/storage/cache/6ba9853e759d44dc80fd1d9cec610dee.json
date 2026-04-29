@@ -1,0 +1,402 @@
+{
+  "text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+    "structured_text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "summary_result": {
+    "summary": "小明计划五一去杭州观看汪苏泷演唱会，并顺便游玩和品尝美食。",
+    "text_type": "普通行为句",
+    "repaired_text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐"
+      }
+    ],
+    "summary": "小明在五一期间前往杭州观看汪苏泷的演唱会，并进行饮食游玩等休闲活动。",
+    "text_type": "普通行为句",
+    "entities": [
+      {
+        "name": "小明",
+        "type": "人物",
+        "category": "人物",
+        "description": "行为主体，参与旅行和观演",
+        "aliases": [
+          "小明"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "五一",
+        "type": "主题",
+        "category": "主题",
+        "description": "指劳动节假期，事件发生的时间段",
+        "aliases": [
+          "五一"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "杭州",
+        "type": "地点",
+        "category": "地点",
+        "description": "演唱会举办的城市",
+        "aliases": [
+          "杭州"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "汪苏泷演唱会",
+        "type": "人物",
+        "category": "人物",
+        "description": "在杭州举行的音乐演出活动",
+        "aliases": [
+          "汪苏泷演唱会"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "吃喝玩乐",
+        "type": "事件",
+        "category": "事件",
+        "description": "包含饮食与娱乐的综合性休闲行为",
+        "aliases": [
+          "吃喝玩乐"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "小明",
+        "target": "汪苏泷演唱会",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "小明",
+        "target": "吃喝玩乐",
+        "relation": "参与",
+        "confidence": 0.85,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "五一",
+        "target": "汪苏泷演唱会",
+        "relation": "关联",
+        "confidence": 0.9,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "杭州",
+        "target": "汪苏泷演唱会",
+        "relation": "关联",
+        "confidence": 0.9,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "汪苏泷演唱会",
+        "target": "吃喝玩乐",
+        "relation": "参与",
+        "confidence": 0.8,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "小明",
+        "target": "五一",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "五一",
+        "target": "杭州",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "小明",
+      "五一",
+      "杭州",
+      "汪苏泷演唱会",
+      "吃喝玩乐"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "小明五一要去杭州看汪苏泷演唱会，吃喝玩乐"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "小明",
+        "name": "小明",
+        "label": "小明",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "行为主体，参与旅行和观演",
+        "source": "llm",
+        "importance": 0.3249,
+        "symbolSize": 35.09847372593484
+      },
+      {
+        "id": "五一",
+        "name": "五一",
+        "label": "五一",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "指劳动节假期，事件发生的时间段",
+        "source": "llm",
+        "importance": 0.4923,
+        "symbolSize": 39.78502839843641
+      },
+      {
+        "id": "杭州",
+        "name": "杭州",
+        "label": "杭州",
+        "type": "地点",
+        "category": "地点",
+        "group": 1,
+        "description": "演唱会举办的城市",
+        "source": "llm",
+        "importance": 0.2832,
+        "symbolSize": 33.92923319939794
+      },
+      {
+        "id": "汪苏泷演唱会",
+        "name": "汪苏泷演唱会",
+        "label": "汪苏泷演唱会",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "在杭州举行的音乐演出活动",
+        "source": "llm",
+        "importance": 0.9144,
+        "symbolSize": 51.602952264858274
+      },
+      {
+        "id": "吃喝玩乐",
+        "name": "吃喝玩乐",
+        "label": "吃喝玩乐",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "包含饮食与娱乐的综合性休闲行为",
+        "source": "llm",
+        "importance": 0.55,
+        "symbolSize": 41.400000000000006
+      }
+    ],
+    "edges": [
+      {
+        "source": "小明",
+        "target": "汪苏泷演唱会",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "小明",
+        "target": "吃喝玩乐",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "小明",
+        "target": "五一",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      },
+      {
+        "source": "五一",
+        "target": "汪苏泷演唱会",
+        "relation": "关联",
+        "raw_relation": "描述",
+        "label": "关联",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "五一",
+        "target": "杭州",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      },
+      {
+        "source": "杭州",
+        "target": "汪苏泷演唱会",
+        "relation": "关联",
+        "raw_relation": "描述",
+        "label": "关联",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "汪苏泷演唱会",
+        "target": "吃喝玩乐",
+        "relation": "参与",
+        "raw_relation": "关联",
+        "label": "参与",
+        "weight": 0.8,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "汪苏泷演唱会",
+        "score": 0.9144,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.786,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "吃喝玩乐",
+        "score": 0.55,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "五一",
+        "score": 0.4923,
+        "degree": 0.75,
+        "betweenness": 0.5,
+        "pagerank": 0.2933,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "小明",
+        "score": 0.3249,
+        "degree": 0.75,
+        "betweenness": 0.0,
+        "pagerank": 0.2499,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "杭州",
+        "score": 0.2832,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 0.333,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "小明": 0.75,
+        "五一": 0.75,
+        "杭州": 0.5,
+        "汪苏泷演唱会": 1.0,
+        "吃喝玩乐": 0.5
+      },
+      "betweenness": {
+        "小明": 0.0,
+        "五一": 0.5,
+        "杭州": 0.0,
+        "汪苏泷演唱会": 1.0,
+        "吃喝玩乐": 0.0
+      },
+      "pagerank": {
+        "小明": 0.24986372552989597,
+        "五一": 0.29330610700325127,
+        "杭州": 0.33296724994624505,
+        "汪苏泷演唱会": 0.7859778807909173,
+        "吃喝玩乐": 1.0
+      },
+      "fusion": {
+        "小明": 0.3249454902119584,
+        "五一": 0.4923224428013005,
+        "杭州": 0.283186899978498,
+        "汪苏泷演唱会": 0.9143911523163669,
+        "吃喝玩乐": 0.55
+      }
+    },
+    "important_paths": [
+      [
+        "汪苏泷演唱会",
+        "吃喝玩乐"
+      ],
+      [
+        "五一",
+        "汪苏泷演唱会"
+      ],
+      [
+        "小明",
+        "汪苏泷演唱会"
+      ],
+      [
+        "五一",
+        "汪苏泷演唱会",
+        "吃喝玩乐"
+      ],
+      [
+        "小明",
+        "吃喝玩乐"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

@@ -1,0 +1,988 @@
+{
+  "text": "【表格标题】\n2025-2026-2 | 总学分：28\n\n【表格内容行1】\n课程信息\n\n【表格内容行2】\n《习近平新时代中国特色社会主义思想概论》\n\n【表格内容行3】\n391027 | 马克思主义学院[39] | 必修课\n\n【表格内容行4】\n3学分 | 48学时 | 无 | 中文 | 考试\n\n【表格内容行5】\n体育 (IV)\n\n【表格内容行6】\n491004 | 运动与体育学院[49] | 」」必修课\n\n【表格内容行7】\n1学分 | 32学时 | 无无考试",
+  "file_path": "storage/images\\826063b8280c47028d7bc3cf670f4372_屏幕截图 2026-02-28 221303.png",
+  "ocr": {
+    "raw_text": "2025-2026-2\n总学分：28\n课程信息\n《习近平新时代中国特色社会主义思想概论》\n391027\n马克思主义学院[39]\n必修课\n3学分\n48学时\n无\n中文\n考试\n体育 (IV)\n491004\n运动与体育学院[49]\n」」必修课\n1学分\n32学时\n无无考试",
+    "structured_text": "【表格标题】\n2025-2026-2 | 总学分：28\n\n【表格内容行1】\n课程信息\n\n【表格内容行2】\n《习近平新时代中国特色社会主义思想概论》\n\n【表格内容行3】\n391027 | 马克思主义学院[39] | 必修课\n\n【表格内容行4】\n3学分 | 48学时 | 无 | 中文 | 考试\n\n【表格内容行5】\n体育 (IV)\n\n【表格内容行6】\n491004 | 运动与体育学院[49] | 」」必修课\n\n【表格内容行7】\n1学分 | 32学时 | 无无考试",
+    "layout_type": "table_like",
+    "modules": [
+      {
+        "module": "表格标题",
+        "text": "2025-2026-2 | 总学分：28",
+        "blocks": [
+          {
+            "text": "2025-2026-2",
+            "confidence": 0.9999250769615173,
+            "bbox": {
+              "x1": 11.0,
+              "y1": 17.0,
+              "x2": 152.0,
+              "y2": 43.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "总学分：28",
+            "confidence": 0.9999286532402039,
+            "bbox": {
+              "x1": 216.0,
+              "y1": 16.0,
+              "x2": 340.0,
+              "y2": 45.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 11.0,
+          "y1": 16.0,
+          "x2": 340.0,
+          "y2": 45.0
+        }
+      },
+      {
+        "module": "表格内容行1",
+        "text": "课程信息",
+        "blocks": [
+          {
+            "text": "课程信息",
+            "confidence": 0.9980301260948181,
+            "bbox": {
+              "x1": 8.0,
+              "y1": 81.0,
+              "x2": 93.0,
+              "y2": 106.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 8.0,
+          "y1": 81.0,
+          "x2": 93.0,
+          "y2": 106.0
+        }
+      },
+      {
+        "module": "表格内容行2",
+        "text": "《习近平新时代中国特色社会主义思想概论》",
+        "blocks": [
+          {
+            "text": "《习近平新时代中国特色社会主义思想概论》",
+            "confidence": 0.9987303018569946,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 129.0,
+              "x2": 502.0,
+              "y2": 157.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 22.0,
+          "y1": 129.0,
+          "x2": 502.0,
+          "y2": 157.0
+        }
+      },
+      {
+        "module": "表格内容行3",
+        "text": "391027 | 马克思主义学院[39] | 必修课",
+        "blocks": [
+          {
+            "text": "391027",
+            "confidence": 0.9998931884765625,
+            "bbox": {
+              "x1": 6.0,
+              "y1": 168.0,
+              "x2": 80.0,
+              "y2": 194.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "马克思主义学院[39]",
+            "confidence": 0.991682231426239,
+            "bbox": {
+              "x1": 110.0,
+              "y1": 169.0,
+              "x2": 290.0,
+              "y2": 195.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "必修课",
+            "confidence": 0.9996824264526367,
+            "bbox": {
+              "x1": 316.0,
+              "y1": 167.0,
+              "x2": 385.0,
+              "y2": 194.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 6.0,
+          "y1": 167.0,
+          "x2": 385.0,
+          "y2": 195.0
+        }
+      },
+      {
+        "module": "表格内容行4",
+        "text": "3学分 | 48学时 | 无 | 中文 | 考试",
+        "blocks": [
+          {
+            "text": "3学分",
+            "confidence": 0.9999560713768005,
+            "bbox": {
+              "x1": 5.0,
+              "y1": 200.0,
+              "x2": 65.0,
+              "y2": 230.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "48学时",
+            "confidence": 0.9998252987861633,
+            "bbox": {
+              "x1": 93.0,
+              "y1": 203.0,
+              "x2": 164.0,
+              "y2": 226.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "无",
+            "confidence": 0.9999812841415405,
+            "bbox": {
+              "x1": 193.0,
+              "y1": 205.0,
+              "x2": 218.0,
+              "y2": 225.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "中文",
+            "confidence": 0.9998433589935303,
+            "bbox": {
+              "x1": 244.0,
+              "y1": 202.0,
+              "x2": 293.0,
+              "y2": 227.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "考试",
+            "confidence": 0.999678373336792,
+            "bbox": {
+              "x1": 319.0,
+              "y1": 201.0,
+              "x2": 368.0,
+              "y2": 229.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 5.0,
+          "y1": 200.0,
+          "x2": 368.0,
+          "y2": 230.0
+        }
+      },
+      {
+        "module": "表格内容行5",
+        "text": "体育 (IV)",
+        "blocks": [
+          {
+            "text": "体育 (IV)",
+            "confidence": 0.971885621547699,
+            "bbox": {
+              "x1": 7.0,
+              "y1": 257.0,
+              "x2": 125.0,
+              "y2": 289.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 7.0,
+          "y1": 257.0,
+          "x2": 125.0,
+          "y2": 289.0
+        }
+      },
+      {
+        "module": "表格内容行6",
+        "text": "491004 | 运动与体育学院[49] | 」」必修课",
+        "blocks": [
+          {
+            "text": "491004",
+            "confidence": 0.9999380707740784,
+            "bbox": {
+              "x1": 6.0,
+              "y1": 297.0,
+              "x2": 80.0,
+              "y2": 323.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "运动与体育学院[49]",
+            "confidence": 0.9994083642959595,
+            "bbox": {
+              "x1": 109.0,
+              "y1": 298.0,
+              "x2": 294.0,
+              "y2": 323.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "」」必修课",
+            "confidence": 0.8820896148681641,
+            "bbox": {
+              "x1": 279.0,
+              "y1": 296.0,
+              "x2": 383.0,
+              "y2": 322.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 6.0,
+          "y1": 296.0,
+          "x2": 383.0,
+          "y2": 323.0
+        }
+      },
+      {
+        "module": "表格内容行7",
+        "text": "1学分 | 32学时 | 无无考试",
+        "blocks": [
+          {
+            "text": "1学分",
+            "confidence": 0.9997269511222839,
+            "bbox": {
+              "x1": 7.0,
+              "y1": 331.0,
+              "x2": 65.0,
+              "y2": 358.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "32学时",
+            "confidence": 0.9998905062675476,
+            "bbox": {
+              "x1": 93.0,
+              "y1": 331.0,
+              "x2": 166.0,
+              "y2": 357.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "无无考试",
+            "confidence": 0.9995882511138916,
+            "bbox": {
+              "x1": 188.0,
+              "y1": 330.0,
+              "x2": 349.0,
+              "y2": 359.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 7.0,
+          "y1": 330.0,
+          "x2": 349.0,
+          "y2": 359.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "2025-2026-2",
+        "confidence": 0.9999250769615173,
+        "bbox": {
+          "x1": 11.0,
+          "y1": 17.0,
+          "x2": 152.0,
+          "y2": 43.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "总学分：28",
+        "confidence": 0.9999286532402039,
+        "bbox": {
+          "x1": 216.0,
+          "y1": 16.0,
+          "x2": 340.0,
+          "y2": 45.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "课程信息",
+        "confidence": 0.9980301260948181,
+        "bbox": {
+          "x1": 8.0,
+          "y1": 81.0,
+          "x2": 93.0,
+          "y2": 106.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "《习近平新时代中国特色社会主义思想概论》",
+        "confidence": 0.9987303018569946,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 129.0,
+          "x2": 502.0,
+          "y2": 157.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "391027",
+        "confidence": 0.9998931884765625,
+        "bbox": {
+          "x1": 6.0,
+          "y1": 168.0,
+          "x2": 80.0,
+          "y2": 194.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "马克思主义学院[39]",
+        "confidence": 0.991682231426239,
+        "bbox": {
+          "x1": 110.0,
+          "y1": 169.0,
+          "x2": 290.0,
+          "y2": 195.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "必修课",
+        "confidence": 0.9996824264526367,
+        "bbox": {
+          "x1": 316.0,
+          "y1": 167.0,
+          "x2": 385.0,
+          "y2": 194.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "3学分",
+        "confidence": 0.9999560713768005,
+        "bbox": {
+          "x1": 5.0,
+          "y1": 200.0,
+          "x2": 65.0,
+          "y2": 230.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "48学时",
+        "confidence": 0.9998252987861633,
+        "bbox": {
+          "x1": 93.0,
+          "y1": 203.0,
+          "x2": 164.0,
+          "y2": 226.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "无",
+        "confidence": 0.9999812841415405,
+        "bbox": {
+          "x1": 193.0,
+          "y1": 205.0,
+          "x2": 218.0,
+          "y2": 225.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "中文",
+        "confidence": 0.9998433589935303,
+        "bbox": {
+          "x1": 244.0,
+          "y1": 202.0,
+          "x2": 293.0,
+          "y2": 227.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "考试",
+        "confidence": 0.999678373336792,
+        "bbox": {
+          "x1": 319.0,
+          "y1": 201.0,
+          "x2": 368.0,
+          "y2": 229.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "体育 (IV)",
+        "confidence": 0.971885621547699,
+        "bbox": {
+          "x1": 7.0,
+          "y1": 257.0,
+          "x2": 125.0,
+          "y2": 289.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "491004",
+        "confidence": 0.9999380707740784,
+        "bbox": {
+          "x1": 6.0,
+          "y1": 297.0,
+          "x2": 80.0,
+          "y2": 323.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "运动与体育学院[49]",
+        "confidence": 0.9994083642959595,
+        "bbox": {
+          "x1": 109.0,
+          "y1": 298.0,
+          "x2": 294.0,
+          "y2": 323.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "」」必修课",
+        "confidence": 0.8820896148681641,
+        "bbox": {
+          "x1": 279.0,
+          "y1": 296.0,
+          "x2": 383.0,
+          "y2": 322.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "1学分",
+        "confidence": 0.9997269511222839,
+        "bbox": {
+          "x1": 7.0,
+          "y1": 331.0,
+          "x2": 65.0,
+          "y2": 358.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "32学时",
+        "confidence": 0.9998905062675476,
+        "bbox": {
+          "x1": 93.0,
+          "y1": 331.0,
+          "x2": 166.0,
+          "y2": 357.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "无无考试",
+        "confidence": 0.9995882511138916,
+        "bbox": {
+          "x1": 188.0,
+          "y1": 330.0,
+          "x2": 349.0,
+          "y2": 359.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.2975,
+    "non_white_ratio": 0.2376
+  },
+  "ai_result": {
+    "summary": "该文档为2025-2026学年第二学期课程安排，总学分28。包含两门课程：《习近平新时代中国特色社会主义思想概论》为3学分必修课，由马克思主义学院开设；体育(IV)为1学分必修课，由运动与体育学院开设，均以中文授课并采用考试考核方式。",
+    "entities": [
+      {
+        "name": "2025-2026-2",
+        "type": "时间",
+        "description": "学年学期标识"
+      },
+      {
+        "name": "总学分：28",
+        "type": "数值",
+        "description": "该学期应修总学分"
+      },
+      {
+        "name": "《习近平新时代中国特色社会主义思想概论》",
+        "type": "课程",
+        "description": "马克思主义学院开设的思想政治理论必修课"
+      },
+      {
+        "name": "391027",
+        "type": "课程代码",
+        "description": "该课程的唯一编号"
+      },
+      {
+        "name": "马克思主义学院[39]",
+        "type": "教学单位",
+        "description": "负责该课程教学的学院及代码"
+      },
+      {
+        "name": "必修课",
+        "type": "课程性质",
+        "description": "课程类型为必须修读"
+      },
+      {
+        "name": "3学分",
+        "type": "学分",
+        "description": "该课程对应的学分值"
+      },
+      {
+        "name": "48学时",
+        "type": "学时",
+        "description": "课程总授课时长"
+      },
+      {
+        "name": "无先修课",
+        "type": "条件",
+        "description": "该课程无前置课程要求"
+      },
+      {
+        "name": "中文",
+        "type": "语言",
+        "description": "授课语言"
+      },
+      {
+        "name": "考试",
+        "type": "考核方式",
+        "description": "课程评价形式"
+      },
+      {
+        "name": "体育 (IV)",
+        "type": "课程",
+        "description": "第四学期体育课程"
+      },
+      {
+        "name": "491004",
+        "type": "课程代码",
+        "description": "体育课程编号"
+      },
+      {
+        "name": "运动与体育学院[49]",
+        "type": "教学单位",
+        "description": "体育课程开设学院"
+      },
+      {
+        "name": "1学分",
+        "type": "学分",
+        "description": "体育课程学分"
+      },
+      {
+        "name": "32学时",
+        "type": "学时",
+        "description": "体育课程总学时"
+      }
+    ],
+    "relations": [
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "马克思主义学院[39]",
+        "relation": "由...开设",
+        "confidence": 0.95
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "3学分",
+        "relation": "对应学分",
+        "confidence": 0.98
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "48学时",
+        "relation": "对应学时",
+        "confidence": 0.98
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "考试",
+        "relation": "考核方式",
+        "confidence": 0.9
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "运动与体育学院[49]",
+        "relation": "由...开设",
+        "confidence": 0.95
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "1学分",
+        "relation": "对应学分",
+        "confidence": 0.98
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "32学时",
+        "relation": "对应学时",
+        "confidence": 0.98
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "考试",
+        "relation": "考核方式",
+        "confidence": 0.9
+      }
+    ],
+    "keywords": [
+      "必修课",
+      "学分",
+      "学时",
+      "考试",
+      "马克思主义学院",
+      "运动与体育学院",
+      "中文授课"
+    ],
+    "modules": [
+      {
+        "module": "学期与总学分",
+        "text": "2025-2026-2 | 总学分：28"
+      },
+      {
+        "module": "课程信息",
+        "text": "《习近平新时代中国特色社会主义思想概论》\n391027 | 马克思主义学院[39] | 必修课\n3学分 | 48学时 | 无先修课 | 中文 | 考试"
+      },
+      {
+        "module": "体育课程",
+        "text": "体育 (IV)\n491004 | 运动与体育学院[49] | 必修课\n1学分 | 32学时 | 无先修课 | 中文 | 考试"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.2975,
+      "non_white_ratio": 0.2376
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "2025-2026-2",
+        "name": "2025-2026-2",
+        "label": "2025-2026-2",
+        "type": "时间",
+        "category": "时间",
+        "description": "学年学期标识",
+        "symbolSize": 35
+      },
+      {
+        "id": "总学分：28",
+        "name": "总学分：28",
+        "label": "总学分：28",
+        "type": "数值",
+        "category": "数值",
+        "description": "该学期应修总学分",
+        "symbolSize": 35
+      },
+      {
+        "id": "《习近平新时代中国特色社会主义思想概论》",
+        "name": "《习近平新时代中国特色社会主义思想概论》",
+        "label": "《习近平新时代中国特色社会主义思想概论》",
+        "type": "课程",
+        "category": "课程",
+        "description": "马克思主义学院开设的思想政治理论必修课",
+        "symbolSize": 35
+      },
+      {
+        "id": "391027",
+        "name": "391027",
+        "label": "391027",
+        "type": "课程代码",
+        "category": "课程代码",
+        "description": "该课程的唯一编号",
+        "symbolSize": 35
+      },
+      {
+        "id": "马克思主义学院[39]",
+        "name": "马克思主义学院[39]",
+        "label": "马克思主义学院[39]",
+        "type": "教学单位",
+        "category": "教学单位",
+        "description": "负责该课程教学的学院及代码",
+        "symbolSize": 35
+      },
+      {
+        "id": "必修课",
+        "name": "必修课",
+        "label": "必修课",
+        "type": "课程性质",
+        "category": "课程性质",
+        "description": "课程类型为必须修读",
+        "symbolSize": 35
+      },
+      {
+        "id": "3学分",
+        "name": "3学分",
+        "label": "3学分",
+        "type": "学分",
+        "category": "学分",
+        "description": "该课程对应的学分值",
+        "symbolSize": 35
+      },
+      {
+        "id": "48学时",
+        "name": "48学时",
+        "label": "48学时",
+        "type": "学时",
+        "category": "学时",
+        "description": "课程总授课时长",
+        "symbolSize": 35
+      },
+      {
+        "id": "无先修课",
+        "name": "无先修课",
+        "label": "无先修课",
+        "type": "条件",
+        "category": "条件",
+        "description": "该课程无前置课程要求",
+        "symbolSize": 35
+      },
+      {
+        "id": "中文",
+        "name": "中文",
+        "label": "中文",
+        "type": "语言",
+        "category": "语言",
+        "description": "授课语言",
+        "symbolSize": 35
+      },
+      {
+        "id": "考试",
+        "name": "考试",
+        "label": "考试",
+        "type": "考核方式",
+        "category": "考核方式",
+        "description": "课程评价形式",
+        "symbolSize": 35
+      },
+      {
+        "id": "体育 (IV)",
+        "name": "体育 (IV)",
+        "label": "体育 (IV)",
+        "type": "课程",
+        "category": "课程",
+        "description": "第四学期体育课程",
+        "symbolSize": 35
+      },
+      {
+        "id": "491004",
+        "name": "491004",
+        "label": "491004",
+        "type": "课程代码",
+        "category": "课程代码",
+        "description": "体育课程编号",
+        "symbolSize": 35
+      },
+      {
+        "id": "运动与体育学院[49]",
+        "name": "运动与体育学院[49]",
+        "label": "运动与体育学院[49]",
+        "type": "教学单位",
+        "category": "教学单位",
+        "description": "体育课程开设学院",
+        "symbolSize": 35
+      },
+      {
+        "id": "1学分",
+        "name": "1学分",
+        "label": "1学分",
+        "type": "学分",
+        "category": "学分",
+        "description": "体育课程学分",
+        "symbolSize": 35
+      },
+      {
+        "id": "32学时",
+        "name": "32学时",
+        "label": "32学时",
+        "type": "学时",
+        "category": "学时",
+        "description": "体育课程总学时",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "马克思主义学院[39]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "3学分",
+        "relation": "对应学分",
+        "label": "对应学分",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "48学时",
+        "relation": "对应学时",
+        "label": "对应学时",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "《习近平新时代中国特色社会主义思想概论》",
+        "target": "考试",
+        "relation": "考核方式",
+        "label": "考核方式",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "运动与体育学院[49]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "1学分",
+        "relation": "对应学分",
+        "label": "对应学分",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "32学时",
+        "relation": "对应学时",
+        "label": "对应学时",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "体育 (IV)",
+        "target": "考试",
+        "relation": "考核方式",
+        "label": "考核方式",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  }
+}

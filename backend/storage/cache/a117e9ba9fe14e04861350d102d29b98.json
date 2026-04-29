@@ -1,0 +1,3548 @@
+{
+  "text": "| 序号 | 工具名称（按首字拼音排序） | 开发商 | 核心能力 | 官网地址 |\n| --- | ------------------------ | ------ | -------- | -------- |\n| 1 | 阿里通义系列 | 阿里巴巴集团（阿里云自主研发） | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://tongyi.aliyun.com/ |\n| 2 | 百度文心系列 | 百度公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://wenxin.baidu.com/ |\n| 3 | DeepSeek | 杭州深度求索人工智能基础技术研究有限公司（幻方量化孵化化） | 人工智能基础、逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.deepseek.com/ |\n| 4 | 稿定设计 | 厦门稿定股份有限公司（运营方：稿定（厦门）科技有限公司） | 零门槛图文设计（赛事海报/PPT模板/品牌视觉）、批量生成符合“国赛审美”的素材，10秒出图适配视觉包装需求。低代码AI开发（拖拉拽组件）、可视化实验流程（数据清洗→模型训练）、内置Python/R环境与算力调度，为大赛“AI通识教育实验创新赛道”官方指定平台。 | https://www.gaoding.com/ |\n| 5 | ModelWhale | 字节跳动有限公司（即梦由深圳市脸萌科技有限公司研发） | 全能型内容创作（文案/脚本/PPT)、多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://www.modelwhale.com/ |\n| 6 | 即梦、豆包AI | 上海和今信息科技有限公司（和鲸科技） | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://www.doubao.com/ https://jimeng.jiaying.com/ |\n| 7 | 科大讯飞星火 | 科大讯飞股份有限公司 | 多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI 编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://xinghuo.xfyun.cn/ |\n| 8 | Kimi | 北京月之暗面科技有限公司 | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://kimi.moonshot.cn/ |\n| 9 | 腾讯混元系列 | 腾讯公司 | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://hunyuan.tencent.com/ |\n| 10 | 智谱 AI | 北京智谱华章科技股份有限公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.zhipuai.cn/ |",
+  "file_path": "storage/images\\5ee96e88094645de98a3df23c5e9996a_PixPin_2026-04-24_14-39-40.png",
+  "ocr": {
+    "raw_text": "一、大赛规定的10款AI工具列表与简介(不含音乐类)\n工具名称\n序号\n（按首字拼\n开发商\n核心能力\n官网地址\n音排序)\n阿里巴巴集团\n企业级多模态生成（文本／图像/3D)\n阿里通义系\n（阿里云自主\nhttps tongyi.aliy\n跨语言协作、代码补全（VSCode深度集\n列\n研发)\nun.com/\n成）、大数据分析与可视化。\n多模态内容生成（文本／图像／代码）\n深度学习模型开发与部署、中文语境深度\n百度文心系\n理解、零代码／低代码落地；飞桨框架提\nhttps wenxin.bai\n2\n百度公司\n供一站式AI训练部署能力，ERNIE\ndu.com/\nFastCode 专注AI代码生成与优化。\n杭州深度求索\n人工智能基础\n逻辑推理（复杂算法设计）、长文本处理\nhttps www.deeps\n3\nDeepSeek\n技术研究有限\n（技术文档／论文）、代码生成（支持\n公司（幻方量\neek.com/\nPyTorch／飞桨双框架）、数据交叉分析。\n化孵化)\n厦门稿定股份\n有限公司（运\n零门槛图文设计（赛事海报/PPT模板/\n稿定设计\n营方：稿定\n品牌视觉）、批量生成符合“国赛审美”\nhttps www.gaodi\n4\n（厦门）科技\nng.com/\n的素材，10秒出图适配视觉包装需求。\n有限公司)\n上海和今信息\n低代码AI开发（拖拉拽组件）、可视化\n和鲸\n科技有限公司\n实验流程（数据清洗一模型训练）、内置\nhttps www.mode\n5\nModelWhale\nPython/R环境与算力调度，为大赛“AI通\nlwhale.com/\n(和鲸科技)\n识教育实验创新赛道”官方指定平台。\n字节跳动有限\n公司（即梦由\n全能型内容创作（文案／脚本/PPT)\nhttps www.doub\n即梦、豆包\n深圳市脸萌科\n多模态交互（文本→图像/视频）、与剪\nao.com/\n6\nAI\n技有限公司研\nhttps jimeng.jian\n映生态深度绑定实现“AI+视频编辑”。\nying.com/\n发)\n语音处理（识别／合成／方言识别）、智\n科大讯飞星\n科大讯飞股份\n能演示配音、双语课件生成（微课赛\nhttps xinghuo.xf\n1\n火\n有限公司\n道）、会议记录与速记（30-60分钟免费\nyun.cn/\n额度）。\n超长文本处理（200万字上下文）、多文\n北京月之暗面\n档交叉分析（PDF/Word/PPT直接解\nhttps kimi.moon\n8\nKimi\n析）、文献综述与开题报告生成，适配学\nshot.cn/\n术类项目需求。\n3D资产生成（直接导入\n腾讯混元系\nUnity/Blender）、AI编程（Python／前端\n腾讯公司\nhttps hunyuan.te\n9\n自动补全）、经济策略模拟（社会场景建\nncent.com/\n模）、文本润色（爆款文案／会议纪\n要）。\n逻辑严谨的技术文档撰写、无代码 AIBot\n北京智谱华章\n开发（自定义智能体）、AI助教功能\n智谱AI\n科技股份有限\nhttps www.zhipu\n10\n公司\n（出题／批改／讲义生成），清华团队开\nai.cn/\n发保障学术严谨性。",
+    "structured_text": "| 序号 | 工具名称（按首字拼音排序） | 开发商 | 核心能力 | 官网地址 |\n| --- | ------------------------ | ------ | -------- | -------- |\n| 1 | 阿里通义系列 | 阿里巴巴集团（阿里云自主研发） | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://tongyi.aliyun.com/ |\n| 2 | 百度文心系列 | 百度公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://wenxin.baidu.com/ |\n| 3 | DeepSeek | 杭州深度求索人工智能基础技术研究有限公司（幻方量化孵化化） | 人工智能基础、逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.deepseek.com/ |\n| 4 | 稿定设计 | 厦门稿定股份有限公司（运营方：稿定（厦门）科技有限公司） | 零门槛图文设计（赛事海报/PPT模板/品牌视觉）、批量生成符合“国赛审美”的素材，10秒出图适配视觉包装需求。低代码AI开发（拖拉拽组件）、可视化实验流程（数据清洗→模型训练）、内置Python/R环境与算力调度，为大赛“AI通识教育实验创新赛道”官方指定平台。 | https://www.gaoding.com/ |\n| 5 | ModelWhale | 字节跳动有限公司（即梦由深圳市脸萌科技有限公司研发） | 全能型内容创作（文案/脚本/PPT)、多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://www.modelwhale.com/ |\n| 6 | 即梦、豆包AI | 上海和今信息科技有限公司（和鲸科技） | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://www.doubao.com/ https://jimeng.jiaying.com/ |\n| 7 | 科大讯飞星火 | 科大讯飞股份有限公司 | 多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI 编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://xinghuo.xfyun.cn/ |\n| 8 | Kimi | 北京月之暗面科技有限公司 | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://kimi.moonshot.cn/ |\n| 9 | 腾讯混元系列 | 腾讯公司 | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://hunyuan.tencent.com/ |\n| 10 | 智谱 AI | 北京智谱华章科技股份有限公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.zhipuai.cn/ |",
+    "layout_type": "table_rebuilt",
+    "modules": [
+      {
+        "module": "表格",
+        "text": "| 序号 | 工具名称（按首字拼音排序） | 开发商 | 核心能力 | 官网地址 |\n| --- | ------------------------ | ------ | -------- | -------- |\n| 1 | 阿里通义系列 | 阿里巴巴集团（阿里云自主研发） | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://tongyi.aliyun.com/ |\n| 2 | 百度文心系列 | 百度公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://wenxin.baidu.com/ |\n| 3 | DeepSeek | 杭州深度求索人工智能基础技术研究有限公司（幻方量化孵化化） | 人工智能基础、逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.deepseek.com/ |\n| 4 | 稿定设计 | 厦门稿定股份有限公司（运营方：稿定（厦门）科技有限公司） | 零门槛图文设计（赛事海报/PPT模板/品牌视觉）、批量生成符合“国赛审美”的素材，10秒出图适配视觉包装需求。低代码AI开发（拖拉拽组件）、可视化实验流程（数据清洗→模型训练）、内置Python/R环境与算力调度，为大赛“AI通识教育实验创新赛道”官方指定平台。 | https://www.gaoding.com/ |\n| 5 | ModelWhale | 字节跳动有限公司（即梦由深圳市脸萌科技有限公司研发） | 全能型内容创作（文案/脚本/PPT)、多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://www.modelwhale.com/ |\n| 6 | 即梦、豆包AI | 上海和今信息科技有限公司（和鲸科技） | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://www.doubao.com/ https://jimeng.jiaying.com/ |\n| 7 | 科大讯飞星火 | 科大讯飞股份有限公司 | 多模态交互（文本→图像/视频）、与剪映生态深度绑定实现“AI+视频编辑”。语音处理（识别/合成/方言识别）、智能演示配音、双语课件生成（微课赛道）、会议记录与速记（30-60分钟免费额度）。超长文本处理（200万字上下文）、多文档交叉分析（PDF/Word/PPT直接解析）、文献综述与开题报告生成，适配学术类项目需求。3D资产生成（直接导入Unity/Blender）、AI 编程（Python/前端自动补全）、经济策略模拟（社会场景建模）、文本润色（爆款文案/会议纪要）。 | https://xinghuo.xfyun.cn/ |\n| 8 | Kimi | 北京月之暗面科技有限公司 | 逻辑严谨的技术文档撰写、无代码 AIBot 开发（自定义智能体）、AI 助教功能（出题/批改/讲义生成），清华团队开发保障学术严谨性。 | https://kimi.moonshot.cn/ |\n| 9 | 腾讯混元系列 | 腾讯公司 | 企业级多模态生成（文本/图像/3D）、跨语言协作、代码补全（VS Code深度集成）、大数据分析与可视化。多模态内容生成（文本/图像/代码）、深度学习模型开发与部署、中文语境深度理解、零代码／低代码落地；飞桨框架提供一站式AI训练部署能力，ERNIE FastCode 专注AI代码生成与优化。 | https://hunyuan.tencent.com/ |\n| 10 | 智谱 AI | 北京智谱华章科技股份有限公司 | 逻辑推理（复杂算法设计）、长文本处理（技术文档/论文）、代码生成（支持PyTorch/飞桨双框架）、数据交叉分析。 | https://www.zhipuai.cn/ |"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "序号",
+        "confidence": 0.9999942183494568,
+        "bbox": {
+          "x1": 89.0,
+          "y1": 72.0,
+          "x2": 130.0,
+          "y2": 95.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "10",
+        "confidence": 0.9992811679840088,
+        "bbox": {
+          "x1": 98.0,
+          "y1": 1088.0,
+          "x2": 122.0,
+          "y2": 1110.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "2",
+        "confidence": 0.9995255470275879,
+        "bbox": {
+          "x1": 102.0,
+          "y1": 238.0,
+          "x2": 116.0,
+          "y2": 255.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "1",
+        "confidence": 0.9243611693382263,
+        "bbox": {
+          "x1": 102.0,
+          "y1": 787.0,
+          "x2": 117.0,
+          "y2": 802.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "3",
+        "confidence": 0.9997550845146179,
+        "bbox": {
+          "x1": 103.0,
+          "y1": 355.0,
+          "x2": 117.0,
+          "y2": 373.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "4",
+        "confidence": 0.9998464584350586,
+        "bbox": {
+          "x1": 104.0,
+          "y1": 474.0,
+          "x2": 114.0,
+          "y2": 486.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "5",
+        "confidence": 0.999835729598999,
+        "bbox": {
+          "x1": 104.0,
+          "y1": 578.0,
+          "x2": 114.0,
+          "y2": 592.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "6",
+        "confidence": 0.9995243549346924,
+        "bbox": {
+          "x1": 104.0,
+          "y1": 683.0,
+          "x2": 114.0,
+          "y2": 696.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "8",
+        "confidence": 0.999004065990448,
+        "bbox": {
+          "x1": 104.0,
+          "y1": 883.0,
+          "x2": 114.0,
+          "y2": 894.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "9",
+        "confidence": 0.9995952248573303,
+        "bbox": {
+          "x1": 104.0,
+          "y1": 987.0,
+          "x2": 114.0,
+          "y2": 999.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "一、大赛规定的10款AI工具列表与简介(不含音乐类)",
+        "confidence": 0.9847869277000427,
+        "bbox": {
+          "x1": 127.0,
+          "y1": 13.0,
+          "x2": 637.0,
+          "y2": 38.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "ModelWhale",
+        "confidence": 0.9986129999160767,
+        "bbox": {
+          "x1": 159.0,
+          "y1": 587.0,
+          "x2": 259.0,
+          "y2": 607.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "阿里通义系",
+        "confidence": 0.9985426068305969,
+        "bbox": {
+          "x1": 161.0,
+          "y1": 129.0,
+          "x2": 256.0,
+          "y2": 154.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "百度文心系",
+        "confidence": 0.999890923500061,
+        "bbox": {
+          "x1": 163.0,
+          "y1": 222.0,
+          "x2": 256.0,
+          "y2": 247.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "即梦、豆包",
+        "confidence": 0.9988874197006226,
+        "bbox": {
+          "x1": 163.0,
+          "y1": 668.0,
+          "x2": 257.0,
+          "y2": 692.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "科大讯飞星",
+        "confidence": 0.9993147850036621,
+        "bbox": {
+          "x1": 163.0,
+          "y1": 771.0,
+          "x2": 256.0,
+          "y2": 796.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "腾讯混元系",
+        "confidence": 0.9993168115615845,
+        "bbox": {
+          "x1": 163.0,
+          "y1": 969.0,
+          "x2": 256.0,
+          "y2": 994.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "DeepSeek",
+        "confidence": 0.9998323917388916,
+        "bbox": {
+          "x1": 168.0,
+          "y1": 352.0,
+          "x2": 249.0,
+          "y2": 377.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "（按首字拼",
+        "confidence": 0.9559646844863892,
+        "bbox": {
+          "x1": 170.0,
+          "y1": 72.0,
+          "x2": 257.0,
+          "y2": 96.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "稿定设计",
+        "confidence": 0.9996668100357056,
+        "bbox": {
+          "x1": 170.0,
+          "y1": 468.0,
+          "x2": 248.0,
+          "y2": 492.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "工具名称",
+        "confidence": 0.9998841285705566,
+        "bbox": {
+          "x1": 172.0,
+          "y1": 47.0,
+          "x2": 249.0,
+          "y2": 72.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "音排序)",
+        "confidence": 0.9992807507514954,
+        "bbox": {
+          "x1": 172.0,
+          "y1": 96.0,
+          "x2": 239.0,
+          "y2": 118.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "智谱AI",
+        "confidence": 0.9985872507095337,
+        "bbox": {
+          "x1": 178.0,
+          "y1": 1085.0,
+          "x2": 243.0,
+          "y2": 1111.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "Kimi",
+        "confidence": 0.9998035430908203,
+        "bbox": {
+          "x1": 187.0,
+          "y1": 878.0,
+          "x2": 231.0,
+          "y2": 901.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "和鲸",
+        "confidence": 0.9976221323013306,
+        "bbox": {
+          "x1": 189.0,
+          "y1": 562.0,
+          "x2": 230.0,
+          "y2": 586.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "AI",
+        "confidence": 0.9871963262557983,
+        "bbox": {
+          "x1": 196.0,
+          "y1": 692.0,
+          "x2": 221.0,
+          "y2": 712.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "列",
+        "confidence": 0.9999369382858276,
+        "bbox": {
+          "x1": 198.0,
+          "y1": 154.0,
+          "x2": 221.0,
+          "y2": 176.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "火",
+        "confidence": 0.9989510774612427,
+        "bbox": {
+          "x1": 198.0,
+          "y1": 794.0,
+          "x2": 220.0,
+          "y2": 817.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "技术研究有限",
+        "confidence": 0.9997909069061279,
+        "bbox": {
+          "x1": 290.0,
+          "y1": 350.0,
+          "x2": 403.0,
+          "y2": 378.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "公司（幻方量",
+        "confidence": 0.9996559619903564,
+        "bbox": {
+          "x1": 290.0,
+          "y1": 373.0,
+          "x2": 404.0,
+          "y2": 401.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "字节跳动有限",
+        "confidence": 0.9998109340667725,
+        "bbox": {
+          "x1": 290.0,
+          "y1": 629.0,
+          "x2": 404.0,
+          "y2": 657.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "技有限公司研",
+        "confidence": 0.9998020529747009,
+        "bbox": {
+          "x1": 290.0,
+          "y1": 700.0,
+          "x2": 404.0,
+          "y2": 728.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "阿里巴巴集团",
+        "confidence": 0.9995728135108948,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 117.0,
+          "x2": 403.0,
+          "y2": 141.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "杭州深度求索",
+        "confidence": 0.9992752075195312,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 305.0,
+          "x2": 403.0,
+          "y2": 329.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "人工智能基础",
+        "confidence": 0.9997572898864746,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 328.0,
+          "x2": 404.0,
+          "y2": 352.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "厦门稿定股份",
+        "confidence": 0.999302327632904,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 422.0,
+          "x2": 403.0,
+          "y2": 446.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "有限公司（运",
+        "confidence": 0.9998948574066162,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 445.0,
+          "x2": 403.0,
+          "y2": 469.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "公司（即梦由",
+        "confidence": 0.9984249472618103,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 655.0,
+          "x2": 403.0,
+          "y2": 679.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "深圳市脸萌科",
+        "confidence": 0.9984443783760071,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 678.0,
+          "x2": 403.0,
+          "y2": 702.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "科大讯飞股份",
+        "confidence": 0.9994322657585144,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 771.0,
+          "x2": 403.0,
+          "y2": 796.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "北京月之暗面",
+        "confidence": 0.9999292492866516,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 864.0,
+          "x2": 403.0,
+          "y2": 888.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "科技有限公司",
+        "confidence": 0.9999570846557617,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 888.0,
+          "x2": 403.0,
+          "y2": 912.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "北京智谱华章",
+        "confidence": 0.9993240237236023,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 1063.0,
+          "x2": 403.0,
+          "y2": 1088.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "科技股份有限",
+        "confidence": 0.999782145023346,
+        "bbox": {
+          "x1": 291.0,
+          "y1": 1086.0,
+          "x2": 403.0,
+          "y2": 1111.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "上海和今信息",
+        "confidence": 0.999721109867096,
+        "bbox": {
+          "x1": 292.0,
+          "y1": 546.0,
+          "x2": 403.0,
+          "y2": 574.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "（阿里云自主",
+        "confidence": 0.9943334460258484,
+        "bbox": {
+          "x1": 297.0,
+          "y1": 140.0,
+          "x2": 403.0,
+          "y2": 165.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "（厦门）科技",
+        "confidence": 0.999540388584137,
+        "bbox": {
+          "x1": 297.0,
+          "y1": 492.0,
+          "x2": 403.0,
+          "y2": 516.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "(和鲸科技)",
+        "confidence": 0.9881716370582581,
+        "bbox": {
+          "x1": 297.0,
+          "y1": 596.0,
+          "x2": 395.0,
+          "y2": 620.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "营方：稿定",
+        "confidence": 0.9997979402542114,
+        "bbox": {
+          "x1": 300.0,
+          "y1": 466.0,
+          "x2": 394.0,
+          "y2": 492.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "有限公司)",
+        "confidence": 0.9127289056777954,
+        "bbox": {
+          "x1": 300.0,
+          "y1": 514.0,
+          "x2": 388.0,
+          "y2": 539.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "有限公司",
+        "confidence": 0.9999802112579346,
+        "bbox": {
+          "x1": 308.0,
+          "y1": 794.0,
+          "x2": 385.0,
+          "y2": 819.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "腾讯公司",
+        "confidence": 0.9985989928245544,
+        "bbox": {
+          "x1": 308.0,
+          "y1": 981.0,
+          "x2": 385.0,
+          "y2": 1006.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "化孵化)",
+        "confidence": 0.998100996017456,
+        "bbox": {
+          "x1": 309.0,
+          "y1": 397.0,
+          "x2": 378.0,
+          "y2": 423.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "百度公司",
+        "confidence": 0.9999748468399048,
+        "bbox": {
+          "x1": 311.0,
+          "y1": 234.0,
+          "x2": 384.0,
+          "y2": 256.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "开发商",
+        "confidence": 0.9999473690986633,
+        "bbox": {
+          "x1": 317.0,
+          "y1": 70.0,
+          "x2": 378.0,
+          "y2": 96.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "研发)",
+        "confidence": 0.9233858585357666,
+        "bbox": {
+          "x1": 317.0,
+          "y1": 164.0,
+          "x2": 370.0,
+          "y2": 190.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "公司",
+        "confidence": 0.9999876618385315,
+        "bbox": {
+          "x1": 325.0,
+          "y1": 1108.0,
+          "x2": 369.0,
+          "y2": 1135.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "发)",
+        "confidence": 0.8915762901306152,
+        "bbox": {
+          "x1": 328.0,
+          "y1": 724.0,
+          "x2": 360.0,
+          "y2": 748.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "PyTorch／飞桨双框架）、数据交叉分析。",
+        "confidence": 0.9891455173492432,
+        "bbox": {
+          "x1": 427.0,
+          "y1": 375.0,
+          "x2": 750.0,
+          "y2": 400.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "零门槛图文设计（赛事海报/PPT模板/",
+        "confidence": 0.9816067218780518,
+        "bbox": {
+          "x1": 427.0,
+          "y1": 443.0,
+          "x2": 746.0,
+          "y2": 469.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "Python/R环境与算力调度，为大赛“AI通",
+        "confidence": 0.9982458353042603,
+        "bbox": {
+          "x1": 427.0,
+          "y1": 587.0,
+          "x2": 755.0,
+          "y2": 607.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "理解、零代码／低代码落地；飞桨框架提",
+        "confidence": 0.9865128397941589,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 233.0,
+          "x2": 753.0,
+          "y2": 259.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "供一站式AI训练部署能力，ERNIE",
+        "confidence": 0.9985080361366272,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 256.0,
+          "x2": 713.0,
+          "y2": 282.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "多模态交互（文本→图像/视频）、与剪",
+        "confidence": 0.9848158359527588,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 676.0,
+          "x2": 751.0,
+          "y2": 701.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "道）、会议记录与速记（30-60分钟免费",
+        "confidence": 0.9982801675796509,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 793.0,
+          "x2": 747.0,
+          "y2": 817.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "Unity/Blender）、AI编程（Python／前端",
+        "confidence": 0.9944419860839844,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 960.0,
+          "x2": 749.0,
+          "y2": 980.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "逻辑严谨的技术文档撰写、无代码 AIBot",
+        "confidence": 0.9743654131889343,
+        "bbox": {
+          "x1": 428.0,
+          "y1": 1049.0,
+          "x2": 759.0,
+          "y2": 1076.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "深度学习模型开发与部署、中文语境深度",
+        "confidence": 0.9995152950286865,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 210.0,
+          "x2": 756.0,
+          "y2": 234.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "FastCode 专注AI代码生成与优化。",
+        "confidence": 0.9797420501708984,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 283.0,
+          "x2": 702.0,
+          "y2": 304.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "品牌视觉）、批量生成符合“国赛审美”",
+        "confidence": 0.9929649829864502,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 466.0,
+          "x2": 741.0,
+          "y2": 491.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "的素材，10秒出图适配视觉包装需求。",
+        "confidence": 0.9986397624015808,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 493.0,
+          "x2": 732.0,
+          "y2": 514.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "实验流程（数据清洗一模型训练）、内置",
+        "confidence": 0.9975674748420715,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 564.0,
+          "x2": 754.0,
+          "y2": 584.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "全能型内容创作（文案／脚本/PPT)",
+        "confidence": 0.9633000493049622,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 655.0,
+          "x2": 720.0,
+          "y2": 675.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "映生态深度绑定实现“AI+视频编辑”。",
+        "confidence": 0.976373553276062,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 702.0,
+          "x2": 732.0,
+          "y2": 723.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "超长文本处理（200万字上下文）、多文",
+        "confidence": 0.9995439648628235,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 842.0,
+          "x2": 753.0,
+          "y2": 866.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "析）、文献综述与开题报告生成，适配学",
+        "confidence": 0.9994223117828369,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 889.0,
+          "x2": 755.0,
+          "y2": 910.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "模）、文本润色（爆款文案／会议纪",
+        "confidence": 0.9933489561080933,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 1004.0,
+          "x2": 717.0,
+          "y2": 1029.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "开发（自定义智能体）、AI助教功能",
+        "confidence": 0.9994500279426575,
+        "bbox": {
+          "x1": 430.0,
+          "y1": 1075.0,
+          "x2": 727.0,
+          "y2": 1099.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "企业级多模态生成（文本／图像/3D)",
+        "confidence": 0.9697373509407043,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 119.0,
+          "x2": 728.0,
+          "y2": 140.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "跨语言协作、代码补全（VSCode深度集",
+        "confidence": 0.9993732571601868,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 142.0,
+          "x2": 754.0,
+          "y2": 163.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "成）、大数据分析与可视化。",
+        "confidence": 0.9992260336875916,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 165.0,
+          "x2": 657.0,
+          "y2": 190.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "逻辑推理（复杂算法设计）、长文本处理",
+        "confidence": 0.9996351599693298,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 329.0,
+          "x2": 755.0,
+          "y2": 350.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "低代码AI开发（拖拉拽组件）、可视化",
+        "confidence": 0.9995587468147278,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 539.0,
+          "x2": 746.0,
+          "y2": 560.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "识教育实验创新赛道”官方指定平台。",
+        "confidence": 0.9995861053466797,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 610.0,
+          "x2": 723.0,
+          "y2": 630.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "语音处理（识别／合成／方言识别）、智",
+        "confidence": 0.9875975847244263,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 750.0,
+          "x2": 747.0,
+          "y2": 770.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "能演示配音、双语课件生成（微课赛",
+        "confidence": 0.9994713664054871,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 774.0,
+          "x2": 721.0,
+          "y2": 794.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "额度）。",
+        "confidence": 0.9970775842666626,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 820.0,
+          "x2": 496.0,
+          "y2": 842.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "档交叉分析（PDF/Word/PPT直接解",
+        "confidence": 0.9993076324462891,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 866.0,
+          "x2": 712.0,
+          "y2": 887.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "术类项目需求。",
+        "confidence": 0.9998048543930054,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 914.0,
+          "x2": 549.0,
+          "y2": 934.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "3D资产生成（直接导入",
+        "confidence": 0.9998271465301514,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 937.0,
+          "x2": 620.0,
+          "y2": 957.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "要）。",
+        "confidence": 0.9808812141418457,
+        "bbox": {
+          "x1": 431.0,
+          "y1": 1030.0,
+          "x2": 475.0,
+          "y2": 1052.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "多模态内容生成（文本／图像／代码）",
+        "confidence": 0.9919248223304749,
+        "bbox": {
+          "x1": 432.0,
+          "y1": 190.0,
+          "x2": 726.0,
+          "y2": 210.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "发保障学术严谨性。",
+        "confidence": 0.9996532797813416,
+        "bbox": {
+          "x1": 432.0,
+          "y1": 1124.0,
+          "x2": 582.0,
+          "y2": 1144.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "自动补全）、经济策略模拟（社会场景建",
+        "confidence": 0.9997000098228455,
+        "bbox": {
+          "x1": 433.0,
+          "y1": 984.0,
+          "x2": 756.0,
+          "y2": 1004.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "（出题／批改／讲义生成），清华团队开",
+        "confidence": 0.97910076379776,
+        "bbox": {
+          "x1": 437.0,
+          "y1": 1101.0,
+          "x2": 746.0,
+          "y2": 1121.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "（技术文档／论文）、代码生成（支持",
+        "confidence": 0.9936845302581787,
+        "bbox": {
+          "x1": 440.0,
+          "y1": 354.0,
+          "x2": 734.0,
+          "y2": 374.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "核心能力",
+        "confidence": 0.9998621344566345,
+        "bbox": {
+          "x1": 558.0,
+          "y1": 73.0,
+          "x2": 632.0,
+          "y2": 95.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "ncent.com/",
+        "confidence": 0.9653828144073486,
+        "bbox": {
+          "x1": 775.0,
+          "y1": 993.0,
+          "x2": 864.0,
+          "y2": 1017.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "https www.deeps",
+        "confidence": 0.9889168739318848,
+        "bbox": {
+          "x1": 777.0,
+          "y1": 340.0,
+          "x2": 920.0,
+          "y2": 368.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https www.mode",
+        "confidence": 0.9766945838928223,
+        "bbox": {
+          "x1": 777.0,
+          "y1": 564.0,
+          "x2": 917.0,
+          "y2": 588.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https hunyuan.te",
+        "confidence": 0.9661158323287964,
+        "bbox": {
+          "x1": 777.0,
+          "y1": 972.0,
+          "x2": 915.0,
+          "y2": 997.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https www.gaodi",
+        "confidence": 0.9804919958114624,
+        "bbox": {
+          "x1": 778.0,
+          "y1": 459.0,
+          "x2": 919.0,
+          "y2": 483.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https jimeng.jian",
+        "confidence": 0.9506535530090332,
+        "bbox": {
+          "x1": 778.0,
+          "y1": 691.0,
+          "x2": 918.0,
+          "y2": 715.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https wenxin.bai",
+        "confidence": 0.9474875330924988,
+        "bbox": {
+          "x1": 779.0,
+          "y1": 224.0,
+          "x2": 918.0,
+          "y2": 249.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https xinghuo.xf",
+        "confidence": 0.994848370552063,
+        "bbox": {
+          "x1": 779.0,
+          "y1": 770.0,
+          "x2": 918.0,
+          "y2": 801.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https kimi.moon",
+        "confidence": 0.9918352961540222,
+        "bbox": {
+          "x1": 779.0,
+          "y1": 867.0,
+          "x2": 918.0,
+          "y2": 892.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https www.zhipu",
+        "confidence": 0.9763463139533997,
+        "bbox": {
+          "x1": 779.0,
+          "y1": 1078.0,
+          "x2": 919.0,
+          "y2": 1102.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https tongyi.aliy",
+        "confidence": 0.9383373260498047,
+        "bbox": {
+          "x1": 781.0,
+          "y1": 132.0,
+          "x2": 915.0,
+          "y2": 156.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "https www.doub",
+        "confidence": 0.9967532753944397,
+        "bbox": {
+          "x1": 781.0,
+          "y1": 647.0,
+          "x2": 917.0,
+          "y2": 671.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "lwhale.com/",
+        "confidence": 0.9749819040298462,
+        "bbox": {
+          "x1": 800.0,
+          "y1": 584.0,
+          "x2": 895.0,
+          "y2": 609.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "ying.com/",
+        "confidence": 0.9602776765823364,
+        "bbox": {
+          "x1": 806.0,
+          "y1": 711.0,
+          "x2": 887.0,
+          "y2": 735.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "官网地址",
+        "confidence": 0.9996037483215332,
+        "bbox": {
+          "x1": 809.0,
+          "y1": 70.0,
+          "x2": 885.0,
+          "y2": 96.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "eek.com/",
+        "confidence": 0.999282717704773,
+        "bbox": {
+          "x1": 812.0,
+          "y1": 364.0,
+          "x2": 882.0,
+          "y2": 386.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "ng.com/",
+        "confidence": 0.9912747740745544,
+        "bbox": {
+          "x1": 812.0,
+          "y1": 479.0,
+          "x2": 880.0,
+          "y2": 505.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "un.com/",
+        "confidence": 0.9991607069969177,
+        "bbox": {
+          "x1": 815.0,
+          "y1": 155.0,
+          "x2": 880.0,
+          "y2": 177.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "du.com/",
+        "confidence": 0.9972805976867676,
+        "bbox": {
+          "x1": 815.0,
+          "y1": 247.0,
+          "x2": 881.0,
+          "y2": 269.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "ao.com/",
+        "confidence": 0.9306679964065552,
+        "bbox": {
+          "x1": 816.0,
+          "y1": 670.0,
+          "x2": 880.0,
+          "y2": 692.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "yun.cn/",
+        "confidence": 0.9985553026199341,
+        "bbox": {
+          "x1": 816.0,
+          "y1": 794.0,
+          "x2": 879.0,
+          "y2": 820.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "shot.cn/",
+        "confidence": 0.9494126439094543,
+        "bbox": {
+          "x1": 817.0,
+          "y1": 889.0,
+          "x2": 878.0,
+          "y2": 910.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "ai.cn/",
+        "confidence": 0.9979255795478821,
+        "bbox": {
+          "x1": 824.0,
+          "y1": 1099.0,
+          "x2": 872.0,
+          "y2": 1121.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      }
+    ],
+    "raw_structured_text": "【表格表头】\n序号 | 10 | 2 | 1 | 3 | 4 | 5 | 6 | 8 | 9 | 一、大赛规定的10款AI工具列表与简介(不含音乐类) | ModelWhale | 阿里通义系 | 百度文心系 | 即梦、豆包 | 科大讯飞星 | 腾讯混元系 | DeepSeek | （按首字拼 | 稿定设计 | 工具名称 | 音排序) | 智谱AI | Kimi | 和鲸 | AI | 列 | 火 | 技术研究有限 | 公司（幻方量 | 字节跳动有限 | 技有限公司研 | 阿里巴巴集团 | 杭州深度求索 | 人工智能基础 | 厦门稿定股份 | 有限公司（运 | 公司（即梦由 | 深圳市脸萌科 | 科大讯飞股份 | 北京月之暗面 | 科技有限公司 | 北京智谱华章 | 科技股份有限 | 上海和今信息 | （阿里云自主 | （厦门）科技 | (和鲸科技) | 营方：稿定 | 有限公司) | 有限公司 | 腾讯公司 | 化孵化) | 百度公司 | 开发商 | 研发) | 公司 | 发) | PyTorch／飞桨双框架）、数据交叉分析。 | 零门槛图文设计（赛事海报/PPT模板/ | Python/R环境与算力调度，为大赛“AI通 | 理解、零代码／低代码落地；飞桨框架提 | 供一站式AI训练部署能力，ERNIE | 多模态交互（文本→图像/视频）、与剪 | 道）、会议记录与速记（30-60分钟免费 | Unity/Blender）、AI编程（Python／前端 | 逻辑严谨的技术文档撰写、无代码 AIBot | 深度学习模型开发与部署、中文语境深度 | FastCode 专注AI代码生成与优化。 | 品牌视觉）、批量生成符合“国赛审美” | 的素材，10秒出图适配视觉包装需求。 | 实验流程（数据清洗一模型训练）、内置 | 全能型内容创作（文案／脚本/PPT) | 映生态深度绑定实现“AI+视频编辑”。 | 超长文本处理（200万字上下文）、多文 | 析）、文献综述与开题报告生成，适配学 | 模）、文本润色（爆款文案／会议纪 | 开发（自定义智能体）、AI助教功能 | 企业级多模态生成（文本／图像/3D) | 跨语言协作、代码补全（VSCode深度集 | 成）、大数据分析与可视化。 | 逻辑推理（复杂算法设计）、长文本处理 | 低代码AI开发（拖拉拽组件）、可视化 | 识教育实验创新赛道”官方指定平台。 | 语音处理（识别／合成／方言识别）、智 | 能演示配音、双语课件生成（微课赛 | 额度）。 | 档交叉分析（PDF/Word/PPT直接解 | 术类项目需求。 | 3D资产生成（直接导入 | 要）。 | 多模态内容生成（文本／图像／代码） | 发保障学术严谨性。 | 自动补全）、经济策略模拟（社会场景建 | （出题／批改／讲义生成），清华团队开 | （技术文档／论文）、代码生成（支持 | 核心能力 | ncent.com/ | https www.deeps | https www.mode | https hunyuan.te | https www.gaodi | https jimeng.jian | https wenxin.bai | https xinghuo.xf | https kimi.moon | https www.zhipu | https tongyi.aliy | https www.doub | lwhale.com/ | ying.com/ | 官网地址 | eek.com/ | ng.com/ | un.com/ | du.com/ | ao.com/ | yun.cn/ | shot.cn/ | ai.cn/",
+    "raw_modules": [
+      {
+        "module": "表格表头",
+        "text": "序号 | 10 | 2 | 1 | 3 | 4 | 5 | 6 | 8 | 9 | 一、大赛规定的10款AI工具列表与简介(不含音乐类) | ModelWhale | 阿里通义系 | 百度文心系 | 即梦、豆包 | 科大讯飞星 | 腾讯混元系 | DeepSeek | （按首字拼 | 稿定设计 | 工具名称 | 音排序) | 智谱AI | Kimi | 和鲸 | AI | 列 | 火 | 技术研究有限 | 公司（幻方量 | 字节跳动有限 | 技有限公司研 | 阿里巴巴集团 | 杭州深度求索 | 人工智能基础 | 厦门稿定股份 | 有限公司（运 | 公司（即梦由 | 深圳市脸萌科 | 科大讯飞股份 | 北京月之暗面 | 科技有限公司 | 北京智谱华章 | 科技股份有限 | 上海和今信息 | （阿里云自主 | （厦门）科技 | (和鲸科技) | 营方：稿定 | 有限公司) | 有限公司 | 腾讯公司 | 化孵化) | 百度公司 | 开发商 | 研发) | 公司 | 发) | PyTorch／飞桨双框架）、数据交叉分析。 | 零门槛图文设计（赛事海报/PPT模板/ | Python/R环境与算力调度，为大赛“AI通 | 理解、零代码／低代码落地；飞桨框架提 | 供一站式AI训练部署能力，ERNIE | 多模态交互（文本→图像/视频）、与剪 | 道）、会议记录与速记（30-60分钟免费 | Unity/Blender）、AI编程（Python／前端 | 逻辑严谨的技术文档撰写、无代码 AIBot | 深度学习模型开发与部署、中文语境深度 | FastCode 专注AI代码生成与优化。 | 品牌视觉）、批量生成符合“国赛审美” | 的素材，10秒出图适配视觉包装需求。 | 实验流程（数据清洗一模型训练）、内置 | 全能型内容创作（文案／脚本/PPT) | 映生态深度绑定实现“AI+视频编辑”。 | 超长文本处理（200万字上下文）、多文 | 析）、文献综述与开题报告生成，适配学 | 模）、文本润色（爆款文案／会议纪 | 开发（自定义智能体）、AI助教功能 | 企业级多模态生成（文本／图像/3D) | 跨语言协作、代码补全（VSCode深度集 | 成）、大数据分析与可视化。 | 逻辑推理（复杂算法设计）、长文本处理 | 低代码AI开发（拖拉拽组件）、可视化 | 识教育实验创新赛道”官方指定平台。 | 语音处理（识别／合成／方言识别）、智 | 能演示配音、双语课件生成（微课赛 | 额度）。 | 档交叉分析（PDF/Word/PPT直接解 | 术类项目需求。 | 3D资产生成（直接导入 | 要）。 | 多模态内容生成（文本／图像／代码） | 发保障学术严谨性。 | 自动补全）、经济策略模拟（社会场景建 | （出题／批改／讲义生成），清华团队开 | （技术文档／论文）、代码生成（支持 | 核心能力 | ncent.com/ | https www.deeps | https www.mode | https hunyuan.te | https www.gaodi | https jimeng.jian | https wenxin.bai | https xinghuo.xf | https kimi.moon | https www.zhipu | https tongyi.aliy | https www.doub | lwhale.com/ | ying.com/ | 官网地址 | eek.com/ | ng.com/ | un.com/ | du.com/ | ao.com/ | yun.cn/ | shot.cn/ | ai.cn/",
+        "blocks": [
+          {
+            "text": "序号",
+            "confidence": 0.9999942183494568,
+            "bbox": {
+              "x1": 89.0,
+              "y1": 72.0,
+              "x2": 130.0,
+              "y2": 95.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "10",
+            "confidence": 0.9992811679840088,
+            "bbox": {
+              "x1": 98.0,
+              "y1": 1088.0,
+              "x2": 122.0,
+              "y2": 1110.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "2",
+            "confidence": 0.9995255470275879,
+            "bbox": {
+              "x1": 102.0,
+              "y1": 238.0,
+              "x2": 116.0,
+              "y2": 255.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "1",
+            "confidence": 0.9243611693382263,
+            "bbox": {
+              "x1": 102.0,
+              "y1": 787.0,
+              "x2": 117.0,
+              "y2": 802.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "3",
+            "confidence": 0.9997550845146179,
+            "bbox": {
+              "x1": 103.0,
+              "y1": 355.0,
+              "x2": 117.0,
+              "y2": 373.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "4",
+            "confidence": 0.9998464584350586,
+            "bbox": {
+              "x1": 104.0,
+              "y1": 474.0,
+              "x2": 114.0,
+              "y2": 486.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "5",
+            "confidence": 0.999835729598999,
+            "bbox": {
+              "x1": 104.0,
+              "y1": 578.0,
+              "x2": 114.0,
+              "y2": 592.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "6",
+            "confidence": 0.9995243549346924,
+            "bbox": {
+              "x1": 104.0,
+              "y1": 683.0,
+              "x2": 114.0,
+              "y2": 696.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "8",
+            "confidence": 0.999004065990448,
+            "bbox": {
+              "x1": 104.0,
+              "y1": 883.0,
+              "x2": 114.0,
+              "y2": 894.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "9",
+            "confidence": 0.9995952248573303,
+            "bbox": {
+              "x1": 104.0,
+              "y1": 987.0,
+              "x2": 114.0,
+              "y2": 999.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "一、大赛规定的10款AI工具列表与简介(不含音乐类)",
+            "confidence": 0.9847869277000427,
+            "bbox": {
+              "x1": 127.0,
+              "y1": 13.0,
+              "x2": 637.0,
+              "y2": 38.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "ModelWhale",
+            "confidence": 0.9986129999160767,
+            "bbox": {
+              "x1": 159.0,
+              "y1": 587.0,
+              "x2": 259.0,
+              "y2": 607.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "阿里通义系",
+            "confidence": 0.9985426068305969,
+            "bbox": {
+              "x1": 161.0,
+              "y1": 129.0,
+              "x2": 256.0,
+              "y2": 154.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "百度文心系",
+            "confidence": 0.999890923500061,
+            "bbox": {
+              "x1": 163.0,
+              "y1": 222.0,
+              "x2": 256.0,
+              "y2": 247.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "即梦、豆包",
+            "confidence": 0.9988874197006226,
+            "bbox": {
+              "x1": 163.0,
+              "y1": 668.0,
+              "x2": 257.0,
+              "y2": 692.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "科大讯飞星",
+            "confidence": 0.9993147850036621,
+            "bbox": {
+              "x1": 163.0,
+              "y1": 771.0,
+              "x2": 256.0,
+              "y2": 796.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "腾讯混元系",
+            "confidence": 0.9993168115615845,
+            "bbox": {
+              "x1": 163.0,
+              "y1": 969.0,
+              "x2": 256.0,
+              "y2": 994.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "DeepSeek",
+            "confidence": 0.9998323917388916,
+            "bbox": {
+              "x1": 168.0,
+              "y1": 352.0,
+              "x2": 249.0,
+              "y2": 377.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "（按首字拼",
+            "confidence": 0.9559646844863892,
+            "bbox": {
+              "x1": 170.0,
+              "y1": 72.0,
+              "x2": 257.0,
+              "y2": 96.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "稿定设计",
+            "confidence": 0.9996668100357056,
+            "bbox": {
+              "x1": 170.0,
+              "y1": 468.0,
+              "x2": 248.0,
+              "y2": 492.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "工具名称",
+            "confidence": 0.9998841285705566,
+            "bbox": {
+              "x1": 172.0,
+              "y1": 47.0,
+              "x2": 249.0,
+              "y2": 72.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "音排序)",
+            "confidence": 0.9992807507514954,
+            "bbox": {
+              "x1": 172.0,
+              "y1": 96.0,
+              "x2": 239.0,
+              "y2": 118.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "智谱AI",
+            "confidence": 0.9985872507095337,
+            "bbox": {
+              "x1": 178.0,
+              "y1": 1085.0,
+              "x2": 243.0,
+              "y2": 1111.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "Kimi",
+            "confidence": 0.9998035430908203,
+            "bbox": {
+              "x1": 187.0,
+              "y1": 878.0,
+              "x2": 231.0,
+              "y2": 901.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "和鲸",
+            "confidence": 0.9976221323013306,
+            "bbox": {
+              "x1": 189.0,
+              "y1": 562.0,
+              "x2": 230.0,
+              "y2": 586.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "AI",
+            "confidence": 0.9871963262557983,
+            "bbox": {
+              "x1": 196.0,
+              "y1": 692.0,
+              "x2": 221.0,
+              "y2": 712.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "列",
+            "confidence": 0.9999369382858276,
+            "bbox": {
+              "x1": 198.0,
+              "y1": 154.0,
+              "x2": 221.0,
+              "y2": 176.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "火",
+            "confidence": 0.9989510774612427,
+            "bbox": {
+              "x1": 198.0,
+              "y1": 794.0,
+              "x2": 220.0,
+              "y2": 817.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "技术研究有限",
+            "confidence": 0.9997909069061279,
+            "bbox": {
+              "x1": 290.0,
+              "y1": 350.0,
+              "x2": 403.0,
+              "y2": 378.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "公司（幻方量",
+            "confidence": 0.9996559619903564,
+            "bbox": {
+              "x1": 290.0,
+              "y1": 373.0,
+              "x2": 404.0,
+              "y2": 401.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "字节跳动有限",
+            "confidence": 0.9998109340667725,
+            "bbox": {
+              "x1": 290.0,
+              "y1": 629.0,
+              "x2": 404.0,
+              "y2": 657.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "技有限公司研",
+            "confidence": 0.9998020529747009,
+            "bbox": {
+              "x1": 290.0,
+              "y1": 700.0,
+              "x2": 404.0,
+              "y2": 728.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "阿里巴巴集团",
+            "confidence": 0.9995728135108948,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 117.0,
+              "x2": 403.0,
+              "y2": 141.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "杭州深度求索",
+            "confidence": 0.9992752075195312,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 305.0,
+              "x2": 403.0,
+              "y2": 329.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "人工智能基础",
+            "confidence": 0.9997572898864746,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 328.0,
+              "x2": 404.0,
+              "y2": 352.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "厦门稿定股份",
+            "confidence": 0.999302327632904,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 422.0,
+              "x2": 403.0,
+              "y2": 446.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "有限公司（运",
+            "confidence": 0.9998948574066162,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 445.0,
+              "x2": 403.0,
+              "y2": 469.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "公司（即梦由",
+            "confidence": 0.9984249472618103,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 655.0,
+              "x2": 403.0,
+              "y2": 679.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "深圳市脸萌科",
+            "confidence": 0.9984443783760071,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 678.0,
+              "x2": 403.0,
+              "y2": 702.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "科大讯飞股份",
+            "confidence": 0.9994322657585144,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 771.0,
+              "x2": 403.0,
+              "y2": 796.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "北京月之暗面",
+            "confidence": 0.9999292492866516,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 864.0,
+              "x2": 403.0,
+              "y2": 888.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "科技有限公司",
+            "confidence": 0.9999570846557617,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 888.0,
+              "x2": 403.0,
+              "y2": 912.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "北京智谱华章",
+            "confidence": 0.9993240237236023,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 1063.0,
+              "x2": 403.0,
+              "y2": 1088.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "科技股份有限",
+            "confidence": 0.999782145023346,
+            "bbox": {
+              "x1": 291.0,
+              "y1": 1086.0,
+              "x2": 403.0,
+              "y2": 1111.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "上海和今信息",
+            "confidence": 0.999721109867096,
+            "bbox": {
+              "x1": 292.0,
+              "y1": 546.0,
+              "x2": 403.0,
+              "y2": 574.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "（阿里云自主",
+            "confidence": 0.9943334460258484,
+            "bbox": {
+              "x1": 297.0,
+              "y1": 140.0,
+              "x2": 403.0,
+              "y2": 165.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "（厦门）科技",
+            "confidence": 0.999540388584137,
+            "bbox": {
+              "x1": 297.0,
+              "y1": 492.0,
+              "x2": 403.0,
+              "y2": 516.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "(和鲸科技)",
+            "confidence": 0.9881716370582581,
+            "bbox": {
+              "x1": 297.0,
+              "y1": 596.0,
+              "x2": 395.0,
+              "y2": 620.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "营方：稿定",
+            "confidence": 0.9997979402542114,
+            "bbox": {
+              "x1": 300.0,
+              "y1": 466.0,
+              "x2": 394.0,
+              "y2": 492.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "有限公司)",
+            "confidence": 0.9127289056777954,
+            "bbox": {
+              "x1": 300.0,
+              "y1": 514.0,
+              "x2": 388.0,
+              "y2": 539.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "有限公司",
+            "confidence": 0.9999802112579346,
+            "bbox": {
+              "x1": 308.0,
+              "y1": 794.0,
+              "x2": 385.0,
+              "y2": 819.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "腾讯公司",
+            "confidence": 0.9985989928245544,
+            "bbox": {
+              "x1": 308.0,
+              "y1": 981.0,
+              "x2": 385.0,
+              "y2": 1006.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "化孵化)",
+            "confidence": 0.998100996017456,
+            "bbox": {
+              "x1": 309.0,
+              "y1": 397.0,
+              "x2": 378.0,
+              "y2": 423.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "百度公司",
+            "confidence": 0.9999748468399048,
+            "bbox": {
+              "x1": 311.0,
+              "y1": 234.0,
+              "x2": 384.0,
+              "y2": 256.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "开发商",
+            "confidence": 0.9999473690986633,
+            "bbox": {
+              "x1": 317.0,
+              "y1": 70.0,
+              "x2": 378.0,
+              "y2": 96.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "研发)",
+            "confidence": 0.9233858585357666,
+            "bbox": {
+              "x1": 317.0,
+              "y1": 164.0,
+              "x2": 370.0,
+              "y2": 190.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "公司",
+            "confidence": 0.9999876618385315,
+            "bbox": {
+              "x1": 325.0,
+              "y1": 1108.0,
+              "x2": 369.0,
+              "y2": 1135.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "发)",
+            "confidence": 0.8915762901306152,
+            "bbox": {
+              "x1": 328.0,
+              "y1": 724.0,
+              "x2": 360.0,
+              "y2": 748.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "PyTorch／飞桨双框架）、数据交叉分析。",
+            "confidence": 0.9891455173492432,
+            "bbox": {
+              "x1": 427.0,
+              "y1": 375.0,
+              "x2": 750.0,
+              "y2": 400.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "零门槛图文设计（赛事海报/PPT模板/",
+            "confidence": 0.9816067218780518,
+            "bbox": {
+              "x1": 427.0,
+              "y1": 443.0,
+              "x2": 746.0,
+              "y2": 469.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "Python/R环境与算力调度，为大赛“AI通",
+            "confidence": 0.9982458353042603,
+            "bbox": {
+              "x1": 427.0,
+              "y1": 587.0,
+              "x2": 755.0,
+              "y2": 607.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "理解、零代码／低代码落地；飞桨框架提",
+            "confidence": 0.9865128397941589,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 233.0,
+              "x2": 753.0,
+              "y2": 259.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "供一站式AI训练部署能力，ERNIE",
+            "confidence": 0.9985080361366272,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 256.0,
+              "x2": 713.0,
+              "y2": 282.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "多模态交互（文本→图像/视频）、与剪",
+            "confidence": 0.9848158359527588,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 676.0,
+              "x2": 751.0,
+              "y2": 701.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "道）、会议记录与速记（30-60分钟免费",
+            "confidence": 0.9982801675796509,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 793.0,
+              "x2": 747.0,
+              "y2": 817.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "Unity/Blender）、AI编程（Python／前端",
+            "confidence": 0.9944419860839844,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 960.0,
+              "x2": 749.0,
+              "y2": 980.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "逻辑严谨的技术文档撰写、无代码 AIBot",
+            "confidence": 0.9743654131889343,
+            "bbox": {
+              "x1": 428.0,
+              "y1": 1049.0,
+              "x2": 759.0,
+              "y2": 1076.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "深度学习模型开发与部署、中文语境深度",
+            "confidence": 0.9995152950286865,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 210.0,
+              "x2": 756.0,
+              "y2": 234.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "FastCode 专注AI代码生成与优化。",
+            "confidence": 0.9797420501708984,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 283.0,
+              "x2": 702.0,
+              "y2": 304.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "品牌视觉）、批量生成符合“国赛审美”",
+            "confidence": 0.9929649829864502,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 466.0,
+              "x2": 741.0,
+              "y2": 491.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "的素材，10秒出图适配视觉包装需求。",
+            "confidence": 0.9986397624015808,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 493.0,
+              "x2": 732.0,
+              "y2": 514.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "实验流程（数据清洗一模型训练）、内置",
+            "confidence": 0.9975674748420715,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 564.0,
+              "x2": 754.0,
+              "y2": 584.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "全能型内容创作（文案／脚本/PPT)",
+            "confidence": 0.9633000493049622,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 655.0,
+              "x2": 720.0,
+              "y2": 675.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "映生态深度绑定实现“AI+视频编辑”。",
+            "confidence": 0.976373553276062,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 702.0,
+              "x2": 732.0,
+              "y2": 723.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "超长文本处理（200万字上下文）、多文",
+            "confidence": 0.9995439648628235,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 842.0,
+              "x2": 753.0,
+              "y2": 866.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "析）、文献综述与开题报告生成，适配学",
+            "confidence": 0.9994223117828369,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 889.0,
+              "x2": 755.0,
+              "y2": 910.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "模）、文本润色（爆款文案／会议纪",
+            "confidence": 0.9933489561080933,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 1004.0,
+              "x2": 717.0,
+              "y2": 1029.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "开发（自定义智能体）、AI助教功能",
+            "confidence": 0.9994500279426575,
+            "bbox": {
+              "x1": 430.0,
+              "y1": 1075.0,
+              "x2": 727.0,
+              "y2": 1099.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "企业级多模态生成（文本／图像/3D)",
+            "confidence": 0.9697373509407043,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 119.0,
+              "x2": 728.0,
+              "y2": 140.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "跨语言协作、代码补全（VSCode深度集",
+            "confidence": 0.9993732571601868,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 142.0,
+              "x2": 754.0,
+              "y2": 163.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "成）、大数据分析与可视化。",
+            "confidence": 0.9992260336875916,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 165.0,
+              "x2": 657.0,
+              "y2": 190.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "逻辑推理（复杂算法设计）、长文本处理",
+            "confidence": 0.9996351599693298,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 329.0,
+              "x2": 755.0,
+              "y2": 350.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "低代码AI开发（拖拉拽组件）、可视化",
+            "confidence": 0.9995587468147278,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 539.0,
+              "x2": 746.0,
+              "y2": 560.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "识教育实验创新赛道”官方指定平台。",
+            "confidence": 0.9995861053466797,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 610.0,
+              "x2": 723.0,
+              "y2": 630.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "语音处理（识别／合成／方言识别）、智",
+            "confidence": 0.9875975847244263,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 750.0,
+              "x2": 747.0,
+              "y2": 770.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "能演示配音、双语课件生成（微课赛",
+            "confidence": 0.9994713664054871,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 774.0,
+              "x2": 721.0,
+              "y2": 794.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "额度）。",
+            "confidence": 0.9970775842666626,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 820.0,
+              "x2": 496.0,
+              "y2": 842.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "档交叉分析（PDF/Word/PPT直接解",
+            "confidence": 0.9993076324462891,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 866.0,
+              "x2": 712.0,
+              "y2": 887.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "术类项目需求。",
+            "confidence": 0.9998048543930054,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 914.0,
+              "x2": 549.0,
+              "y2": 934.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "3D资产生成（直接导入",
+            "confidence": 0.9998271465301514,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 937.0,
+              "x2": 620.0,
+              "y2": 957.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "要）。",
+            "confidence": 0.9808812141418457,
+            "bbox": {
+              "x1": 431.0,
+              "y1": 1030.0,
+              "x2": 475.0,
+              "y2": 1052.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "多模态内容生成（文本／图像／代码）",
+            "confidence": 0.9919248223304749,
+            "bbox": {
+              "x1": 432.0,
+              "y1": 190.0,
+              "x2": 726.0,
+              "y2": 210.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "发保障学术严谨性。",
+            "confidence": 0.9996532797813416,
+            "bbox": {
+              "x1": 432.0,
+              "y1": 1124.0,
+              "x2": 582.0,
+              "y2": 1144.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "自动补全）、经济策略模拟（社会场景建",
+            "confidence": 0.9997000098228455,
+            "bbox": {
+              "x1": 433.0,
+              "y1": 984.0,
+              "x2": 756.0,
+              "y2": 1004.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "（出题／批改／讲义生成），清华团队开",
+            "confidence": 0.97910076379776,
+            "bbox": {
+              "x1": 437.0,
+              "y1": 1101.0,
+              "x2": 746.0,
+              "y2": 1121.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "（技术文档／论文）、代码生成（支持",
+            "confidence": 0.9936845302581787,
+            "bbox": {
+              "x1": 440.0,
+              "y1": 354.0,
+              "x2": 734.0,
+              "y2": 374.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "核心能力",
+            "confidence": 0.9998621344566345,
+            "bbox": {
+              "x1": 558.0,
+              "y1": 73.0,
+              "x2": 632.0,
+              "y2": 95.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "ncent.com/",
+            "confidence": 0.9653828144073486,
+            "bbox": {
+              "x1": 775.0,
+              "y1": 993.0,
+              "x2": 864.0,
+              "y2": 1017.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "https www.deeps",
+            "confidence": 0.9889168739318848,
+            "bbox": {
+              "x1": 777.0,
+              "y1": 340.0,
+              "x2": 920.0,
+              "y2": 368.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https www.mode",
+            "confidence": 0.9766945838928223,
+            "bbox": {
+              "x1": 777.0,
+              "y1": 564.0,
+              "x2": 917.0,
+              "y2": 588.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https hunyuan.te",
+            "confidence": 0.9661158323287964,
+            "bbox": {
+              "x1": 777.0,
+              "y1": 972.0,
+              "x2": 915.0,
+              "y2": 997.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https www.gaodi",
+            "confidence": 0.9804919958114624,
+            "bbox": {
+              "x1": 778.0,
+              "y1": 459.0,
+              "x2": 919.0,
+              "y2": 483.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https jimeng.jian",
+            "confidence": 0.9506535530090332,
+            "bbox": {
+              "x1": 778.0,
+              "y1": 691.0,
+              "x2": 918.0,
+              "y2": 715.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https wenxin.bai",
+            "confidence": 0.9474875330924988,
+            "bbox": {
+              "x1": 779.0,
+              "y1": 224.0,
+              "x2": 918.0,
+              "y2": 249.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https xinghuo.xf",
+            "confidence": 0.994848370552063,
+            "bbox": {
+              "x1": 779.0,
+              "y1": 770.0,
+              "x2": 918.0,
+              "y2": 801.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https kimi.moon",
+            "confidence": 0.9918352961540222,
+            "bbox": {
+              "x1": 779.0,
+              "y1": 867.0,
+              "x2": 918.0,
+              "y2": 892.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https www.zhipu",
+            "confidence": 0.9763463139533997,
+            "bbox": {
+              "x1": 779.0,
+              "y1": 1078.0,
+              "x2": 919.0,
+              "y2": 1102.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https tongyi.aliy",
+            "confidence": 0.9383373260498047,
+            "bbox": {
+              "x1": 781.0,
+              "y1": 132.0,
+              "x2": 915.0,
+              "y2": 156.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "https www.doub",
+            "confidence": 0.9967532753944397,
+            "bbox": {
+              "x1": 781.0,
+              "y1": 647.0,
+              "x2": 917.0,
+              "y2": 671.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "lwhale.com/",
+            "confidence": 0.9749819040298462,
+            "bbox": {
+              "x1": 800.0,
+              "y1": 584.0,
+              "x2": 895.0,
+              "y2": 609.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "ying.com/",
+            "confidence": 0.9602776765823364,
+            "bbox": {
+              "x1": 806.0,
+              "y1": 711.0,
+              "x2": 887.0,
+              "y2": 735.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "官网地址",
+            "confidence": 0.9996037483215332,
+            "bbox": {
+              "x1": 809.0,
+              "y1": 70.0,
+              "x2": 885.0,
+              "y2": 96.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "eek.com/",
+            "confidence": 0.999282717704773,
+            "bbox": {
+              "x1": 812.0,
+              "y1": 364.0,
+              "x2": 882.0,
+              "y2": 386.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "ng.com/",
+            "confidence": 0.9912747740745544,
+            "bbox": {
+              "x1": 812.0,
+              "y1": 479.0,
+              "x2": 880.0,
+              "y2": 505.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "un.com/",
+            "confidence": 0.9991607069969177,
+            "bbox": {
+              "x1": 815.0,
+              "y1": 155.0,
+              "x2": 880.0,
+              "y2": 177.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "du.com/",
+            "confidence": 0.9972805976867676,
+            "bbox": {
+              "x1": 815.0,
+              "y1": 247.0,
+              "x2": 881.0,
+              "y2": 269.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "ao.com/",
+            "confidence": 0.9306679964065552,
+            "bbox": {
+              "x1": 816.0,
+              "y1": 670.0,
+              "x2": 880.0,
+              "y2": 692.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "yun.cn/",
+            "confidence": 0.9985553026199341,
+            "bbox": {
+              "x1": 816.0,
+              "y1": 794.0,
+              "x2": 879.0,
+              "y2": 820.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "shot.cn/",
+            "confidence": 0.9494126439094543,
+            "bbox": {
+              "x1": 817.0,
+              "y1": 889.0,
+              "x2": 878.0,
+              "y2": 910.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "ai.cn/",
+            "confidence": 0.9979255795478821,
+            "bbox": {
+              "x1": 824.0,
+              "y1": 1099.0,
+              "x2": 872.0,
+              "y2": 1121.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 89.0,
+          "y1": 13.0,
+          "x2": 920.0,
+          "y2": 1144.0
+        }
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.3308,
+    "non_white_ratio": 0.0911
+  },
+  "ai_result": {
+    "summary": "该表格系统梳理了10款主流AI工具的开发商、核心能力与应用场景，涵盖多模态生成、代码辅助、学术写作与视觉设计等领域，适用于教育、科研与产业创新，体现国产大模型在功能细分与生态整合上的发展趋势。",
+    "entities": [
+      {
+        "name": "阿里通义系列",
+        "type": "技术",
+        "description": "阿里巴巴研发的企业级多模态AI工具，支持代码补全与大数据分析"
+      },
+      {
+        "name": "百度文心系列",
+        "type": "技术",
+        "description": "百度推出的AI平台，擅长逻辑推理与长文本处理"
+      },
+      {
+        "name": "DeepSeek",
+        "type": "技术",
+        "description": "由幻方量化孵化的AI基础技术，聚焦复杂算法与代码生成"
+      },
+      {
+        "name": "稿定设计",
+        "type": "技术",
+        "description": "面向赛事与品牌设计的AI图文工具，支持批量生成与低代码开发"
+      },
+      {
+        "name": "ModelWhale",
+        "type": "技术",
+        "description": "集内容创作、AI编程与学术分析于一体的全能型平台"
+      },
+      {
+        "name": "科大讯飞星火",
+        "type": "技术",
+        "description": "具备强大多模态与语音处理能力的AI系统"
+      },
+      {
+        "name": "Kimi",
+        "type": "技术",
+        "description": "由清华团队背景公司开发，支持AI助教与技术文档撰写"
+      },
+      {
+        "name": "腾讯混元系列",
+        "type": "技术",
+        "description": "腾讯推出的多模态生成与数据分析AI系统"
+      },
+      {
+        "name": "智谱 AI",
+        "type": "技术",
+        "description": "专注于逻辑推理与代码生成的大模型平台"
+      },
+      {
+        "name": "即梦、豆包AI",
+        "type": "技术",
+        "description": "支持AIBot开发与AI教学功能的平台"
+      },
+      {
+        "name": "阿里巴巴集团",
+        "type": "组织",
+        "description": "阿里通义系列的开发商"
+      },
+      {
+        "name": "百度公司",
+        "type": "组织",
+        "description": "文心系列的开发商"
+      },
+      {
+        "name": "科大讯飞股份有限公司",
+        "type": "组织",
+        "description": "星火大模型的开发商"
+      },
+      {
+        "name": "多模态生成",
+        "type": "技术",
+        "description": "同时处理文本、图像、视频等多种模态的能力"
+      },
+      {
+        "name": "代码生成",
+        "type": "技术",
+        "description": "AI自动编写代码的功能，支持多种编程框架"
+      },
+      {
+        "name": "长文本处理",
+        "type": "技术",
+        "description": "处理长达百万字上下文的自然语言能力"
+      },
+      {
+        "name": "AI助教",
+        "type": "功能",
+        "description": "支持出题、批改与讲义生成的教育辅助功能"
+      }
+    ],
+    "relations": [
+      {
+        "source": "阿里通义系列",
+        "target": "阿里巴巴集团",
+        "relation": "由...开发",
+        "confidence": 0.95
+      },
+      {
+        "source": "百度文心系列",
+        "target": "百度公司",
+        "relation": "由...开发",
+        "confidence": 0.95
+      },
+      {
+        "source": "科大讯飞星火",
+        "target": "多模态生成",
+        "relation": "具备...能力",
+        "confidence": 0.9
+      },
+      {
+        "source": "Kimi",
+        "target": "AI助教",
+        "relation": "支持...功能",
+        "confidence": 0.88
+      },
+      {
+        "source": "稿定设计",
+        "target": "低代码开发",
+        "relation": "支持...能力",
+        "confidence": 0.85
+      },
+      {
+        "source": "ModelWhale",
+        "target": "超长文本处理",
+        "relation": "具备...能力",
+        "confidence": 0.92
+      },
+      {
+        "source": "智谱 AI",
+        "target": "代码生成",
+        "relation": "擅长...能力",
+        "confidence": 0.87
+      }
+    ],
+    "keywords": [
+      "AI工具",
+      "大模型",
+      "多模态生成",
+      "代码生成",
+      "长文本处理",
+      "低代码开发",
+      "AI助教",
+      "国产大模型"
+    ],
+    "modules": [
+      {
+        "module": "AI工具对比表",
+        "text": "本表格列出了当前主流AI工具的核心信息，包括工具名称、开发商、核心能力及官网地址。工具按名称拼音排序，涵盖通义、文心、DeepSeek、稿定设计、ModelWhale、即梦与豆包AI、科大讯飞星火、Kimi、腾讯混元、智谱AI等。各工具在多模态生成、代码辅助、学术支持、语音处理、低代码开发等方面具备差异化能力，服务于教育、科研、设计与工程等场景。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.3308,
+      "non_white_ratio": 0.0911
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "阿里通义系列",
+        "name": "阿里通义系列",
+        "label": "阿里通义系列",
+        "type": "技术",
+        "category": "技术",
+        "description": "阿里巴巴研发的企业级多模态AI工具，支持代码补全与大数据分析",
+        "symbolSize": 35
+      },
+      {
+        "id": "百度文心系列",
+        "name": "百度文心系列",
+        "label": "百度文心系列",
+        "type": "技术",
+        "category": "技术",
+        "description": "百度推出的AI平台，擅长逻辑推理与长文本处理",
+        "symbolSize": 35
+      },
+      {
+        "id": "DeepSeek",
+        "name": "DeepSeek",
+        "label": "DeepSeek",
+        "type": "技术",
+        "category": "技术",
+        "description": "由幻方量化孵化的AI基础技术，聚焦复杂算法与代码生成",
+        "symbolSize": 35
+      },
+      {
+        "id": "稿定设计",
+        "name": "稿定设计",
+        "label": "稿定设计",
+        "type": "技术",
+        "category": "技术",
+        "description": "面向赛事与品牌设计的AI图文工具，支持批量生成与低代码开发",
+        "symbolSize": 35
+      },
+      {
+        "id": "ModelWhale",
+        "name": "ModelWhale",
+        "label": "ModelWhale",
+        "type": "技术",
+        "category": "技术",
+        "description": "集内容创作、AI编程与学术分析于一体的全能型平台",
+        "symbolSize": 35
+      },
+      {
+        "id": "科大讯飞星火",
+        "name": "科大讯飞星火",
+        "label": "科大讯飞星火",
+        "type": "技术",
+        "category": "技术",
+        "description": "具备强大多模态与语音处理能力的AI系统",
+        "symbolSize": 35
+      },
+      {
+        "id": "Kimi",
+        "name": "Kimi",
+        "label": "Kimi",
+        "type": "技术",
+        "category": "技术",
+        "description": "由清华团队背景公司开发，支持AI助教与技术文档撰写",
+        "symbolSize": 35
+      },
+      {
+        "id": "腾讯混元系列",
+        "name": "腾讯混元系列",
+        "label": "腾讯混元系列",
+        "type": "技术",
+        "category": "技术",
+        "description": "腾讯推出的多模态生成与数据分析AI系统",
+        "symbolSize": 35
+      },
+      {
+        "id": "智谱 AI",
+        "name": "智谱 AI",
+        "label": "智谱 AI",
+        "type": "技术",
+        "category": "技术",
+        "description": "专注于逻辑推理与代码生成的大模型平台",
+        "symbolSize": 35
+      },
+      {
+        "id": "即梦、豆包AI",
+        "name": "即梦、豆包AI",
+        "label": "即梦、豆包AI",
+        "type": "技术",
+        "category": "技术",
+        "description": "支持AIBot开发与AI教学功能的平台",
+        "symbolSize": 35
+      },
+      {
+        "id": "阿里巴巴集团",
+        "name": "阿里巴巴集团",
+        "label": "阿里巴巴集团",
+        "type": "组织",
+        "category": "组织",
+        "description": "阿里通义系列的开发商",
+        "symbolSize": 35
+      },
+      {
+        "id": "百度公司",
+        "name": "百度公司",
+        "label": "百度公司",
+        "type": "组织",
+        "category": "组织",
+        "description": "文心系列的开发商",
+        "symbolSize": 35
+      },
+      {
+        "id": "科大讯飞股份有限公司",
+        "name": "科大讯飞股份有限公司",
+        "label": "科大讯飞股份有限公司",
+        "type": "组织",
+        "category": "组织",
+        "description": "星火大模型的开发商",
+        "symbolSize": 35
+      },
+      {
+        "id": "多模态生成",
+        "name": "多模态生成",
+        "label": "多模态生成",
+        "type": "技术",
+        "category": "技术",
+        "description": "同时处理文本、图像、视频等多种模态的能力",
+        "symbolSize": 35
+      },
+      {
+        "id": "代码生成",
+        "name": "代码生成",
+        "label": "代码生成",
+        "type": "技术",
+        "category": "技术",
+        "description": "AI自动编写代码的功能，支持多种编程框架",
+        "symbolSize": 35
+      },
+      {
+        "id": "长文本处理",
+        "name": "长文本处理",
+        "label": "长文本处理",
+        "type": "技术",
+        "category": "技术",
+        "description": "处理长达百万字上下文的自然语言能力",
+        "symbolSize": 35
+      },
+      {
+        "id": "AI助教",
+        "name": "AI助教",
+        "label": "AI助教",
+        "type": "功能",
+        "category": "功能",
+        "description": "支持出题、批改与讲义生成的教育辅助功能",
+        "symbolSize": 35
+      },
+      {
+        "id": "低代码开发",
+        "name": "低代码开发",
+        "label": "低代码开发",
+        "type": "概念",
+        "category": "概念",
+        "description": "",
+        "symbolSize": 35
+      },
+      {
+        "id": "超长文本处理",
+        "name": "超长文本处理",
+        "label": "超长文本处理",
+        "type": "概念",
+        "category": "概念",
+        "description": "",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "阿里通义系列",
+        "target": "阿里巴巴集团",
+        "relation": "由...开发",
+        "label": "由...开发",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "百度文心系列",
+        "target": "百度公司",
+        "relation": "由...开发",
+        "label": "由...开发",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "科大讯飞星火",
+        "target": "多模态生成",
+        "relation": "具备...能力",
+        "label": "具备...能力",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Kimi",
+        "target": "AI助教",
+        "relation": "支持...功能",
+        "label": "支持...功能",
+        "weight": 0.88,
+        "confidence": 0.88
+      },
+      {
+        "source": "稿定设计",
+        "target": "低代码开发",
+        "relation": "支持...能力",
+        "label": "支持...能力",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "ModelWhale",
+        "target": "超长文本处理",
+        "relation": "具备...能力",
+        "label": "具备...能力",
+        "weight": 0.92,
+        "confidence": 0.92
+      },
+      {
+        "source": "智谱 AI",
+        "target": "代码生成",
+        "relation": "擅长...能力",
+        "label": "擅长...能力",
+        "weight": 0.87,
+        "confidence": 0.87
+      }
+    ]
+  }
+}

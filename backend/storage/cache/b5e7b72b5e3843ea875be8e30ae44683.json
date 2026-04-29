@@ -1,0 +1,95 @@
+{
+  "text": "汉语当然是全世界上最棒的\r\n使用人数最多的",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "汉语当然是全世界上最棒的\r\n使用人数最多的",
+    "structured_text": "汉语当然是全世界上最棒的\r\n使用人数最多的",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "汉语当然是全世界上最棒的\r\n使用人数最多的",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "汉语当然是全世界上最棒的\r，使用人数最多的",
+    "entities": [
+      {
+        "name": "汉语当然是全世界上最棒的\r，使用人数最多的",
+        "type": "主题",
+        "description": "由短文本生成的整体主题节点",
+        "aliases": [
+          "汉语当然是全世界上最棒的\r，使用人数最多的",
+          "汉语当然是全世界上最棒的"
+        ]
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "汉语当然是全世界上最棒的\r，使用人数最多的",
+      "汉语当然是全世界上最棒的",
+      "使用人数最多的"
+    ],
+    "modules": [],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "汉语当然是全世界上最棒的\r，使用人数最多的",
+        "name": "汉语当然是全世界上最棒的\r，使用人数最多的",
+        "label": "汉语当然是全世界上最棒的\r，使用人数最多的",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "由短文本生成的整体主题节点",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      }
+    ],
+    "edges": []
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "汉语当然是全世界上最棒的\r，使用人数最多的",
+        "score": 1.0,
+        "degree": 0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点是当前文本中唯一的核心主题。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "汉语当然是全世界上最棒的\r，使用人数最多的": 0
+      },
+      "betweenness": {
+        "汉语当然是全世界上最棒的\r，使用人数最多的": 0
+      },
+      "pagerank": {
+        "汉语当然是全世界上最棒的\r，使用人数最多的": 1.0
+      },
+      "fusion": {
+        "汉语当然是全世界上最棒的\r，使用人数最多的": 1.0
+      }
+    },
+    "important_paths": []
+  }
+}

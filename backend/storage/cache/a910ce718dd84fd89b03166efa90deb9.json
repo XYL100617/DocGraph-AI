@@ -1,0 +1,184 @@
+{
+  "text": "老师提问",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "老师提问",
+    "structured_text": "老师提问",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "老师提问",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "summary_result": {
+    "summary": "教师向学生提出问题，以引导思考或检查学习情况。",
+    "text_type": "普通行为句",
+    "repaired_text": "老师提问",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "老师提问"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "老师提问",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "老师提问"
+      }
+    ],
+    "summary": "教师在教学过程中向学生提出问题，以引导思考或检查学习效果，是一种常见的课堂互动行为。",
+    "text_type": "普通行为句",
+    "entities": [
+      {
+        "name": "老师",
+        "type": "人物",
+        "category": "人物",
+        "description": "教育工作者，课堂中的提问主体",
+        "aliases": [
+          "老师"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "提问",
+        "type": "主题",
+        "category": "主题",
+        "description": "教师向学生提出问题的教学行为",
+        "aliases": [
+          "提问"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "老师",
+        "target": "提问",
+        "relation": "关联",
+        "confidence": 0.6,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "老师",
+        "target": "提问",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      }
+    ],
+    "keywords": [
+      "老师",
+      "提问"
+    ],
+    "visual_notes": [],
+    "source": "ltp_ai_fallback_merge",
+    "source_text": "老师提问"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "老师",
+        "name": "老师",
+        "label": "老师",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "教育工作者，课堂中的提问主体",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.45405854493301
+      },
+      {
+        "id": "提问",
+        "name": "提问",
+        "label": "提问",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "教师向学生提出问题的教学行为",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "老师",
+        "target": "提问",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "提问",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "老师",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "老师": 1.0,
+        "提问": 1.0
+      },
+      "betweenness": {
+        "老师": 0,
+        "提问": 0
+      },
+      "pagerank": {
+        "老师": 0.540540941511876,
+        "提问": 1.0
+      },
+      "fusion": {
+        "老师": 0.5162163766047504,
+        "提问": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "老师",
+        "提问"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

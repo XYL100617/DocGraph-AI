@@ -1,0 +1,378 @@
+{
+  "text": "小红准备明天在杭州吃汉堡",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "小红准备明天在杭州吃汉堡",
+    "structured_text": "小红准备明天在杭州吃汉堡",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "小红准备明天在杭州吃汉堡",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "repaired_text": "小红准备明天在杭州吃汉堡",
+    "modules": [],
+    "summary": "小红计划于明天在杭州食用汉堡，描述了一个具体的个人行为安排。",
+    "text_type": "普通行为句",
+    "entities": [
+      {
+        "name": "小红",
+        "type": "人物",
+        "category": "人物",
+        "description": "行为的主体，执行吃汉堡这一动作的人",
+        "aliases": [
+          "小红"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "明天",
+        "type": "时间",
+        "category": "时间",
+        "description": "事件发生的时间，指代具体的一天",
+        "aliases": [
+          "明天"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "杭州",
+        "type": "主题",
+        "category": "主题",
+        "description": "事件发生的地理位置，中国的一个城市",
+        "aliases": [
+          "杭州"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "吃汉堡",
+        "type": "事件",
+        "category": "事件",
+        "description": "小红将要进行的具体行为",
+        "aliases": [
+          "吃汉堡"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "汉堡",
+        "type": "主题",
+        "category": "主题",
+        "description": "被食用的食物，具体物品",
+        "aliases": [
+          "汉堡"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "小红",
+        "target": "吃汉堡",
+        "relation": "参与",
+        "confidence": 0.95,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "明天",
+        "target": "吃汉堡",
+        "relation": "描述",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "吃汉堡",
+        "target": "杭州",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "吃汉堡",
+        "target": "汉堡",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "吃汉堡",
+        "target": "汉堡",
+        "relation": "使用",
+        "confidence": 0.85,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "吃汉堡",
+        "target": "明天",
+        "relation": "关联",
+        "confidence": 0.8,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "吃汉堡",
+        "target": "杭州",
+        "relation": "体现",
+        "confidence": 0.8,
+        "raw_relation": "属于"
+      }
+    ],
+    "keywords": [
+      "小红",
+      "明天",
+      "杭州",
+      "吃汉堡",
+      "汉堡"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "小红准备明天在杭州吃汉堡"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "小红",
+        "name": "小红",
+        "label": "小红",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "行为的主体，执行吃汉堡这一动作的人",
+        "source": "llm",
+        "importance": 0.1732,
+        "symbolSize": 30.84952309632311
+      },
+      {
+        "id": "明天",
+        "name": "明天",
+        "label": "明天",
+        "type": "时间",
+        "category": "时间",
+        "group": 0,
+        "description": "事件发生的时间，指代具体的一天",
+        "source": "llm",
+        "importance": 0.3442,
+        "symbolSize": 35.638108166827934
+      },
+      {
+        "id": "杭州",
+        "name": "杭州",
+        "label": "杭州",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "事件发生的地理位置，中国的一个城市",
+        "source": "llm",
+        "importance": 0.2842,
+        "symbolSize": 33.958108166827934
+      },
+      {
+        "id": "吃汉堡",
+        "name": "吃汉堡",
+        "label": "吃汉堡",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "小红将要进行的具体行为",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      },
+      {
+        "id": "汉堡",
+        "name": "汉堡",
+        "label": "汉堡",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "被食用的食物，具体物品",
+        "source": "llm",
+        "importance": 0.2912,
+        "symbolSize": 34.15239473373449
+      }
+    ],
+    "edges": [
+      {
+        "source": "小红",
+        "target": "吃汉堡",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "明天",
+        "target": "吃汉堡",
+        "relation": "描述",
+        "raw_relation": "center_repair",
+        "label": "描述",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "吃汉堡",
+        "target": "杭州",
+        "relation": "体现",
+        "raw_relation": "属于",
+        "label": "体现",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "吃汉堡",
+        "target": "汉堡",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "吃汉堡",
+        "target": "明天",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.8,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "吃汉堡",
+        "score": 1.0,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "明天",
+        "score": 0.3442,
+        "degree": 0.4,
+        "betweenness": 0.0,
+        "pagerank": 0.5605,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      },
+      {
+        "name": "汉堡",
+        "score": 0.2912,
+        "degree": 0.2,
+        "betweenness": 0.0,
+        "pagerank": 0.5779,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      },
+      {
+        "name": "杭州",
+        "score": 0.2842,
+        "degree": 0.2,
+        "betweenness": 0.0,
+        "pagerank": 0.5605,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      },
+      {
+        "name": "小红",
+        "score": 0.1732,
+        "degree": 0.2,
+        "betweenness": 0.0,
+        "pagerank": 0.283,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "小红": 0.2,
+        "明天": 0.4,
+        "杭州": 0.2,
+        "吃汉堡": 1.0,
+        "汉堡": 0.2
+      },
+      "betweenness": {
+        "小红": 0.0,
+        "明天": 0.0,
+        "杭州": 0.0,
+        "吃汉堡": 1.0,
+        "汉堡": 0.0
+      },
+      "pagerank": {
+        "小红": 0.28299313360027756,
+        "明天": 0.5605453720382086,
+        "杭州": 0.5605453720382086,
+        "吃汉堡": 1.0,
+        "汉堡": 0.5778923869405793
+      },
+      "fusion": {
+        "小红": 0.17319725344011103,
+        "明天": 0.34421814881528345,
+        "杭州": 0.28421814881528346,
+        "吃汉堡": 1.0,
+        "汉堡": 0.2911569547762317
+      }
+    },
+    "important_paths": [
+      [
+        "吃汉堡",
+        "明天"
+      ],
+      [
+        "吃汉堡",
+        "汉堡"
+      ],
+      [
+        "吃汉堡",
+        "杭州"
+      ],
+      [
+        "明天",
+        "吃汉堡",
+        "汉堡"
+      ],
+      [
+        "明天",
+        "吃汉堡",
+        "杭州"
+      ]
+    ]
+  },
+  "summary_result": {
+    "summary": "小红计划明天在杭州吃汉堡。",
+    "text_type": "普通行为句",
+    "repaired_text": "小红准备明天在杭州吃汉堡",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "小红准备明天在杭州吃汉堡"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  }
+}

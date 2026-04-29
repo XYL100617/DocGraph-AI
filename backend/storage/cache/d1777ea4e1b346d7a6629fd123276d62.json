@@ -1,0 +1,255 @@
+{
+  "text": "为天地立心，为生民立命",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "为天地立心，为生民立命",
+    "structured_text": "为天地立心，为生民立命",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "为天地立心，为生民立命",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "repaired_text": "为天地立心，为生民立命",
+    "modules": [],
+    "summary": "表达了一种确立宇宙精神价值、为民众谋求生存与意义的思想抱负，体现儒家的使命感与人文关怀。",
+    "text_type": "名言格言",
+    "entities": [
+      {
+        "name": "天地",
+        "type": "主题",
+        "description": "象征宇宙、自然与整体秩序",
+        "aliases": [
+          "天地"
+        ],
+        "category": "主题"
+      },
+      {
+        "name": "心",
+        "type": "主题",
+        "description": "指精神核心或价值本源",
+        "aliases": [
+          "心",
+          "立心"
+        ],
+        "category": "主题"
+      },
+      {
+        "name": "生民",
+        "type": "事件",
+        "description": "指人民、百姓",
+        "aliases": [
+          "生民"
+        ],
+        "category": "事件"
+      },
+      {
+        "name": "命",
+        "type": "主题",
+        "description": "指命运、生存意义或人生方向",
+        "aliases": [
+          "命",
+          "立命"
+        ],
+        "category": "主题"
+      }
+    ],
+    "relations": [
+      {
+        "source": "心",
+        "target": "天地",
+        "relation": "描述",
+        "confidence": 0.9,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "命",
+        "target": "生民",
+        "relation": "服务于",
+        "confidence": 0.9,
+        "raw_relation": "服务于"
+      }
+    ],
+    "keywords": [
+      "立心",
+      "立命",
+      "天地",
+      "生民",
+      "使命"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "天地",
+        "name": "天地",
+        "label": "天地",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "象征宇宙、自然与整体秩序",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      },
+      {
+        "id": "心",
+        "name": "心",
+        "label": "心",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "指精神核心或价值本源",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.454043487289255
+      },
+      {
+        "id": "生民",
+        "name": "生民",
+        "label": "生民",
+        "type": "事件",
+        "category": "事件",
+        "group": 1,
+        "description": "指人民、百姓",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      },
+      {
+        "id": "命",
+        "name": "命",
+        "label": "命",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "指命运、生存意义或人生方向",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.454043487289255
+      }
+    ],
+    "edges": [
+      {
+        "source": "心",
+        "target": "天地",
+        "relation": "描述",
+        "raw_relation": "描述",
+        "label": "描述",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "命",
+        "target": "生民",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "天地",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "生民",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "心",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "命",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "天地": 1.0,
+        "心": 1.0,
+        "生民": 1.0,
+        "命": 1.0
+      },
+      "betweenness": {
+        "天地": 0,
+        "心": 0,
+        "生民": 0,
+        "命": 0
+      },
+      "pagerank": {
+        "天地": 1.0,
+        "心": 0.540539597079398,
+        "生民": 1.0,
+        "命": 0.540539597079398
+      },
+      "fusion": {
+        "天地": 0.7,
+        "心": 0.5162158388317593,
+        "生民": 0.7,
+        "命": 0.5162158388317593
+      }
+    },
+    "important_paths": [
+      [
+        "心",
+        "天地"
+      ],
+      [
+        "命",
+        "生民"
+      ]
+    ]
+  },
+  "summary_result": {
+    "summary": "表达为天下百姓确立使命与信念的宏大志向，体现儒家济世安民的思想情怀。",
+    "text_type": "名言格言",
+    "repaired_text": "为天地立心，为生民立命",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "为天地立心，为生民立命"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  }
+}

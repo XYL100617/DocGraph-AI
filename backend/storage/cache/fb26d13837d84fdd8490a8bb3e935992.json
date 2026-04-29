@@ -1,0 +1,219 @@
+{
+  "text": "识别AI?",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "识别AI?",
+    "structured_text": "识别AI?",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "识别AI?",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "识别AI是通过技术特征和行为模式等方法，对人工智能进行辨识的过程，旨在区分人类与机器智能。",
+    "entities": [
+      {
+        "name": "识别AI",
+        "type": "概念",
+        "description": "对人工智能进行辨识与判定的过程"
+      },
+      {
+        "name": "技术特征分析",
+        "type": "方法",
+        "description": "用于识别AI的技术手段之一"
+      },
+      {
+        "name": "行为模式判断",
+        "type": "方法",
+        "description": "通过行为特征识别AI的方法"
+      },
+      {
+        "name": "人工智能",
+        "type": "概念",
+        "description": "识别AI所针对的目标技术"
+      },
+      {
+        "name": "机器智能",
+        "type": "概念",
+        "description": "与人类智能相对的智能形式"
+      },
+      {
+        "name": "人类智能",
+        "type": "概念",
+        "description": "识别AI中用于对比的智能类型"
+      }
+    ],
+    "relations": [
+      {
+        "source": "识别AI",
+        "target": "技术特征分析",
+        "relation": "包含方法",
+        "confidence": 0.9
+      },
+      {
+        "source": "识别AI",
+        "target": "行为模式判断",
+        "relation": "包含方法",
+        "confidence": 0.9
+      },
+      {
+        "source": "识别AI",
+        "target": "人工智能",
+        "relation": "针对对象",
+        "confidence": 0.95
+      },
+      {
+        "source": "识别AI",
+        "target": "机器智能",
+        "relation": "用于区分",
+        "confidence": 0.85
+      },
+      {
+        "source": "识别AI",
+        "target": "人类智能",
+        "relation": "对比对象",
+        "confidence": 0.85
+      }
+    ],
+    "keywords": [
+      "识别AI",
+      "人工智能",
+      "技术特征分析",
+      "行为模式判断",
+      "机器智能",
+      "人类智能"
+    ],
+    "modules": [
+      {
+        "module": "概念定义",
+        "text": "识别AI是指对人工智能技术进行辨识与判定的过程。"
+      },
+      {
+        "module": "方法说明",
+        "text": "涉及技术特征分析、行为模式判断等方法。"
+      },
+      {
+        "module": "应用目的",
+        "text": "用于区分人类与机器智能。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "识别AI",
+        "name": "识别AI",
+        "label": "识别AI",
+        "type": "概念",
+        "category": "概念",
+        "description": "对人工智能进行辨识与判定的过程",
+        "symbolSize": 35
+      },
+      {
+        "id": "技术特征分析",
+        "name": "技术特征分析",
+        "label": "技术特征分析",
+        "type": "方法",
+        "category": "方法",
+        "description": "用于识别AI的技术手段之一",
+        "symbolSize": 35
+      },
+      {
+        "id": "行为模式判断",
+        "name": "行为模式判断",
+        "label": "行为模式判断",
+        "type": "方法",
+        "category": "方法",
+        "description": "通过行为特征识别AI的方法",
+        "symbolSize": 35
+      },
+      {
+        "id": "人工智能",
+        "name": "人工智能",
+        "label": "人工智能",
+        "type": "概念",
+        "category": "概念",
+        "description": "识别AI所针对的目标技术",
+        "symbolSize": 35
+      },
+      {
+        "id": "机器智能",
+        "name": "机器智能",
+        "label": "机器智能",
+        "type": "概念",
+        "category": "概念",
+        "description": "与人类智能相对的智能形式",
+        "symbolSize": 35
+      },
+      {
+        "id": "人类智能",
+        "name": "人类智能",
+        "label": "人类智能",
+        "type": "概念",
+        "category": "概念",
+        "description": "识别AI中用于对比的智能类型",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "识别AI",
+        "target": "技术特征分析",
+        "relation": "包含方法",
+        "label": "包含方法",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "识别AI",
+        "target": "行为模式判断",
+        "relation": "包含方法",
+        "label": "包含方法",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "识别AI",
+        "target": "人工智能",
+        "relation": "针对对象",
+        "label": "针对对象",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "识别AI",
+        "target": "机器智能",
+        "relation": "用于区分",
+        "label": "用于区分",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "识别AI",
+        "target": "人类智能",
+        "relation": "对比对象",
+        "label": "对比对象",
+        "weight": 0.85,
+        "confidence": 0.85
+      }
+    ]
+  }
+}

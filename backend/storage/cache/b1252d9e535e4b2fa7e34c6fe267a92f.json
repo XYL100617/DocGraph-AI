@@ -1,0 +1,109 @@
+{
+  "text": "徐瑜璐",
+  "file_path": "storage/images\\c69604232f964a03a515ad81a544f62b__cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=7480042655828893251&skey=@crypt_28243626_4c358a2c2bdf601b79949dada569adb3&mmweb_appid=wx_webfilehelper.jpg",
+  "ocr": {
+    "raw_text": "徐瑜璐",
+    "structured_text": "徐瑜璐",
+    "layout_type": "semantic_layout",
+    "modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "徐瑜璐"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "徐瑜璐",
+        "confidence": 0.9650139212608337,
+        "bbox": {
+          "x1": 247.0,
+          "y1": 237.0,
+          "x2": 1341.0,
+          "y2": 835.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ],
+    "raw_structured_text": "【标题/短文本区域1】\n徐瑜璐",
+    "raw_modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "徐瑜璐",
+        "blocks": [
+          {
+            "text": "徐瑜璐",
+            "confidence": 0.9650139212608337,
+            "bbox": {
+              "x1": 247.0,
+              "y1": 237.0,
+              "x2": 1341.0,
+              "y2": 835.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 247.0,
+          "y1": 237.0,
+          "x2": 1341.0,
+          "y2": 835.0
+        }
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": true,
+    "reason": "图片中非白区域较多，可能存在图像元素",
+    "text_area_ratio": 0.2998,
+    "non_white_ratio": 1.0
+  },
+  "ai_result": {
+    "summary": "图片中显示了一个人的名字“徐瑜璐”，字体为手写体，背景为白色纸张。",
+    "entities": [
+      {
+        "name": "徐瑜璐",
+        "type": "人物",
+        "description": "一位书写名字的人"
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "徐瑜璐",
+      "手写体",
+      "白纸"
+    ],
+    "modules": [
+      {
+        "module": "姓名",
+        "text": "徐瑜璐"
+      }
+    ],
+    "visual_notes": [
+      "图片中非文字视觉元素包括手写的字体和白色的纸张背景。"
+    ],
+    "visual_detection": {
+      "has_visual": true,
+      "reason": "图片中非白区域较多，可能存在图像元素",
+      "text_area_ratio": 0.2998,
+      "non_white_ratio": 1.0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "徐瑜璐",
+        "name": "徐瑜璐",
+        "type": "人物",
+        "category": "人物",
+        "description": "一位书写名字的人",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": []
+  }
+}

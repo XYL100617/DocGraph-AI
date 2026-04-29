@@ -1,0 +1,101 @@
+{
+  "text": "今天向明吃了一个汉堡",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "今天向明吃了一个汉堡",
+    "structured_text": "今天向明吃了一个汉堡",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "今天向明吃了一个汉堡",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "向明吃了一个汉堡。",
+    "entities": [
+      {
+        "name": "向明",
+        "type": "人物",
+        "description": "人名"
+      },
+      {
+        "name": "汉堡",
+        "type": "其他",
+        "description": "食物"
+      }
+    ],
+    "relations": [
+      {
+        "source": "向明",
+        "target": "汉堡",
+        "relation": "使用",
+        "confidence": 0.7
+      }
+    ],
+    "keywords": [
+      "向明",
+      "汉堡"
+    ],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "今天向明吃了一个汉堡"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "向明",
+        "name": "向明",
+        "label": "向明",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "人名",
+        "source": "llm",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "汉堡",
+        "name": "汉堡",
+        "label": "汉堡",
+        "type": "其他",
+        "category": "其他",
+        "group": 0,
+        "description": "食物",
+        "source": "llm",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": [
+      {
+        "source": "向明",
+        "target": "汉堡",
+        "relation": "使用",
+        "label": "使用",
+        "weight": 0.7,
+        "confidence": 0.7
+      }
+    ]
+  }
+}

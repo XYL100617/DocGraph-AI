@@ -1,0 +1,154 @@
+{
+  "text": "人之初，性本善",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "人之初，性本善",
+    "structured_text": "人之初，性本善",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "人之初，性本善",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "文本表达了人性本善的观点，出自传统启蒙读物《三字经》的开篇句。",
+    "entities": [
+      {
+        "name": "人之初",
+        "type": "概念",
+        "description": "指人的初始状态，出自《三字经》",
+        "aliases": [
+          "人之初"
+        ]
+      },
+      {
+        "name": "性本善",
+        "type": "概念",
+        "description": "认为人的本性是善良的，儒家思想中的重要观点",
+        "aliases": [
+          "性本善"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "人之初",
+        "target": "性本善",
+        "relation": "包含",
+        "confidence": 0.9
+      }
+    ],
+    "keywords": [
+      "人之初",
+      "性本善",
+      "人性",
+      "儒家",
+      "三字经"
+    ],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "人之初，性本善"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "人之初",
+        "name": "人之初",
+        "label": "人之初",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "指人的初始状态，出自《三字经》",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.45405854493301
+      },
+      {
+        "id": "性本善",
+        "name": "性本善",
+        "label": "性本善",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "认为人的本性是善良的，儒家思想中的重要观点",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "人之初",
+        "target": "性本善",
+        "relation": "包含",
+        "label": "包含",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "性本善",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "人之初",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "人之初": 1.0,
+        "性本善": 1.0
+      },
+      "betweenness": {
+        "人之初": 0,
+        "性本善": 0
+      },
+      "pagerank": {
+        "人之初": 0.540540941511876,
+        "性本善": 1.0
+      },
+      "fusion": {
+        "人之初": 0.5162163766047504,
+        "性本善": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "人之初",
+        "性本善"
+      ]
+    ]
+  }
+}

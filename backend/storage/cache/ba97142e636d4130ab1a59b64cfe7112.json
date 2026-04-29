@@ -1,0 +1,221 @@
+{
+  "text": "小红为了好看，不好好吃饭",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "小红为了好看，不好好吃饭",
+    "structured_text": "小红为了好看，不好好吃饭",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "小红为了好看，不好好吃饭",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "小红为了追求好看而不好好吃饭。",
+    "entities": [
+      {
+        "name": "小红",
+        "type": "人物",
+        "description": "一个为了好看而不好好吃饭的人",
+        "aliases": [
+          "小红"
+        ]
+      },
+      {
+        "name": "好看",
+        "type": "概念",
+        "description": "外貌上的美观追求",
+        "aliases": [
+          "好看"
+        ]
+      },
+      {
+        "name": "吃饭",
+        "type": "概念",
+        "description": "基本的饮食行为",
+        "aliases": [
+          "吃饭"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "小红",
+        "target": "好看",
+        "relation": "追求",
+        "confidence": 0.8
+      },
+      {
+        "source": "小红",
+        "target": "吃饭",
+        "relation": "影响",
+        "confidence": 0.75
+      },
+      {
+        "source": "好看",
+        "target": "吃饭",
+        "relation": "影响",
+        "confidence": 0.7
+      }
+    ],
+    "keywords": [
+      "小红",
+      "好看",
+      "吃饭",
+      "影响"
+    ],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "小红为了好看，不好好吃饭"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "小红",
+        "name": "小红",
+        "label": "小红",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "一个为了好看而不好好吃饭的人",
+        "source": "llm",
+        "importance": 0.4518,
+        "symbolSize": 38.651776701595686
+      },
+      {
+        "id": "好看",
+        "name": "好看",
+        "label": "好看",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "外貌上的美观追求",
+        "source": "llm",
+        "importance": 0.5185,
+        "symbolSize": 40.517075597127764
+      },
+      {
+        "id": "吃饭",
+        "name": "吃饭",
+        "label": "吃饭",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "基本的饮食行为",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "小红",
+        "target": "好看",
+        "relation": "相关",
+        "label": "相关",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "小红",
+        "target": "吃饭",
+        "relation": "影响",
+        "label": "影响",
+        "weight": 0.75,
+        "confidence": 0.75
+      },
+      {
+        "source": "好看",
+        "target": "吃饭",
+        "relation": "影响",
+        "label": "影响",
+        "weight": 0.7,
+        "confidence": 0.7
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "吃饭",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "好看",
+        "score": 0.5185,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5462,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "小红",
+        "score": 0.4518,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.3796,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "小红": 1.0,
+        "好看": 1.0,
+        "吃饭": 1.0
+      },
+      "betweenness": {
+        "小红": 0,
+        "好看": 0,
+        "吃饭": 0
+      },
+      "pagerank": {
+        "小红": 0.3796229197853291,
+        "好看": 0.5461674640292646,
+        "吃饭": 1.0
+      },
+      "fusion": {
+        "小红": 0.45184916791413166,
+        "好看": 0.5184669856117059,
+        "吃饭": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "好看",
+        "吃饭"
+      ],
+      [
+        "小红",
+        "吃饭"
+      ],
+      [
+        "小红",
+        "好看"
+      ]
+    ]
+  }
+}

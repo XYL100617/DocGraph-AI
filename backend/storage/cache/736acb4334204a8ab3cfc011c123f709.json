@@ -1,0 +1,1810 @@
+{
+  "text": "【文本内容区域1】\nUnix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1\n日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时\n间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中\n处理时间的标准方式之一。\n\n【文本内容区域2】\nUnix纪元的定义与作用\nUnix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00\nUTC开始的秒数。这种表示方法具有以下优点：\n·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。\n·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间\n进行时间同步和比较。\n·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及\n网络协议（如HTTP）所采用。\nUnix纪元的存储方式与问题\nUnix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于\n1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间\n题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日\n期，导致程序崩溃或数据错误。\n为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以\n持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19\n版本开始支持64位Unix时间。\nUnix纪元与其他系统的对比\n不同操作系统和编程语言使用的纪元时间并不相同。例如：\n■ApplemacOS：纪元时间为1904年1月1日00:00:00。\n·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。\n·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。\n这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。\n\n【文本内容区域1】\nUnix纪元的应用\nUnix纪元时间在多个领域有广泛应用，包括：\n·文件系统：记录文件的创建、修改和访问时间。\n·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。\n·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。\n·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+  "file_path": "storage/images\\f5a57d66f57e49c696cae9da523ec7c5_Unix纪元.pdf",
+  "ocr": {
+    "raw_text": "Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1\n日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时\n间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中\n处理时间的标准方式之一。\nUnix纪元的定义与作用\nUnix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00\nUTC开始的秒数。这种表示方法具有以下优点：\n·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。\n·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间\n进行时间同步和比较。\n·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及\n网络协议（如HTTP）所采用。\nUnix纪元的存储方式与问题\nUnix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于\n1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间\n题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日\n期，导致程序崩溃或数据错误。\n为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以\n持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19\n版本开始支持64位Unix时间。\nUnix纪元与其他系统的对比\n不同操作系统和编程语言使用的纪元时间并不相同。例如：\n■ApplemacOS：纪元时间为1904年1月1日00:00:00。\n·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。\n·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。\n这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。\n\nUnix纪元的应用\nUnix纪元时间在多个领域有广泛应用，包括：\n·文件系统：记录文件的创建、修改和访问时间。\n·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。\n·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。\n·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+    "structured_text": "【文本内容区域1】\nUnix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1\n日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时\n间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中\n处理时间的标准方式之一。\n\n【文本内容区域2】\nUnix纪元的定义与作用\nUnix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00\nUTC开始的秒数。这种表示方法具有以下优点：\n·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。\n·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间\n进行时间同步和比较。\n·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及\n网络协议（如HTTP）所采用。\nUnix纪元的存储方式与问题\nUnix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于\n1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间\n题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日\n期，导致程序崩溃或数据错误。\n为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以\n持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19\n版本开始支持64位Unix时间。\nUnix纪元与其他系统的对比\n不同操作系统和编程语言使用的纪元时间并不相同。例如：\n■ApplemacOS：纪元时间为1904年1月1日00:00:00。\n·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。\n·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。\n这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。\n\n【文本内容区域1】\nUnix纪元的应用\nUnix纪元时间在多个领域有广泛应用，包括：\n·文件系统：记录文件的创建、修改和访问时间。\n·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。\n·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。\n·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+    "layout_type": "pdf_document",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【文本内容区域1】\nUnix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1\n日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时\n间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中\n处理时间的标准方式之一。\n\n【文本内容区域2】\nUnix纪元的定义与作用\nUnix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00\nUTC开始的秒数。这种表示方法具有以下优点：\n·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。\n·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间\n进行时间同步和比较。\n·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及\n网络协议（如HTTP）所采用。\nUnix纪元的存储方式与问题\nUnix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于\n1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间\n题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日\n期，导致程序崩溃或数据错误。\n为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以\n持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19\n版本开始支持64位Unix时间。\nUnix纪元与其他系统的对比\n不同操作系统和编程语言使用的纪元时间并不相同。例如：\n■ApplemacOS：纪元时间为1904年1月1日00:00:00。\n·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。\n·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。\n这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。\n\n【文本内容区域1】\nUnix纪元的应用\nUnix纪元时间在多个领域有广泛应用，包括：\n·文件系统：记录文件的创建、修改和访问时间。\n·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。\n·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。\n·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+        "blocks": [
+          {
+            "text": "Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1",
+            "confidence": 0.9972083568572998,
+            "bbox": {
+              "x1": 279.0,
+              "y1": 238.0,
+              "x2": 1376.0,
+              "y2": 269.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时",
+            "confidence": 0.9912482500076294,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 274.0,
+              "x2": 1374.0,
+              "y2": 304.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中",
+            "confidence": 0.98639976978302,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 309.0,
+              "x2": 1376.0,
+              "y2": 340.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "处理时间的标准方式之一。",
+            "confidence": 0.9996047616004944,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 342.0,
+              "x2": 550.0,
+              "y2": 378.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix纪元的定义与作用",
+            "confidence": 0.9863387942314148,
+            "bbox": {
+              "x1": 632.0,
+              "y1": 503.0,
+              "x2": 1023.0,
+              "y2": 543.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00",
+            "confidence": 0.9926956295967102,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 578.0,
+              "x2": 1374.0,
+              "y2": 609.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "UTC开始的秒数。这种表示方法具有以下优点：",
+            "confidence": 0.9987218379974365,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 616.0,
+              "x2": 772.0,
+              "y2": 646.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。",
+            "confidence": 0.9937838315963745,
+            "bbox": {
+              "x1": 267.0,
+              "y1": 675.0,
+              "x2": 1091.0,
+              "y2": 705.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间",
+            "confidence": 0.9967020153999329,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 710.0,
+              "x2": 1379.0,
+              "y2": 741.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "进行时间同步和比较。",
+            "confidence": 0.9987949132919312,
+            "bbox": {
+              "x1": 302.0,
+              "y1": 746.0,
+              "x2": 531.0,
+              "y2": 776.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及",
+            "confidence": 0.9963698387145996,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 781.0,
+              "x2": 1376.0,
+              "y2": 814.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "网络协议（如HTTP）所采用。",
+            "confidence": 0.9992253184318542,
+            "bbox": {
+              "x1": 300.0,
+              "y1": 814.0,
+              "x2": 616.0,
+              "y2": 849.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix纪元的存储方式与问题",
+            "confidence": 0.9851012825965881,
+            "bbox": {
+              "x1": 592.0,
+              "y1": 977.0,
+              "x2": 1065.0,
+              "y2": 1017.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于",
+            "confidence": 0.9874277710914612,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1055.0,
+              "x2": 1376.0,
+              "y2": 1085.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间",
+            "confidence": 0.984640896320343,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1090.0,
+              "x2": 1379.0,
+              "y2": 1121.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日",
+            "confidence": 0.9938648343086243,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 1125.0,
+              "x2": 1374.0,
+              "y2": 1156.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "期，导致程序崩溃或数据错误。",
+            "confidence": 0.9987329244613647,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1161.0,
+              "x2": 599.0,
+              "y2": 1191.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以",
+            "confidence": 0.9962847828865051,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1217.0,
+              "x2": 1374.0,
+              "y2": 1248.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19",
+            "confidence": 0.9938503503799438,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1253.0,
+              "x2": 1374.0,
+              "y2": 1284.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "版本开始支持64位Unix时间。",
+            "confidence": 0.991798996925354,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1293.0,
+              "x2": 574.0,
+              "y2": 1324.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix纪元与其他系统的对比",
+            "confidence": 0.98941570520401,
+            "bbox": {
+              "x1": 592.0,
+              "y1": 1451.0,
+              "x2": 1063.0,
+              "y2": 1491.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "不同操作系统和编程语言使用的纪元时间并不相同。例如：",
+            "confidence": 0.9982354044914246,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1527.0,
+              "x2": 892.0,
+              "y2": 1557.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "■ApplemacOS：纪元时间为1904年1月1日00:00:00。",
+            "confidence": 0.9530835747718811,
+            "bbox": {
+              "x1": 264.0,
+              "y1": 1581.0,
+              "x2": 840.0,
+              "y2": 1623.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。",
+            "confidence": 0.9727762937545776,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 1621.0,
+              "x2": 897.0,
+              "y2": 1654.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。",
+            "confidence": 0.9598127603530884,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 1656.0,
+              "x2": 866.0,
+              "y2": 1687.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。",
+            "confidence": 0.9976927042007446,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1715.0,
+              "x2": 1206.0,
+              "y2": 1746.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 1
+          },
+          {
+            "text": "Unix纪元的应用",
+            "confidence": 0.974228024482727,
+            "bbox": {
+              "x1": 688.0,
+              "y1": 552.0,
+              "x2": 969.0,
+              "y2": 599.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          },
+          {
+            "text": "Unix纪元时间在多个领域有广泛应用，包括：",
+            "confidence": 0.9872932434082031,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 630.0,
+              "x2": 747.0,
+              "y2": 663.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          },
+          {
+            "text": "·文件系统：记录文件的创建、修改和访问时间。",
+            "confidence": 0.9950452446937561,
+            "bbox": {
+              "x1": 267.0,
+              "y1": 691.0,
+              "x2": 801.0,
+              "y2": 722.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          },
+          {
+            "text": "·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。",
+            "confidence": 0.9958717823028564,
+            "bbox": {
+              "x1": 269.0,
+              "y1": 727.0,
+              "x2": 908.0,
+              "y2": 757.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          },
+          {
+            "text": "·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。",
+            "confidence": 0.9918415546417236,
+            "bbox": {
+              "x1": 267.0,
+              "y1": 762.0,
+              "x2": 969.0,
+              "y2": 795.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          },
+          {
+            "text": "·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+            "confidence": 0.996071994304657,
+            "bbox": {
+              "x1": 264.0,
+              "y1": 795.0,
+              "x2": 946.0,
+              "y2": 831.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false,
+            "page": 2
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1",
+        "confidence": 0.9972083568572998,
+        "bbox": {
+          "x1": 279.0,
+          "y1": 238.0,
+          "x2": 1376.0,
+          "y2": 269.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时",
+        "confidence": 0.9912482500076294,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 274.0,
+          "x2": 1374.0,
+          "y2": 304.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中",
+        "confidence": 0.98639976978302,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 309.0,
+          "x2": 1376.0,
+          "y2": 340.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "处理时间的标准方式之一。",
+        "confidence": 0.9996047616004944,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 342.0,
+          "x2": 550.0,
+          "y2": 378.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix纪元的定义与作用",
+        "confidence": 0.9863387942314148,
+        "bbox": {
+          "x1": 632.0,
+          "y1": 503.0,
+          "x2": 1023.0,
+          "y2": 543.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00",
+        "confidence": 0.9926956295967102,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 578.0,
+          "x2": 1374.0,
+          "y2": 609.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "UTC开始的秒数。这种表示方法具有以下优点：",
+        "confidence": 0.9987218379974365,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 616.0,
+          "x2": 772.0,
+          "y2": 646.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。",
+        "confidence": 0.9937838315963745,
+        "bbox": {
+          "x1": 267.0,
+          "y1": 675.0,
+          "x2": 1091.0,
+          "y2": 705.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间",
+        "confidence": 0.9967020153999329,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 710.0,
+          "x2": 1379.0,
+          "y2": 741.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "进行时间同步和比较。",
+        "confidence": 0.9987949132919312,
+        "bbox": {
+          "x1": 302.0,
+          "y1": 746.0,
+          "x2": 531.0,
+          "y2": 776.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及",
+        "confidence": 0.9963698387145996,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 781.0,
+          "x2": 1376.0,
+          "y2": 814.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "网络协议（如HTTP）所采用。",
+        "confidence": 0.9992253184318542,
+        "bbox": {
+          "x1": 300.0,
+          "y1": 814.0,
+          "x2": 616.0,
+          "y2": 849.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix纪元的存储方式与问题",
+        "confidence": 0.9851012825965881,
+        "bbox": {
+          "x1": 592.0,
+          "y1": 977.0,
+          "x2": 1065.0,
+          "y2": 1017.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于",
+        "confidence": 0.9874277710914612,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1055.0,
+          "x2": 1376.0,
+          "y2": 1085.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间",
+        "confidence": 0.984640896320343,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1090.0,
+          "x2": 1379.0,
+          "y2": 1121.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日",
+        "confidence": 0.9938648343086243,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 1125.0,
+          "x2": 1374.0,
+          "y2": 1156.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "期，导致程序崩溃或数据错误。",
+        "confidence": 0.9987329244613647,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1161.0,
+          "x2": 599.0,
+          "y2": 1191.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以",
+        "confidence": 0.9962847828865051,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1217.0,
+          "x2": 1374.0,
+          "y2": 1248.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19",
+        "confidence": 0.9938503503799438,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1253.0,
+          "x2": 1374.0,
+          "y2": 1284.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "版本开始支持64位Unix时间。",
+        "confidence": 0.991798996925354,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1293.0,
+          "x2": 574.0,
+          "y2": 1324.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix纪元与其他系统的对比",
+        "confidence": 0.98941570520401,
+        "bbox": {
+          "x1": 592.0,
+          "y1": 1451.0,
+          "x2": 1063.0,
+          "y2": 1491.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "不同操作系统和编程语言使用的纪元时间并不相同。例如：",
+        "confidence": 0.9982354044914246,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1527.0,
+          "x2": 892.0,
+          "y2": 1557.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "■ApplemacOS：纪元时间为1904年1月1日00:00:00。",
+        "confidence": 0.9530835747718811,
+        "bbox": {
+          "x1": 264.0,
+          "y1": 1581.0,
+          "x2": 840.0,
+          "y2": 1623.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。",
+        "confidence": 0.9727762937545776,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 1621.0,
+          "x2": 897.0,
+          "y2": 1654.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。",
+        "confidence": 0.9598127603530884,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 1656.0,
+          "x2": 866.0,
+          "y2": 1687.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。",
+        "confidence": 0.9976927042007446,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1715.0,
+          "x2": 1206.0,
+          "y2": 1746.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 1
+      },
+      {
+        "text": "Unix纪元的应用",
+        "confidence": 0.974228024482727,
+        "bbox": {
+          "x1": 688.0,
+          "y1": 552.0,
+          "x2": 969.0,
+          "y2": 599.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      },
+      {
+        "text": "Unix纪元时间在多个领域有广泛应用，包括：",
+        "confidence": 0.9872932434082031,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 630.0,
+          "x2": 747.0,
+          "y2": 663.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      },
+      {
+        "text": "·文件系统：记录文件的创建、修改和访问时间。",
+        "confidence": 0.9950452446937561,
+        "bbox": {
+          "x1": 267.0,
+          "y1": 691.0,
+          "x2": 801.0,
+          "y2": 722.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      },
+      {
+        "text": "·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。",
+        "confidence": 0.9958717823028564,
+        "bbox": {
+          "x1": 269.0,
+          "y1": 727.0,
+          "x2": 908.0,
+          "y2": 757.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      },
+      {
+        "text": "·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。",
+        "confidence": 0.9918415546417236,
+        "bbox": {
+          "x1": 267.0,
+          "y1": 762.0,
+          "x2": 969.0,
+          "y2": 795.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      },
+      {
+        "text": "·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+        "confidence": 0.996071994304657,
+        "bbox": {
+          "x1": 264.0,
+          "y1": 795.0,
+          "x2": 946.0,
+          "y2": 831.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false,
+        "page": 2
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "repaired_text": "Unix纪元（Unix Epoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1日00:00:00 UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时间。这一概念最早由Unix操作系统引入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中处理时间的标准方式之一。Unix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00 UTC开始的秒数。这种表示方法具有简洁性、跨时区兼容性和广泛适用性。Unix时间通常以32位有符号整数存储，存在2038年问题（Y2038问题）。为解决此问题，许多现代系统已转向使用64位有符号整数存储。不同系统如Apple macOS、Microsoft Windows和Unix/Linux采用不同的纪元时间。Unix纪元时间广泛应用于文件系统、网络协议、日志分析和数据库等领域。",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1\n日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时\n间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中\n处理时间的标准方式之一。\n\nUnix纪元的定义与作用\nUnix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00\nUTC开始的秒数。这种表示方法具有以下优点：\n·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。\n·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间\n进行时间同步和比较。\n·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及\n网络协议（如HTTP）所采用。\nUnix纪元的存储方式与问题\nUnix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于\n1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间\n题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日\n期，导致程序崩溃或数据错误。\n为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以\n持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19\n版本开始支持64位Unix时间。\nUnix纪元与其他系统的对比\n不同操作系统和编程语言使用的纪元时间并不相同。例如：\n■ApplemacOS：纪元时间为1904年1月1日00:00:00。\n·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。\n·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。\n这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。\n\nUnix纪元的应用\nUnix纪元时间在多个领域有广泛应用，包括：\n·文件系统：记录文件的创建、修改和访问时间。\n·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。\n·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。\n·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。"
+      }
+    ],
+    "summary": "Unix纪元是以1970年1月1日00:00:00 UTC为起点的时间表示法，广泛用于操作系统、编程语言和网络协议中。其基于秒数的整数表示具有简洁性和跨时区优势，但32位系统面临2038年溢出问题，现多通过64位扩展解决。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "Unix纪元",
+        "type": "主题",
+        "category": "主题",
+        "description": "以1970年1月1日00:00:00 UTC为起点的时间表示标准",
+        "aliases": [
+          "Unix纪元"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "1970年1月1日00:00:00 UTC",
+        "type": "时间",
+        "category": "时间",
+        "description": "Unix纪元的起始时间点",
+        "aliases": [
+          "1970年1月1日00:00:00 UTC"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Unix操作系统",
+        "type": "对象",
+        "category": "对象",
+        "description": "最早引入Unix纪元的操作系统",
+        "aliases": [
+          "Unix操作系统"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "POSIX标准",
+        "type": "主题",
+        "category": "主题",
+        "description": "标准化Unix接口的技术规范",
+        "aliases": [
+          "POSIX标准"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "时间戳",
+        "type": "主题",
+        "category": "主题",
+        "description": "表示自Unix纪元以来经过的秒数",
+        "aliases": [
+          "时间戳"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "2038年问题",
+        "type": "事件",
+        "category": "事件",
+        "description": "32位有符号整数溢出导致的时间错误",
+        "aliases": [
+          "2038年问题"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "64位有符号整数",
+        "type": "主题",
+        "category": "主题",
+        "description": "解决Y2038问题的存储扩展方案",
+        "aliases": [
+          "64位有符号整数"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Linux内核",
+        "type": "主题",
+        "category": "主题",
+        "description": "从2.6.19版本起支持64位Unix时间",
+        "aliases": [
+          "Linux内核"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Apple macOS",
+        "type": "主题",
+        "category": "主题",
+        "description": "使用1904年为纪元起点的操作系统",
+        "aliases": [
+          "Apple macOS"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Microsoft Windows",
+        "type": "主题",
+        "category": "主题",
+        "description": "使用1601年为纪元起点的操作系统",
+        "aliases": [
+          "Microsoft Windows"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "文件系统",
+        "type": "文件",
+        "category": "文件",
+        "description": "利用Unix时间记录文件时间属性",
+        "aliases": [
+          "文件系统"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "网络协议",
+        "type": "主题",
+        "category": "主题",
+        "description": "如HTTP等使用Unix时间戳传输时间信息",
+        "aliases": [
+          "网络协议"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "日志分析",
+        "type": "事件",
+        "category": "事件",
+        "description": "通过Unix时间戳追踪系统事件发生时间",
+        "aliases": [
+          "日志分析"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "数据库",
+        "type": "对象",
+        "category": "对象",
+        "description": "存储时间数据时常用Unix时间戳格式",
+        "aliases": [
+          "数据库"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "Unix纪元",
+        "target": "1970年1月1日00:00:00 UTC",
+        "relation": "属于",
+        "confidence": 0.95,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Unix操作系统",
+        "relation": "关联",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "POSIX标准",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "2038年问题",
+        "relation": "包含",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "64位有符号整数",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Apple macOS",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Microsoft Windows",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "文件系统",
+        "relation": "关联",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "网络协议",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "日志分析",
+        "relation": "包含",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "数据库",
+        "relation": "关联",
+        "confidence": 0.55,
+        "raw_relation": "center_repair"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Unix操作系统",
+        "relation": "提出",
+        "confidence": 0.9,
+        "raw_relation": "提出"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "POSIX标准",
+        "relation": "包含",
+        "confidence": 0.85,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "时间戳",
+        "target": "Unix纪元",
+        "relation": "关联",
+        "confidence": 0.95,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "2038年问题",
+        "target": "32位有符号整数",
+        "relation": "导致",
+        "confidence": 0.9,
+        "raw_relation": "导致"
+      },
+      {
+        "source": "64位有符号整数",
+        "target": "2038年问题",
+        "relation": "导致",
+        "confidence": 0.85,
+        "raw_relation": "解决"
+      },
+      {
+        "source": "Linux内核",
+        "target": "64位有符号整数",
+        "relation": "使用",
+        "confidence": 0.9,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "文件系统",
+        "relation": "服务于",
+        "confidence": 0.9,
+        "raw_relation": "应用于"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "网络协议",
+        "relation": "关联",
+        "confidence": 0.9,
+        "raw_relation": "应用于"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "日志分析",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "应用于"
+      },
+      {
+        "source": "Unix纪元",
+        "target": "数据库",
+        "relation": "服务于",
+        "confidence": 0.9,
+        "raw_relation": "应用于"
+      },
+      {
+        "source": "Apple macOS",
+        "target": "1904年1月1日00:00:00",
+        "relation": "关联",
+        "confidence": 0.85,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "Microsoft Windows",
+        "target": "1601年1月1日00:00:00",
+        "relation": "关联",
+        "confidence": 0.85,
+        "raw_relation": "属于"
+      }
+    ],
+    "keywords": [
+      "Unix纪元",
+      "1970年1月1日00:00:00 UTC",
+      "Unix操作系统",
+      "POSIX标准",
+      "时间戳",
+      "2038年问题",
+      "64位有符号整数",
+      "Linux内核",
+      "Apple macOS",
+      "Microsoft Windows",
+      "文件系统",
+      "网络协议"
+    ],
+    "visual_notes": [
+      "原文分块清晰，包含多个标题段落（如'定义与作用'、'存储方式与问题'等），适合结构化提取。",
+      "OCR识别基本准确，仅需修复'引I入'为'引入'，'C/C '补全为'C/C++'。",
+      "项目符号列表可用于抽取应用场景和特性。"
+    ],
+    "ltp_entities": [],
+    "source": "ai"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "Unix纪元",
+        "name": "Unix纪元",
+        "label": "Unix纪元",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "以1970年1月1日00:00:00 UTC为起点的时间表示标准",
+        "source": "llm",
+        "importance": 0.8211,
+        "symbolSize": 48.99113947398226
+      },
+      {
+        "id": "1970年1月1日00:00:00 UTC",
+        "name": "1970年1月1日00:00:00 UTC",
+        "label": "1970年1月1日00:00:00 UTC",
+        "type": "时间",
+        "category": "时间",
+        "group": 0,
+        "description": "Unix纪元的起始时间点",
+        "source": "llm",
+        "importance": 0.1655,
+        "symbolSize": 30.63473301540592
+      },
+      {
+        "id": "Unix操作系统",
+        "name": "Unix操作系统",
+        "label": "Unix操作系统",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "最早引入Unix纪元的操作系统",
+        "source": "llm",
+        "importance": 0.1644,
+        "symbolSize": 30.60377701886747
+      },
+      {
+        "id": "POSIX标准",
+        "name": "POSIX标准",
+        "label": "POSIX标准",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "标准化Unix接口的技术规范",
+        "source": "llm",
+        "importance": 0.1633,
+        "symbolSize": 30.572821022329016
+      },
+      {
+        "id": "时间戳",
+        "name": "时间戳",
+        "label": "时间戳",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "表示自Unix纪元以来经过的秒数",
+        "source": "llm",
+        "importance": 0.1445,
+        "symbolSize": 30.046569081175313
+      },
+      {
+        "id": "2038年问题",
+        "name": "2038年问题",
+        "label": "2038年问题",
+        "type": "时间",
+        "category": "时间",
+        "group": 1,
+        "description": "32位有符号整数溢出导致的时间错误",
+        "source": "llm",
+        "importance": 0.4907,
+        "symbolSize": 39.73905951646513
+      },
+      {
+        "id": "64位有符号整数",
+        "name": "64位有符号整数",
+        "label": "64位有符号整数",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "解决Y2038问题的存储扩展方案",
+        "source": "llm",
+        "importance": 0.3511,
+        "symbolSize": 35.83165543590524
+      },
+      {
+        "id": "Linux内核",
+        "name": "Linux内核",
+        "label": "Linux内核",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "从2.6.19版本起支持64位Unix时间",
+        "source": "llm",
+        "importance": 0.1445,
+        "symbolSize": 30.046569081175313
+      },
+      {
+        "id": "Apple macOS",
+        "name": "Apple macOS",
+        "label": "Apple macOS",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "使用1904年为纪元起点的操作系统",
+        "source": "llm",
+        "importance": 0.2245,
+        "symbolSize": 32.287085043098294
+      },
+      {
+        "id": "Microsoft Windows",
+        "name": "Microsoft Windows",
+        "label": "Microsoft Windows",
+        "type": "主题",
+        "category": "主题",
+        "group": 3,
+        "description": "使用1601年为纪元起点的操作系统",
+        "source": "llm",
+        "importance": 0.2245,
+        "symbolSize": 32.287085043098294
+      },
+      {
+        "id": "文件系统",
+        "name": "文件系统",
+        "label": "文件系统",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "利用Unix时间记录文件时间属性",
+        "source": "llm",
+        "importance": 0.1644,
+        "symbolSize": 30.60377701886747
+      },
+      {
+        "id": "网络协议",
+        "name": "网络协议",
+        "label": "网络协议",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "如HTTP等使用Unix时间戳传输时间信息",
+        "source": "llm",
+        "importance": 0.1644,
+        "symbolSize": 30.60377701886747
+      },
+      {
+        "id": "日志分析",
+        "name": "日志分析",
+        "label": "日志分析",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "通过Unix时间戳追踪系统事件发生时间",
+        "source": "llm",
+        "importance": 0.1644,
+        "symbolSize": 30.60377701886747
+      },
+      {
+        "id": "数据库",
+        "name": "数据库",
+        "label": "数据库",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "存储时间数据时常用Unix时间戳格式",
+        "source": "llm",
+        "importance": 0.1644,
+        "symbolSize": 30.60377701886747
+      },
+      {
+        "id": "32位有符号整数",
+        "name": "32位有符号整数",
+        "label": "32位有符号整数",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "",
+        "source": "relation_auto",
+        "importance": 0.425,
+        "symbolSize": 37.900000000000006
+      },
+      {
+        "id": "1904年1月1日00:00:00",
+        "name": "1904年1月1日00:00:00",
+        "label": "1904年1月1日00:00:00",
+        "type": "时间",
+        "category": "时间",
+        "group": 2,
+        "description": "",
+        "source": "relation_auto",
+        "importance": 0.2564,
+        "symbolSize": 33.180594535812084
+      },
+      {
+        "id": "1601年1月1日00:00:00",
+        "name": "1601年1月1日00:00:00",
+        "label": "1601年1月1日00:00:00",
+        "type": "时间",
+        "category": "时间",
+        "group": 3,
+        "description": "",
+        "source": "relation_auto",
+        "importance": 0.2564,
+        "symbolSize": 33.180594535812084
+      }
+    ],
+    "edges": [
+      {
+        "source": "Unix纪元",
+        "target": "1970年1月1日00:00:00 UTC",
+        "relation": "属于",
+        "raw_relation": "属于",
+        "label": "属于",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Unix操作系统",
+        "relation": "提出",
+        "raw_relation": "提出",
+        "label": "提出",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Unix纪元",
+        "target": "POSIX标准",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "Unix纪元",
+        "target": "2038年问题",
+        "relation": "包含",
+        "raw_relation": "center_repair",
+        "label": "包含",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "Unix纪元",
+        "target": "64位有符号整数",
+        "relation": "体现",
+        "raw_relation": "center_repair",
+        "label": "体现",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Apple macOS",
+        "relation": "体现",
+        "raw_relation": "center_repair",
+        "label": "体现",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "Unix纪元",
+        "target": "Microsoft Windows",
+        "relation": "体现",
+        "raw_relation": "center_repair",
+        "label": "体现",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "Unix纪元",
+        "target": "文件系统",
+        "relation": "服务于",
+        "raw_relation": "应用于",
+        "label": "服务于",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Unix纪元",
+        "target": "网络协议",
+        "relation": "关联",
+        "raw_relation": "应用于",
+        "label": "关联",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Unix纪元",
+        "target": "日志分析",
+        "relation": "参与",
+        "raw_relation": "应用于",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Unix纪元",
+        "target": "数据库",
+        "relation": "服务于",
+        "raw_relation": "应用于",
+        "label": "服务于",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "时间戳",
+        "target": "Unix纪元",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "2038年问题",
+        "target": "32位有符号整数",
+        "relation": "导致",
+        "raw_relation": "导致",
+        "label": "导致",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "64位有符号整数",
+        "target": "2038年问题",
+        "relation": "导致",
+        "raw_relation": "解决",
+        "label": "导致",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "Linux内核",
+        "target": "64位有符号整数",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Apple macOS",
+        "target": "1904年1月1日00:00:00",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "Microsoft Windows",
+        "target": "1601年1月1日00:00:00",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.85,
+        "confidence": 0.85
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "Unix纪元",
+        "score": 0.8211,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.5528,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "2038年问题",
+        "score": 0.4907,
+        "degree": 0.25,
+        "betweenness": 0.2857,
+        "pagerank": 0.8249,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "32位有符号整数",
+        "score": 0.425,
+        "degree": 0.0833,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "64位有符号整数",
+        "score": 0.3511,
+        "degree": 0.25,
+        "betweenness": 0.1429,
+        "pagerank": 0.5832,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      },
+      {
+        "name": "1904年1月1日00:00:00",
+        "score": 0.2564,
+        "degree": 0.0833,
+        "betweenness": 0.0,
+        "pagerank": 0.5786,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "Unix纪元": 1.0,
+        "1970年1月1日00:00:00 UTC": 0.08333333333333333,
+        "Unix操作系统": 0.08333333333333333,
+        "POSIX标准": 0.08333333333333333,
+        "时间戳": 0.08333333333333333,
+        "2038年问题": 0.25,
+        "64位有符号整数": 0.25,
+        "Linux内核": 0.08333333333333333,
+        "Apple macOS": 0.16666666666666666,
+        "Microsoft Windows": 0.16666666666666666,
+        "文件系统": 0.08333333333333333,
+        "网络协议": 0.08333333333333333,
+        "日志分析": 0.08333333333333333,
+        "数据库": 0.08333333333333333,
+        "32位有符号整数": 0.08333333333333333,
+        "1904年1月1日00:00:00": 0.08333333333333333,
+        "1601年1月1日00:00:00": 0.08333333333333333
+      },
+      "betweenness": {
+        "Unix纪元": 1.0,
+        "1970年1月1日00:00:00 UTC": 0.0,
+        "Unix操作系统": 0.0,
+        "POSIX标准": 0.0,
+        "时间戳": 0.0,
+        "2038年问题": 0.2857142857142857,
+        "64位有符号整数": 0.14285714285714285,
+        "Linux内核": 0.0,
+        "Apple macOS": 0.14285714285714285,
+        "Microsoft Windows": 0.14285714285714285,
+        "文件系统": 0.0,
+        "网络协议": 0.0,
+        "日志分析": 0.0,
+        "数据库": 0.0,
+        "32位有符号整数": 0.0,
+        "1904年1月1日00:00:00": 0.0,
+        "1601年1月1日00:00:00": 0.0
+      },
+      "pagerank": {
+        "Unix纪元": 0.552780310176987,
+        "1970年1月1日00:00:00 UTC": 0.3513154478041001,
+        "Unix操作系统": 0.3485515195417382,
+        "POSIX标准": 0.34578759127937636,
+        "时间戳": 0.2988008108192245,
+        "2038年问题": 0.8249160282558151,
+        "64位有符号整数": 0.5831835210629677,
+        "Linux内核": 0.2988008108192245,
+        "Apple macOS": 0.3292040217052051,
+        "Microsoft Windows": 0.3292040217052051,
+        "文件系统": 0.3485515195417382,
+        "网络协议": 0.3485515195417382,
+        "日志分析": 0.3485515195417382,
+        "数据库": 0.3485515195417382,
+        "32位有符号整数": 1.0,
+        "1904年1月1日00:00:00": 0.5786245121260787,
+        "1601年1月1日00:00:00": 0.5786245121260787
+      },
+      "fusion": {
+        "Unix纪元": 0.8211121240707948,
+        "1970年1月1日00:00:00 UTC": 0.16552617912164005,
+        "Unix操作系统": 0.16442060781669526,
+        "POSIX标准": 0.16331503651175056,
+        "时间戳": 0.1445203243276898,
+        "2038年问题": 0.49068069701661177,
+        "64位有符号整数": 0.35113055128232995,
+        "Linux内核": 0.1445203243276898,
+        "Apple macOS": 0.22453875153922487,
+        "Microsoft Windows": 0.22453875153922487,
+        "文件系统": 0.16442060781669526,
+        "网络协议": 0.16442060781669526,
+        "日志分析": 0.16442060781669526,
+        "数据库": 0.16442060781669526,
+        "32位有符号整数": 0.42500000000000004,
+        "1904年1月1日00:00:00": 0.2564498048504315,
+        "1601年1月1日00:00:00": 0.2564498048504315
+      }
+    },
+    "important_paths": [
+      [
+        "Unix纪元",
+        "2038年问题"
+      ],
+      [
+        "Unix纪元",
+        "2038年问题",
+        "32位有符号整数"
+      ],
+      [
+        "Unix纪元",
+        "64位有符号整数"
+      ],
+      [
+        "2038年问题",
+        "32位有符号整数"
+      ],
+      [
+        "64位有符号整数",
+        "2038年问题"
+      ]
+    ]
+  },
+  "summary_result": {
+    "summary": "Unix纪元是以1970年1月1日00:00:00 UTC为起点的时间表示法，广泛用于计算机系统和编程语言中，具有简洁、跨时区兼容等优点，但32位系统存在2038年问题，现多采用64位解决。",
+    "text_type": "文档内容",
+    "repaired_text": "【文本内容区域1】 Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1 日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时 间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中 处理时间的标准方式之一。 【文本内容区域2】 Unix纪元的定义与作用 Unix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00 UTC开始的秒数。这种表示方法具有以下优点： ·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。 ·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间 进行时间同步和比较。 ·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及 网络协议（如HTTP）所采用。 Unix纪元的存储方式与问题 Unix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于 1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间 题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日 期，导致程序崩溃或数据错误。 为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以 持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19 版本开始支持64位Unix时间。 Unix纪元与其他系统的对比 不同操作系统和编程语言使用的纪元时间并不相同。例如： ■ApplemacOS：纪元时间为1904年1月1日00:00:00。 ·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。 ·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。 这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。 【文本内容区域1】 Unix纪元的应用 Unix纪元时间在多个领域有广泛应用，包括： ·文件系统：记录文件的创建、修改和访问时间。 ·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。 ·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。 ·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【文本内容区域1】 Unix纪元（UnixEpoch）是指在计算机系统中用于表示时间的起始参考点。它通常被定义为1970年1月1 日00:00:00UTC（协调世界时），从这一刻开始计算时间，以秒为单位记录自该时刻以来所经过的时 间。这一概念最早由Unix操作系统引I入，并在POSIX标准中被广泛采用，成为计算机科学和编程领域中 处理时间的标准方式之一。 【文本内容区域2】 Unix纪元的定义与作用 Unix纪元的核心思想是将时间表示为一个单一的数字（简化时间处理），即从1970年1月1日00:00:00 UTC开始的秒数。这种表示方法具有以下优点： ·简洁性：使用单个整数表示时间，节省存储空间，便于计算和比较时间戳。 ·跨时区兼容性：由于Unix时间是基于UTC的，因此不受本地时区的影响，便于在不同地区或系统之间 进行时间同步和比较。 ·广泛适用性：Unix时间不仅在Unix和Linux系统中使用，还被Java、C/C 、JavaScript等编程语言以及 网络协议（如HTTP）所采用。 Unix纪元的存储方式与问题 Unix时间通常以32位有符号整数存储，这意味着它可以表示的最大时间为2,147,483,647秒，大约相当于 1970年1月1日至2038年1月19日03:14:07UTC。然而，这种存储方式存在一个严重的问题，即2038年间 题（Y2038问题）。当Unix时间达到32位整数的最大值时，系统可能会将时间重置为1970年之前的日 期，导致程序崩溃或数据错误。 为了解决这一问题，许多现代系统已经转向使用64位有符号整数来存储Unix时间，这使得Unix时间可以 持续到约292,471,155,000,000,000秒，即大约140亿年，远超宇宙的当前年龄。例如，Linux内核从2.6.19 版本开始支持64位Unix时间。 Unix纪元与其他系统的对比 不同操作系统和编程语言使用的纪元时间并不相同。例如： ■ApplemacOS：纪元时间为1904年1月1日00:00:00。 ·MicrosoftWindows：纪元时间为1601年1月1日00:00:00。 ·Unix/Linux：纪元时间为1970年1月1日00:00:00UTC。 这些差异意味着在跨平台开发或数据交换时，需要特别注意时间戳的转换和兼容性问题。 【文本内容区域1】 Unix纪元的应用 Unix纪元时间在多个领域有广泛应用，包括： ·文件系统：记录文件的创建、修改和访问时间。 ·网络协议：如HTTP响应头中使用Unix时间戳来表示时间。 ·日志分析：系统日志通常使用Unix时间戳记录事件发生的时间。 ·数据库：许多数据库系统使用Unix时间戳来存储时间戳数据。"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "text": "xyl",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "xyl",
+    "structured_text": "xyl",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "xyl",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "文本内容过于简略，无法提取有效信息。",
+    "entities": [
+      {
+        "name": "xyl",
+        "type": "其他",
+        "description": "未知含义的缩写或标识符"
+      }
+    ],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "未识别内容",
+        "text": "xyl"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "xyl",
+        "name": "xyl",
+        "label": "xyl",
+        "type": "其他",
+        "category": "其他",
+        "description": "未知含义的缩写或标识符",
+        "symbolSize": 35
+      }
+    ],
+    "edges": []
+  }
+}

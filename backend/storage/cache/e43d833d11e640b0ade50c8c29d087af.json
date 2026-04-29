@@ -1,0 +1,492 @@
+{
+  "text": "【顶部第一行】\nStep 1: 进入 backend\n\n【文本内容区域1】\nStep 1: 进入 backend\n</>Bash\ncd D:\\AI-Graph-System\\backend\nStep2：创建虚拟环境 (只做一次)\n<>Bash\npy -3.10 -m venv venv\nStep3：激活环境\nvenv\\scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+  "file_path": "storage/images\\64bf0f033ea0421ba7e275d319814e77_PixPin_2026-04-24_15-42-20.png",
+  "ocr": {
+    "raw_text": "Step 1: 进入 backend\nStep 1: 进入 backend\n</>Bash\ncd D:\\AI-Graph-System\\backend\nStep2：创建虚拟环境 (只做一次)\n<>Bash\npy -3.10 -m venv venv\nStep3：激活环境\nvenv\\scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+    "structured_text": "【顶部第一行】\nStep 1: 进入 backend\n\n【文本内容区域1】\nStep 1: 进入 backend\n</>Bash\ncd D:\\AI-Graph-System\\backend\nStep2：创建虚拟环境 (只做一次)\n<>Bash\npy -3.10 -m venv venv\nStep3：激活环境\nvenv\\scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "顶部第一行",
+        "text": "Step 1: 进入 backend",
+        "blocks": []
+      },
+      {
+        "module": "文本内容区域1",
+        "text": "Step 1: 进入 backend\n</>Bash\ncd D:\\AI-Graph-System\\backend\nStep2：创建虚拟环境 (只做一次)\n<>Bash\npy -3.10 -m venv venv\nStep3：激活环境\nvenv\\scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+        "blocks": [
+          {
+            "text": "Step 1: 进入 backend",
+            "confidence": 0.9353941679000854,
+            "bbox": {
+              "x1": 77.0,
+              "y1": 12.0,
+              "x2": 433.0,
+              "y2": 44.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "</>Bash",
+            "confidence": 0.9619472622871399,
+            "bbox": {
+              "x1": 46.0,
+              "y1": 101.0,
+              "x2": 147.0,
+              "y2": 129.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "cd D:\\AI-Graph-System\\backend",
+            "confidence": 0.9993162751197815,
+            "bbox": {
+              "x1": 47.0,
+              "y1": 160.0,
+              "x2": 424.0,
+              "y2": 190.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "Step2：创建虚拟环境 (只做一次)",
+            "confidence": 0.9728274345397949,
+            "bbox": {
+              "x1": 75.0,
+              "y1": 315.0,
+              "x2": 597.0,
+              "y2": 351.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "<>Bash",
+            "confidence": 0.9538170695304871,
+            "bbox": {
+              "x1": 46.0,
+              "y1": 407.0,
+              "x2": 148.0,
+              "y2": 436.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "py -3.10 -m venv venv",
+            "confidence": 0.9680997729301453,
+            "bbox": {
+              "x1": 44.0,
+              "y1": 467.0,
+              "x2": 323.0,
+              "y2": 497.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "Step3：激活环境",
+            "confidence": 0.9640227556228638,
+            "bbox": {
+              "x1": 74.0,
+              "y1": 619.0,
+              "x2": 350.0,
+              "y2": 658.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "venv\\scripts\\activate",
+            "confidence": 0.990216851234436,
+            "bbox": {
+              "x1": 48.0,
+              "y1": 773.0,
+              "x2": 318.0,
+              "y2": 797.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "Step4：安装所有依赖",
+            "confidence": 0.9922520518302917,
+            "bbox": {
+              "x1": 75.0,
+              "y1": 926.0,
+              "x2": 415.0,
+              "y2": 962.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "pip install -r requirements.txt",
+            "confidence": 0.999479353427887,
+            "bbox": {
+              "x1": 45.0,
+              "y1": 1076.0,
+              "x2": 450.0,
+              "y2": 1107.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 44.0,
+          "y1": 12.0,
+          "x2": 597.0,
+          "y2": 1107.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Step 1: 进入 backend",
+        "confidence": 0.9353941679000854,
+        "bbox": {
+          "x1": 77.0,
+          "y1": 12.0,
+          "x2": 433.0,
+          "y2": 44.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "</>Bash",
+        "confidence": 0.9619472622871399,
+        "bbox": {
+          "x1": 46.0,
+          "y1": 101.0,
+          "x2": 147.0,
+          "y2": 129.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "cd D:\\AI-Graph-System\\backend",
+        "confidence": 0.9993162751197815,
+        "bbox": {
+          "x1": 47.0,
+          "y1": 160.0,
+          "x2": 424.0,
+          "y2": 190.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "Step2：创建虚拟环境 (只做一次)",
+        "confidence": 0.9728274345397949,
+        "bbox": {
+          "x1": 75.0,
+          "y1": 315.0,
+          "x2": 597.0,
+          "y2": 351.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "<>Bash",
+        "confidence": 0.9538170695304871,
+        "bbox": {
+          "x1": 46.0,
+          "y1": 407.0,
+          "x2": 148.0,
+          "y2": 436.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "py -3.10 -m venv venv",
+        "confidence": 0.9680997729301453,
+        "bbox": {
+          "x1": 44.0,
+          "y1": 467.0,
+          "x2": 323.0,
+          "y2": 497.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "Step3：激活环境",
+        "confidence": 0.9640227556228638,
+        "bbox": {
+          "x1": 74.0,
+          "y1": 619.0,
+          "x2": 350.0,
+          "y2": 658.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "venv\\scripts\\activate",
+        "confidence": 0.990216851234436,
+        "bbox": {
+          "x1": 48.0,
+          "y1": 773.0,
+          "x2": 318.0,
+          "y2": 797.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "Step4：安装所有依赖",
+        "confidence": 0.9922520518302917,
+        "bbox": {
+          "x1": 75.0,
+          "y1": 926.0,
+          "x2": 415.0,
+          "y2": 962.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "pip install -r requirements.txt",
+        "confidence": 0.999479353427887,
+        "bbox": {
+          "x1": 45.0,
+          "y1": 1076.0,
+          "x2": 450.0,
+          "y2": 1107.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.0772,
+    "non_white_ratio": 0.0414
+  },
+  "ai_result": {
+    "summary": "该文档为AI图系统后端项目的初始化配置指南，包含进入项目目录、创建并激活Python虚拟环境、安装依赖等步骤，适用于Windows平台下的开发环境搭建。",
+    "entities": [
+      {
+        "name": "AI-Graph-System",
+        "type": "项目",
+        "description": "一个AI驱动的图系统项目"
+      },
+      {
+        "name": "backend",
+        "type": "目录",
+        "description": "项目后端主目录"
+      },
+      {
+        "name": "Python虚拟环境",
+        "type": "技术",
+        "description": "使用venv模块创建隔离的Python运行环境"
+      },
+      {
+        "name": "pip",
+        "type": "工具",
+        "description": "Python包管理工具"
+      },
+      {
+        "name": "requirements.txt",
+        "type": "文件",
+        "description": "记录项目所需Python依赖包的文件"
+      },
+      {
+        "name": "Windows",
+        "type": "操作系统",
+        "description": "命令中使用反斜杠路径，表明目标系统为Windows"
+      }
+    ],
+    "relations": [
+      {
+        "source": "AI-Graph-System",
+        "target": "backend",
+        "relation": "包含",
+        "confidence": 0.95
+      },
+      {
+        "source": "backend",
+        "target": "requirements.txt",
+        "relation": "依赖",
+        "confidence": 0.9
+      },
+      {
+        "source": "Python虚拟环境",
+        "target": "venv",
+        "relation": "实现方式",
+        "confidence": 0.98
+      },
+      {
+        "source": "pip",
+        "target": "requirements.txt",
+        "relation": "读取",
+        "confidence": 0.92
+      }
+    ],
+    "keywords": [
+      "AI-Graph-System",
+      "虚拟环境",
+      "pip",
+      "requirements.txt",
+      "backend",
+      "Windows",
+      "Python"
+    ],
+    "modules": [
+      {
+        "module": "进入后端目录",
+        "text": "cd D:\\AI-Graph-System\\backend"
+      },
+      {
+        "module": "创建虚拟环境",
+        "text": "py -3.10 -m venv venv"
+      },
+      {
+        "module": "激活虚拟环境",
+        "text": "venv\\scripts\\activate"
+      },
+      {
+        "module": "安装项目依赖",
+        "text": "pip install -r requirements.txt"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.0772,
+      "non_white_ratio": 0.0414
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "AI-Graph-System",
+        "name": "AI-Graph-System",
+        "label": "AI-Graph-System",
+        "type": "项目",
+        "category": "项目",
+        "description": "一个AI驱动的图系统项目",
+        "symbolSize": 35
+      },
+      {
+        "id": "backend",
+        "name": "backend",
+        "label": "backend",
+        "type": "目录",
+        "category": "目录",
+        "description": "项目后端主目录",
+        "symbolSize": 35
+      },
+      {
+        "id": "Python虚拟环境",
+        "name": "Python虚拟环境",
+        "label": "Python虚拟环境",
+        "type": "技术",
+        "category": "技术",
+        "description": "使用venv模块创建隔离的Python运行环境",
+        "symbolSize": 35
+      },
+      {
+        "id": "pip",
+        "name": "pip",
+        "label": "pip",
+        "type": "工具",
+        "category": "工具",
+        "description": "Python包管理工具",
+        "symbolSize": 35
+      },
+      {
+        "id": "requirements.txt",
+        "name": "requirements.txt",
+        "label": "requirements.txt",
+        "type": "文件",
+        "category": "文件",
+        "description": "记录项目所需Python依赖包的文件",
+        "symbolSize": 35
+      },
+      {
+        "id": "Windows",
+        "name": "Windows",
+        "label": "Windows",
+        "type": "操作系统",
+        "category": "操作系统",
+        "description": "命令中使用反斜杠路径，表明目标系统为Windows",
+        "symbolSize": 35
+      },
+      {
+        "id": "venv",
+        "name": "venv",
+        "label": "venv",
+        "type": "概念",
+        "category": "概念",
+        "description": "",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "AI-Graph-System",
+        "target": "backend",
+        "relation": "包含",
+        "label": "包含",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "backend",
+        "target": "requirements.txt",
+        "relation": "依赖",
+        "label": "依赖",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "Python虚拟环境",
+        "target": "venv",
+        "relation": "实现方式",
+        "label": "实现方式",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "pip",
+        "target": "requirements.txt",
+        "relation": "读取",
+        "label": "读取",
+        "weight": 0.92,
+        "confidence": 0.92
+      }
+    ]
+  }
+}

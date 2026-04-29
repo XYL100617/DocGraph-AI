@@ -1,0 +1,64 @@
+{
+  "text": "识别",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "识别",
+    "structured_text": "识别",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "识别",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "文本内容为“识别”，语义不完整，可能涉及某种识别任务或概念，但缺乏上下文支持。",
+    "entities": [
+      {
+        "name": "识别",
+        "type": "概念",
+        "description": "可能指代模式识别、身份识别或其他识别类任务"
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "识别"
+    ],
+    "modules": [
+      {
+        "module": "主题概述",
+        "text": "识别"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "识别",
+        "name": "识别",
+        "label": "识别",
+        "type": "概念",
+        "category": "概念",
+        "description": "可能指代模式识别、身份识别或其他识别类任务",
+        "symbolSize": 35
+      }
+    ],
+    "edges": []
+  }
+}

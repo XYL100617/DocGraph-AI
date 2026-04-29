@@ -1,0 +1,746 @@
+{
+  "text": "【文本内容区域1】\nexperiments>expl>wexp0104.s> moveax,0\n1 .intel syntax noprefix\n2 .data\n3 msg: .asciz\"Hello,Assembly!\\n\"\n4 .text\n5 .globl main\n6 main:\n7 lea rax, msg[rig]\n8 call dispmsg\n9 mov eax,d\n10 ret",
+  "file_path": "storage/images\\2a2a494257424d3f910b866570cefc19_PixPin_2026-04-16_16-18-51.png",
+  "ocr": {
+    "raw_text": "experiments>expl>wexp0104.s>\nmoveax,0\n1\n.intel syntax noprefix\n2\n.data\n3\nmsg:\n.asciz\"Hello,Assembly!\\n\"\n4\n.text\n5\n.globl main\n6\nmain:\n7\nlea rax,\nmsg[rig]\n8\ncall dispmsg\n9\nmov eax,d\n10\nret",
+    "structured_text": "【文本内容区域1】\nexperiments>expl>wexp0104.s> moveax,0\n1 .intel syntax noprefix\n2 .data\n3 msg: .asciz\"Hello,Assembly!\\n\"\n4 .text\n5 .globl main\n6 main:\n7 lea rax, msg[rig]\n8 call dispmsg\n9 mov eax,d\n10 ret",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "文本内容区域1",
+        "text": "experiments>expl>wexp0104.s> moveax,0\n1 .intel syntax noprefix\n2 .data\n3 msg: .asciz\"Hello,Assembly!\\n\"\n4 .text\n5 .globl main\n6 main:\n7 lea rax, msg[rig]\n8 call dispmsg\n9 mov eax,d\n10 ret",
+        "blocks": [
+          {
+            "text": "experiments>expl>wexp0104.s>",
+            "confidence": 0.9310644268989563,
+            "bbox": {
+              "x1": 11.0,
+              "y1": 13.0,
+              "x2": 427.0,
+              "y2": 37.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "moveax,0",
+            "confidence": 0.9100191593170166,
+            "bbox": {
+              "x1": 467.0,
+              "y1": 10.0,
+              "x2": 595.0,
+              "y2": 38.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "1",
+            "confidence": 0.9917042255401611,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 47.0,
+              "x2": 62.0,
+              "y2": 72.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": ".intel syntax noprefix",
+            "confidence": 0.9638777375221252,
+            "bbox": {
+              "x1": 105.0,
+              "y1": 43.0,
+              "x2": 418.0,
+              "y2": 73.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "2",
+            "confidence": 0.9990787506103516,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 77.0,
+              "x2": 61.0,
+              "y2": 105.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": ".data",
+            "confidence": 0.9949663877487183,
+            "bbox": {
+              "x1": 101.0,
+              "y1": 75.0,
+              "x2": 178.0,
+              "y2": 104.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "3",
+            "confidence": 0.9996050000190735,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 109.0,
+              "x2": 61.0,
+              "y2": 136.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "msg:",
+            "confidence": 0.9793648719787598,
+            "bbox": {
+              "x1": 98.0,
+              "y1": 109.0,
+              "x2": 164.0,
+              "y2": 139.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": ".asciz\"Hello,Assembly!\\n\"",
+            "confidence": 0.9524710774421692,
+            "bbox": {
+              "x1": 183.0,
+              "y1": 109.0,
+              "x2": 555.0,
+              "y2": 136.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "4",
+            "confidence": 0.9993942975997925,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 143.0,
+              "x2": 61.0,
+              "y2": 167.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": ".text",
+            "confidence": 0.9978561401367188,
+            "bbox": {
+              "x1": 102.0,
+              "y1": 141.0,
+              "x2": 178.0,
+              "y2": 167.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "5",
+            "confidence": 0.9988738894462585,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 174.0,
+              "x2": 61.0,
+              "y2": 201.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": ".globl main",
+            "confidence": 0.9117273688316345,
+            "bbox": {
+              "x1": 102.0,
+              "y1": 169.0,
+              "x2": 263.0,
+              "y2": 202.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "6",
+            "confidence": 0.9986690282821655,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 206.0,
+              "x2": 61.0,
+              "y2": 231.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "main:",
+            "confidence": 0.98951655626297,
+            "bbox": {
+              "x1": 100.0,
+              "y1": 205.0,
+              "x2": 175.0,
+              "y2": 231.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "7",
+            "confidence": 0.9983964562416077,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 238.0,
+              "x2": 61.0,
+              "y2": 263.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "lea rax,",
+            "confidence": 0.8930822610855103,
+            "bbox": {
+              "x1": 98.0,
+              "y1": 235.0,
+              "x2": 243.0,
+              "y2": 265.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "msg[rig]",
+            "confidence": 0.9598668217658997,
+            "bbox": {
+              "x1": 236.0,
+              "y1": 236.0,
+              "x2": 358.0,
+              "y2": 267.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "8",
+            "confidence": 0.9992838501930237,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 270.0,
+              "x2": 61.0,
+              "y2": 295.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "call dispmsg",
+            "confidence": 0.9702009558677673,
+            "bbox": {
+              "x1": 101.0,
+              "y1": 264.0,
+              "x2": 276.0,
+              "y2": 298.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "9",
+            "confidence": 0.9979720711708069,
+            "bbox": {
+              "x1": 42.0,
+              "y1": 302.0,
+              "x2": 61.0,
+              "y2": 326.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "mov eax,d",
+            "confidence": 0.8611069321632385,
+            "bbox": {
+              "x1": 98.0,
+              "y1": 297.0,
+              "x2": 250.0,
+              "y2": 332.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "10",
+            "confidence": 0.9975709915161133,
+            "bbox": {
+              "x1": 29.0,
+              "y1": 333.0,
+              "x2": 62.0,
+              "y2": 360.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "ret",
+            "confidence": 0.9982401728630066,
+            "bbox": {
+              "x1": 99.0,
+              "y1": 332.0,
+              "x2": 150.0,
+              "y2": 359.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 11.0,
+          "y1": 10.0,
+          "x2": 595.0,
+          "y2": 360.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "experiments>expl>wexp0104.s>",
+        "confidence": 0.9310644268989563,
+        "bbox": {
+          "x1": 11.0,
+          "y1": 13.0,
+          "x2": 427.0,
+          "y2": 37.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "moveax,0",
+        "confidence": 0.9100191593170166,
+        "bbox": {
+          "x1": 467.0,
+          "y1": 10.0,
+          "x2": 595.0,
+          "y2": 38.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "1",
+        "confidence": 0.9917042255401611,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 47.0,
+          "x2": 62.0,
+          "y2": 72.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": ".intel syntax noprefix",
+        "confidence": 0.9638777375221252,
+        "bbox": {
+          "x1": 105.0,
+          "y1": 43.0,
+          "x2": 418.0,
+          "y2": 73.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "2",
+        "confidence": 0.9990787506103516,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 77.0,
+          "x2": 61.0,
+          "y2": 105.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": ".data",
+        "confidence": 0.9949663877487183,
+        "bbox": {
+          "x1": 101.0,
+          "y1": 75.0,
+          "x2": 178.0,
+          "y2": 104.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "3",
+        "confidence": 0.9996050000190735,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 109.0,
+          "x2": 61.0,
+          "y2": 136.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "msg:",
+        "confidence": 0.9793648719787598,
+        "bbox": {
+          "x1": 98.0,
+          "y1": 109.0,
+          "x2": 164.0,
+          "y2": 139.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": ".asciz\"Hello,Assembly!\\n\"",
+        "confidence": 0.9524710774421692,
+        "bbox": {
+          "x1": 183.0,
+          "y1": 109.0,
+          "x2": 555.0,
+          "y2": 136.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "4",
+        "confidence": 0.9993942975997925,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 143.0,
+          "x2": 61.0,
+          "y2": 167.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": ".text",
+        "confidence": 0.9978561401367188,
+        "bbox": {
+          "x1": 102.0,
+          "y1": 141.0,
+          "x2": 178.0,
+          "y2": 167.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "5",
+        "confidence": 0.9988738894462585,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 174.0,
+          "x2": 61.0,
+          "y2": 201.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": ".globl main",
+        "confidence": 0.9117273688316345,
+        "bbox": {
+          "x1": 102.0,
+          "y1": 169.0,
+          "x2": 263.0,
+          "y2": 202.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "6",
+        "confidence": 0.9986690282821655,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 206.0,
+          "x2": 61.0,
+          "y2": 231.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "main:",
+        "confidence": 0.98951655626297,
+        "bbox": {
+          "x1": 100.0,
+          "y1": 205.0,
+          "x2": 175.0,
+          "y2": 231.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "7",
+        "confidence": 0.9983964562416077,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 238.0,
+          "x2": 61.0,
+          "y2": 263.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "lea rax,",
+        "confidence": 0.8930822610855103,
+        "bbox": {
+          "x1": 98.0,
+          "y1": 235.0,
+          "x2": 243.0,
+          "y2": 265.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "msg[rig]",
+        "confidence": 0.9598668217658997,
+        "bbox": {
+          "x1": 236.0,
+          "y1": 236.0,
+          "x2": 358.0,
+          "y2": 267.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "8",
+        "confidence": 0.9992838501930237,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 270.0,
+          "x2": 61.0,
+          "y2": 295.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "call dispmsg",
+        "confidence": 0.9702009558677673,
+        "bbox": {
+          "x1": 101.0,
+          "y1": 264.0,
+          "x2": 276.0,
+          "y2": 298.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "9",
+        "confidence": 0.9979720711708069,
+        "bbox": {
+          "x1": 42.0,
+          "y1": 302.0,
+          "x2": 61.0,
+          "y2": 326.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "mov eax,d",
+        "confidence": 0.8611069321632385,
+        "bbox": {
+          "x1": 98.0,
+          "y1": 297.0,
+          "x2": 250.0,
+          "y2": 332.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "10",
+        "confidence": 0.9975709915161133,
+        "bbox": {
+          "x1": 29.0,
+          "y1": 333.0,
+          "x2": 62.0,
+          "y2": 360.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "ret",
+        "confidence": 0.9982401728630066,
+        "bbox": {
+          "x1": 99.0,
+          "y1": 332.0,
+          "x2": 150.0,
+          "y2": 359.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": true,
+    "reason": "图片中非白区域较多，可能存在图像元素",
+    "text_area_ratio": 0.2509,
+    "non_white_ratio": 1.0
+  },
+  "ai_result": {
+    "summary": "该汇编代码片段定义了一个简单的程序，使用Intel语法在数据段中定义了一条消息字符串，并在文本段中实现了main函数。main函数首先加载消息字符串的地址到rax寄存器，然后调用dispmsg函数，最后将eax设置为0并返回。",
+    "entities": [
+      {
+        "name": "exp0104.s",
+        "type": "文件",
+        "description": "一个包含汇编代码的文件"
+      },
+      {
+        "name": "msg",
+        "type": "变量",
+        "description": "存储消息字符串的变量"
+      },
+      {
+        "name": "dispmsg",
+        "type": "函数",
+        "description": "用于显示消息字符串的函数"
+      }
+    ],
+    "relations": [
+      {
+        "source": "msg",
+        "target": "dispmsg",
+        "relation": "被调用",
+        "confidence": 0.85
+      }
+    ],
+    "keywords": [
+      "汇编语言",
+      "Intel语法",
+      "数据段",
+      "文本段",
+      "main函数"
+    ],
+    "modules": [
+      {
+        "module": "汇编代码模块",
+        "text": "experiments > expl > exp0104.s > mov eax, 0\n1 .intel_syntax noprefix\n2 .data\n3 msg: .asciz \"Hello,Assembly!\\n\"\n4 .text\n5 .globl main\n6 main:\n7 lea rax, msg[rig]\n8 call dispmsg\n9 mov eax, 0\n10 ret"
+      }
+    ],
+    "visual_notes": [
+      "图片中显示了汇编代码的编辑界面，背景为深色主题，代码高亮显示了不同的部分，如指令、标签和注释"
+    ],
+    "visual_detection": {
+      "has_visual": true,
+      "reason": "图片中非白区域较多，可能存在图像元素",
+      "text_area_ratio": 0.2509,
+      "non_white_ratio": 1.0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "exp0104.s",
+        "name": "exp0104.s",
+        "label": "exp0104.s",
+        "type": "文件",
+        "category": "文件",
+        "description": "一个包含汇编代码的文件",
+        "symbolSize": 35
+      },
+      {
+        "id": "msg",
+        "name": "msg",
+        "label": "msg",
+        "type": "变量",
+        "category": "变量",
+        "description": "存储消息字符串的变量",
+        "symbolSize": 35
+      },
+      {
+        "id": "dispmsg",
+        "name": "dispmsg",
+        "label": "dispmsg",
+        "type": "函数",
+        "category": "函数",
+        "description": "用于显示消息字符串的函数",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "msg",
+        "target": "dispmsg",
+        "relation": "被调用",
+        "label": "被调用",
+        "weight": 0.85,
+        "confidence": 0.85
+      }
+    ]
+  }
+}

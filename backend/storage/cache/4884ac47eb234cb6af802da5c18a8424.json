@@ -1,0 +1,1381 @@
+{
+  "text": "【表格表头】\n2学分 | 371061 | 大学英语 (IV) | 32学时 | 外国语与国际关系学院[37] | 无无丨考试\n\n【表格表头】\n形势与政策 | 391015 | 马克思主义学院[39]\n\n【表格内容行2】\n考查\n\n【表格内容行3】\n153014 | 数据库系统原理\n\n【表格内容行4】\n丨无計无丨考试\n\n【表格内容行5】\n155012 | 数据库系统原理实验 | 24学时 | 无 | 一无\n\n【表格内容行6】\n汇编语言 | 2.5学分 | 153006 | 48学时 | 无計无丨考试 | 必修课\n\n【表格内容行7】\n4学分 | 153012 | 计算机组成原理 | 64学时 | 计算机与人工智能学院[15] | 計无丨无丨考试\n\n【表格内容行8】\n1学分 | 155009 | 计算机组成原理实验 | 24学时丨无丨无丨考查",
+  "file_path": "storage/images\\95d1caddab724ad881379b27208f8ee0_屏幕截图 2026-02-28 221329.png",
+  "ocr": {
+    "raw_text": "大学英语 (IV)\n371061\n外国语与国际关系学院[37]\n必修课\n2学分\n32学时\n无无丨考试\n形势与政策\n391015\n马克思主义学院[39]\n无\n考查\n数据库系统原理\n153014\n计算机与人工智能学院[15]\n48学时\n丨无計无丨考试\n数据库系统原理实验\n155012\n1学分\n24学时\n一无\n汇编语言\n153006\n2.5学分\n无計无丨考试\n计算机组成原理\n153012\n4学分\n64学时\n計无丨无丨考试\n计算机组成原理实验\n155009\n24学时丨无丨无丨考查",
+    "structured_text": "【表格表头】\n2学分 | 371061 | 大学英语 (IV) | 32学时 | 外国语与国际关系学院[37] | 无无丨考试\n\n【表格表头】\n形势与政策 | 391015 | 马克思主义学院[39]\n\n【表格内容行2】\n考查\n\n【表格内容行3】\n153014 | 数据库系统原理\n\n【表格内容行4】\n丨无計无丨考试\n\n【表格内容行5】\n155012 | 数据库系统原理实验 | 24学时 | 无 | 一无\n\n【表格内容行6】\n汇编语言 | 2.5学分 | 153006 | 48学时 | 无計无丨考试 | 必修课\n\n【表格内容行7】\n4学分 | 153012 | 计算机组成原理 | 64学时 | 计算机与人工智能学院[15] | 計无丨无丨考试\n\n【表格内容行8】\n1学分 | 155009 | 计算机组成原理实验 | 24学时丨无丨无丨考查",
+    "layout_type": "table_like",
+    "modules": [
+      {
+        "module": "表格表头",
+        "text": "2学分 | 371061 | 大学英语 (IV) | 32学时 | 外国语与国际关系学院[37] | 无无丨考试",
+        "blocks": [
+          {
+            "text": "2学分",
+            "confidence": 0.9999856948852539,
+            "bbox": {
+              "x1": 20.0,
+              "y1": 97.0,
+              "x2": 79.0,
+              "y2": 124.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "371061",
+            "confidence": 0.9999205470085144,
+            "bbox": {
+              "x1": 21.0,
+              "y1": 66.0,
+              "x2": 94.0,
+              "y2": 89.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "大学英语 (IV)",
+            "confidence": 0.9456779956817627,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 23.0,
+              "x2": 189.0,
+              "y2": 55.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "32学时",
+            "confidence": 0.9998939037322998,
+            "bbox": {
+              "x1": 107.0,
+              "y1": 97.0,
+              "x2": 179.0,
+              "y2": 123.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "外国语与国际关系学院[37]",
+            "confidence": 0.9989022612571716,
+            "bbox": {
+              "x1": 125.0,
+              "y1": 67.0,
+              "x2": 364.0,
+              "y2": 89.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "无无丨考试",
+            "confidence": 0.8705099821090698,
+            "bbox": {
+              "x1": 199.0,
+              "y1": 96.0,
+              "x2": 364.0,
+              "y2": 125.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 20.0,
+          "y1": 23.0,
+          "x2": 364.0,
+          "y2": 125.0
+        }
+      },
+      {
+        "module": "表格表头",
+        "text": "形势与政策 | 391015 | 马克思主义学院[39]",
+        "blocks": [
+          {
+            "text": "形势与政策",
+            "confidence": 0.9990626573562622,
+            "bbox": {
+              "x1": 21.0,
+              "y1": 152.0,
+              "x2": 152.0,
+              "y2": 184.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "391015",
+            "confidence": 0.9999580979347229,
+            "bbox": {
+              "x1": 21.0,
+              "y1": 193.0,
+              "x2": 96.0,
+              "y2": 219.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "马克思主义学院[39]",
+            "confidence": 0.9989804625511169,
+            "bbox": {
+              "x1": 124.0,
+              "y1": 194.0,
+              "x2": 305.0,
+              "y2": 219.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 21.0,
+          "y1": 152.0,
+          "x2": 305.0,
+          "y2": 219.0
+        }
+      },
+      {
+        "module": "表格内容行2",
+        "text": "考查",
+        "blocks": [
+          {
+            "text": "考查",
+            "confidence": 0.9998763799667358,
+            "bbox": {
+              "x1": 313.0,
+              "y1": 227.0,
+              "x2": 362.0,
+              "y2": 252.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 313.0,
+          "y1": 227.0,
+          "x2": 362.0,
+          "y2": 252.0
+        }
+      },
+      {
+        "module": "表格内容行3",
+        "text": "153014 | 数据库系统原理",
+        "blocks": [
+          {
+            "text": "153014",
+            "confidence": 0.9999472498893738,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 324.0,
+              "x2": 95.0,
+              "y2": 347.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "数据库系统原理",
+            "confidence": 0.9968896508216858,
+            "bbox": {
+              "x1": 24.0,
+              "y1": 285.0,
+              "x2": 201.0,
+              "y2": 311.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 22.0,
+          "y1": 285.0,
+          "x2": 201.0,
+          "y2": 347.0
+        }
+      },
+      {
+        "module": "表格内容行4",
+        "text": "丨无計无丨考试",
+        "blocks": [
+          {
+            "text": "丨无計无丨考试",
+            "confidence": 0.791326105594635,
+            "bbox": {
+              "x1": 172.0,
+              "y1": 355.0,
+              "x2": 363.0,
+              "y2": 384.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 172.0,
+          "y1": 355.0,
+          "x2": 363.0,
+          "y2": 384.0
+        }
+      },
+      {
+        "module": "表格内容行5",
+        "text": "155012 | 数据库系统原理实验 | 24学时 | 无 | 一无",
+        "blocks": [
+          {
+            "text": "155012",
+            "confidence": 0.9999726414680481,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 453.0,
+              "x2": 95.0,
+              "y2": 477.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "数据库系统原理实验",
+            "confidence": 0.998143196105957,
+            "bbox": {
+              "x1": 23.0,
+              "y1": 413.0,
+              "x2": 252.0,
+              "y2": 441.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "24学时",
+            "confidence": 0.9999527335166931,
+            "bbox": {
+              "x1": 107.0,
+              "y1": 487.0,
+              "x2": 179.0,
+              "y2": 513.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "无",
+            "confidence": 0.9999727010726929,
+            "bbox": {
+              "x1": 197.0,
+              "y1": 490.0,
+              "x2": 235.0,
+              "y2": 512.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "一无",
+            "confidence": 0.6896029114723206,
+            "bbox": {
+              "x1": 224.0,
+              "y1": 489.0,
+              "x2": 290.0,
+              "y2": 514.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": true
+          }
+        ],
+        "bbox": {
+          "x1": 22.0,
+          "y1": 413.0,
+          "x2": 290.0,
+          "y2": 514.0
+        }
+      },
+      {
+        "module": "表格内容行6",
+        "text": "汇编语言 | 2.5学分 | 153006 | 48学时 | 无計无丨考试 | 必修课",
+        "blocks": [
+          {
+            "text": "汇编语言",
+            "confidence": 0.9981912970542908,
+            "bbox": {
+              "x1": 19.0,
+              "y1": 539.0,
+              "x2": 128.0,
+              "y2": 575.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "2.5学分",
+            "confidence": 0.9999836087226868,
+            "bbox": {
+              "x1": 20.0,
+              "y1": 616.0,
+              "x2": 95.0,
+              "y2": 642.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "153006",
+            "confidence": 0.9999423027038574,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 584.0,
+              "x2": 95.0,
+              "y2": 607.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "48学时",
+            "confidence": 0.9998531341552734,
+            "bbox": {
+              "x1": 124.0,
+              "y1": 617.0,
+              "x2": 193.0,
+              "y2": 640.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "无計无丨考试",
+            "confidence": 0.8449302315711975,
+            "bbox": {
+              "x1": 217.0,
+              "y1": 614.0,
+              "x2": 380.0,
+              "y2": 645.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "必修课",
+            "confidence": 0.9997000694274902,
+            "bbox": {
+              "x1": 392.0,
+              "y1": 582.0,
+              "x2": 460.0,
+              "y2": 608.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 19.0,
+          "y1": 539.0,
+          "x2": 460.0,
+          "y2": 645.0
+        }
+      },
+      {
+        "module": "表格内容行7",
+        "text": "4学分 | 153012 | 计算机组成原理 | 64学时 | 计算机与人工智能学院[15] | 計无丨无丨考试",
+        "blocks": [
+          {
+            "text": "4学分",
+            "confidence": 0.9999780654907227,
+            "bbox": {
+              "x1": 20.0,
+              "y1": 751.0,
+              "x2": 78.0,
+              "y2": 778.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "153012",
+            "confidence": 0.9999486804008484,
+            "bbox": {
+              "x1": 22.0,
+              "y1": 719.0,
+              "x2": 94.0,
+              "y2": 742.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "计算机组成原理",
+            "confidence": 0.9989749789237976,
+            "bbox": {
+              "x1": 24.0,
+              "y1": 680.0,
+              "x2": 201.0,
+              "y2": 706.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "64学时",
+            "confidence": 0.9999672174453735,
+            "bbox": {
+              "x1": 109.0,
+              "y1": 753.0,
+              "x2": 179.0,
+              "y2": 776.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "计算机与人工智能学院[15]",
+            "confidence": 0.9997097849845886,
+            "bbox": {
+              "x1": 122.0,
+              "y1": 717.0,
+              "x2": 365.0,
+              "y2": 745.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "計无丨无丨考试",
+            "confidence": 0.8355101943016052,
+            "bbox": {
+              "x1": 166.0,
+              "y1": 751.0,
+              "x2": 363.0,
+              "y2": 779.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 20.0,
+          "y1": 680.0,
+          "x2": 365.0,
+          "y2": 779.0
+        }
+      },
+      {
+        "module": "表格内容行8",
+        "text": "1学分 | 155009 | 计算机组成原理实验 | 24学时丨无丨无丨考查",
+        "blocks": [
+          {
+            "text": "1学分",
+            "confidence": 0.9998846650123596,
+            "bbox": {
+              "x1": 20.0,
+              "y1": 887.0,
+              "x2": 80.0,
+              "y2": 915.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "155009",
+            "confidence": 0.9999358654022217,
+            "bbox": {
+              "x1": 23.0,
+              "y1": 854.0,
+              "x2": 95.0,
+              "y2": 877.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "计算机组成原理实验",
+            "confidence": 0.9995051622390747,
+            "bbox": {
+              "x1": 24.0,
+              "y1": 815.0,
+              "x2": 253.0,
+              "y2": 843.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "24学时丨无丨无丨考查",
+            "confidence": 0.835207998752594,
+            "bbox": {
+              "x1": 105.0,
+              "y1": 885.0,
+              "x2": 363.0,
+              "y2": 915.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 20.0,
+          "y1": 815.0,
+          "x2": 363.0,
+          "y2": 915.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "2学分",
+        "confidence": 0.9999856948852539,
+        "bbox": {
+          "x1": 20.0,
+          "y1": 97.0,
+          "x2": 79.0,
+          "y2": 124.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "371061",
+        "confidence": 0.9999205470085144,
+        "bbox": {
+          "x1": 21.0,
+          "y1": 66.0,
+          "x2": 94.0,
+          "y2": 89.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "大学英语 (IV)",
+        "confidence": 0.9456779956817627,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 23.0,
+          "x2": 189.0,
+          "y2": 55.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "32学时",
+        "confidence": 0.9998939037322998,
+        "bbox": {
+          "x1": 107.0,
+          "y1": 97.0,
+          "x2": 179.0,
+          "y2": 123.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "外国语与国际关系学院[37]",
+        "confidence": 0.9989022612571716,
+        "bbox": {
+          "x1": 125.0,
+          "y1": 67.0,
+          "x2": 364.0,
+          "y2": 89.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "无无丨考试",
+        "confidence": 0.8705099821090698,
+        "bbox": {
+          "x1": 199.0,
+          "y1": 96.0,
+          "x2": 364.0,
+          "y2": 125.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "形势与政策",
+        "confidence": 0.9990626573562622,
+        "bbox": {
+          "x1": 21.0,
+          "y1": 152.0,
+          "x2": 152.0,
+          "y2": 184.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "391015",
+        "confidence": 0.9999580979347229,
+        "bbox": {
+          "x1": 21.0,
+          "y1": 193.0,
+          "x2": 96.0,
+          "y2": 219.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "马克思主义学院[39]",
+        "confidence": 0.9989804625511169,
+        "bbox": {
+          "x1": 124.0,
+          "y1": 194.0,
+          "x2": 305.0,
+          "y2": 219.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "考查",
+        "confidence": 0.9998763799667358,
+        "bbox": {
+          "x1": 313.0,
+          "y1": 227.0,
+          "x2": 362.0,
+          "y2": 252.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "153014",
+        "confidence": 0.9999472498893738,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 324.0,
+          "x2": 95.0,
+          "y2": 347.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "数据库系统原理",
+        "confidence": 0.9968896508216858,
+        "bbox": {
+          "x1": 24.0,
+          "y1": 285.0,
+          "x2": 201.0,
+          "y2": 311.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "丨无計无丨考试",
+        "confidence": 0.791326105594635,
+        "bbox": {
+          "x1": 172.0,
+          "y1": 355.0,
+          "x2": 363.0,
+          "y2": 384.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "155012",
+        "confidence": 0.9999726414680481,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 453.0,
+          "x2": 95.0,
+          "y2": 477.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "数据库系统原理实验",
+        "confidence": 0.998143196105957,
+        "bbox": {
+          "x1": 23.0,
+          "y1": 413.0,
+          "x2": 252.0,
+          "y2": 441.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "24学时",
+        "confidence": 0.9999527335166931,
+        "bbox": {
+          "x1": 107.0,
+          "y1": 487.0,
+          "x2": 179.0,
+          "y2": 513.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "无",
+        "confidence": 0.9999727010726929,
+        "bbox": {
+          "x1": 197.0,
+          "y1": 490.0,
+          "x2": 235.0,
+          "y2": 512.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "一无",
+        "confidence": 0.6896029114723206,
+        "bbox": {
+          "x1": 224.0,
+          "y1": 489.0,
+          "x2": 290.0,
+          "y2": 514.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": true
+      },
+      {
+        "text": "汇编语言",
+        "confidence": 0.9981912970542908,
+        "bbox": {
+          "x1": 19.0,
+          "y1": 539.0,
+          "x2": 128.0,
+          "y2": 575.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "2.5学分",
+        "confidence": 0.9999836087226868,
+        "bbox": {
+          "x1": 20.0,
+          "y1": 616.0,
+          "x2": 95.0,
+          "y2": 642.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "153006",
+        "confidence": 0.9999423027038574,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 584.0,
+          "x2": 95.0,
+          "y2": 607.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "48学时",
+        "confidence": 0.9998531341552734,
+        "bbox": {
+          "x1": 124.0,
+          "y1": 617.0,
+          "x2": 193.0,
+          "y2": 640.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "无計无丨考试",
+        "confidence": 0.8449302315711975,
+        "bbox": {
+          "x1": 217.0,
+          "y1": 614.0,
+          "x2": 380.0,
+          "y2": 645.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "必修课",
+        "confidence": 0.9997000694274902,
+        "bbox": {
+          "x1": 392.0,
+          "y1": 582.0,
+          "x2": 460.0,
+          "y2": 608.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "4学分",
+        "confidence": 0.9999780654907227,
+        "bbox": {
+          "x1": 20.0,
+          "y1": 751.0,
+          "x2": 78.0,
+          "y2": 778.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "153012",
+        "confidence": 0.9999486804008484,
+        "bbox": {
+          "x1": 22.0,
+          "y1": 719.0,
+          "x2": 94.0,
+          "y2": 742.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "计算机组成原理",
+        "confidence": 0.9989749789237976,
+        "bbox": {
+          "x1": 24.0,
+          "y1": 680.0,
+          "x2": 201.0,
+          "y2": 706.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "64学时",
+        "confidence": 0.9999672174453735,
+        "bbox": {
+          "x1": 109.0,
+          "y1": 753.0,
+          "x2": 179.0,
+          "y2": 776.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "计算机与人工智能学院[15]",
+        "confidence": 0.9997097849845886,
+        "bbox": {
+          "x1": 122.0,
+          "y1": 717.0,
+          "x2": 365.0,
+          "y2": 745.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "計无丨无丨考试",
+        "confidence": 0.8355101943016052,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 751.0,
+          "x2": 363.0,
+          "y2": 779.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "1学分",
+        "confidence": 0.9998846650123596,
+        "bbox": {
+          "x1": 20.0,
+          "y1": 887.0,
+          "x2": 80.0,
+          "y2": 915.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "155009",
+        "confidence": 0.9999358654022217,
+        "bbox": {
+          "x1": 23.0,
+          "y1": 854.0,
+          "x2": 95.0,
+          "y2": 877.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "计算机组成原理实验",
+        "confidence": 0.9995051622390747,
+        "bbox": {
+          "x1": 24.0,
+          "y1": 815.0,
+          "x2": 253.0,
+          "y2": 843.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "24学时丨无丨无丨考查",
+        "confidence": 0.835207998752594,
+        "bbox": {
+          "x1": 105.0,
+          "y1": 885.0,
+          "x2": 363.0,
+          "y2": 915.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.2318,
+    "non_white_ratio": 0.1061
+  },
+  "ai_result": {
+    "summary": "该文本为高校课程信息表，包含多门课程的名称、学分、课程代码、学时、开课学院及考核方式。主要涉及计算机类核心课程及其实验课，如数据库、汇编语言、计算机组成原理等，均为必修性质，考核以考试和考查为主。",
+    "entities": [
+      {
+        "name": "大学英语 (IV)",
+        "type": "课程",
+        "description": "外语类通识课程，2学分，32学时，考试考核"
+      },
+      {
+        "name": "形势与政策",
+        "type": "课程",
+        "description": "思想政治类课程，考查方式，由马克思主义学院开设"
+      },
+      {
+        "name": "数据库系统原理",
+        "type": "课程",
+        "description": "计算机专业核心课程，理论课程，考试考核"
+      },
+      {
+        "name": "数据库系统原理实验",
+        "type": "课程",
+        "description": "数据库系统原理配套实验课，考查考核"
+      },
+      {
+        "name": "汇编语言",
+        "type": "课程",
+        "description": "计算机底层编程课程，2.5学分，必修课"
+      },
+      {
+        "name": "计算机组成原理",
+        "type": "课程",
+        "description": "计算机硬件基础课程，4学分，64学时"
+      },
+      {
+        "name": "计算机组成原理实验",
+        "type": "课程",
+        "description": "计算机组成原理配套实验课，1学分，考查"
+      },
+      {
+        "name": "外国语与国际关系学院[37]",
+        "type": "地点",
+        "description": "大学英语课程的开课单位"
+      },
+      {
+        "name": "马克思主义学院[39]",
+        "type": "地点",
+        "description": "形势与政策课程的开课单位"
+      },
+      {
+        "name": "计算机与人工智能学院[15]",
+        "type": "地点",
+        "description": "多门计算机类课程的开课单位"
+      },
+      {
+        "name": "考试",
+        "type": "方法",
+        "description": "课程考核方式之一"
+      },
+      {
+        "name": "考查",
+        "type": "方法",
+        "description": "另一种课程考核方式"
+      },
+      {
+        "name": "必修课",
+        "type": "概念",
+        "description": "学生必须修读的课程类型"
+      }
+    ],
+    "relations": [
+      {
+        "source": "数据库系统原理",
+        "target": "数据库系统原理实验",
+        "relation": "有配套实验",
+        "confidence": 0.95
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "计算机组成原理实验",
+        "relation": "有配套实验",
+        "confidence": 0.95
+      },
+      {
+        "source": "数据库系统原理",
+        "target": "计算机与人工智能学院[15]",
+        "relation": "由...开设",
+        "confidence": 0.98
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "计算机与人工智能学院[15]",
+        "relation": "由...开设",
+        "confidence": 0.98
+      },
+      {
+        "source": "大学英语 (IV)",
+        "target": "外国语与国际关系学院[37]",
+        "relation": "由...开设",
+        "confidence": 0.98
+      },
+      {
+        "source": "形势与政策",
+        "target": "马克思主义学院[39]",
+        "relation": "由...开设",
+        "confidence": 0.98
+      },
+      {
+        "source": "汇编语言",
+        "target": "必修课",
+        "relation": "属于",
+        "confidence": 0.9
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "考试",
+        "relation": "考核方式为",
+        "confidence": 0.95
+      },
+      {
+        "source": "数据库系统原理实验",
+        "target": "考查",
+        "relation": "考核方式为",
+        "confidence": 0.95
+      }
+    ],
+    "keywords": [
+      "课程表",
+      "学分",
+      "学时",
+      "考试",
+      "考查",
+      "计算机组成原理",
+      "数据库系统原理",
+      "汇编语言",
+      "必修课",
+      "计算机与人工智能学院"
+    ],
+    "modules": [
+      {
+        "module": "大学英语课程信息",
+        "text": "大学英语 (IV)，学分：2，课程代码：371061，学时：32，开课单位：外国语与国际关系学院[37]，考核方式：考试"
+      },
+      {
+        "module": "形势与政策课程信息",
+        "text": "形势与政策，学分：1（推断补全），课程代码：391015，学时：16（推断补全），开课单位：马克思主义学院[39]，考核方式：考查"
+      },
+      {
+        "module": "数据库系统原理课程信息",
+        "text": "数据库系统原理，学分：3（推断补全），课程代码：153014，学时：48（推断补全），开课单位：计算机与人工智能学院[15]，考核方式：考试"
+      },
+      {
+        "module": "数据库系统原理实验信息",
+        "text": "数据库系统原理实验，学分：1，课程代码：155012，学时：24，开课单位：计算机与人工智能学院[15]，考核方式：考查"
+      },
+      {
+        "module": "汇编语言课程信息",
+        "text": "汇编语言，学分：2.5，课程代码：153006，学时：48，开课单位：计算机与人工智能学院[15]，考核方式：考试，课程性质：必修课"
+      },
+      {
+        "module": "计算机组成原理课程信息",
+        "text": "计算机组成原理，学分：4，课程代码：153012，学时：64，开课单位：计算机与人工智能学院[15]，考核方式：考试"
+      },
+      {
+        "module": "计算机组成原理实验信息",
+        "text": "计算机组成原理实验，学分：1，课程代码：155009，学时：24，开课单位：计算机与人工智能学院[15]，考核方式：考查"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.2318,
+      "non_white_ratio": 0.1061
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "大学英语 (IV)",
+        "name": "大学英语 (IV)",
+        "label": "大学英语 (IV)",
+        "type": "课程",
+        "category": "课程",
+        "description": "外语类通识课程，2学分，32学时，考试考核",
+        "symbolSize": 35
+      },
+      {
+        "id": "形势与政策",
+        "name": "形势与政策",
+        "label": "形势与政策",
+        "type": "课程",
+        "category": "课程",
+        "description": "思想政治类课程，考查方式，由马克思主义学院开设",
+        "symbolSize": 35
+      },
+      {
+        "id": "数据库系统原理",
+        "name": "数据库系统原理",
+        "label": "数据库系统原理",
+        "type": "课程",
+        "category": "课程",
+        "description": "计算机专业核心课程，理论课程，考试考核",
+        "symbolSize": 35
+      },
+      {
+        "id": "数据库系统原理实验",
+        "name": "数据库系统原理实验",
+        "label": "数据库系统原理实验",
+        "type": "课程",
+        "category": "课程",
+        "description": "数据库系统原理配套实验课，考查考核",
+        "symbolSize": 35
+      },
+      {
+        "id": "汇编语言",
+        "name": "汇编语言",
+        "label": "汇编语言",
+        "type": "课程",
+        "category": "课程",
+        "description": "计算机底层编程课程，2.5学分，必修课",
+        "symbolSize": 35
+      },
+      {
+        "id": "计算机组成原理",
+        "name": "计算机组成原理",
+        "label": "计算机组成原理",
+        "type": "课程",
+        "category": "课程",
+        "description": "计算机硬件基础课程，4学分，64学时",
+        "symbolSize": 35
+      },
+      {
+        "id": "计算机组成原理实验",
+        "name": "计算机组成原理实验",
+        "label": "计算机组成原理实验",
+        "type": "课程",
+        "category": "课程",
+        "description": "计算机组成原理配套实验课，1学分，考查",
+        "symbolSize": 35
+      },
+      {
+        "id": "外国语与国际关系学院[37]",
+        "name": "外国语与国际关系学院[37]",
+        "label": "外国语与国际关系学院[37]",
+        "type": "地点",
+        "category": "地点",
+        "description": "大学英语课程的开课单位",
+        "symbolSize": 35
+      },
+      {
+        "id": "马克思主义学院[39]",
+        "name": "马克思主义学院[39]",
+        "label": "马克思主义学院[39]",
+        "type": "地点",
+        "category": "地点",
+        "description": "形势与政策课程的开课单位",
+        "symbolSize": 35
+      },
+      {
+        "id": "计算机与人工智能学院[15]",
+        "name": "计算机与人工智能学院[15]",
+        "label": "计算机与人工智能学院[15]",
+        "type": "地点",
+        "category": "地点",
+        "description": "多门计算机类课程的开课单位",
+        "symbolSize": 35
+      },
+      {
+        "id": "考试",
+        "name": "考试",
+        "label": "考试",
+        "type": "方法",
+        "category": "方法",
+        "description": "课程考核方式之一",
+        "symbolSize": 35
+      },
+      {
+        "id": "考查",
+        "name": "考查",
+        "label": "考查",
+        "type": "方法",
+        "category": "方法",
+        "description": "另一种课程考核方式",
+        "symbolSize": 35
+      },
+      {
+        "id": "必修课",
+        "name": "必修课",
+        "label": "必修课",
+        "type": "概念",
+        "category": "概念",
+        "description": "学生必须修读的课程类型",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "数据库系统原理",
+        "target": "数据库系统原理实验",
+        "relation": "有配套实验",
+        "label": "有配套实验",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "计算机组成原理实验",
+        "relation": "有配套实验",
+        "label": "有配套实验",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "数据库系统原理",
+        "target": "计算机与人工智能学院[15]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "计算机与人工智能学院[15]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "大学英语 (IV)",
+        "target": "外国语与国际关系学院[37]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "形势与政策",
+        "target": "马克思主义学院[39]",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "汇编语言",
+        "target": "必修课",
+        "relation": "属于",
+        "label": "属于",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "计算机组成原理",
+        "target": "考试",
+        "relation": "考核方式为",
+        "label": "考核方式为",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "数据库系统原理实验",
+        "target": "考查",
+        "relation": "考核方式为",
+        "label": "考核方式为",
+        "weight": 0.95,
+        "confidence": 0.95
+      }
+    ]
+  }
+}

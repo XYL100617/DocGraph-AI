@@ -1,0 +1,57 @@
+{
+  "text": "【标题/短文本区域1】\n徐瑜璐",
+  "file_path": "storage/images\\f04cfb16118d463fbf5e0e18dc6c0b3a__cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=7480042655828893251&skey=@crypt_28243626_4c358a2c2bdf601b79949dada569adb3&mmweb_appid=wx_webfilehelper.jpg",
+  "ocr": {
+    "raw_text": "徐瑜璐",
+    "structured_text": "【标题/短文本区域1】\n徐瑜璐",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "徐瑜璐",
+        "blocks": [
+          {
+            "text": "徐瑜璐",
+            "confidence": 0.9283638596534729,
+            "bbox": {
+              "x1": 339.0,
+              "y1": 326.0,
+              "x2": 2671.0,
+              "y2": 1665.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 339.0,
+          "y1": 326.0,
+          "x2": 2671.0,
+          "y2": 1665.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "徐瑜璐",
+        "confidence": 0.9283638596534729,
+        "bbox": {
+          "x1": 339.0,
+          "y1": 326.0,
+          "x2": 2671.0,
+          "y2": 1665.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 1.4311,
+    "non_white_ratio": 1.0
+  }
+}

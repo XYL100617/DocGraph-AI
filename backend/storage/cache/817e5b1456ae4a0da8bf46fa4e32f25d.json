@@ -1,0 +1,610 @@
+{
+  "text": "【文本内容区域1】\n④求最大正数\n取最大阶码 E=7，最大尾数M=0.1111112，则\nXmax = 0.1111112 × 27 = 63\n64\n③求最大负数 (绝对值最小)\n取最小阶码E=一8，最小规格化负尾数\nM = -0.1000002 =\n则\n512\n③求最小负数 (绝对值最大)\n取最大阶码 E =7，最小尾数M =－1，则\n故：最大正数为126，最大负数为－ 512，最小负数为-128。",
+  "file_path": "storage/images\\c6ff6ce44a684fa5acca8874a84cfb8c_屏幕截图 2026-03-25 122739.png",
+  "ocr": {
+    "raw_text": "④求最大正数\n取最大阶码 E=7，最大尾数M=0.1111112，则\n63\nXmax = 0.1111112 × 27 =\n64\n③求最大负数 (绝对值最小)\n取最小阶码E=一8，最小规格化负尾数\nM = -0.1000002 =\n则\n512\n③求最小负数 (绝对值最大)\n取最大阶码 E =7，最小尾数M =－1，则\n故：最大正数为126，最大负数为－\n512，最小负数为-128。",
+    "structured_text": "【文本内容区域1】\n④求最大正数\n取最大阶码 E=7，最大尾数M=0.1111112，则\nXmax = 0.1111112 × 27 = 63\n64\n③求最大负数 (绝对值最小)\n取最小阶码E=一8，最小规格化负尾数\nM = -0.1000002 =\n则\n512\n③求最小负数 (绝对值最大)\n取最大阶码 E =7，最小尾数M =－1，则\n故：最大正数为126，最大负数为－ 512，最小负数为-128。",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "文本内容区域1",
+        "text": "④求最大正数\n取最大阶码 E=7，最大尾数M=0.1111112，则\nXmax = 0.1111112 × 27 = 63\n64\n③求最大负数 (绝对值最小)\n取最小阶码E=一8，最小规格化负尾数\nM = -0.1000002 =\n则\n512\n③求最小负数 (绝对值最大)\n取最大阶码 E =7，最小尾数M =－1，则\n故：最大正数为126，最大负数为－ 512，最小负数为-128。",
+        "blocks": [
+          {
+            "text": "④求最大正数",
+            "confidence": 0.9986913800239563,
+            "bbox": {
+              "x1": 35.0,
+              "y1": 18.0,
+              "x2": 208.0,
+              "y2": 51.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "取最大阶码 E=7，最大尾数M=0.1111112，则",
+            "confidence": 0.9789741635322571,
+            "bbox": {
+              "x1": 34.0,
+              "y1": 61.0,
+              "x2": 678.0,
+              "y2": 96.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "Xmax = 0.1111112 × 27 =",
+            "confidence": 0.9487224817276001,
+            "bbox": {
+              "x1": 383.0,
+              "y1": 127.0,
+              "x2": 754.0,
+              "y2": 189.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "63",
+            "confidence": 0.9998998641967773,
+            "bbox": {
+              "x1": 755.0,
+              "y1": 120.0,
+              "x2": 794.0,
+              "y2": 153.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "64",
+            "confidence": 0.9999520182609558,
+            "bbox": {
+              "x1": 757.0,
+              "y1": 167.0,
+              "x2": 795.0,
+              "y2": 197.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "③求最大负数 (绝对值最小)",
+            "confidence": 0.9318346381187439,
+            "bbox": {
+              "x1": 37.0,
+              "y1": 226.0,
+              "x2": 379.0,
+              "y2": 257.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "取最小阶码E=一8，最小规格化负尾数",
+            "confidence": 0.9684340357780457,
+            "bbox": {
+              "x1": 36.0,
+              "y1": 271.0,
+              "x2": 531.0,
+              "y2": 299.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "M = -0.1000002 =",
+            "confidence": 0.9589259624481201,
+            "bbox": {
+              "x1": 514.0,
+              "y1": 343.0,
+              "x2": 805.0,
+              "y2": 389.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "则",
+            "confidence": 0.9999731779098511,
+            "bbox": {
+              "x1": 33.0,
+              "y1": 430.0,
+              "x2": 69.0,
+              "y2": 467.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "512",
+            "confidence": 0.9997031092643738,
+            "bbox": {
+              "x1": 849.0,
+              "y1": 530.0,
+              "x2": 909.0,
+              "y2": 569.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "③求最小负数 (绝对值最大)",
+            "confidence": 0.94717937707901,
+            "bbox": {
+              "x1": 36.0,
+              "y1": 595.0,
+              "x2": 379.0,
+              "y2": 626.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "取最大阶码 E =7，最小尾数M =－1，则",
+            "confidence": 0.9194706082344055,
+            "bbox": {
+              "x1": 36.0,
+              "y1": 637.0,
+              "x2": 583.0,
+              "y2": 668.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "故：最大正数为126，最大负数为－",
+            "confidence": 0.9730851650238037,
+            "bbox": {
+              "x1": 35.0,
+              "y1": 775.0,
+              "x2": 488.0,
+              "y2": 808.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "512，最小负数为-128。",
+            "confidence": 0.9647471308708191,
+            "bbox": {
+              "x1": 469.0,
+              "y1": 765.0,
+              "x2": 762.0,
+              "y2": 819.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 33.0,
+          "y1": 18.0,
+          "x2": 909.0,
+          "y2": 819.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "④求最大正数",
+        "confidence": 0.9986913800239563,
+        "bbox": {
+          "x1": 35.0,
+          "y1": 18.0,
+          "x2": 208.0,
+          "y2": 51.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "取最大阶码 E=7，最大尾数M=0.1111112，则",
+        "confidence": 0.9789741635322571,
+        "bbox": {
+          "x1": 34.0,
+          "y1": 61.0,
+          "x2": 678.0,
+          "y2": 96.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "Xmax = 0.1111112 × 27 =",
+        "confidence": 0.9487224817276001,
+        "bbox": {
+          "x1": 383.0,
+          "y1": 127.0,
+          "x2": 754.0,
+          "y2": 189.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "63",
+        "confidence": 0.9998998641967773,
+        "bbox": {
+          "x1": 755.0,
+          "y1": 120.0,
+          "x2": 794.0,
+          "y2": 153.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "64",
+        "confidence": 0.9999520182609558,
+        "bbox": {
+          "x1": 757.0,
+          "y1": 167.0,
+          "x2": 795.0,
+          "y2": 197.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "③求最大负数 (绝对值最小)",
+        "confidence": 0.9318346381187439,
+        "bbox": {
+          "x1": 37.0,
+          "y1": 226.0,
+          "x2": 379.0,
+          "y2": 257.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "取最小阶码E=一8，最小规格化负尾数",
+        "confidence": 0.9684340357780457,
+        "bbox": {
+          "x1": 36.0,
+          "y1": 271.0,
+          "x2": 531.0,
+          "y2": 299.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "M = -0.1000002 =",
+        "confidence": 0.9589259624481201,
+        "bbox": {
+          "x1": 514.0,
+          "y1": 343.0,
+          "x2": 805.0,
+          "y2": 389.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "则",
+        "confidence": 0.9999731779098511,
+        "bbox": {
+          "x1": 33.0,
+          "y1": 430.0,
+          "x2": 69.0,
+          "y2": 467.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "512",
+        "confidence": 0.9997031092643738,
+        "bbox": {
+          "x1": 849.0,
+          "y1": 530.0,
+          "x2": 909.0,
+          "y2": 569.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "③求最小负数 (绝对值最大)",
+        "confidence": 0.94717937707901,
+        "bbox": {
+          "x1": 36.0,
+          "y1": 595.0,
+          "x2": 379.0,
+          "y2": 626.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "取最大阶码 E =7，最小尾数M =－1，则",
+        "confidence": 0.9194706082344055,
+        "bbox": {
+          "x1": 36.0,
+          "y1": 637.0,
+          "x2": 583.0,
+          "y2": 668.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "故：最大正数为126，最大负数为－",
+        "confidence": 0.9730851650238037,
+        "bbox": {
+          "x1": 35.0,
+          "y1": 775.0,
+          "x2": 488.0,
+          "y2": 808.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "512，最小负数为-128。",
+        "confidence": 0.9647471308708191,
+        "bbox": {
+          "x1": 469.0,
+          "y1": 765.0,
+          "x2": 762.0,
+          "y2": 819.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.177,
+    "non_white_ratio": 0.0507
+  },
+  "ai_result": {
+    "summary": "计算浮点数表示下的极值：基于阶码与尾数的组合，求得最大正数为63，最大负数（绝对值最小）为-1/512，最小负数（绝对值最大）为-128。",
+    "entities": [
+      {
+        "name": "最大正数",
+        "type": "结果",
+        "description": "在给定浮点格式下可表示的最大正值"
+      },
+      {
+        "name": "最大负数",
+        "type": "结果",
+        "description": "绝对值最小时的负数，即-1/512"
+      },
+      {
+        "name": "最小负数",
+        "type": "结果",
+        "description": "绝对值最大时的负数，即-128"
+      },
+      {
+        "name": "阶码 E",
+        "type": "技术",
+        "description": "浮点数中的指数部分"
+      },
+      {
+        "name": "尾数 M",
+        "type": "技术",
+        "description": "浮点数中的有效数字部分"
+      },
+      {
+        "name": "二进制小数",
+        "type": "概念",
+        "description": "以二进制表示的小数形式，如0.111111₂"
+      }
+    ],
+    "relations": [
+      {
+        "source": "阶码 E",
+        "target": "最大正数",
+        "relation": "决定",
+        "confidence": 0.9
+      },
+      {
+        "source": "尾数 M",
+        "target": "最大正数",
+        "relation": "决定",
+        "confidence": 0.9
+      },
+      {
+        "source": "阶码 E",
+        "target": "最大负数",
+        "relation": "决定",
+        "confidence": 0.85
+      },
+      {
+        "source": "尾数 M",
+        "target": "最大负数",
+        "relation": "决定",
+        "confidence": 0.85
+      },
+      {
+        "source": "阶码 E",
+        "target": "最小负数",
+        "relation": "决定",
+        "confidence": 0.9
+      },
+      {
+        "source": "尾数 M",
+        "target": "最小负数",
+        "relation": "决定",
+        "confidence": 0.9
+      }
+    ],
+    "keywords": [
+      "最大正数",
+      "最大负数",
+      "最小负数",
+      "阶码",
+      "尾数",
+      "浮点数表示",
+      "二进制小数"
+    ],
+    "modules": [
+      {
+        "module": "求最大正数",
+        "text": "取最大阶码 E = 7，最大尾数 M = 0.111111₂，则 Xmax = 0.111111₂ × 2⁷ = 63"
+      },
+      {
+        "module": "求最大负数（绝对值最小）",
+        "text": "取最小阶码 E = -8，最小规格化负尾数 M = -0.100000₂，则 Xmin_neg = -0.100000₂ × 2⁻⁸ = -1/512"
+      },
+      {
+        "module": "求最小负数（绝对值最大）",
+        "text": "取最大阶码 E = 7，最小尾数 M = -1.0，则 Xmin = -1.0 × 2⁷ = -128"
+      },
+      {
+        "module": "最终结论",
+        "text": "最大正数为 63，最大负数为 -1/512，最小负数为 -128。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.177,
+      "non_white_ratio": 0.0507
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "最大正数",
+        "name": "最大正数",
+        "label": "最大正数",
+        "type": "结果",
+        "category": "结果",
+        "description": "在给定浮点格式下可表示的最大正值",
+        "symbolSize": 35
+      },
+      {
+        "id": "最大负数",
+        "name": "最大负数",
+        "label": "最大负数",
+        "type": "结果",
+        "category": "结果",
+        "description": "绝对值最小时的负数，即-1/512",
+        "symbolSize": 35
+      },
+      {
+        "id": "最小负数",
+        "name": "最小负数",
+        "label": "最小负数",
+        "type": "结果",
+        "category": "结果",
+        "description": "绝对值最大时的负数，即-128",
+        "symbolSize": 35
+      },
+      {
+        "id": "阶码 E",
+        "name": "阶码 E",
+        "label": "阶码 E",
+        "type": "技术",
+        "category": "技术",
+        "description": "浮点数中的指数部分",
+        "symbolSize": 35
+      },
+      {
+        "id": "尾数 M",
+        "name": "尾数 M",
+        "label": "尾数 M",
+        "type": "技术",
+        "category": "技术",
+        "description": "浮点数中的有效数字部分",
+        "symbolSize": 35
+      },
+      {
+        "id": "二进制小数",
+        "name": "二进制小数",
+        "label": "二进制小数",
+        "type": "概念",
+        "category": "概念",
+        "description": "以二进制表示的小数形式，如0.111111₂",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "阶码 E",
+        "target": "最大正数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "尾数 M",
+        "target": "最大正数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "阶码 E",
+        "target": "最大负数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "尾数 M",
+        "target": "最大负数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "阶码 E",
+        "target": "最小负数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "尾数 M",
+        "target": "最小负数",
+        "relation": "决定",
+        "label": "决定",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+# =========================
+# Python
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Storage (Backend User Data)
+# =========================
+backend/storage/images/
+backend/storage/pdf_pages/
+backend/storage/history.json
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db

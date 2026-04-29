@@ -1,0 +1,449 @@
+{
+  "text": "【表格/字段区域1】\n提交评测\n\n【表格/字段区域2】\n继续加油！|步骤得分：0|2026-04-1616:29:33\n\n【表格/字段区域3】\n当前步骤自动评测得分（百分制）：0\n\n【表格/字段区域4】\n实验总得分：54.00\n\n【表格/字段区域5】\n评测详情： 继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33\n\n【表格/字段区域6】\n期望输出： 一当前分数是百分制，最后转换为实际得分。\n\n【表格/字段区域7】\n结果错误! 结果错误！\n\n【表格/字段区域8】\n程序输出：格式预处理后\n\n【表格/字段区域9】\nexp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.\n\n【表格/字段区域10】\n期望输出:\n\n【表格/字段区域11】\nHello, Assembly!",
+  "file_path": "storage/images\\3f2904379b3446cc8f72a336c8dc95cc_PixPin_2026-04-16_16-30-56.png",
+  "ocr": {
+    "raw_text": "提交评测\n实验总得分：54.00\n继续加油！|步骤得分：0|2026-04-1616:29:33\n当前步骤自动评测得分（百分制）：0\n一当前分数是百分制，最后转换为实际得分。\n结果错误！\n评测详情：\n程序输出：格式预处理后\nexp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.\n期望输出：\nHello, Assembly!\n继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33\n结果错误!\n期望输出:",
+    "structured_text": "【表格/字段区域1】\n提交评测\n\n【表格/字段区域2】\n继续加油！|步骤得分：0|2026-04-1616:29:33\n\n【表格/字段区域3】\n当前步骤自动评测得分（百分制）：0\n\n【表格/字段区域4】\n实验总得分：54.00\n\n【表格/字段区域5】\n评测详情： 继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33\n\n【表格/字段区域6】\n期望输出： 一当前分数是百分制，最后转换为实际得分。\n\n【表格/字段区域7】\n结果错误! 结果错误！\n\n【表格/字段区域8】\n程序输出：格式预处理后\n\n【表格/字段区域9】\nexp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.\n\n【表格/字段区域10】\n期望输出:\n\n【表格/字段区域11】\nHello, Assembly!",
+    "layout_type": "table_like",
+    "modules": [
+      {
+        "module": "表格/字段区域1",
+        "text": "提交评测",
+        "blocks": [
+          {
+            "text": "提交评测",
+            "confidence": 0.999908447265625,
+            "bbox": {
+              "x1": 19.0,
+              "y1": 27.0,
+              "x2": 153.0,
+              "y2": 72.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域2",
+        "text": "继续加油！|步骤得分：0|2026-04-1616:29:33",
+        "blocks": [
+          {
+            "text": "继续加油！|步骤得分：0|2026-04-1616:29:33",
+            "confidence": 0.9771560430526733,
+            "bbox": {
+              "x1": 47.0,
+              "y1": 215.0,
+              "x2": 542.0,
+              "y2": 249.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域3",
+        "text": "当前步骤自动评测得分（百分制）：0",
+        "blocks": [
+          {
+            "text": "当前步骤自动评测得分（百分制）：0",
+            "confidence": 0.9982382655143738,
+            "bbox": {
+              "x1": 49.0,
+              "y1": 277.0,
+              "x2": 472.0,
+              "y2": 311.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域4",
+        "text": "实验总得分：54.00",
+        "blocks": [
+          {
+            "text": "实验总得分：54.00",
+            "confidence": 0.9998399615287781,
+            "bbox": {
+              "x1": 169.0,
+              "y1": 324.0,
+              "x2": 627.0,
+              "y2": 403.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域5",
+        "text": "评测详情： 继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33",
+        "blocks": [
+          {
+            "text": "评测详情：",
+            "confidence": 0.9988004565238953,
+            "bbox": {
+              "x1": 47.0,
+              "y1": 552.0,
+              "x2": 167.0,
+              "y2": 587.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33",
+            "confidence": 0.928979754447937,
+            "bbox": {
+              "x1": 176.0,
+              "y1": 508.0,
+              "x2": 1161.0,
+              "y2": 577.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域6",
+        "text": "期望输出： 一当前分数是百分制，最后转换为实际得分。",
+        "blocks": [
+          {
+            "text": "期望输出：",
+            "confidence": 0.991382896900177,
+            "bbox": {
+              "x1": 79.0,
+              "y1": 816.0,
+              "x2": 197.0,
+              "y2": 852.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "一当前分数是百分制，最后转换为实际得分。",
+            "confidence": 0.9651303291320801,
+            "bbox": {
+              "x1": 275.0,
+              "y1": 796.0,
+              "x2": 1121.0,
+              "y2": 882.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域7",
+        "text": "结果错误! 结果错误！",
+        "blocks": [
+          {
+            "text": "结果错误!",
+            "confidence": 0.9159502983093262,
+            "bbox": {
+              "x1": 229.0,
+              "y1": 1006.0,
+              "x2": 488.0,
+              "y2": 1098.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "结果错误！",
+            "confidence": 0.9650294184684753,
+            "bbox": {
+              "x1": 232.0,
+              "y1": 1009.0,
+              "x2": 488.0,
+              "y2": 1101.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域8",
+        "text": "程序输出：格式预处理后",
+        "blocks": [
+          {
+            "text": "程序输出：格式预处理后",
+            "confidence": 0.996603786945343,
+            "bbox": {
+              "x1": 239.0,
+              "y1": 1425.0,
+              "x2": 746.0,
+              "y2": 1494.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域9",
+        "text": "exp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.",
+        "blocks": [
+          {
+            "text": "exp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.",
+            "confidence": 0.9923787117004395,
+            "bbox": {
+              "x1": 272.0,
+              "y1": 1523.0,
+              "x2": 2922.0,
+              "y2": 1599.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域10",
+        "text": "期望输出:",
+        "blocks": [
+          {
+            "text": "期望输出:",
+            "confidence": 0.9806995391845703,
+            "bbox": {
+              "x1": 232.0,
+              "y1": 1707.0,
+              "x2": 478.0,
+              "y2": 1789.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ]
+      },
+      {
+        "module": "表格/字段区域11",
+        "text": "Hello, Assembly!",
+        "blocks": [
+          {
+            "text": "Hello, Assembly!",
+            "confidence": 0.9991024732589722,
+            "bbox": {
+              "x1": 265.0,
+              "y1": 1818.0,
+              "x2": 670.0,
+              "y2": 1887.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "提交评测",
+        "confidence": 0.999908447265625,
+        "bbox": {
+          "x1": 19.0,
+          "y1": 27.0,
+          "x2": 153.0,
+          "y2": 72.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "继续加油！|步骤得分：0|2026-04-1616:29:33",
+        "confidence": 0.9771560430526733,
+        "bbox": {
+          "x1": 47.0,
+          "y1": 215.0,
+          "x2": 542.0,
+          "y2": 249.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "当前步骤自动评测得分（百分制）：0",
+        "confidence": 0.9982382655143738,
+        "bbox": {
+          "x1": 49.0,
+          "y1": 277.0,
+          "x2": 472.0,
+          "y2": 311.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "实验总得分：54.00",
+        "confidence": 0.9998399615287781,
+        "bbox": {
+          "x1": 169.0,
+          "y1": 324.0,
+          "x2": 627.0,
+          "y2": 403.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "评测详情：",
+        "confidence": 0.9988004565238953,
+        "bbox": {
+          "x1": 47.0,
+          "y1": 552.0,
+          "x2": 167.0,
+          "y2": 587.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "继续加油! I 步骤得分: 0 | 2026-04-16 16:29:33",
+        "confidence": 0.928979754447937,
+        "bbox": {
+          "x1": 176.0,
+          "y1": 508.0,
+          "x2": 1161.0,
+          "y2": 577.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "期望输出：",
+        "confidence": 0.991382896900177,
+        "bbox": {
+          "x1": 79.0,
+          "y1": 816.0,
+          "x2": 197.0,
+          "y2": 852.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "一当前分数是百分制，最后转换为实际得分。",
+        "confidence": 0.9651303291320801,
+        "bbox": {
+          "x1": 275.0,
+          "y1": 796.0,
+          "x2": 1121.0,
+          "y2": 882.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "结果错误!",
+        "confidence": 0.9159502983093262,
+        "bbox": {
+          "x1": 229.0,
+          "y1": 1006.0,
+          "x2": 488.0,
+          "y2": 1098.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "结果错误！",
+        "confidence": 0.9650294184684753,
+        "bbox": {
+          "x1": 232.0,
+          "y1": 1009.0,
+          "x2": 488.0,
+          "y2": 1101.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "程序输出：格式预处理后",
+        "confidence": 0.996603786945343,
+        "bbox": {
+          "x1": 239.0,
+          "y1": 1425.0,
+          "x2": 746.0,
+          "y2": 1494.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "exp0104.s: assembler messages: exp0104.s: warning: end of file not at end of a line; newline inserted exp0104.",
+        "confidence": 0.9923787117004395,
+        "bbox": {
+          "x1": 272.0,
+          "y1": 1523.0,
+          "x2": 2922.0,
+          "y2": 1599.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "期望输出:",
+        "confidence": 0.9806995391845703,
+        "bbox": {
+          "x1": 232.0,
+          "y1": 1707.0,
+          "x2": 478.0,
+          "y2": 1789.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "Hello, Assembly!",
+        "confidence": 0.9991024732589722,
+        "bbox": {
+          "x1": 265.0,
+          "y1": 1818.0,
+          "x2": 670.0,
+          "y2": 1887.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.2858,
+    "non_white_ratio": 0.2252
+  }
+}

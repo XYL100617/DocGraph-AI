@@ -1,0 +1,443 @@
+{
+  "text": "【文本内容区域1】\n大学物理实验A(II)\n225043 物理实验中心 必修课\n1.5学分 36学时|无 中文丨考查",
+  "file_path": "storage/images\\9e10bb68bab84c2ebae10d65c7152cc5_屏幕截图 2026-02-28 221316.png",
+  "ocr": {
+    "raw_text": "大学物理实验A(II)\n225043\n物理实验中心\n必修课\n1.5学分\n36学时|无\n中文丨考查",
+    "structured_text": "【文本内容区域1】\n大学物理实验A(II)\n225043 物理实验中心 必修课\n1.5学分 36学时|无 中文丨考查",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "文本内容区域1",
+        "text": "大学物理实验A(II)\n225043 物理实验中心 必修课\n1.5学分 36学时|无 中文丨考查",
+        "blocks": [
+          {
+            "text": "大学物理实验A(II)",
+            "confidence": 0.930908203125,
+            "bbox": {
+              "x1": 94.0,
+              "y1": 205.0,
+              "x2": 294.0,
+              "y2": 235.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "225043",
+            "confidence": 0.9998274445533752,
+            "bbox": {
+              "x1": 94.0,
+              "y1": 247.0,
+              "x2": 168.0,
+              "y2": 268.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "物理实验中心",
+            "confidence": 0.9998413920402527,
+            "bbox": {
+              "x1": 195.0,
+              "y1": 248.0,
+              "x2": 319.0,
+              "y2": 268.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "必修课",
+            "confidence": 0.9997804760932922,
+            "bbox": {
+              "x1": 351.0,
+              "y1": 247.0,
+              "x2": 415.0,
+              "y2": 269.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "1.5学分",
+            "confidence": 0.9999383687973022,
+            "bbox": {
+              "x1": 94.0,
+              "y1": 281.0,
+              "x2": 166.0,
+              "y2": 303.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "36学时|无",
+            "confidence": 0.8833494186401367,
+            "bbox": {
+              "x1": 196.0,
+              "y1": 280.0,
+              "x2": 321.0,
+              "y2": 304.0
+            },
+            "type": "text",
+            "text_type": "normal_text",
+            "low_confidence": false
+          },
+          {
+            "text": "中文丨考查",
+            "confidence": 0.9442632794380188,
+            "bbox": {
+              "x1": 346.0,
+              "y1": 279.0,
+              "x2": 468.0,
+              "y2": 303.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 94.0,
+          "y1": 205.0,
+          "x2": 468.0,
+          "y2": 304.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "大学物理实验A(II)",
+        "confidence": 0.930908203125,
+        "bbox": {
+          "x1": 94.0,
+          "y1": 205.0,
+          "x2": 294.0,
+          "y2": 235.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "225043",
+        "confidence": 0.9998274445533752,
+        "bbox": {
+          "x1": 94.0,
+          "y1": 247.0,
+          "x2": 168.0,
+          "y2": 268.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "物理实验中心",
+        "confidence": 0.9998413920402527,
+        "bbox": {
+          "x1": 195.0,
+          "y1": 248.0,
+          "x2": 319.0,
+          "y2": 268.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "必修课",
+        "confidence": 0.9997804760932922,
+        "bbox": {
+          "x1": 351.0,
+          "y1": 247.0,
+          "x2": 415.0,
+          "y2": 269.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "1.5学分",
+        "confidence": 0.9999383687973022,
+        "bbox": {
+          "x1": 94.0,
+          "y1": 281.0,
+          "x2": 166.0,
+          "y2": 303.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "36学时|无",
+        "confidence": 0.8833494186401367,
+        "bbox": {
+          "x1": 196.0,
+          "y1": 280.0,
+          "x2": 321.0,
+          "y2": 304.0
+        },
+        "type": "text",
+        "text_type": "normal_text",
+        "low_confidence": false
+      },
+      {
+        "text": "中文丨考查",
+        "confidence": 0.9442632794380188,
+        "bbox": {
+          "x1": 346.0,
+          "y1": 279.0,
+          "x2": 468.0,
+          "y2": 303.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.117,
+    "non_white_ratio": 0.0411
+  },
+  "ai_result": {
+    "summary": "《大学物理实验A(II)》是面向本科生的必修实验课程，由物理实验中心开设，共1.5学分、36学时，采用中文授课，考查方式考核。",
+    "entities": [
+      {
+        "name": "大学物理实验A(II)",
+        "type": "课程",
+        "description": "一门本科物理实验课程"
+      },
+      {
+        "name": "225043",
+        "type": "编号",
+        "description": "课程编号"
+      },
+      {
+        "name": "物理实验中心",
+        "type": "机构",
+        "description": "课程开设单位"
+      },
+      {
+        "name": "必修课",
+        "type": "课程性质",
+        "description": "学生必须修读的课程类型"
+      },
+      {
+        "name": "1.5学分",
+        "type": "数值",
+        "description": "课程对应的学分值"
+      },
+      {
+        "name": "36学时",
+        "type": "数值",
+        "description": "课程总学时"
+      },
+      {
+        "name": "中文",
+        "type": "语言",
+        "description": "授课所用语言"
+      },
+      {
+        "name": "考查",
+        "type": "考核方式",
+        "description": "课程评价形式"
+      }
+    ],
+    "relations": [
+      {
+        "source": "大学物理实验A(II)",
+        "target": "物理实验中心",
+        "relation": "由...开设",
+        "confidence": 0.95
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "必修课",
+        "relation": "课程性质为",
+        "confidence": 0.98
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "1.5学分",
+        "relation": "具有学分",
+        "confidence": 0.99
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "36学时",
+        "relation": "具有学时",
+        "confidence": 0.99
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "中文",
+        "relation": "授课语言为",
+        "confidence": 0.97
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "考查",
+        "relation": "考核方式为",
+        "confidence": 0.96
+      }
+    ],
+    "keywords": [
+      "大学物理实验",
+      "必修课",
+      "物理实验中心",
+      "1.5学分",
+      "36学时",
+      "考查"
+    ],
+    "modules": [
+      {
+        "module": "课程基本信息",
+        "text": "大学物理实验A(II)\n课程编号：225043\n开课单位：物理实验中心\n课程性质：必修课\n学分：1.5\n学时：36\n授课语言：中文\n考核方式：考查"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "主要内容为文字，使用文本模型分析",
+      "text_area_ratio": 0.117,
+      "non_white_ratio": 0.0411
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "大学物理实验A(II)",
+        "name": "大学物理实验A(II)",
+        "type": "课程",
+        "category": "课程",
+        "description": "一门本科物理实验课程",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "225043",
+        "name": "225043",
+        "type": "编号",
+        "category": "编号",
+        "description": "课程编号",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "物理实验中心",
+        "name": "物理实验中心",
+        "type": "机构",
+        "category": "机构",
+        "description": "课程开设单位",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "必修课",
+        "name": "必修课",
+        "type": "课程性质",
+        "category": "课程性质",
+        "description": "学生必须修读的课程类型",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "1.5学分",
+        "name": "1.5学分",
+        "type": "数值",
+        "category": "数值",
+        "description": "课程对应的学分值",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "36学时",
+        "name": "36学时",
+        "type": "数值",
+        "category": "数值",
+        "description": "课程总学时",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "中文",
+        "name": "中文",
+        "type": "语言",
+        "category": "语言",
+        "description": "授课所用语言",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "考查",
+        "name": "考查",
+        "type": "考核方式",
+        "category": "考核方式",
+        "description": "课程评价形式",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": [
+      {
+        "source": "大学物理实验A(II)",
+        "target": "物理实验中心",
+        "relation": "由...开设",
+        "label": "由...开设",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "必修课",
+        "relation": "课程性质为",
+        "label": "课程性质为",
+        "weight": 0.98,
+        "confidence": 0.98
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "1.5学分",
+        "relation": "具有学分",
+        "label": "具有学分",
+        "weight": 0.99,
+        "confidence": 0.99
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "36学时",
+        "relation": "具有学时",
+        "label": "具有学时",
+        "weight": 0.99,
+        "confidence": 0.99
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "中文",
+        "relation": "授课语言为",
+        "label": "授课语言为",
+        "weight": 0.97,
+        "confidence": 0.97
+      },
+      {
+        "source": "大学物理实验A(II)",
+        "target": "考查",
+        "relation": "考核方式为",
+        "label": "考核方式为",
+        "weight": 0.96,
+        "confidence": 0.96
+      }
+    ]
+  }
+}

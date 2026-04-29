@@ -1,0 +1,42 @@
+{
+  "text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票",
+    "structured_text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": null,
+  "graph": null,
+  "analysis": null,
+  "summary_result": {
+    "summary": "小红为了在杭州吃美味汉堡，连夜买机票准备明天前往。",
+    "text_type": "普通行为句",
+    "repaired_text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "小红准备明天在杭州吃美味的汉堡，为了实现这个想法，她连夜买了机票"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  }
+}

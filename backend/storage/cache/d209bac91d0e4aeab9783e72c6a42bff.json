@@ -1,0 +1,110 @@
+{
+  "text": "为往圣继绝学",
+  "file_path": "storage/images\\7460c2c836404f24af9be98f68b2943a__cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=3873065496308630401&skey=@crypt_28243626_4c358a2c2bdf601b79949dada569adb3&mmweb_appid=wx_webfilehelper.jpg",
+  "ocr": {
+    "raw_text": "为往圣继绝学",
+    "structured_text": "为往圣继绝学",
+    "layout_type": "semantic_layout",
+    "modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "为往圣继绝学"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "为往圣继绝学",
+        "confidence": 0.9546992182731628,
+        "bbox": {
+          "x1": 1344.0,
+          "y1": 1078.0,
+          "x2": 1876.0,
+          "y2": 3004.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ],
+    "raw_structured_text": "【标题/短文本区域1】\n为往圣继绝学",
+    "raw_modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "为往圣继绝学",
+        "blocks": [
+          {
+            "text": "为往圣继绝学",
+            "confidence": 0.9546992182731628,
+            "bbox": {
+              "x1": 1344.0,
+              "y1": 1078.0,
+              "x2": 1876.0,
+              "y2": 3004.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 1344.0,
+          "y1": 1078.0,
+          "x2": 1876.0,
+          "y2": 3004.0
+        }
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": true,
+    "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+    "text_area_ratio": 0.0854,
+    "non_white_ratio": 1.0
+  },
+  "ai_result": {
+    "summary": "图片展示了一张白底黑字的纸，上面用行书书写了“为往圣继绝学”这句话。这句话出自宋代思想家朱熹的《朱子语类》，强调继承和发扬古代圣贤的思想。",
+    "entities": [
+      {
+        "name": "为往圣继绝学",
+        "type": "语句",
+        "description": "出自宋代思想家朱熹的名言，强调继承和发扬古代圣贤的思想"
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "为往圣继绝学",
+      "朱熹",
+      "古代圣贤",
+      "思想继承"
+    ],
+    "modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "为往圣继绝学"
+      }
+    ],
+    "visual_notes": [
+      "图片中包含一张白底黑字的纸，上面用行书书写了“为往圣继绝学”这句话，背景简洁，无其他视觉元素。"
+    ],
+    "visual_detection": {
+      "has_visual": true,
+      "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+      "text_area_ratio": 0.0854,
+      "non_white_ratio": 1.0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "为往圣继绝学",
+        "name": "为往圣继绝学",
+        "type": "语句",
+        "category": "语句",
+        "description": "出自宋代思想家朱熹的名言，强调继承和发扬古代圣贤的思想",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": []
+  }
+}

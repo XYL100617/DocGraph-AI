@@ -1,0 +1,416 @@
+{
+  "text": "【横向信息区域1】\n</>Bash\npip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple\npip install paddleocr==2.7.3",
+  "file_path": "storage/images\\cc893bb14aa347daa64e74982c0daab1_PixPin_2026-04-24_13-55-11.png",
+  "ocr": {
+    "raw_text": "</>Bash\npip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple\npip install paddleocr==2.7.3",
+    "structured_text": "【横向信息区域1】\n</>Bash\npip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple\npip install paddleocr==2.7.3",
+    "layout_type": "region_cluster",
+    "modules": [
+      {
+        "module": "横向信息区域1",
+        "text": "</>Bash\npip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple\npip install paddleocr==2.7.3",
+        "blocks": [
+          {
+            "text": "</>Bash",
+            "confidence": 0.9156227707862854,
+            "bbox": {
+              "x1": 105.0,
+              "y1": 104.0,
+              "x2": 207.0,
+              "y2": 132.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "pip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple",
+            "confidence": 0.996746838092804,
+            "bbox": {
+              "x1": 106.0,
+              "y1": 162.0,
+              "x2": 1079.0,
+              "y2": 194.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          },
+          {
+            "text": "pip install paddleocr==2.7.3",
+            "confidence": 0.9639410376548767,
+            "bbox": {
+              "x1": 106.0,
+              "y1": 195.0,
+              "x2": 474.0,
+              "y2": 226.0
+            },
+            "type": "text",
+            "text_type": "formula_or_symbol",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 105.0,
+          "y1": 104.0,
+          "x2": 1079.0,
+          "y2": 226.0
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "text": "</>Bash",
+        "confidence": 0.9156227707862854,
+        "bbox": {
+          "x1": 105.0,
+          "y1": 104.0,
+          "x2": 207.0,
+          "y2": 132.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "pip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple",
+        "confidence": 0.996746838092804,
+        "bbox": {
+          "x1": 106.0,
+          "y1": 162.0,
+          "x2": 1079.0,
+          "y2": 194.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      },
+      {
+        "text": "pip install paddleocr==2.7.3",
+        "confidence": 0.9639410376548767,
+        "bbox": {
+          "x1": 106.0,
+          "y1": 195.0,
+          "x2": 474.0,
+          "y2": 226.0
+        },
+        "type": "text",
+        "text_type": "formula_or_symbol",
+        "low_confidence": false
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.227,
+    "non_white_ratio": 0.0535
+  },
+  "ai_result": {
+    "repaired_text": "Bash: pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple; pip install paddleocr==2.7.3",
+    "modules": [
+      {
+        "module": "横向信息区域1",
+        "text": "pip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple\npip install paddleocr==2.7.3"
+      }
+    ],
+    "summary": "在Bash环境中通过清华源安装PaddlePaddle和PaddleOCR指定版本的Python包。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "Bash",
+        "type": "对象",
+        "description": "Unix shell，用于执行命令行指令",
+        "aliases": [
+          "Bash"
+        ],
+        "category": "对象"
+      },
+      {
+        "name": "paddlepaddle",
+        "type": "对象",
+        "description": "飞桨深度学习框架，此处安装版本2.6.2",
+        "aliases": [
+          "paddlepaddle"
+        ],
+        "category": "对象"
+      },
+      {
+        "name": "paddleocr",
+        "type": "对象",
+        "description": "基于PaddlePaddle的OCR工具库，此处安装版本2.7.3",
+        "aliases": [
+          "paddleocr"
+        ],
+        "category": "对象"
+      },
+      {
+        "name": "pypi.tuna.tsinghua.edu.cn",
+        "type": "地点",
+        "description": "清华大学开源软件镜像站，提供Python包加速下载",
+        "aliases": [
+          "pypi.tuna.tsinghua.edu.cn"
+        ],
+        "category": "地点"
+      },
+      {
+        "name": "安装Python包",
+        "type": "事件",
+        "description": "使用pip命令安装指定版本的Python库",
+        "aliases": [
+          "安装Python包"
+        ],
+        "category": "事件"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Bash",
+        "target": "安装Python包",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "安装Python包",
+        "target": "paddlepaddle",
+        "relation": "使用",
+        "confidence": 0.95,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "安装Python包",
+        "target": "paddleocr",
+        "relation": "使用",
+        "confidence": 0.95,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "安装Python包",
+        "target": "pypi.tuna.tsinghua.edu.cn",
+        "relation": "使用",
+        "confidence": 0.85,
+        "raw_relation": "使用"
+      }
+    ],
+    "keywords": [
+      "Bash",
+      "pip",
+      "paddlepaddle",
+      "paddleocr",
+      "清华源"
+    ],
+    "visual_notes": [
+      "文本位于横向信息区域，格式为代码命令行，包含两个pip install命令",
+      "第一行为长命令，第二行为短命令，上下排列，属于同一操作流程"
+    ],
+    "ltp_entities": [],
+    "source": "ai"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "Bash",
+        "name": "Bash",
+        "label": "Bash",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "Unix shell，用于执行命令行指令",
+        "source": "llm",
+        "importance": 0.2912,
+        "symbolSize": 34.15409471477773
+      },
+      {
+        "id": "paddlepaddle",
+        "name": "paddlepaddle",
+        "label": "paddlepaddle",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "飞桨深度学习框架，此处安装版本2.6.2",
+        "source": "llm",
+        "importance": 0.4087,
+        "symbolSize": 37.442835577787235
+      },
+      {
+        "id": "paddleocr",
+        "name": "paddleocr",
+        "label": "paddleocr",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "基于PaddlePaddle的OCR工具库，此处安装版本2.7.3",
+        "source": "llm",
+        "importance": 0.4087,
+        "symbolSize": 37.442835577787235
+      },
+      {
+        "id": "pypi.tuna.tsinghua.edu.cn",
+        "name": "pypi.tuna.tsinghua.edu.cn",
+        "label": "pypi.tuna.tsinghua.edu.cn",
+        "type": "地点",
+        "category": "地点",
+        "group": 0,
+        "description": "清华大学开源软件镜像站，提供Python包加速下载",
+        "source": "llm",
+        "importance": 0.3963,
+        "symbolSize": 37.09665232904939
+      },
+      {
+        "id": "安装Python包",
+        "name": "安装Python包",
+        "label": "安装Python包",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "使用pip命令安装指定版本的Python库",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      }
+    ],
+    "edges": [
+      {
+        "source": "Bash",
+        "target": "安装Python包",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "安装Python包",
+        "target": "paddlepaddle",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "安装Python包",
+        "target": "paddleocr",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "安装Python包",
+        "target": "pypi.tuna.tsinghua.edu.cn",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.85,
+        "confidence": 0.85
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "安装Python包",
+        "score": 1.0,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "paddlepaddle",
+        "score": 0.4087,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "pagerank": 0.8342,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "paddleocr",
+        "score": 0.4087,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "pagerank": 0.8342,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "pypi.tuna.tsinghua.edu.cn",
+        "score": 0.3963,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "pagerank": 0.8033,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "Bash",
+        "score": 0.2912,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "pagerank": 0.5405,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "Bash": 0.25,
+        "paddlepaddle": 0.25,
+        "paddleocr": 0.25,
+        "pypi.tuna.tsinghua.edu.cn": 0.25,
+        "安装Python包": 1.0
+      },
+      "betweenness": {
+        "Bash": 0.0,
+        "paddlepaddle": 0.0,
+        "paddleocr": 0.0,
+        "pypi.tuna.tsinghua.edu.cn": 0.0,
+        "安装Python包": 1.0
+      },
+      "pagerank": {
+        "Bash": 0.5405441709622972,
+        "paddlepaddle": 0.8341817480167173,
+        "paddleocr": 0.8341817480167173,
+        "pypi.tuna.tsinghua.edu.cn": 0.80327252937941,
+        "安装Python包": 1.0
+      },
+      "fusion": {
+        "Bash": 0.2912176683849189,
+        "paddlepaddle": 0.408672699206687,
+        "paddleocr": 0.408672699206687,
+        "pypi.tuna.tsinghua.edu.cn": 0.39630901175176403,
+        "安装Python包": 1.0
+      }
+    },
+    "important_paths": [
+      [
+        "安装Python包",
+        "paddlepaddle"
+      ],
+      [
+        "安装Python包",
+        "paddleocr"
+      ],
+      [
+        "安装Python包",
+        "pypi.tuna.tsinghua.edu.cn"
+      ]
+    ]
+  },
+  "summary_result": {
+    "summary": "安装PaddlePaddle和PaddleOCR的Python命令，使用清华源加速下载。",
+    "text_type": "技术说明",
+    "repaired_text": "【横向信息区域1】 </>Bash pip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple pip install paddleocr==2.7.3",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【横向信息区域1】 </>Bash pip install paddlepaddle==2.6.2 -i https pypi.tuna.tsinghua.edu.cn/simple pip install paddleocr==2.7.3"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  }
+}

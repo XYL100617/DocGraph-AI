@@ -1,0 +1,62 @@
+{
+  "text": "what",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "what",
+    "structured_text": "what",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "what",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "输入内容为空或无效，无法进行模块化整理与信息抽取。",
+    "entities": [
+      {
+        "name": "无效输入",
+        "type": "问题",
+        "description": "用户输入内容不可解析"
+      }
+    ],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "错误提示",
+        "text": "输入内容无法解析，未提供有效中文文本。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "无效输入",
+        "name": "无效输入",
+        "label": "无效输入",
+        "type": "问题",
+        "category": "问题",
+        "description": "用户输入内容不可解析",
+        "symbolSize": 35
+      }
+    ],
+    "edges": []
+  }
+}

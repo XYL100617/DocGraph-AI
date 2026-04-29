@@ -1,0 +1,155 @@
+{
+  "text": "图论（Graph Theory）是数学的一个分支。它以图为研究对象。",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "图论（Graph Theory）是数学的一个分支。它以图为研究对象。",
+    "structured_text": "图论（Graph Theory）是数学的一个分支。它以图为研究对象。",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "图论（Graph Theory）是数学的一个分支。它以图为研究对象。",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "图论是数学的一个分支，主要研究图的结构和性质。",
+    "entities": [
+      {
+        "name": "图论",
+        "type": "概念",
+        "description": "数学的一个分支，研究图的结构和性质",
+        "aliases": [
+          "图论",
+          "图"
+        ]
+      },
+      {
+        "name": "数学",
+        "type": "概念",
+        "description": "研究数量、结构、变化和空间等概念的学科",
+        "aliases": [
+          "数学"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "图论",
+        "target": "数学",
+        "relation": "属于",
+        "confidence": 0.95
+      }
+    ],
+    "keywords": [
+      "图论",
+      "数学",
+      "图",
+      "分支",
+      "结构"
+    ],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "图论（Graph Theory）是数学的一个分支。它以图为研究对象。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "图论",
+        "name": "图论",
+        "label": "图论",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "数学的一个分支，研究图的结构和性质",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.45405854493301
+      },
+      {
+        "id": "数学",
+        "name": "数学",
+        "label": "数学",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "研究数量、结构、变化和空间等概念的学科",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "图论",
+        "target": "数学",
+        "relation": "属于",
+        "label": "属于",
+        "weight": 0.95,
+        "confidence": 0.95
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "数学",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "图论",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "图论": 1.0,
+        "数学": 1.0
+      },
+      "betweenness": {
+        "图论": 0,
+        "数学": 0
+      },
+      "pagerank": {
+        "图论": 0.5405409415118763,
+        "数学": 1.0
+      },
+      "fusion": {
+        "图论": 0.5162163766047505,
+        "数学": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "图论",
+        "数学"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,497 @@
+﻿{
+    "success":  true,
+    "message":  "ææ¬åæå®æ",
+    "text":  "å¼ ä¸è´è´£åç«¯å¼åãç³»ç»ä½¿ç¨PaddleOCRè¯å«å¾çæå­ï¼ä½¿ç¨DeepSeekæ½åå®ä½å\u0085³ç³»ï¼å¹¶éè¿NetworkXçæç¥è¯å¾è°±ã",
+    "llm":  {
+                "summary":  "å¼ ä¸è´è´£åç«¯å¼åãç³»ç»ä½¿ç¨PaddleOCRè¯å«å¾çæå­ï¼ä½¿ç¨DeepSeekæ½åå®ä½å\u0085³ç³»ï¼å¹¶éè¿NetworkXçæç¥è¯å¾è°±ã",
+                "entities":  [
+                                 {
+                                     "name":  "PaddleOCR",
+                                     "type":  "ææ¯",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "PaddleOCR",
+                                                     "OCR"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "NetworkX",
+                                     "type":  "ææ¯",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "NetworkX"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "DeepSeek",
+                                     "type":  "ææ¯",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "DeepSeek"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "ç¥è¯å¾è°±",
+                                     "type":  "ç»æ",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "ç¥è¯å¾è°±",
+                                                     "å¾è°±"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "OCRè¯å«",
+                                     "type":  "æ¨¡å",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "OCRè¯å«"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "å¾ç",
+                                     "type":  "äººç©",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "å¾ç"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "å\u0085³ç³»",
+                                     "type":  "äººç©",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "å\u0085³ç³»"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "æå­",
+                                     "type":  "äººç©",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "æå­"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "å®ä½",
+                                     "type":  "äººç©",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "å®ä½"
+                                                 ]
+                                 },
+                                 {
+                                     "name":  "å¼ ä¸",
+                                     "type":  "äººç©",
+                                     "description":  "",
+                                     "aliases":  [
+                                                     "å¼ ä¸"
+                                                 ]
+                                 }
+                             ],
+                "relations":  [
+                                  {
+                                      "source":  "PaddleOCR",
+                                      "target":  "ç¥è¯å¾è°±",
+                                      "relation":  "çæ",
+                                      "confidence":  0.8
+                                  },
+                                  {
+                                      "source":  "PaddleOCR",
+                                      "target":  "NetworkX",
+                                      "relation":  "ä¾èµ",
+                                      "confidence":  0.8
+                                  },
+                                  {
+                                      "source":  "PaddleOCR",
+                                      "target":  "NetworkX",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "NetworkX",
+                                      "target":  "DeepSeek",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "DeepSeek",
+                                      "target":  "ç¥è¯å¾è°±",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "ç¥è¯å¾è°±",
+                                      "target":  "OCRè¯å«",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "OCRè¯å«",
+                                      "target":  "å¾ç",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "å¾ç",
+                                      "target":  "å\u0085³ç³»",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "å\u0085³ç³»",
+                                      "target":  "æå­",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "æå­",
+                                      "target":  "å®ä½",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  },
+                                  {
+                                      "source":  "å®ä½",
+                                      "target":  "ç¥è¯å¾è°±",
+                                      "relation":  "å\u0085³è",
+                                      "confidence":  0.55
+                                  }
+                              ],
+                "keywords":  [
+                                 "PaddleOCR",
+                                 "OCR",
+                                 "NetworkX",
+                                 "DeepSeek",
+                                 "ç¥è¯å¾è°±",
+                                 "OCRè¯å«",
+                                 "å¾ç",
+                                 "å\u0085³ç³»"
+                             ],
+                "source":  "textrank_local_algorithm"
+            },
+    "graph":  {
+                  "nodes":  [
+                                {
+                                    "id":  "PaddleOCR",
+                                    "name":  "PaddleOCR",
+                                    "label":  "PaddleOCR",
+                                    "type":  "ææ¯",
+                                    "category":  "ææ¯",
+                                    "group":  0,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.1885,
+                                    "symbolSize":  40.480489188737636
+                                },
+                                {
+                                    "id":  "NetworkX",
+                                    "name":  "NetworkX",
+                                    "label":  "NetworkX",
+                                    "type":  "ææ¯",
+                                    "category":  "ææ¯",
+                                    "group":  0,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.2138,
+                                    "symbolSize":  41.61975118557826
+                                },
+                                {
+                                    "id":  "DeepSeek",
+                                    "name":  "DeepSeek",
+                                    "label":  "DeepSeek",
+                                    "type":  "ææ¯",
+                                    "category":  "ææ¯",
+                                    "group":  0,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.3045,
+                                    "symbolSize":  45.70077769647916
+                                },
+                                {
+                                    "id":  "ç¥è¯å¾è°±",
+                                    "name":  "ç¥è¯å¾è°±",
+                                    "label":  "ç¥è¯å¾è°±",
+                                    "type":  "ç»æ",
+                                    "category":  "ç»æ",
+                                    "group":  0,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  1.0,
+                                    "symbolSize":  77.0
+                                },
+                                {
+                                    "id":  "OCRè¯å«",
+                                    "name":  "OCRè¯å«",
+                                    "label":  "OCRè¯å«",
+                                    "type":  "æ¨¡å",
+                                    "category":  "æ¨¡å",
+                                    "group":  2,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.7925,
+                                    "symbolSize":  67.66061764350835
+                                },
+                                {
+                                    "id":  "å¾ç",
+                                    "name":  "å¾ç",
+                                    "label":  "å¾ç",
+                                    "type":  "äººç©",
+                                    "category":  "äººç©",
+                                    "group":  2,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.7381,
+                                    "symbolSize":  65.2166876214784
+                                },
+                                {
+                                    "id":  "å\u0085³ç³»",
+                                    "name":  "å\u0085³ç³»",
+                                    "label":  "å\u0085³ç³»",
+                                    "type":  "äººç©",
+                                    "category":  "äººç©",
+                                    "group":  1,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.6866,
+                                    "symbolSize":  62.89629186174699
+                                },
+                                {
+                                    "id":  "æå­",
+                                    "name":  "æå­",
+                                    "label":  "æå­",
+                                    "type":  "äººç©",
+                                    "category":  "äººç©",
+                                    "group":  1,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.6373,
+                                    "symbolSize":  60.68040305591571
+                                },
+                                {
+                                    "id":  "å®ä½",
+                                    "name":  "å®ä½",
+                                    "label":  "å®ä½",
+                                    "type":  "äººç©",
+                                    "category":  "äººç©",
+                                    "group":  1,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.5901,
+                                    "symbolSize":  58.5543330708137
+                                },
+                                {
+                                    "id":  "å¼ ä¸",
+                                    "name":  "å¼ ä¸",
+                                    "label":  "å¼ ä¸",
+                                    "type":  "äººç©",
+                                    "category":  "äººç©",
+                                    "group":  3,
+                                    "description":  "",
+                                    "source":  "llm",
+                                    "importance":  0.0385,
+                                    "symbolSize":  33.730489188737636
+                                }
+                            ],
+                  "edges":  [
+                                {
+                                    "source":  "PaddleOCR",
+                                    "target":  "ç¥è¯å¾è°±",
+                                    "relation":  "çæ",
+                                    "label":  "çæ",
+                                    "weight":  0.8,
+                                    "confidence":  0.8
+                                },
+                                {
+                                    "source":  "PaddleOCR",
+                                    "target":  "NetworkX",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "NetworkX",
+                                    "target":  "DeepSeek",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "DeepSeek",
+                                    "target":  "ç¥è¯å¾è°±",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "ç¥è¯å¾è°±",
+                                    "target":  "OCRè¯å«",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "OCRè¯å«",
+                                    "target":  "å¾ç",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "å¾ç",
+                                    "target":  "å\u0085³ç³»",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "å\u0085³ç³»",
+                                    "target":  "æå­",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "æå­",
+                                    "target":  "å®ä½",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                },
+                                {
+                                    "source":  "å®ä½",
+                                    "target":  "ç¥è¯å¾è°±",
+                                    "relation":  "å\u0085³è",
+                                    "label":  "å\u0085³è",
+                                    "weight":  0.55,
+                                    "confidence":  0.55
+                                }
+                            ]
+              },
+    "analysis":  {
+                     "core_nodes":  [
+                                        {
+                                            "name":  "ç¥è¯å¾è°±",
+                                            "score":  1.0,
+                                            "degree":  1.0,
+                                            "betweenness":  1.0,
+                                            "pagerank":  1.0,
+                                            "reason":  "è¯¥èç¹å¨å¾ä¸­å\u0085·æè¾é«ç»¼åä¸­å¿æ§"
+                                        },
+                                        {
+                                            "name":  "OCRè¯å«",
+                                            "score":  0.7925,
+                                            "degree":  0.5,
+                                            "betweenness":  0.88,
+                                            "pagerank":  0.9461,
+                                            "reason":  "è¯¥èç¹å¨å¾ä¸­å\u0085·æè¾é«ç»¼åä¸­å¿æ§"
+                                        },
+                                        {
+                                            "name":  "å¾ç",
+                                            "score":  0.7381,
+                                            "degree":  0.5,
+                                            "betweenness":  0.76,
+                                            "pagerank":  0.9004,
+                                            "reason":  "è¯¥èç¹å¨å¾ä¸­å\u0085·æè¾é«ç»¼åä¸­å¿æ§"
+                                        },
+                                        {
+                                            "name":  "å\u0085³ç³»",
+                                            "score":  0.6866,
+                                            "degree":  0.5,
+                                            "betweenness":  0.64,
+                                            "pagerank":  0.8615,
+                                            "reason":  "è¯¥èç¹å¨å¾ä¸­å\u0085·æè¾é«ç»¼åä¸­å¿æ§"
+                                        },
+                                        {
+                                            "name":  "æå­",
+                                            "score":  0.6373,
+                                            "degree":  0.5,
+                                            "betweenness":  0.52,
+                                            "pagerank":  0.8284,
+                                            "reason":  "è¯¥èç¹å¨å¾ä¸­å\u0085·æè¾é«ç»¼åä¸­å¿æ§"
+                                        }
+                                    ],
+                     "metrics":  {
+                                     "degree":  {
+                                                    "PaddleOCR":  0.5,
+                                                    "NetworkX":  0.5,
+                                                    "DeepSeek":  0.5,
+                                                    "ç¥è¯å¾è°±":  1.0,
+                                                    "OCRè¯å«":  0.5,
+                                                    "å¾ç":  0.5,
+                                                    "å\u0085³ç³»":  0.5,
+                                                    "æå­":  0.5,
+                                                    "å®ä½":  0.5,
+                                                    "å¼ ä¸":  0.0
+                                                },
+                                     "betweenness":  {
+                                                         "PaddleOCR":  0.0,
+                                                         "NetworkX":  0.04,
+                                                         "DeepSeek":  0.24,
+                                                         "ç¥è¯å¾è°±":  1.0,
+                                                         "OCRè¯å«":  0.8799999999999999,
+                                                         "å¾ç":  0.76,
+                                                         "å\u0085³ç³»":  0.64,
+                                                         "æå­":  0.52,
+                                                         "å®ä½":  0.4,
+                                                         "å¼ ä¸":  0.0
+                                                     },
+                                     "pagerank":  {
+                                                      "PaddleOCR":  0.09613828826320199,
+                                                      "NetworkX":  0.12943062142101452,
+                                                      "DeepSeek":  0.20615431647106433,
+                                                      "ç¥è¯å¾è°±":  1.0,
+                                                      "OCRè¯å«":  0.9461454246393521,
+                                                      "å¾ç":  0.9003715345265777,
+                                                      "å\u0085³ç³»":  0.8614606589859438,
+                                                      "æå­":  0.8283557253286508,
+                                                      "å®ä½":  0.8002407261563165,
+                                                      "å¼ ä¸":  0.09613828826320199
+                                                  },
+                                     "fusion":  {
+                                                    "PaddleOCR":  0.18845531530528079,
+                                                    "NetworkX":  0.21377224856840582,
+                                                    "DeepSeek":  0.30446172658842574,
+                                                    "ç¥è¯å¾è°±":  1.0,
+                                                    "OCRè¯å«":  0.7924581698557408,
+                                                    "å¾ç":  0.7381486138106311,
+                                                    "å\u0085³ç³»":  0.6865842635943775,
+                                                    "æå­":  0.6373422901314603,
+                                                    "å®ä½":  0.5900962904625267,
+                                                    "å¼ ä¸":  0.0384553153052808
+                                                }
+                                 },
+                     "important_paths":  [
+                                             [
+                                                 "ç¥è¯å¾è°±",
+                                                 "OCRè¯å«"
+                                             ],
+                                             [
+                                                 "ç¥è¯å¾è°±",
+                                                 "OCRè¯å«",
+                                                 "å¾ç"
+                                             ],
+                                             [
+                                                 "ç¥è¯å¾è°±",
+                                                 "OCRè¯å«",
+                                                 "å¾ç",
+                                                 "å\u0085³ç³»"
+                                             ],
+                                             [
+                                                 "OCRè¯å«",
+                                                 "å¾ç"
+                                             ],
+                                             [
+                                                 "OCRè¯å«",
+                                                 "å¾ç",
+                                                 "å\u0085³ç³»"
+                                             ]
+                                         ]
+                 }
+}

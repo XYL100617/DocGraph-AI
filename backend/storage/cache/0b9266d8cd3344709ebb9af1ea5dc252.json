@@ -1,0 +1,219 @@
+{
+  "text": "为天地立心\r\n为生民立命",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "为天地立心\r\n为生民立命",
+    "structured_text": "为天地立心\r\n为生民立命",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "为天地立心\r\n为生民立命",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "文本表达了为天地确立精神价值，为民众建立生命意义的哲学志向。",
+    "entities": [
+      {
+        "name": "天地",
+        "type": "概念",
+        "description": "指自然界或宇宙，象征宏观世界",
+        "aliases": [
+          "天地"
+        ]
+      },
+      {
+        "name": "生民",
+        "type": "概念",
+        "description": "指人民或众生，代表人类社会",
+        "aliases": [
+          "生民"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "天地",
+        "target": "心",
+        "relation": "包含",
+        "confidence": 0.8
+      },
+      {
+        "source": "生民",
+        "target": "命",
+        "relation": "包含",
+        "confidence": 0.8
+      }
+    ],
+    "keywords": [
+      "天地",
+      "生民",
+      "立心",
+      "立命"
+    ],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "为天地立心\r\n为生民立命"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "天地",
+        "name": "天地",
+        "label": "天地",
+        "type": "对象",
+        "category": "对象",
+        "group": 1,
+        "description": "指自然界或宇宙，象征宏观世界",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.454043487289255
+      },
+      {
+        "id": "生民",
+        "name": "生民",
+        "label": "生民",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "指人民或众生，代表人类社会",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.454043487289255
+      },
+      {
+        "id": "心",
+        "name": "心",
+        "label": "心",
+        "type": "对象",
+        "category": "对象",
+        "group": 1,
+        "description": "",
+        "source": "relation_auto",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      },
+      {
+        "id": "命",
+        "name": "命",
+        "label": "命",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "",
+        "source": "relation_auto",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "天地",
+        "target": "心",
+        "relation": "包含",
+        "label": "包含",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "生民",
+        "target": "命",
+        "relation": "包含",
+        "label": "包含",
+        "weight": 0.8,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "心",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "命",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "天地",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "生民",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "天地": 1.0,
+        "生民": 1.0,
+        "心": 1.0,
+        "命": 1.0
+      },
+      "betweenness": {
+        "天地": 0,
+        "生民": 0,
+        "心": 0,
+        "命": 0
+      },
+      "pagerank": {
+        "天地": 0.540539597079398,
+        "生民": 0.540539597079398,
+        "心": 1.0,
+        "命": 1.0
+      },
+      "fusion": {
+        "天地": 0.5162158388317593,
+        "生民": 0.5162158388317593,
+        "心": 0.7,
+        "命": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "天地",
+        "心"
+      ],
+      [
+        "生民",
+        "命"
+      ]
+    ]
+  }
+}

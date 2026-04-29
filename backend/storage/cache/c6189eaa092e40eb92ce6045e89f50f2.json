@@ -1,0 +1,93 @@
+{
+  "text": "无与伦比",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "无与伦比",
+    "structured_text": "无与伦比",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "无与伦比",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "无与伦比",
+    "entities": [
+      {
+        "name": "无与伦比",
+        "type": "主题",
+        "description": "由短文本生成的整体主题节点",
+        "aliases": [
+          "无与伦比"
+        ]
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "无与伦比",
+      "无与伦比"
+    ],
+    "modules": [],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "无与伦比",
+        "name": "无与伦比",
+        "label": "无与伦比",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "由短文本生成的整体主题节点",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      }
+    ],
+    "edges": []
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "无与伦比",
+        "score": 1.0,
+        "degree": 0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点是当前文本中唯一的核心主题。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "无与伦比": 0
+      },
+      "betweenness": {
+        "无与伦比": 0
+      },
+      "pagerank": {
+        "无与伦比": 1.0
+      },
+      "fusion": {
+        "无与伦比": 1.0
+      }
+    },
+    "important_paths": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "text": "使用普通 PaddleOCR 识别",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "使用普通 PaddleOCR 识别",
+    "structured_text": "使用普通 PaddleOCR 识别",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "使用普通 PaddleOCR 识别",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "采用普通PaddleOCR模型进行文本识别，适用于常规场景下的文字检测与识别任务。",
+    "entities": [
+      {
+        "name": "PaddleOCR",
+        "type": "技术",
+        "description": "百度开源的OCR工具库，支持文本检测与识别"
+      },
+      {
+        "name": "文本识别",
+        "type": "方法",
+        "description": "从图像中提取文字内容的技术过程"
+      }
+    ],
+    "relations": [
+      {
+        "source": "PaddleOCR",
+        "target": "文本识别",
+        "relation": "用于",
+        "confidence": 0.95
+      }
+    ],
+    "keywords": [
+      "PaddleOCR",
+      "文本识别",
+      "OCR",
+      "文字识别"
+    ],
+    "modules": [
+      {
+        "module": "方法描述",
+        "text": "使用普通 PaddleOCR 进行文本识别。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "PaddleOCR",
+        "name": "PaddleOCR",
+        "label": "PaddleOCR",
+        "type": "技术",
+        "category": "技术",
+        "description": "百度开源的OCR工具库，支持文本检测与识别",
+        "symbolSize": 35
+      },
+      {
+        "id": "文本识别",
+        "name": "文本识别",
+        "label": "文本识别",
+        "type": "方法",
+        "category": "方法",
+        "description": "从图像中提取文字内容的技术过程",
+        "symbolSize": 35
+      }
+    ],
+    "edges": [
+      {
+        "source": "PaddleOCR",
+        "target": "文本识别",
+        "relation": "用于",
+        "label": "用于",
+        "weight": 0.95,
+        "confidence": 0.95
+      }
+    ]
+  }
+}

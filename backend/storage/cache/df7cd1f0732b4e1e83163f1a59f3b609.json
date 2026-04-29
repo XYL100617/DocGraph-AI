@@ -1,0 +1,25 @@
+{
+  "text": "为天地立心\r\n为生民立命",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "为天地立心\r\n为生民立命",
+    "structured_text": "为天地立心\r\n为生民立命",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "为天地立心\r\n为生民立命",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": null,
+  "graph": null
+}

@@ -1,0 +1,109 @@
+{
+  "text": "为万世开太平",
+  "file_path": "storage/images\\0feedbff2af94672bfc47a478459bb82__cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=2337073718516203090&skey=@crypt_28243626_4c358a2c2bdf601b79949dada569adb3&mmweb_appid=wx_webfilehelper.jpg",
+  "ocr": {
+    "raw_text": "为万世开太平",
+    "structured_text": "为万世开太平",
+    "layout_type": "semantic_layout",
+    "modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "为万世开太平"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "为万世开太平",
+        "confidence": 0.9502174258232117,
+        "bbox": {
+          "x1": 1203.0,
+          "y1": 1179.0,
+          "x2": 1811.0,
+          "y2": 2898.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ],
+    "raw_structured_text": "【标题/短文本区域1】\n为万世开太平",
+    "raw_modules": [
+      {
+        "module": "标题/短文本区域1",
+        "text": "为万世开太平",
+        "blocks": [
+          {
+            "text": "为万世开太平",
+            "confidence": 0.9502174258232117,
+            "bbox": {
+              "x1": 1203.0,
+              "y1": 1179.0,
+              "x2": 1811.0,
+              "y2": 2898.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 1203.0,
+          "y1": 1179.0,
+          "x2": 1811.0,
+          "y2": 2898.0
+        }
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": true,
+    "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+    "text_area_ratio": 0.0871,
+    "non_white_ratio": 1.0
+  },
+  "ai_result": {
+    "summary": "一幅手写书法作品，内容为“为万世开太平”，字体流畅，表达了对未来的美好祝愿。",
+    "entities": [
+      {
+        "name": "为万世开太平",
+        "type": "书法作品",
+        "description": "一句表达对未来和平与繁荣祝愿的书法作品"
+      }
+    ],
+    "relations": [],
+    "keywords": [
+      "书法",
+      "祝福",
+      "未来"
+    ],
+    "modules": [
+      {
+        "module": "书法作品",
+        "text": "为万世开太平"
+      }
+    ],
+    "visual_notes": [
+      "背景为白色纸张，书法作品位于中央，书写工整，下方有一道阴影。"
+    ],
+    "visual_detection": {
+      "has_visual": true,
+      "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+      "text_area_ratio": 0.0871,
+      "non_white_ratio": 1.0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "为万世开太平",
+        "name": "为万世开太平",
+        "type": "书法作品",
+        "category": "书法作品",
+        "description": "一句表达对未来和平与繁荣祝愿的书法作品",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": []
+  }
+}

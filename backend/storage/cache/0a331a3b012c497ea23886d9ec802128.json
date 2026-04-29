@@ -1,0 +1,48 @@
+{
+  "text": "【第1页】\n证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+  "file_path": "storage/images\\ccd4082702d44d8db1e14e823c244ae4_附件4：8+《虚拟手术刀轨迹分析系统+V1.0》.pdf",
+  "ocr": {
+    "raw_text": "【第1页原始OCR】\n",
+    "structured_text": "【第1页】\n证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+    "layout_type": "pdf_multi_page",
+    "pages": [
+      {
+        "page": 1,
+        "raw_text": "",
+        "structured_text": "证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+        "layout_type": "pp_structure",
+        "modules": [
+          {
+            "page": 1,
+            "module": "第1页",
+            "text": "证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+            "content": "证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+            "type": "pdf_page",
+            "blocks": []
+          }
+        ],
+        "blocks": []
+      }
+    ],
+    "modules": [
+      {
+        "page": 1,
+        "module": "第1页",
+        "text": "证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+        "content": "证书号：二\n软著登字第15836411号\n\n\n件名称：\n虚拟手术刀轨迹分析系纟\nV1. 0\n\n\n中华人民共和国国家版权局\n计算机软件著作权登记证书",
+        "type": "pdf_page",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": null,
+  "graph": null,
+  "analysis": null
+}

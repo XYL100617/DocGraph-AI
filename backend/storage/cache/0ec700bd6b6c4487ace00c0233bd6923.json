@@ -1,0 +1,96 @@
+{
+  "text": "小红和小明结婚了",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "小红和小明结婚了",
+    "structured_text": "小红和小明结婚了",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "小红和小明结婚了",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "summary": "小红与小明正式结为夫妻，二人建立了婚姻关系。",
+    "entities": [
+      {
+        "name": "小红",
+        "type": "人物",
+        "description": "参与结婚的一方"
+      },
+      {
+        "name": "小明",
+        "type": "人物",
+        "description": "参与结婚的另一方"
+      }
+    ],
+    "relations": [
+      {
+        "source": "小红",
+        "target": "小明",
+        "relation": "配偶",
+        "confidence": 0.95
+      }
+    ],
+    "keywords": [
+      "小红",
+      "小明",
+      "结婚"
+    ],
+    "modules": [
+      {
+        "module": "事件概述",
+        "text": "小红和小明结婚了。"
+      }
+    ],
+    "visual_notes": [],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "小红",
+        "name": "小红",
+        "type": "人物",
+        "category": "人物",
+        "description": "参与结婚的一方",
+        "importance": 0,
+        "symbolSize": 36
+      },
+      {
+        "id": "小明",
+        "name": "小明",
+        "type": "人物",
+        "category": "人物",
+        "description": "参与结婚的另一方",
+        "importance": 0,
+        "symbolSize": 36
+      }
+    ],
+    "edges": [
+      {
+        "source": "小红",
+        "target": "小明",
+        "relation": "配偶",
+        "label": "配偶",
+        "weight": 0.95,
+        "confidence": 0.95
+      }
+    ]
+  }
+}

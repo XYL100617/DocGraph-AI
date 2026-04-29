@@ -1,0 +1,120 @@
+{
+  "text": "为天地立心\n为生民立命\n张三负责多模态信息解析系统的后端开发。系统使用PaddleOCR识别图片文字，使用DeepSeek完成实体关系抽取，并通过NetworkX构建知识图谱。语义去重模块用于合并相似实体，多中心性分析模块用于发现核心节点。",
+  "file_path": "storage/images\\97abd34e95294b5cb2d5072f941a6a7c__cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=8015752211235833344&skey=@crypt_28243626_4c358a2c2bdf601b79949dada569adb3&mmweb_appid=wx_webfilehelper.jpg",
+  "ocr": {
+    "raw_text": "为生民立命\n为天地立心",
+    "structured_text": "为天地立心\n为生民立命",
+    "layout_type": "semantic_layout",
+    "modules": [
+      {
+        "module": "文本内容区域1",
+        "text": "为天地立心\n为生民立命"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "为生民立命",
+        "confidence": 0.9928449392318726,
+        "bbox": {
+          "x1": 1048.0,
+          "y1": 1153.0,
+          "x2": 1460.0,
+          "y2": 2574.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      },
+      {
+        "text": "为天地立心",
+        "confidence": 0.9932376146316528,
+        "bbox": {
+          "x1": 1591.0,
+          "y1": 1190.0,
+          "x2": 1921.0,
+          "y2": 2602.0
+        },
+        "type": "text",
+        "text_type": "handwriting_or_short_chinese",
+        "low_confidence": false
+      }
+    ],
+    "raw_structured_text": "【文本内容区域1】\n为生民立命 为天地立心",
+    "raw_modules": [
+      {
+        "module": "文本内容区域1",
+        "text": "为生民立命 为天地立心",
+        "blocks": [
+          {
+            "text": "为生民立命",
+            "confidence": 0.9928449392318726,
+            "bbox": {
+              "x1": 1048.0,
+              "y1": 1153.0,
+              "x2": 1460.0,
+              "y2": 2574.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          },
+          {
+            "text": "为天地立心",
+            "confidence": 0.9932376146316528,
+            "bbox": {
+              "x1": 1591.0,
+              "y1": 1190.0,
+              "x2": 1921.0,
+              "y2": 2602.0
+            },
+            "type": "text",
+            "text_type": "handwriting_or_short_chinese",
+            "low_confidence": false
+          }
+        ],
+        "bbox": {
+          "x1": 1048.0,
+          "y1": 1153.0,
+          "x2": 1921.0,
+          "y2": 2602.0
+        }
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": true,
+    "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+    "text_area_ratio": 0.0876,
+    "non_white_ratio": 1.0
+  },
+  "ai_result": {
+    "summary": "文本表达了儒家哲学中的核心理念，强调个人应承担社会责任，为天地确立精神价值，为百姓确立生活目标。",
+    "entities": [],
+    "relations": [],
+    "keywords": [
+      "天地",
+      "立心",
+      "生民",
+      "立命"
+    ],
+    "modules": [
+      {
+        "module": "哲学思想",
+        "text": "为天地立心\n为生民立命"
+      }
+    ],
+    "visual_notes": [
+      "图片中包含手写的文字内容，书写工整，背景为白色纸张，无其他视觉元素。"
+    ],
+    "visual_detection": {
+      "has_visual": true,
+      "reason": "检测到较大非文本区域，可能包含校徽、地图、图表或图片",
+      "text_area_ratio": 0.0876,
+      "non_white_ratio": 1.0
+    }
+  },
+  "graph": {
+    "nodes": [],
+    "edges": []
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "text": "一闪一闪亮晶晶",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "一闪一闪亮晶晶",
+    "structured_text": "一闪一闪亮晶晶",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "一闪一闪亮晶晶",
+        "blocks": []
+      }
+    ],
+    "blocks": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "ai_result": {
+    "repaired_text": "一闪一闪亮晶晶",
+    "summary": "通过重复闪烁的意象描绘星光，表达对自然美景的童真观察与喜爱。",
+    "entities": [
+      {
+        "name": "星星",
+        "type": "对象",
+        "description": "夜空中发光的天体，象征希望或遥远的美好",
+        "aliases": [
+          "星星"
+        ]
+      },
+      {
+        "name": "闪烁",
+        "type": "事件",
+        "description": "星星光线明暗交替的现象",
+        "aliases": [
+          "闪烁"
+        ]
+      },
+      {
+        "name": "光",
+        "type": "主题",
+        "description": "明亮、纯净的视觉表现，象征美好或希望",
+        "aliases": [
+          "光"
+        ]
+      },
+      {
+        "name": "童真观察",
+        "type": "主题",
+        "description": "以儿童视角感知自然之美",
+        "aliases": [
+          "童真观察"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "星星",
+        "target": "闪烁",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "星星",
+        "target": "光",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "体现"
+      },
+      {
+        "source": "闪烁",
+        "target": "光",
+        "relation": "描述",
+        "confidence": 0.8,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "童真观察",
+        "target": "星星",
+        "relation": "服务于",
+        "confidence": 0.75,
+        "raw_relation": "关联"
+      }
+    ],
+    "keywords": [
+      "星星",
+      "闪烁",
+      "光",
+      "童真",
+      "儿歌"
+    ],
+    "modules": [],
+    "visual_notes": [
+      "画面可能包含夜空、繁星、儿童仰望天空的场景",
+      "视觉节奏感强，适合动画表现闪烁效果"
+    ],
+    "visual_detection": {
+      "has_visual": false,
+      "reason": "纯文本输入或未检测",
+      "text_area_ratio": 0,
+      "non_white_ratio": 0
+    },
+    "ltp_entities": []
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "星星",
+        "name": "星星",
+        "label": "星星",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "夜空中发光的天体，象征希望或遥远的美好",
+        "source": "llm",
+        "importance": 0.8242,
+        "symbolSize": 49.0765293600014
+      },
+      {
+        "id": "闪烁",
+        "name": "闪烁",
+        "label": "闪烁",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "星星光线明暗交替的现象",
+        "source": "llm",
+        "importance": 0.4192,
+        "symbolSize": 37.73644418971878
+      },
+      {
+        "id": "光",
+        "name": "光",
+        "label": "光",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "明亮、纯净的视觉表现，象征美好或希望",
+        "source": "llm",
+        "importance": 0.6,
+        "symbolSize": 42.8
+      },
+      {
+        "id": "童真观察",
+        "name": "童真观察",
+        "label": "童真观察",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "以儿童视角感知自然之美",
+        "source": "llm",
+        "importance": 0.2212,
+        "symbolSize": 32.192704372105
+      }
+    ],
+    "edges": [
+      {
+        "source": "星星",
+        "target": "闪烁",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "星星",
+        "target": "光",
+        "relation": "体现",
+        "raw_relation": "体现",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "闪烁",
+        "target": "光",
+        "relation": "描述",
+        "raw_relation": "描述",
+        "label": "描述",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "童真观察",
+        "target": "星星",
+        "relation": "服务于",
+        "raw_relation": "关联",
+        "label": "服务于",
+        "weight": 0.75,
+        "confidence": 0.75
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "星星",
+        "score": 0.8242,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.5604,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "光",
+        "score": 0.6,
+        "degree": 0.6667,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "闪烁",
+        "score": 0.4192,
+        "degree": 0.6667,
+        "betweenness": 0.0,
+        "pagerank": 0.5479,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "童真观察",
+        "score": 0.2212,
+        "degree": 0.3333,
+        "betweenness": 0.0,
+        "pagerank": 0.3029,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "星星": 1.0,
+        "闪烁": 0.6666666666666666,
+        "光": 0.6666666666666666,
+        "童真观察": 0.3333333333333333
+      },
+      "betweenness": {
+        "星星": 1.0,
+        "闪烁": 0.0,
+        "光": 0.0,
+        "童真观察": 0.0
+      },
+      "pagerank": {
+        "星星": 0.5604044071429821,
+        "闪烁": 0.5478968026534623,
+        "光": 1.0,
+        "童真观察": 0.3029200332236603
+      },
+      "fusion": {
+        "星星": 0.8241617628571929,
+        "闪烁": 0.4191587210613849,
+        "光": 0.6,
+        "童真观察": 0.22116801328946412
+      }
+    },
+    "important_paths": [
+      [
+        "星星",
+        "光"
+      ],
+      [
+        "星星",
+        "闪烁"
+      ],
+      [
+        "童真观察",
+        "星星"
+      ],
+      [
+        "闪烁",
+        "光"
+      ],
+      [
+        "童真观察",
+        "星星",
+        "光"
+      ]
+    ]
+  }
+}
