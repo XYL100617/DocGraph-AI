@@ -154,7 +154,7 @@ npm run dev
 
 ### OCR 与多模态解析
 - PaddleOCR（https://github.com/PaddlePaddle/PaddleOCR）
-- PP-StructureV2（基于 PaddleOCR 的结构化解析模块，参考：https://github.com/PaddlePaddle/PaddleOCR）
+- PP-StructureV2（基于 PaddleOCR 的结构化解析模块，参考：https://github.com/    PaddlePaddle/PaddleOCR）
 - OpenCV（https://github.com/opencv/opencv）
 - PyMuPDF（https://github.com/pymupdf/PyMuPDF）
 
