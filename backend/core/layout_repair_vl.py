@@ -51,6 +51,34 @@ def build_structured_text(modules):
     return "\n\n".join(parts)
 
 
+def is_title_block(block):
+    return block.get("type") in ["title_candidate", "top_title"]
+
+
+def get_title_texts_from_ocr_result(ocr_result: dict):
+    blocks = (ocr_result or {}).get("blocks", [])
+    title_blocks = [b for b in blocks if is_title_block(b) and b.get("text")]
+
+    if not title_blocks:
+        return []
+
+    title_blocks = sorted(
+        title_blocks,
+        key=lambda b: (
+            b.get("bbox", {}).get("y1", 0),
+            b.get("bbox", {}).get("x1", 0)
+        )
+    )
+
+    title_texts = []
+    for block in title_blocks:
+        text = str(block.get("text", "")).strip()
+        if text and text not in title_texts:
+            title_texts.append(text)
+
+    return title_texts
+
+
 def repair_layout_with_vl(image_path: str, ocr_result: dict):
     """
     使用 qwen-vl-plus 结合图片和 OCR 文本重建排版。
@@ -66,6 +94,7 @@ def repair_layout_with_vl(image_path: str, ocr_result: dict):
     structured_text = ocr_result.get("structured_text", "")
     layout_type = ocr_result.get("layout_type", "")
     modules = ocr_result.get("modules", [])
+    title_texts = get_title_texts_from_ocr_result(ocr_result)
 
     prompt = f"""
 你是一个OCR版面重建助手。请结合图片视觉布局和OCR识别文本，重建正确排版。
@@ -177,6 +206,20 @@ def repair_layout_with_vl(image_path: str, ocr_result: dict):
 
     if not structured:
         structured = build_structured_text(result_modules)
+
+    if title_texts:
+        title_section = "【标题】\n" + "\n".join(title_texts)
+
+        if title_texts[0] not in structured:
+            structured = title_section + "\n\n" + structured
+
+        if not result_modules or result_modules[0].get("module") != "标题":
+            result_modules = [
+                {
+                    "module": "标题",
+                    "text": "\n".join(title_texts)
+                }
+            ] + result_modules
 
     return {
         "layout_type": data.get("layout_type", "vl_layout_rebuilt"),

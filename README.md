@@ -3,6 +3,8 @@
 ## 1. 项目简介
 DocGraph-AI是一个前后端分离的多模态信息解析与知识图谱构建系统。系统支持文件上传与文本输入，提供 OCR 识别、AI 语义抽取、图谱构建、图分析与可视化展示的完整链路。
 
+本说明仅描述当前代码中已实现并已接入主流程的能力。
+
 ## 2. 技术栈（基于代码实证）
 
 ### 2.1 前端
@@ -152,7 +154,7 @@ npm run dev
 
 ### OCR 与多模态解析
 - PaddleOCR（https://github.com/PaddlePaddle/PaddleOCR）
-- PP-StructureV2（基于 PaddleOCR 的结构化解析模块，参考：https://github.com/    PaddlePaddle/PaddleOCR）
+- PP-StructureV2（基于 PaddleOCR 的结构化解析模块，参考：https://github.com/PaddlePaddle/PaddleOCR）
 - OpenCV（https://github.com/opencv/opencv）
 - PyMuPDF（https://github.com/pymupdf/PyMuPDF）
 
