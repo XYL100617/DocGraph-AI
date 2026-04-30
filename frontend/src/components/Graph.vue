@@ -40,7 +40,7 @@ const categories = [
   { name: "主题", itemStyle: { color: "#91cc75" } },
   { name: "方法", itemStyle: { color: "#2d6a4f" } },
   { name: "结果", itemStyle: { color: "#f77f00" } },
-  { name: "概念", itemStyle: { color: "#fcdcae" } },
+  { name: "概念", itemStyle: { color: "#4f8cff" } },
   { name: "文件", itemStyle: { color: "#fca2c7" } },
   { name: "其他", itemStyle: { color: "#adb5bd" } }
 ]
@@ -53,7 +53,10 @@ const renderGraph = async () => {
   const rawNodes = props.graphData?.nodes || []
   const rawEdges = props.graphData?.edges || props.graphData?.links || []
 
-  if (!rawNodes.length) return
+  if (!rawNodes.length) {
+    if (chart) chart.clear()
+    return
+  }
 
   if (!chart) {
     chart = echarts.init(chartRef.value)
@@ -71,13 +74,18 @@ const renderGraph = async () => {
       value: importance,
       draggable: true,
       label: {
-        show: true
+        show: true,
+        color: "#dbeafe"
       },
       tooltip: {
         formatter: `
           <b>${node.name || node.id}</b><br/>
           类型：${type}<br/>
-          ${node.group !== undefined && node.group !== null && node.group !== 0 ? `分组：${node.group}<br/>` : ""}
+          ${
+            node.group !== undefined && node.group !== null && node.group !== 0
+              ? `分组：${node.group}<br/>`
+              : ""
+          }
           重要性：${importance.toFixed(3)}<br/>
           ${node.description || ""}
         `
@@ -99,26 +107,38 @@ const renderGraph = async () => {
         formatter: relation
       },
       tooltip: {
-      formatter: `
-        <b>${edge.source}</b> → <b>${edge.target}</b><br/>
-        关系：${relation}<br/>
-        关系权重/置信度：${weight.toFixed(2)}
-      `
-    },
+        formatter: `
+          <b>${edge.source}</b> → <b>${edge.target}</b><br/>
+          关系：${relation}<br/>
+          关系权重/置信度：${weight.toFixed(2)}
+        `
+      },
       lineStyle: {
         width: 1 + weight * 2,
-        curveness: 0.15
+        curveness: 0.15,
+        color: "rgba(120, 190, 255, 0.62)"
       }
     }
   })
 
   const option = {
+    backgroundColor: "transparent",
     tooltip: {
-      trigger: "item"
+      trigger: "item",
+      backgroundColor: "rgba(8, 20, 38, 0.95)",
+      borderColor: "rgba(80, 150, 255, 0.4)",
+      textStyle: {
+        color: "#eaf2ff"
+      }
     },
     legend: {
       data: categories.map((item) => item.name),
-      top: 10
+      bottom: 6,
+      right: 10,
+      orient: "vertical",
+      textStyle: {
+        color: "#b9c8df"
+      }
     },
     series: [
       {
@@ -134,18 +154,18 @@ const renderGraph = async () => {
         label: {
           show: true,
           position: "right",
-          formatter: "{b}"
+          formatter: "{b}",
+          color: "#dbeafe"
         },
         edgeLabel: {
           show: true,
           fontSize: 10,
-          formatter: (params) => {
-            return params.data.relation || ""
-          }
+          color: "#9cc9ff",
+          formatter: (params) => params.data.relation || ""
         },
         force: {
-          repulsion: 300,
-          edgeLength: 130,
+          repulsion: 330,
+          edgeLength: 135,
           gravity: 0.08
         },
         emphasis: {
@@ -162,9 +182,7 @@ const renderGraph = async () => {
 }
 
 const resizeChart = () => {
-  if (chart) {
-    chart.resize()
-  }
+  if (chart) chart.resize()
 }
 
 onMounted(() => {
@@ -174,15 +192,12 @@ onMounted(() => {
 
 watch(
   () => props.graphData,
-  () => {
-    renderGraph()
-  },
+  () => renderGraph(),
   { deep: true }
 )
 
 onBeforeUnmount(() => {
   window.removeEventListener("resize", resizeChart)
-
   if (chart) {
     chart.dispose()
     chart = null
@@ -199,11 +214,7 @@ onBeforeUnmount(() => {
       暂无图谱数据
     </div>
 
-    <div
-      v-else
-      ref="chartRef"
-      class="chart"
-    ></div>
+    <div v-else ref="chartRef" class="chart"></div>
   </div>
 </template>
 
@@ -212,7 +223,7 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   min-height: 520px;
-  background: #ffffff;
+  background: transparent;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -228,7 +239,7 @@ onBeforeUnmount(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #777;
+  color: #8fa7c8;
   font-size: 15px;
 }
 </style>

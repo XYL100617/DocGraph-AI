@@ -489,6 +489,14 @@ async def graph_after_summary(
         except Exception as e:
             print("历史记录保存失败：", e)
 
+    graph_summary = (
+    llm_result.get("graph_summary")
+    or llm_result.get("deep_summary")
+    or llm_result.get("analysis")
+    or llm_result.get("summary")
+    or ""
+    )
+
     return {
         "success": True,
         "task_id": task_id,
@@ -497,6 +505,11 @@ async def graph_after_summary(
         "result": llm_result,
         "graph": graph_data,
         "analysis": analysis_result,
+
+        # ⭐ 新增：给前端 AI深度洞察 使用
+        "graphSummary": graph_summary,
+        "deepSummary": graph_summary,
+
         "ecla": {
             "enabled": cache.get("ocr", {}).get("ecla_enabled", False),
             "layout_type": cache.get("ocr", {}).get("layout_type", "")

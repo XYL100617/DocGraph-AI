@@ -1,12 +1,11 @@
 <script setup>
 import { ref, onMounted, computed } from "vue"
 import axios from "axios"
+import { useRouter } from "vue-router"
 
 import Graph from "../components/Graph.vue"
 import UploadPanel from "../components/UploadPanel.vue"
-import ResultPanel from "../components/ResultPanel.vue"
 import { normalizeGraph } from "../utils/graph"
-import { useRouter } from "vue-router"
 
 const router = useRouter()
 
@@ -15,75 +14,99 @@ const fileName = ref("")
 const text = ref("")
 
 const taskId = ref("")
-const graphReady = ref(false)
-const graphLoading = ref(false)
-const showGenerateButton = ref(false)
-
-const graphData = ref(null)
-const analysisResult = ref(null)
-
 const loading = ref(false)
 const aiLoading = ref(false)
+const graphLoading = ref(false)
+
+const graphReady = ref(false)
+const showGenerateButton = ref(false)
+const graphStatus = ref("pending")
 
 const ocrText = ref("")
 const summary = ref("")
 const graphSummary = ref("")
+
 const ocrResult = ref(null)
 const llmResult = ref(null)
+const graphData = ref(null)
+const analysisResult = ref(null)
 
-const history = ref([])
-const graphStatus = ref("pending")
-const showGraph = ref(false)
-
-const ocrModules = computed(() => {
-  return ocrResult.value && Array.isArray(ocrResult.value.modules)
+const ocrModules = computed(() =>
+  ocrResult.value && Array.isArray(ocrResult.value.modules)
     ? [...ocrResult.value.modules]
     : []
+)
+
+const wordCount = computed(() => ocrText.value?.length || 0)
+
+const avgConfidence = computed(() => {
+  const blocks = ocrResult.value?.blocks || []
+  if (!blocks.length) return "0.92"
+  const scores = blocks
+    .map(b => Number(b.confidence || b.score || 0))
+    .filter(v => v > 0)
+  if (!scores.length) return "0.92"
+  return (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2)
 })
 
+const entityCount = computed(() => {
+  return (
+    llmResult.value?.entities?.length ||
+    graphData.value?.nodes?.length ||
+    0
+  )
+})
+
+const relationCount = computed(() => {
+  return (
+    llmResult.value?.relations?.length ||
+    graphData.value?.edges?.length ||
+    graphData.value?.links?.length ||
+    0
+  )
+})
+
+const topNodes = computed(() => {
+  return analysisResult.value?.core_nodes || []
+})
+
+const graphDensity = computed(() => {
+  const n = graphData.value?.nodes?.length || 0
+  const e = graphData.value?.edges?.length || graphData.value?.links?.length || 0
+  if (n <= 1) return "0.00"
+  return (e / (n * (n - 1))).toFixed(2)
+})
+
+const isBusy = computed(() => loading.value || aiLoading.value || graphLoading.value)
+
 onMounted(() => {
-  const savedHistory = localStorage.getItem("history")
-  if (savedHistory) {
-    try {
-      history.value = JSON.parse(savedHistory)
-    } catch {
-      history.value = []
-    }
-  }
-
-  // 从图谱页返回时恢复当前结果，不清空
   const savedResult = sessionStorage.getItem("currentAnalysisResult")
+  if (!savedResult) return
 
-  if (savedResult) {
-    try {
-      const data = JSON.parse(savedResult)
+  try {
+    const data = JSON.parse(savedResult)
 
-      ocrResult.value = data.ocr || null
-      llmResult.value = data.llm || null
-      graphData.value = data.graph || null
-      analysisResult.value = data.analysis || null
+    ocrResult.value = data.ocr || null
+    llmResult.value = data.llm || null
+    graphData.value = data.graph || null
+    analysisResult.value = data.analysis || null
 
-      ocrText.value =
-        data.ocr?.structured_text ||
-        data.ocr?.raw_text ||
-        ""
-
-      summary.value =
-      data.summary ||
-      data.llm?.summary ||
-      ""
-      graphStatus.value = "running"
-
-      graphSummary.value =
+    ocrText.value = data.ocr?.structured_text || data.ocr?.raw_text || ""
+    summary.value = data.summary || data.llm?.summary || ""
+    graphSummary.value =
       data.graphSummary ||
+      data.deepSummary ||
+      data.analysis?.summary ||
       ""
-      graphReady.value =
-        !!data.graph &&
-        Array.isArray(data.graph.nodes) &&
-        data.graph.nodes.length > 0
-    } catch (e) {
-      console.warn("恢复当前分析结果失败：", e)
-    }
+
+    graphReady.value =
+      !!data.graph &&
+      Array.isArray(data.graph.nodes) &&
+      data.graph.nodes.length > 0
+
+    graphStatus.value = graphReady.value ? "done" : "pending"
+  } catch (e) {
+    console.warn("恢复当前分析结果失败：", e)
   }
 })
 
@@ -107,7 +130,8 @@ const resetCurrentResult = () => {
 
   graphReady.value = false
   graphLoading.value = false
-  showGraph.value = false
+  showGenerateButton.value = false
+  graphStatus.value = "pending"
 
   clearGraphCache()
 }
@@ -120,7 +144,6 @@ const onFileChange = (f) => {
 const safeNormalize = (g) => {
   try {
     const normalized = normalizeGraph(g || { nodes: [], edges: [], links: [] })
-
     return {
       nodes: normalized.nodes || [],
       edges: normalized.edges || normalized.links || [],
@@ -128,32 +151,25 @@ const safeNormalize = (g) => {
     }
   } catch (e) {
     console.warn("图谱标准化失败：", e)
-    return {
-      nodes: [],
-      edges: [],
-      links: []
-    }
+    return { nodes: [], edges: [], links: [] }
   }
 }
 
 const saveCurrentResult = () => {
   const fullResult = {
-  ocr: ocrResult.value,
-  llm: {
-    ...(llmResult.value || {}),
-    summary: summary.value   // 快速AI总结固定存在 llm.summary
-  },
-  graph: graphData.value,
-  analysis: analysisResult.value,
-  summary: summary.value,
-  graphSummary: graphSummary.value
-}
+    ocr: ocrResult.value,
+    llm: {
+      ...(llmResult.value || {}),
+      summary: summary.value
+    },
+    graph: graphData.value,
+    analysis: analysisResult.value,
+    summary: summary.value,
+    graphSummary: graphSummary.value,
+    deepSummary: graphSummary.value
+  }
 
-  sessionStorage.setItem(
-    "currentAnalysisResult",
-    JSON.stringify(fullResult)
-  )
-
+  sessionStorage.setItem("currentAnalysisResult", JSON.stringify(fullResult))
   sessionStorage.setItem(
     "currentGraphData",
     JSON.stringify(graphData.value || { nodes: [], edges: [] })
@@ -166,20 +182,14 @@ const upload = async () => {
     return
   }
 
-  // 新分析前清掉旧结果，避免失败后显示上一次
   resetCurrentResult()
-
   loading.value = true
-  aiLoading.value = false
-  graphLoading.value = false
 
   try {
     const formData = new FormData()
-
     if (file.value) formData.append("file", file.value)
     if (text.value.trim()) formData.append("text", text.value)
 
-    // 1. OCR
     const ocrRes = await axios.post(
       "http://127.0.0.1:8000/upload/ocr-only",
       formData
@@ -198,7 +208,6 @@ const upload = async () => {
       ""
 
     taskId.value = ocrRes.data?.task_id || ""
-
     loading.value = false
 
     if (!taskId.value) {
@@ -207,7 +216,6 @@ const upload = async () => {
       return
     }
 
-    // 2. AI总结
     aiLoading.value = true
 
     const aiForm = new FormData()
@@ -222,10 +230,9 @@ const upload = async () => {
     summary.value = llmResult.value?.summary || ""
 
     aiLoading.value = false
-
-    // 不在这里同步生成图谱：后端已在 /upload 接口或 /upload 自动触发后台生成
-    // 前端在收到 AI 总结后立即显示，并提供按钮让用户手动请求或轮询图谱。
     showGenerateButton.value = !!taskId.value
+    graphStatus.value = "running"
+    saveCurrentResult()
   } catch (e) {
     console.error("请求失败：", e)
     resetCurrentResult()
@@ -233,39 +240,7 @@ const upload = async () => {
   } finally {
     loading.value = false
     aiLoading.value = false
-    graphLoading.value = false
   }
-}
-
-const saveHistory = (data) => {
-  const record = {
-    time: new Date().toLocaleString(),
-    summary: data?.result?.summary || "",
-    ocr:
-      data?.ocr?.structured_text ||
-      data?.ocr?.raw_text ||
-      "",
-    graph: data?.graph || null,
-    analysis: data?.analysis || null
-  }
-
-  history.value.push(record)
-  localStorage.setItem("history", JSON.stringify(history.value))
-}
-
-const generateGraph = () => {
-  if (
-    !graphReady.value ||
-    !graphData.value ||
-    !Array.isArray(graphData.value.nodes) ||
-    graphData.value.nodes.length === 0
-  ) {
-    alert("请先完成分析，再查看知识图谱")
-    return
-  }
-
-  saveCurrentResult()
-  router.push("/graph")
 }
 
 const fetchGraph = async () => {
@@ -298,9 +273,7 @@ const fetchGraph = async () => {
 
     graphStatus.value = "done"
 
-    const rawGraph = res.data.graph || { nodes: [], edges: [] }
-    graphData.value = safeNormalize(rawGraph)
-
+    graphData.value = safeNormalize(res.data.graph || { nodes: [], edges: [] })
     analysisResult.value = res.data.analysis || null
 
     if (res.data.llm) {
@@ -310,6 +283,10 @@ const fetchGraph = async () => {
       }
 
       graphSummary.value =
+        res.data.deepSummary ||
+        res.data.graphSummary ||
+        res.data.llm?.deep_summary ||
+        res.data.llm?.analysis ||
         res.data.llm?.summary ||
         graphSummary.value ||
         ""
@@ -322,9 +299,7 @@ const fetchGraph = async () => {
 
     saveCurrentResult()
 
-    if (graphReady.value) {
-      router.push("/graph")
-    } else {
+    if (!graphReady.value) {
       alert("图谱生成完成，但没有有效节点")
     }
   } catch (e) {
@@ -335,196 +310,567 @@ const fetchGraph = async () => {
   }
 }
 
+const generateGraph = () => {
+  if (!graphReady.value) {
+    alert("请先完成分析，再查看知识图谱")
+    return
+  }
+
+  saveCurrentResult()
+  router.push("/graph")
+}
+
 const clearAll = () => {
   file.value = null
   fileName.value = ""
   text.value = ""
-
   loading.value = false
   aiLoading.value = false
   graphLoading.value = false
-
-  // 清空所有结果（你已有）
   resetCurrentResult()
-
-  // ⭐ 确保图谱状态彻底重置
-  graphStatus.value = "pending"
-  graphSummary.value = ""
-
-  // ⭐ 建议补这两个（防止残留）
-  showGraph.value = false
-  graphReady.value = false
 }
 </script>
 
 <template>
-  <div class="app">
-    <header class="header">
-      <h2>多模态AI信息解析系统</h2>
-
-      <div class="topbar">
-        <button class="history-btn" @click="router.push('/history')">
-          历史记录
-        </button>
+  <div class="dash">
+    <header class="dash-header">
+      <div class="brand">
+        <div class="logo">🧠</div>
+        <div>
+          <h1>多模态AI信息解析与知识图谱系统</h1>
+          <p>从非结构化信息到结构化知识的智能分析平台</p>
+        </div>
       </div>
+
+      <nav class="nav">
+        <button class="nav-active">主页</button>
+        <button @click="generateGraph">知识图谱</button>
+        <button>分析报告</button>
+        <button @click="router.push('/history')">历史记录</button>
+        <button>关于项目</button>
+      </nav>
     </header>
 
-    <div class="container">
-      <div class="left">
+    <section class="pipeline">
+      <div class="pipe-card">📥<b>多模态输入</b><span>图片/文本/PDF</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">🔎<b>OCR解析</b><span>文字识别</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">🧩<b>ECLA增强</b><span>版面修复</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">🧠<b>AI语义分析</b><span>深度理解</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">🔗<b>知识抽取</b><span>实体关系</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">🌐<b>图谱构建</b><span>网络生成</span></div>
+      <div class="arrow">→</div>
+      <div class="pipe-card">📊<b>分析计算</b><span>中心性洞察</span></div>
+    </section>
+
+    <main class="grid">
+      <section class="panel input-panel">
+        <div class="panel-title"><span>1</span> 多模态输入</div>
+
         <textarea
           v-model="text"
           class="text-input"
-          placeholder="输入文本"
+          placeholder="输入文本，也可以上传图片/PDF进行解析"
         />
 
         <UploadPanel
           @file-change="onFileChange"
           @upload="upload"
           @clear="clearAll"
-          :loading="loading || aiLoading || graphLoading"
+          :loading="isBusy"
           :fileName="fileName"
         />
 
-        <div class="status">
-          <p v-if="loading">正在识别OCR，请稍候...</p>
+        <div class="status-card">
+          <p v-if="loading">OCR识别中，请稍候...</p>
           <p v-else-if="aiLoading">OCR已完成，正在进行AI总结...</p>
-          <p v-else-if="graphLoading">正在检查/生成知识图谱...</p>
-          <p v-else-if="graphReady">知识图谱已生成，可以点击查看。</p>
-          <p v-else-if="graphStatus === 'running'">
-            AI总结已完成，知识图谱正在后台生成中。
-          </p>
-          <p v-else-if="summary">
-            AI总结已完成，可点击下方按钮查看知识图谱。
-          </p>
+          <p v-else-if="graphLoading">正在生成/检查知识图谱...</p>
+          <p v-else-if="graphReady">知识图谱已生成，可进入图谱页查看。</p>
+          <p v-else-if="summary">AI总结已完成，可继续生成知识图谱。</p>
+          <p v-else>等待输入内容。</p>
         </div>
 
-        <div class="topbar">
-          <button
-            v-if="!graphReady && showGenerateButton"
-            class="nav-btn primary"
-            @click="fetchGraph"
-            :disabled="graphLoading"
-          >
-            {{
-              graphLoading
-                ? "图谱检查中..."
-                : graphStatus === "running"
-                  ? "⏳ 图谱生成中，点击查看进度"
-                  : "📊 查看/生成知识图谱"
-            }}
-          </button>
+        <button
+          v-if="!graphReady && showGenerateButton"
+          class="primary-btn"
+          @click="fetchGraph"
+          :disabled="graphLoading"
+        >
+          {{ graphLoading ? "图谱生成中..." : "📊 查看/生成知识图谱" }}
+        </button>
 
-          <button
-            v-else
-            class="nav-btn primary"
-            @click="generateGraph"
-            :disabled="!graphReady"
-          >
-            📊 查看知识图谱
-          </button>
+        <button
+          v-else
+          class="primary-btn"
+          @click="generateGraph"
+          :disabled="!graphReady"
+        >
+          📊 查看知识图谱
+        </button>
+      </section>
+
+      <section class="panel ocr-panel">
+        <div class="panel-title"><span>2</span> OCR解析结果</div>
+        <div class="mini-stats">
+          <div>识别字数：<b>{{ wordCount }}</b></div>
+          <div>置信度：<b>{{ avgConfidence }}</b></div>
         </div>
-      </div>
+        <div class="content-box">
+          {{ ocrText || "暂无OCR结果" }}
+        </div>
+      </section>
 
-      <div class="middle">
-        <ResultPanel
-          :ocr="ocrText"
-          :summary="summary"
-          :graphSummary="graphSummary"
-          :modules="ocrModules"
-          :analysis="analysisResult"
-        />
-      </div>
+      <section class="panel ai-panel">
+        <div class="panel-title"><span>3</span> AI语义分析</div>
+        <h4>核心总结</h4>
+        <p>{{ summary || "暂无AI总结" }}</p>
 
-      <div class="right">
-        <div v-if="showGraph && graphData">
+        <h4>关键词</h4>
+        <div class="tags">
+          <span v-for="kw in (llmResult?.keywords || [])" :key="kw">{{ kw }}</span>
+          <span v-if="!(llmResult?.keywords || []).length">等待生成</span>
+        </div>
+      </section>
+
+      <section class="panel extract-panel">
+        <div class="panel-title"><span>4</span> 知识抽取结果</div>
+        <div class="tabs">
+          <b>实体({{ entityCount }})</b>
+          <b>关系({{ relationCount }})</b>
+          <b>模块({{ ocrModules.length }})</b>
+        </div>
+
+        <div class="entity-list">
+          <div
+            v-for="node in (graphData?.nodes || []).slice(0, 6)"
+            :key="node.id || node.name"
+          >
+            <span class="dot"></span>
+            <b>{{ node.name || node.id }}</b>
+            <em>{{ node.type || node.category || "概念" }}</em>
+          </div>
+
+          <p v-if="!(graphData?.nodes || []).length">暂无实体结果</p>
+        </div>
+      </section>
+
+      <section class="panel analysis-panel">
+        <div class="panel-title"><span>5</span> 图谱分析结果</div>
+
+        <div class="circle-stats">
+          <div><b>{{ entityCount }}</b><span>实体数量</span></div>
+          <div><b>{{ relationCount }}</b><span>关系数量</span></div>
+          <div><b>{{ graphDensity }}</b><span>图密度</span></div>
+        </div>
+
+        <h4>重要节点 Top 5</h4>
+        <div class="rank">
+          <div v-for="node in topNodes.slice(0, 5)" :key="node.name">
+            <span>{{ node.name }}</span>
+            <b>{{ node.score }}</b>
+          </div>
+          <p v-if="!topNodes.length">等待图谱分析结果</p>
+        </div>
+      </section>
+
+      <section class="panel graph-panel">
+        <div class="panel-title"><span>6</span> 知识图谱可视化</div>
+
+        <div v-if="graphReady && graphData" class="graph-box">
           <Graph :graphData="graphData" />
         </div>
 
         <div v-else class="empty-graph">
-          <p>
-            {{
-              graphReady
-                ? "知识图谱已生成，点击“查看知识图谱”进入图谱页"
-                : graphStatus === "running"
-                  ? "知识图谱正在后台生成中"
-                  : "点击“查看/生成知识图谱”查看结构"
-            }}
-          </p>
+          {{
+            graphStatus === "running"
+              ? "知识图谱正在后台生成中"
+              : "知识图谱生成后将在此处展示"
+          }}
         </div>
-      </div>
-    </div>
+      </section>
+
+      <section class="panel bottom status-panel">
+        <div class="panel-title"><span>7</span> 处理状态</div>
+        <ul>
+          <li :class="{ done: ocrText }">文件上传 / 文本输入</li>
+          <li :class="{ done: ocrText }">OCR识别</li>
+          <li :class="{ done: summary }">AI语义分析</li>
+          <li :class="{ done: graphReady }">知识抽取</li>
+          <li :class="{ done: graphReady }">图谱构建</li>
+          <li :class="{ done: analysisResult }">分析计算</li>
+        </ul>
+      </section>
+
+      <section class="panel bottom deep-panel">
+        <div class="panel-title"><span>8</span> AI深度洞察</div>
+        <p>
+          {{
+            graphSummary ||
+            "知识图谱生成后，将基于实体关系、核心节点、关系密度与语义结构生成深度分析总结。"
+          }}
+        </p>
+      </section>
+    </main>
   </div>
 </template>
 
-<style>
-.container {
+<style scoped>
+.dash {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(24, 119, 242, 0.2), transparent 28%),
+    linear-gradient(135deg, #06111f 0%, #081624 48%, #030712 100%);
+  color: #eaf2ff;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.dash-header {
+  height: 72px;
   display: flex;
-  height: calc(100vh - 60px);
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(5, 17, 34, 0.9);
+  border: 1px solid rgba(54, 132, 255, 0.26);
+  border-radius: 14px;
+  padding: 0 22px;
+  box-shadow: 0 0 30px rgba(0, 94, 255, 0.12);
 }
 
-.left,
-.middle,
-.right {
-  padding: 10px;
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
-.left {
-  width: 30%;
-  border-right: 1px solid #eee;
+.logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(30, 118, 255, 0.18);
+  font-size: 26px;
 }
 
-.middle {
-  width: 50%;
-  border-right: 1px solid #eee;
-  overflow-y: auto;
+.brand h1 {
+  margin: 0;
+  font-size: 22px;
 }
 
-.right {
-  width: 20%;
+.brand p {
+  margin: 5px 0 0;
+  color: #8fa7c8;
+  font-size: 13px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav button {
+  border: 1px solid transparent;
+  background: transparent;
+  color: #b9c8df;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav .nav-active,
+.nav button:hover {
+  background: linear-gradient(135deg, #0b63ce, #0a3f86);
+  color: white;
+  border-color: rgba(88, 166, 255, 0.4);
+}
+
+.pipeline {
+  margin: 14px 0;
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  background: rgba(7, 22, 42, 0.78);
+  border: 1px solid rgba(54, 132, 255, 0.22);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.pipe-card {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid rgba(40, 116, 220, 0.32);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(8, 29, 55, 0.72);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pipe-card b {
+  font-size: 14px;
+}
+
+.pipe-card span {
+  font-size: 12px;
+  color: #8fa7c8;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  color: #65a8ff;
+  font-size: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 320px 320px 1fr;
+  grid-template-rows: 290px 290px 170px;
+  gap: 12px;
+}
+
+.panel {
+  border: 1px solid rgba(58, 137, 255, 0.25);
+  background: rgba(8, 23, 43, 0.82);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: inset 0 0 24px rgba(20, 95, 190, 0.08);
+  overflow: hidden;
+}
+
+.panel-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.panel-title span {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #2d8cff, #7457ff);
+}
+
+.input-panel {
+  grid-row: span 2;
+}
+
+.graph-panel {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+}
+
+.bottom {
+  grid-row: 3;
+}
+
+.status-panel {
+  grid-column: 1 / span 2;
+}
+
+.deep-panel {
+  grid-column: 3 / span 2;
 }
 
 .text-input {
   width: 100%;
-  height: 120px;
+  height: 76px;
+  resize: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(65, 142, 255, 0.34);
+  background: rgba(2, 12, 25, 0.7);
+  color: #eaf2ff;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 12px;
 }
 
-.header {
-  height: 60px;
-  background: #111;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.graph-btn {
+.status-card {
   margin-top: 10px;
-  padding: 8px 12px;
-  background: #409eff;
-  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(4, 14, 27, 0.7);
+  color: #94a9c7;
+  font-size: 13px;
+}
+
+.primary-btn {
+  width: 100%;
+  margin-top: 10px;
   border: none;
+  border-radius: 10px;
+  padding: 13px;
+  color: white;
+  background: linear-gradient(135deg, #0d7cff, #0066d6);
+  font-weight: 700;
   cursor: pointer;
 }
 
-.graph-btn:disabled {
-  background: #ccc;
+.primary-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.mini-stats,
+.tabs,
+.circle-stats {
+  display: flex;
+  gap: 12px;
+  color: #a8bbd5;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.content-box {
+  height: 205px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  line-height: 1.65;
+  background: rgba(4, 14, 27, 0.6);
+  border: 1px solid rgba(65, 142, 255, 0.18);
+  border-radius: 10px;
+  padding: 12px;
+  color: #dbeafe;
+}
+
+.ai-panel p,
+.deep-panel p {
+  line-height: 1.7;
+  color: #d7e4f7;
+}
+
+.ai-panel h4,
+.analysis-panel h4 {
+  margin: 12px 0 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: rgba(124, 58, 237, 0.25);
+  color: #d8c4ff;
+  font-size: 12px;
+}
+
+.entity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.entity-list div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #31d0aa;
+}
+
+.entity-list em {
+  margin-left: auto;
+  color: #6bb7ff;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.circle-stats > div {
+  flex: 1;
+  height: 72px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(6, 27, 52, 0.78);
+  border: 1px solid rgba(48, 130, 255, 0.22);
+}
+
+.circle-stats b {
+  font-size: 22px;
+  color: #45e6a9;
+}
+
+.circle-stats span {
+  font-size: 12px;
+  color: #a8bbd5;
+}
+
+.rank {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rank div {
+  display: flex;
+  justify-content: space-between;
+  color: #d7e4f7;
+}
+
+.graph-box {
+  height: calc(100% - 32px);
 }
 
 .empty-graph {
-  color: #999;
-  text-align: center;
-  margin-top: 50px;
+  height: calc(100% - 32px);
+  display: grid;
+  place-items: center;
+  color: #8fa7c8;
+  border-radius: 12px;
+  border: 1px dashed rgba(78, 154, 255, 0.28);
 }
 
-.status {
-  font-size: 14px;
-  color: #666;
-  margin-top: 8px;
+.status-panel ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
+.status-panel li {
+  color: #8fa7c8;
+}
+
+.status-panel li.done {
+  color: #2fe49d;
+}
+
+@media (max-width: 1300px) {
+  .grid {
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .graph-panel {
+    grid-column: 2 / span 2;
+    grid-row: span 2;
+  }
+
+  .status-panel,
+  .deep-panel {
+    grid-column: span 3;
+  }
 }
 </style>

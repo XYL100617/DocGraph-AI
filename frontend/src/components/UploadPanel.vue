@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <h3>输入区</h3>
+  <div class="upload-card">
+    <div class="tabs">
+      <button class="active">图片上传</button>
+      <button>PDF上传</button>
+      <button>文本输入</button>
+    </div>
 
     <div
       class="drop-zone"
@@ -8,64 +12,68 @@
       @drop.prevent="onDrop"
       @dragover.prevent="onDragOver"
       @dragleave="onDragLeave"
+      @click="fileInput?.click()"
     >
-      <p v-if="!isDragging">拖拽图片到这里</p>
+      <div class="cloud">☁️</div>
+      <p v-if="!isDragging">拖拽文件到此处，或点击上传</p>
       <p v-else>释放以上传</p>
+      <span>支持 JPG / PNG / BMP / PDF</span>
     </div>
 
-    <!-- ⭐修复：文件状态真实 -->
-    <p v-if="fileName" class="file-name">
-      📄 已选择：{{ formatFileName(fileName) }}
-    </p>
-    <p v-else>未选择文件</p>
+    <input
+      ref="fileInput"
+      class="hidden-input"
+      type="file"
+      accept="image/*,.pdf"
+      @change="handleFileChange"
+    />
 
-    <input type="file" @change="handleFileChange" />
+    <div class="file-box">
+      <span>{{ fileName ? formatFileName(fileName) : "未选择文件" }}</span>
+      <b v-if="fileName">✅</b>
+    </div>
 
-    <!-- ⭐提示自动消失 -->
     <div v-if="msg" class="msg">
       {{ msg }}
-      <button @click="msg = ''">×</button>
+      <button @click.stop="msg = ''">×</button>
     </div>
 
-    <div>
-      <button @click="$emit('upload')">
-        {{ loading ? "分析中..." : "开始分析" }}
+    <div class="actions">
+      <button class="start" @click.stop="$emit('upload')" :disabled="loading">
+        {{ loading ? "分析中..." : "▶ 开始智能分析" }}
       </button>
 
-      <button @click="resetUI">清空</button>
+      <button class="clear" @click.stop="resetUI">清空</button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, watch } from "vue"
-const formatFileName = (name) => {
-  if (!name) return ""
+import { ref } from "vue"
 
-  // 超过40字符截断
-  if (name.length > 40) {
-    return name.slice(0, 18) + "..." + name.slice(-10)
-  }
-
-  return name
-}
-
-const emit = defineEmits(["file-change", "clear"])
-
-const props = defineProps({
+defineProps({
   loading: Boolean,
   fileName: String
 })
 
+const emit = defineEmits(["file-change", "clear"])
+
+const fileInput = ref(null)
 const isDragging = ref(false)
 const msg = ref("")
 
-const showMsg = (t) => {
-  msg.value = t
-  setTimeout(() => msg.value = "", 2000)
+const formatFileName = (name) => {
+  if (!name) return ""
+  return name.length > 34 ? name.slice(0, 16) + "..." + name.slice(-10) : name
 }
 
-// ⭐文件变化
+const showMsg = (t) => {
+  msg.value = t
+  setTimeout(() => {
+    msg.value = ""
+  }, 2000)
+}
+
 const handleFileChange = (e) => {
   const file = e.target.files[0]
   if (file) {
@@ -74,55 +82,151 @@ const handleFileChange = (e) => {
   }
 }
 
-// ⭐拖拽
-const onDragOver = () => isDragging.value = true
-const onDragLeave = () => isDragging.value = false
+const onDragOver = () => {
+  isDragging.value = true
+}
+
+const onDragLeave = () => {
+  isDragging.value = false
+}
 
 const onDrop = (e) => {
   isDragging.value = false
   const file = e.dataTransfer.files[0]
-
   if (file) {
     emit("file-change", file)
     showMsg("文件已拖拽上传")
   }
 }
 
-// ⭐清空修复
 const resetUI = () => {
   emit("file-change", null)
   emit("clear")
   msg.value = ""
   isDragging.value = false
+  if (fileInput.value) fileInput.value.value = ""
 }
 </script>
 
-<style>
-.drop-zone {
-  border: 2px dashed #aaa;
-  padding: 20px;
-  text-align: center;
+<style scoped>
+.upload-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.drop-zone.active {
-  border-color: #409eff;
-  background: #eef6ff;
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.tabs button {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 4px;
+  color: #93a9c8;
+  background: rgba(6, 24, 46, 0.88);
+  cursor: pointer;
+}
+
+.tabs .active {
+  color: white;
+  background: linear-gradient(135deg, #0d7cff, #005ec9);
+}
+
+.drop-zone {
+  height: 145px;
+  border: 1.5px dashed rgba(69, 152, 255, 0.55);
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(4, 14, 27, 0.68);
+  transition: 0.2s;
+}
+
+.drop-zone.active,
+.drop-zone:hover {
+  border-color: #4aa3ff;
+  background: rgba(14, 76, 145, 0.28);
+}
+
+.cloud {
+  font-size: 32px;
+}
+
+.drop-zone p {
+  margin: 0;
+  color: #dbeafe;
+}
+
+.drop-zone span {
+  color: #8198b8;
+  font-size: 12px;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.file-box {
+  height: 42px;
+  border-radius: 10px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(4, 14, 27, 0.7);
+  border: 1px solid rgba(65, 142, 255, 0.18);
+  color: #b9c8df;
+  font-size: 13px;
 }
 
 .msg {
-  margin-top: 8px;
-  padding: 6px;
-  background: #e6ffed;
-  border: 1px solid #b7eb8f;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #6ee7b7;
+  display: flex;
+  justify-content: space-between;
 }
-.file-name {
-  max-width: 100%;
-  word-break: break-all;     /* 强制换行 */
-  white-space: normal;       /* 允许换行 */
-  overflow-wrap: break-word;
 
-  font-size: 14px;
-  color: #333;
-  margin-top: 8px;
+.msg button {
+  border: none;
+  background: transparent;
+  color: #6ee7b7;
+  cursor: pointer;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 76px;
+  gap: 8px;
+}
+
+.actions button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.start {
+  color: white;
+  background: linear-gradient(135deg, #0d7cff, #0066d6);
+}
+
+.clear {
+  color: #cbd5e1;
+  background: rgba(15, 31, 52, 0.9);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 </style>
