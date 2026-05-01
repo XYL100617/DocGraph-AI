@@ -1,0 +1,1225 @@
+{
+  "text": "【第1页-标题】\n嗯...无法访问此页面\ntex.gxist.cn响应时间太长\n请尝试：\n·检查连接\n·检查代理和防火墙\nERR_CONNECTION_TIMED_OUT\n刷新",
+  "file_path": "storage/images\\63f4c8dd0b0e419c845d6c844bc5cea5_屏幕截图 2025-12-27 170605.png",
+  "ocr": {
+    "raw_text": "嗯...无法访问此页面\ntex.gxist.cn响应时间太长\n请尝试：\n·检查连接\n·检查代理和防火墙\nERR_CONNECTION_TIMED_OUT\n刷新",
+    "structured_text": "【第1页-标题】\n嗯...无法访问此页面\ntex.gxist.cn响应时间太长\n请尝试：\n·检查连接\n·检查代理和防火墙\nERR_CONNECTION_TIMED_OUT\n刷新",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "type": "title",
+        "title": "嗯...无法访问此页面",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "嗯...无法访问此页面",
+            "blocks": [
+              {
+                "id": 0,
+                "text": "嗯...无法访问此页面",
+                "bbox": [
+                  [
+                    321.0,
+                    517.0
+                  ],
+                  [
+                    803.0,
+                    517.0
+                  ],
+                  [
+                    803.0,
+                    568.0
+                  ],
+                  [
+                    321.0,
+                    568.0
+                  ]
+                ],
+                "score": 0.9541950225830078,
+                "page": 1,
+                "x1": 321.0,
+                "y1": 517.0,
+                "x2": 803.0,
+                "y2": 568.0,
+                "w": 482.0,
+                "h": 51.0,
+                "cx": 562.0,
+                "cy": 542.5
+              }
+            ],
+            "x1": 321.0,
+            "y1": 517.0,
+            "x2": 803.0,
+            "y2": 568.0,
+            "w": 482.0,
+            "h": 51.0,
+            "cx": 562.0,
+            "cy": 542.5,
+            "score": 0.9541950225830078,
+            "type": "title"
+          },
+          {
+            "page": 1,
+            "text": "tex.gxist.cn响应时间太长",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "tex.gxist.cn响应时间太长",
+                "bbox": [
+                  [
+                    316.0,
+                    616.0
+                  ],
+                  [
+                    643.0,
+                    616.0
+                  ],
+                  [
+                    643.0,
+                    646.0
+                  ],
+                  [
+                    316.0,
+                    646.0
+                  ]
+                ],
+                "score": 0.9963682889938354,
+                "page": 1,
+                "x1": 316.0,
+                "y1": 616.0,
+                "x2": 643.0,
+                "y2": 646.0,
+                "w": 327.0,
+                "h": 30.0,
+                "cx": 479.5,
+                "cy": 631.0
+              }
+            ],
+            "x1": 316.0,
+            "y1": 616.0,
+            "x2": 643.0,
+            "y2": 646.0,
+            "w": 327.0,
+            "h": 30.0,
+            "cx": 479.5,
+            "cy": 631.0,
+            "score": 0.9963682889938354,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "请尝试：",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "请尝试：",
+                "bbox": [
+                  [
+                    315.0,
+                    681.0
+                  ],
+                  [
+                    406.0,
+                    681.0
+                  ],
+                  [
+                    406.0,
+                    714.0
+                  ],
+                  [
+                    315.0,
+                    714.0
+                  ]
+                ],
+                "score": 0.9960269331932068,
+                "page": 1,
+                "x1": 315.0,
+                "y1": 681.0,
+                "x2": 406.0,
+                "y2": 714.0,
+                "w": 91.0,
+                "h": 33.0,
+                "cx": 360.5,
+                "cy": 697.5
+              }
+            ],
+            "x1": 315.0,
+            "y1": 681.0,
+            "x2": 406.0,
+            "y2": 714.0,
+            "w": 91.0,
+            "h": 33.0,
+            "cx": 360.5,
+            "cy": 697.5,
+            "score": 0.9960269331932068,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "·检查连接",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "·检查连接",
+                "bbox": [
+                  [
+                    333.0,
+                    740.0
+                  ],
+                  [
+                    464.0,
+                    740.0
+                  ],
+                  [
+                    464.0,
+                    767.0
+                  ],
+                  [
+                    333.0,
+                    767.0
+                  ]
+                ],
+                "score": 0.9962992668151855,
+                "page": 1,
+                "x1": 333.0,
+                "y1": 740.0,
+                "x2": 464.0,
+                "y2": 767.0,
+                "w": 131.0,
+                "h": 27.0,
+                "cx": 398.5,
+                "cy": 753.5
+              }
+            ],
+            "x1": 333.0,
+            "y1": 740.0,
+            "x2": 464.0,
+            "y2": 767.0,
+            "w": 131.0,
+            "h": 27.0,
+            "cx": 398.5,
+            "cy": 753.5,
+            "score": 0.9962992668151855,
+            "type": "list"
+          },
+          {
+            "page": 1,
+            "text": "·检查代理和防火墙",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "·检查代理和防火墙",
+                "bbox": [
+                  [
+                    335.0,
+                    793.0
+                  ],
+                  [
+                    557.0,
+                    793.0
+                  ],
+                  [
+                    557.0,
+                    819.0
+                  ],
+                  [
+                    335.0,
+                    819.0
+                  ]
+                ],
+                "score": 0.9956409931182861,
+                "page": 1,
+                "x1": 335.0,
+                "y1": 793.0,
+                "x2": 557.0,
+                "y2": 819.0,
+                "w": 222.0,
+                "h": 26.0,
+                "cx": 446.0,
+                "cy": 806.0
+              }
+            ],
+            "x1": 335.0,
+            "y1": 793.0,
+            "x2": 557.0,
+            "y2": 819.0,
+            "w": 222.0,
+            "h": 26.0,
+            "cx": 446.0,
+            "cy": 806.0,
+            "score": 0.9956409931182861,
+            "type": "list"
+          },
+          {
+            "page": 1,
+            "text": "ERR_CONNECTION_TIMED_OUT",
+            "blocks": [
+              {
+                "id": 5,
+                "text": "ERR_CONNECTION_TIMED_OUT",
+                "bbox": [
+                  [
+                    316.0,
+                    859.0
+                  ],
+                  [
+                    557.0,
+                    859.0
+                  ],
+                  [
+                    557.0,
+                    879.0
+                  ],
+                  [
+                    316.0,
+                    879.0
+                  ]
+                ],
+                "score": 0.9915487170219421,
+                "page": 1,
+                "x1": 316.0,
+                "y1": 859.0,
+                "x2": 557.0,
+                "y2": 879.0,
+                "w": 241.0,
+                "h": 20.0,
+                "cx": 436.5,
+                "cy": 869.0
+              }
+            ],
+            "x1": 316.0,
+            "y1": 859.0,
+            "x2": 557.0,
+            "y2": 879.0,
+            "w": 241.0,
+            "h": 20.0,
+            "cx": 436.5,
+            "cy": 869.0,
+            "score": 0.9915487170219421,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "刷新",
+            "blocks": [
+              {
+                "id": 6,
+                "text": "刷新",
+                "bbox": [
+                  [
+                    359.0,
+                    933.0
+                  ],
+                  [
+                    423.0,
+                    933.0
+                  ],
+                  [
+                    423.0,
+                    968.0
+                  ],
+                  [
+                    359.0,
+                    968.0
+                  ]
+                ],
+                "score": 0.9996143579483032,
+                "page": 1,
+                "x1": 359.0,
+                "y1": 933.0,
+                "x2": 423.0,
+                "y2": 968.0,
+                "w": 64.0,
+                "h": 35.0,
+                "cx": 391.0,
+                "cy": 950.5
+              }
+            ],
+            "x1": 359.0,
+            "y1": 933.0,
+            "x2": 423.0,
+            "y2": 968.0,
+            "w": 64.0,
+            "h": 35.0,
+            "cx": 391.0,
+            "cy": 950.5,
+            "score": 0.9996143579483032,
+            "type": "paragraph"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "嗯...无法访问此页面",
+        "confidence": 0.9541950225830078,
+        "bbox": {
+          "x1": 321.0,
+          "y1": 517.0,
+          "x2": 803.0,
+          "y2": 568.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "tex.gxist.cn响应时间太长",
+        "confidence": 0.9963682889938354,
+        "bbox": {
+          "x1": 316.0,
+          "y1": 616.0,
+          "x2": 643.0,
+          "y2": 646.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "请尝试：",
+        "confidence": 0.9960269331932068,
+        "bbox": {
+          "x1": 315.0,
+          "y1": 681.0,
+          "x2": 406.0,
+          "y2": 714.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "·检查连接",
+        "confidence": 0.9962992668151855,
+        "bbox": {
+          "x1": 333.0,
+          "y1": 740.0,
+          "x2": 464.0,
+          "y2": 767.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "·检查代理和防火墙",
+        "confidence": 0.9956409931182861,
+        "bbox": {
+          "x1": 335.0,
+          "y1": 793.0,
+          "x2": 557.0,
+          "y2": 819.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "ERR_CONNECTION_TIMED_OUT",
+        "confidence": 0.9915487170219421,
+        "bbox": {
+          "x1": 316.0,
+          "y1": 859.0,
+          "x2": 557.0,
+          "y2": 879.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "刷新",
+        "confidence": 0.9996143579483032,
+        "bbox": {
+          "x1": 359.0,
+          "y1": 933.0,
+          "x2": 423.0,
+          "y2": 968.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "嗯...无法访问此页面",
+        "blocks": [
+          {
+            "id": 0,
+            "text": "嗯...无法访问此页面",
+            "bbox": [
+              [
+                321.0,
+                517.0
+              ],
+              [
+                803.0,
+                517.0
+              ],
+              [
+                803.0,
+                568.0
+              ],
+              [
+                321.0,
+                568.0
+              ]
+            ],
+            "score": 0.9541950225830078,
+            "page": 1,
+            "x1": 321.0,
+            "y1": 517.0,
+            "x2": 803.0,
+            "y2": 568.0,
+            "w": 482.0,
+            "h": 51.0,
+            "cx": 562.0,
+            "cy": 542.5
+          }
+        ],
+        "x1": 321.0,
+        "y1": 517.0,
+        "x2": 803.0,
+        "y2": 568.0,
+        "w": 482.0,
+        "h": 51.0,
+        "cx": 562.0,
+        "cy": 542.5,
+        "score": 0.9541950225830078,
+        "type": "title"
+      },
+      {
+        "page": 1,
+        "text": "tex.gxist.cn响应时间太长",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "tex.gxist.cn响应时间太长",
+            "bbox": [
+              [
+                316.0,
+                616.0
+              ],
+              [
+                643.0,
+                616.0
+              ],
+              [
+                643.0,
+                646.0
+              ],
+              [
+                316.0,
+                646.0
+              ]
+            ],
+            "score": 0.9963682889938354,
+            "page": 1,
+            "x1": 316.0,
+            "y1": 616.0,
+            "x2": 643.0,
+            "y2": 646.0,
+            "w": 327.0,
+            "h": 30.0,
+            "cx": 479.5,
+            "cy": 631.0
+          }
+        ],
+        "x1": 316.0,
+        "y1": 616.0,
+        "x2": 643.0,
+        "y2": 646.0,
+        "w": 327.0,
+        "h": 30.0,
+        "cx": 479.5,
+        "cy": 631.0,
+        "score": 0.9963682889938354,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "请尝试：",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "请尝试：",
+            "bbox": [
+              [
+                315.0,
+                681.0
+              ],
+              [
+                406.0,
+                681.0
+              ],
+              [
+                406.0,
+                714.0
+              ],
+              [
+                315.0,
+                714.0
+              ]
+            ],
+            "score": 0.9960269331932068,
+            "page": 1,
+            "x1": 315.0,
+            "y1": 681.0,
+            "x2": 406.0,
+            "y2": 714.0,
+            "w": 91.0,
+            "h": 33.0,
+            "cx": 360.5,
+            "cy": 697.5
+          }
+        ],
+        "x1": 315.0,
+        "y1": 681.0,
+        "x2": 406.0,
+        "y2": 714.0,
+        "w": 91.0,
+        "h": 33.0,
+        "cx": 360.5,
+        "cy": 697.5,
+        "score": 0.9960269331932068,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "·检查连接",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "·检查连接",
+            "bbox": [
+              [
+                333.0,
+                740.0
+              ],
+              [
+                464.0,
+                740.0
+              ],
+              [
+                464.0,
+                767.0
+              ],
+              [
+                333.0,
+                767.0
+              ]
+            ],
+            "score": 0.9962992668151855,
+            "page": 1,
+            "x1": 333.0,
+            "y1": 740.0,
+            "x2": 464.0,
+            "y2": 767.0,
+            "w": 131.0,
+            "h": 27.0,
+            "cx": 398.5,
+            "cy": 753.5
+          }
+        ],
+        "x1": 333.0,
+        "y1": 740.0,
+        "x2": 464.0,
+        "y2": 767.0,
+        "w": 131.0,
+        "h": 27.0,
+        "cx": 398.5,
+        "cy": 753.5,
+        "score": 0.9962992668151855,
+        "type": "list"
+      },
+      {
+        "page": 1,
+        "text": "·检查代理和防火墙",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "·检查代理和防火墙",
+            "bbox": [
+              [
+                335.0,
+                793.0
+              ],
+              [
+                557.0,
+                793.0
+              ],
+              [
+                557.0,
+                819.0
+              ],
+              [
+                335.0,
+                819.0
+              ]
+            ],
+            "score": 0.9956409931182861,
+            "page": 1,
+            "x1": 335.0,
+            "y1": 793.0,
+            "x2": 557.0,
+            "y2": 819.0,
+            "w": 222.0,
+            "h": 26.0,
+            "cx": 446.0,
+            "cy": 806.0
+          }
+        ],
+        "x1": 335.0,
+        "y1": 793.0,
+        "x2": 557.0,
+        "y2": 819.0,
+        "w": 222.0,
+        "h": 26.0,
+        "cx": 446.0,
+        "cy": 806.0,
+        "score": 0.9956409931182861,
+        "type": "list"
+      },
+      {
+        "page": 1,
+        "text": "ERR_CONNECTION_TIMED_OUT",
+        "blocks": [
+          {
+            "id": 5,
+            "text": "ERR_CONNECTION_TIMED_OUT",
+            "bbox": [
+              [
+                316.0,
+                859.0
+              ],
+              [
+                557.0,
+                859.0
+              ],
+              [
+                557.0,
+                879.0
+              ],
+              [
+                316.0,
+                879.0
+              ]
+            ],
+            "score": 0.9915487170219421,
+            "page": 1,
+            "x1": 316.0,
+            "y1": 859.0,
+            "x2": 557.0,
+            "y2": 879.0,
+            "w": 241.0,
+            "h": 20.0,
+            "cx": 436.5,
+            "cy": 869.0
+          }
+        ],
+        "x1": 316.0,
+        "y1": 859.0,
+        "x2": 557.0,
+        "y2": 879.0,
+        "w": 241.0,
+        "h": 20.0,
+        "cx": 436.5,
+        "cy": 869.0,
+        "score": 0.9915487170219421,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "刷新",
+        "blocks": [
+          {
+            "id": 6,
+            "text": "刷新",
+            "bbox": [
+              [
+                359.0,
+                933.0
+              ],
+              [
+                423.0,
+                933.0
+              ],
+              [
+                423.0,
+                968.0
+              ],
+              [
+                359.0,
+                968.0
+              ]
+            ],
+            "score": 0.9996143579483032,
+            "page": 1,
+            "x1": 359.0,
+            "y1": 933.0,
+            "x2": 423.0,
+            "y2": 968.0,
+            "w": 64.0,
+            "h": 35.0,
+            "cx": 391.0,
+            "cy": 950.5
+          }
+        ],
+        "x1": 359.0,
+        "y1": 933.0,
+        "x2": 423.0,
+        "y2": 968.0,
+        "w": 64.0,
+        "h": 35.0,
+        "cx": 391.0,
+        "cy": 950.5,
+        "score": 0.9996143579483032,
+        "type": "paragraph"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.0453,
+    "non_white_ratio": 0.0408
+  },
+  "summary_result": {
+    "summary": "访问 tex.gxist.cn 时连接超时，提示检查网络、代理或防火墙设置。",
+    "text_type": "技术说明",
+    "repaired_text": "【第1页-标题】 嗯...无法访问此页面 tex.gxist.cn响应时间太长 请尝试： ·检查连接 ·检查代理和防火墙 ERR_CONNECTION_TIMED_OUT 刷新",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-标题】 嗯...无法访问此页面 tex.gxist.cn响应时间太长 请尝试： ·检查连接 ·检查代理和防火墙 ERR_CONNECTION_TIMED_OUT 刷新"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "无法访问此页面 tex.gxist.cn响应时间太长，请尝试：检查连接、检查代理和防火墙，错误代码：ERR_CONNECTION_TIMED_OUT，可尝试刷新。",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "无法访问此页面 tex.gxist.cn响应时间太长 请尝试： ·检查连接 ·检查代理和防火墙 ERR_CONNECTION_TIMED_OUT 刷新"
+      }
+    ],
+    "summary": "用户访问 tex.gxist.cn 时因响应超时导致连接失败，浏览器提示检查网络、代理或防火墙设置，并建议刷新页面重试。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "tex.gxist.cn",
+        "type": "主题",
+        "category": "主题",
+        "description": "无法访问的目标网站",
+        "aliases": [
+          "tex.gxist.cn"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "响应时间太长",
+        "type": "主题",
+        "category": "主题",
+        "description": "服务器响应延迟导致连接超时",
+        "aliases": [
+          "响应时间太长"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "ERR_CONNECTION_TIMED_OUT",
+        "type": "主题",
+        "category": "主题",
+        "description": "浏览器报错代码，表示连接超时",
+        "aliases": [
+          "ERR_CONNECTION_TIMED_OUT"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "检查连接",
+        "type": "主题",
+        "category": "主题",
+        "description": "排查网络连通性的操作建议",
+        "aliases": [
+          "检查连接"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "检查代理和防火墙",
+        "type": "主题",
+        "category": "主题",
+        "description": "排查网络限制的推荐措施",
+        "aliases": [
+          "检查代理和防火墙"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "刷新",
+        "type": "主题",
+        "category": "主题",
+        "description": "重新加载页面的操作",
+        "aliases": [
+          "刷新"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "tex.gxist.cn",
+        "target": "响应时间太长",
+        "relation": "导致",
+        "confidence": 0.9,
+        "raw_relation": "导致"
+      },
+      {
+        "source": "响应时间太长",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "导致",
+        "confidence": 0.95,
+        "raw_relation": "导致"
+      },
+      {
+        "source": "检查连接",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "服务于",
+        "confidence": 0.85,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "检查代理和防火墙",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "服务于",
+        "confidence": 0.85,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "刷新",
+        "target": "响应时间太长",
+        "relation": "服务于",
+        "confidence": 0.8,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "tex.gxist.cn",
+        "target": "响应时间太长",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "响应时间太长",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "ERR_CONNECTION_TIMED_OUT",
+        "target": "检查连接",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "检查连接",
+        "target": "检查代理和防火墙",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "检查代理和防火墙",
+        "target": "刷新",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "tex.gxist.cn",
+      "响应时间太长",
+      "ERR_CONNECTION_TIMED_OUT",
+      "检查连接",
+      "检查代理和防火墙",
+      "刷新"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-标题】 嗯...无法访问此页面 tex.gxist.cn响应时间太长 请尝试： ·检查连接 ·检查代理和防火墙 ERR_CONNECTION_TIMED_OUT 刷新"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "tex.gxist.cn",
+        "name": "tex.gxist.cn",
+        "label": "tex.gxist.cn",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "无法访问的目标网站",
+        "source": "llm",
+        "importance": 0.104,
+        "symbolSize": 28.91300403488831
+      },
+      {
+        "id": "响应时间太长",
+        "name": "响应时间太长",
+        "label": "响应时间太长",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "服务器响应延迟导致连接超时",
+        "source": "llm",
+        "importance": 0.5825,
+        "symbolSize": 42.310627912486844
+      },
+      {
+        "id": "ERR_CONNECTION_TIMED_OUT",
+        "name": "ERR_CONNECTION_TIMED_OUT",
+        "label": "ERR_CONNECTION_TIMED_OUT",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "浏览器报错代码，表示连接超时",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      },
+      {
+        "id": "检查连接",
+        "name": "检查连接",
+        "label": "检查连接",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "排查网络连通性的操作建议",
+        "source": "llm",
+        "importance": 0.8607,
+        "symbolSize": 50.09972872656866
+      },
+      {
+        "id": "检查代理和防火墙",
+        "name": "检查代理和防火墙",
+        "label": "检查代理和防火墙",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "排查网络限制的推荐措施",
+        "source": "llm",
+        "importance": 0.5813,
+        "symbolSize": 42.27537121251518
+      },
+      {
+        "id": "刷新",
+        "name": "刷新",
+        "label": "刷新",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "重新加载页面的操作",
+        "source": "llm",
+        "importance": 0.3329,
+        "symbolSize": 35.321429509073496
+      }
+    ],
+    "edges": [
+      {
+        "source": "tex.gxist.cn",
+        "target": "响应时间太长",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "响应时间太长",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "ERR_CONNECTION_TIMED_OUT",
+        "target": "检查连接",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "检查连接",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "检查连接",
+        "target": "检查代理和防火墙",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "检查代理和防火墙",
+        "target": "ERR_CONNECTION_TIMED_OUT",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "检查代理和防火墙",
+        "target": "刷新",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "刷新",
+        "target": "响应时间太长",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.8,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "ERR_CONNECTION_TIMED_OUT",
+        "score": 1.0,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "检查连接",
+        "score": 0.8607,
+        "degree": 0.75,
+        "betweenness": 0.8889,
+        "pagerank": 0.9226,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "响应时间太长",
+        "score": 0.5825,
+        "degree": 0.75,
+        "betweenness": 0.7778,
+        "pagerank": 0.3105,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "检查代理和防火墙",
+        "score": 0.5813,
+        "degree": 0.75,
+        "betweenness": 0.6667,
+        "pagerank": 0.3907,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "刷新",
+        "score": 0.3329,
+        "degree": 0.5,
+        "betweenness": 0.3333,
+        "pagerank": 0.2073,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "tex.gxist.cn": 0.25,
+        "响应时间太长": 0.7500000000000001,
+        "ERR_CONNECTION_TIMED_OUT": 1.0,
+        "检查连接": 0.7500000000000001,
+        "检查代理和防火墙": 0.7500000000000001,
+        "刷新": 0.5
+      },
+      "betweenness": {
+        "tex.gxist.cn": 0.0,
+        "响应时间太长": 0.7777777777777778,
+        "ERR_CONNECTION_TIMED_OUT": 1.0,
+        "检查连接": 0.888888888888889,
+        "检查代理和防火墙": 0.6666666666666667,
+        "刷新": 0.33333333333333337
+      },
+      "pagerank": {
+        "tex.gxist.cn": 0.0725896459721707,
+        "响应时间太长": 0.31047273028156325,
+        "ERR_CONNECTION_TIMED_OUT": 1.0,
+        "检查连接": 0.9225948267769637,
+        "检查代理和防火墙": 0.3906581439745693,
+        "刷新": 0.20727049188156194
+      },
+      "fusion": {
+        "tex.gxist.cn": 0.10403585838886828,
+        "响应时间太长": 0.5825224254459587,
+        "ERR_CONNECTION_TIMED_OUT": 1.0,
+        "检查连接": 0.8607045973774522,
+        "检查代理和防火墙": 0.5812632575898278,
+        "刷新": 0.3329081967526248
+      }
+    },
+    "important_paths": [
+      [
+        "ERR_CONNECTION_TIMED_OUT",
+        "检查连接"
+      ],
+      [
+        "ERR_CONNECTION_TIMED_OUT",
+        "检查连接",
+        "检查代理和防火墙",
+        "刷新",
+        "响应时间太长"
+      ],
+      [
+        "ERR_CONNECTION_TIMED_OUT",
+        "检查连接",
+        "检查代理和防火墙"
+      ],
+      [
+        "检查连接",
+        "检查代理和防火墙",
+        "刷新",
+        "响应时间太长"
+      ],
+      [
+        "检查连接",
+        "检查代理和防火墙"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": "",
+  "graph_summary": "网页访问失败，因服务器响应超时，触发连接异常错误，需排查网络配置并尝试重连。",
+  "deep_summary": "网页访问失败，因服务器响应超时，触发连接异常错误，需排查网络配置并尝试重连。"
+}

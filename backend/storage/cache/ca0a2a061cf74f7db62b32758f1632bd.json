@@ -1,0 +1,1620 @@
+{
+  "text": "【第1页-正文模块1】\nStep 1: 进入 backend\ncdD:\\AI-Graph-System\\backend\nStep2：创建虚拟环境（只做一次）\n<>Bash\n\n【第1页-表格/数据区域】\npy -3.10 -mvenv venv\nStep3：激活环境\n</>Bash\nvenv\\Scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+  "file_path": "storage/images\\b99f949582f74466b2ac8dedc6cda931_PixPin_2026-04-24_15-42-20.png",
+  "ocr": {
+    "raw_text": "Step 1: 进入 backend\ncdD:\\AI-Graph-System\\backend\nStep2：创建虚拟环境（只做一次）\n<>Bash\npy -3.10 -mvenv venv\nStep3：激活环境\n</>Bash\nvenv\\Scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+    "structured_text": "【第1页-正文模块1】\nStep 1: 进入 backend\ncdD:\\AI-Graph-System\\backend\nStep2：创建虚拟环境（只做一次）\n<>Bash\n\n【第1页-表格/数据区域】\npy -3.10 -mvenv venv\nStep3：激活环境\n</>Bash\nvenv\\Scripts\\activate\nStep4：安装所有依赖\npip install -r requirements.txt",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "module": "标题",
+        "type": "title",
+        "text": "Step 1: 进入 backend",
+        "blocks": [
+          {
+            "text": "Step 1: 进入 backend",
+            "confidence": 0.9840506315231323,
+            "bbox": {
+              "x1": 69.66666666666667,
+              "y1": 7.333333333333333,
+              "x2": 433.0,
+              "y2": 46.333333333333336
+            },
+            "type": "top_title"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "title": "正文内容",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "Step 1: 进入 backend",
+            "blocks": [
+              {
+                "id": 0,
+                "text": "Step 1: 进入 backend",
+                "bbox": [
+                  [
+                    69.66666666666667,
+                    7.333333333333333
+                  ],
+                  [
+                    433.0,
+                    7.333333333333333
+                  ],
+                  [
+                    433.0,
+                    46.333333333333336
+                  ],
+                  [
+                    69.66666666666667,
+                    46.333333333333336
+                  ]
+                ],
+                "score": 0.9840506315231323,
+                "page": 1,
+                "x1": 69.66666666666667,
+                "y1": 7.333333333333333,
+                "x2": 433.0,
+                "y2": 46.333333333333336,
+                "w": 363.3333333333333,
+                "h": 39.0,
+                "cx": 251.33333333333334,
+                "cy": 26.833333333333336
+              }
+            ],
+            "x1": 69.66666666666667,
+            "y1": 7.333333333333333,
+            "x2": 433.0,
+            "y2": 46.333333333333336,
+            "w": 363.3333333333333,
+            "h": 39.0,
+            "cx": 251.33333333333334,
+            "cy": 26.833333333333336,
+            "score": 0.9840506315231323,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "cdD:\\AI-Graph-System\\backend",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "cdD:\\AI-Graph-System\\backend",
+                "bbox": [
+                  [
+                    198.0,
+                    313.0
+                  ],
+                  [
+                    574.0,
+                    313.0
+                  ],
+                  [
+                    574.0,
+                    338.0
+                  ],
+                  [
+                    198.0,
+                    338.0
+                  ]
+                ],
+                "score": 0.990541398525238,
+                "page": 1,
+                "x1": 198.0,
+                "y1": 313.0,
+                "x2": 574.0,
+                "y2": 338.0,
+                "w": 376.0,
+                "h": 25.0,
+                "cx": 386.0,
+                "cy": 325.5
+              }
+            ],
+            "x1": 198.0,
+            "y1": 313.0,
+            "x2": 574.0,
+            "y2": 338.0,
+            "w": 376.0,
+            "h": 25.0,
+            "cx": 386.0,
+            "cy": 325.5,
+            "score": 0.990541398525238,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "Step2：创建虚拟环境（只做一次）",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "Step2：创建虚拟环境（只做一次）",
+                "bbox": [
+                  [
+                    225.0,
+                    465.0
+                  ],
+                  [
+                    745.0,
+                    465.0
+                  ],
+                  [
+                    745.0,
+                    500.0
+                  ],
+                  [
+                    225.0,
+                    500.0
+                  ]
+                ],
+                "score": 0.9642020463943481,
+                "page": 1,
+                "x1": 225.0,
+                "y1": 465.0,
+                "x2": 745.0,
+                "y2": 500.0,
+                "w": 520.0,
+                "h": 35.0,
+                "cx": 485.0,
+                "cy": 482.5
+              }
+            ],
+            "x1": 225.0,
+            "y1": 465.0,
+            "x2": 745.0,
+            "y2": 500.0,
+            "w": 520.0,
+            "h": 35.0,
+            "cx": 485.0,
+            "cy": 482.5,
+            "score": 0.9642020463943481,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "<>Bash",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "<>Bash",
+                "bbox": [
+                  [
+                    197.0,
+                    559.0
+                  ],
+                  [
+                    297.0,
+                    559.0
+                  ],
+                  [
+                    297.0,
+                    585.0
+                  ],
+                  [
+                    197.0,
+                    585.0
+                  ]
+                ],
+                "score": 0.9414908289909363,
+                "page": 1,
+                "x1": 197.0,
+                "y1": 559.0,
+                "x2": 297.0,
+                "y2": 585.0,
+                "w": 100.0,
+                "h": 26.0,
+                "cx": 247.0,
+                "cy": 572.0
+              }
+            ],
+            "x1": 197.0,
+            "y1": 559.0,
+            "x2": 297.0,
+            "y2": 585.0,
+            "w": 100.0,
+            "h": 26.0,
+            "cx": 247.0,
+            "cy": 572.0,
+            "score": 0.9414908289909363,
+            "type": "paragraph"
+          }
+        ]
+      },
+      {
+        "type": "table_like",
+        "title": "表格/数据区域",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "py -3.10 -mvenv venv",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "py -3.10 -mvenv venv",
+                "bbox": [
+                  [
+                    192.0,
+                    615.0
+                  ],
+                  [
+                    473.0,
+                    615.0
+                  ],
+                  [
+                    473.0,
+                    648.0
+                  ],
+                  [
+                    192.0,
+                    648.0
+                  ]
+                ],
+                "score": 0.9115586280822754,
+                "page": 1,
+                "x1": 192.0,
+                "y1": 615.0,
+                "x2": 473.0,
+                "y2": 648.0,
+                "w": 281.0,
+                "h": 33.0,
+                "cx": 332.5,
+                "cy": 631.5
+              }
+            ],
+            "x1": 192.0,
+            "y1": 615.0,
+            "x2": 473.0,
+            "y2": 648.0,
+            "w": 281.0,
+            "h": 33.0,
+            "cx": 332.5,
+            "cy": 631.5,
+            "score": 0.9115586280822754,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "Step3：激活环境",
+            "blocks": [
+              {
+                "id": 5,
+                "text": "Step3：激活环境",
+                "bbox": [
+                  [
+                    223.0,
+                    769.0
+                  ],
+                  [
+                    501.0,
+                    769.0
+                  ],
+                  [
+                    501.0,
+                    809.0
+                  ],
+                  [
+                    223.0,
+                    809.0
+                  ]
+                ],
+                "score": 0.9602605104446411,
+                "page": 1,
+                "x1": 223.0,
+                "y1": 769.0,
+                "x2": 501.0,
+                "y2": 809.0,
+                "w": 278.0,
+                "h": 40.0,
+                "cx": 362.0,
+                "cy": 789.0
+              }
+            ],
+            "x1": 223.0,
+            "y1": 769.0,
+            "x2": 501.0,
+            "y2": 809.0,
+            "w": 278.0,
+            "h": 40.0,
+            "cx": 362.0,
+            "cy": 789.0,
+            "score": 0.9602605104446411,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "</>Bash",
+            "blocks": [
+              {
+                "id": 6,
+                "text": "</>Bash",
+                "bbox": [
+                  [
+                    195.0,
+                    862.0
+                  ],
+                  [
+                    299.0,
+                    862.0
+                  ],
+                  [
+                    299.0,
+                    894.0
+                  ],
+                  [
+                    195.0,
+                    894.0
+                  ]
+                ],
+                "score": 0.9052720665931702,
+                "page": 1,
+                "x1": 195.0,
+                "y1": 862.0,
+                "x2": 299.0,
+                "y2": 894.0,
+                "w": 104.0,
+                "h": 32.0,
+                "cx": 247.0,
+                "cy": 878.0
+              }
+            ],
+            "x1": 195.0,
+            "y1": 862.0,
+            "x2": 299.0,
+            "y2": 894.0,
+            "w": 104.0,
+            "h": 32.0,
+            "cx": 247.0,
+            "cy": 878.0,
+            "score": 0.9052720665931702,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "venv\\Scripts\\activate",
+            "blocks": [
+              {
+                "id": 7,
+                "text": "venv\\Scripts\\activate",
+                "bbox": [
+                  [
+                    195.0,
+                    921.0
+                  ],
+                  [
+                    472.0,
+                    921.0
+                  ],
+                  [
+                    472.0,
+                    950.0
+                  ],
+                  [
+                    195.0,
+                    950.0
+                  ]
+                ],
+                "score": 0.9830840229988098,
+                "page": 1,
+                "x1": 195.0,
+                "y1": 921.0,
+                "x2": 472.0,
+                "y2": 950.0,
+                "w": 277.0,
+                "h": 29.0,
+                "cx": 333.5,
+                "cy": 935.5
+              }
+            ],
+            "x1": 195.0,
+            "y1": 921.0,
+            "x2": 472.0,
+            "y2": 950.0,
+            "w": 277.0,
+            "h": 29.0,
+            "cx": 333.5,
+            "cy": 935.5,
+            "score": 0.9830840229988098,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "Step4：安装所有依赖",
+            "blocks": [
+              {
+                "id": 8,
+                "text": "Step4：安装所有依赖",
+                "bbox": [
+                  [
+                    225.0,
+                    1075.0
+                  ],
+                  [
+                    565.0,
+                    1075.0
+                  ],
+                  [
+                    565.0,
+                    1111.0
+                  ],
+                  [
+                    225.0,
+                    1111.0
+                  ]
+                ],
+                "score": 0.9837128520011902,
+                "page": 1,
+                "x1": 225.0,
+                "y1": 1075.0,
+                "x2": 565.0,
+                "y2": 1111.0,
+                "w": 340.0,
+                "h": 36.0,
+                "cx": 395.0,
+                "cy": 1093.0
+              }
+            ],
+            "x1": 225.0,
+            "y1": 1075.0,
+            "x2": 565.0,
+            "y2": 1111.0,
+            "w": 340.0,
+            "h": 36.0,
+            "cx": 395.0,
+            "cy": 1093.0,
+            "score": 0.9837128520011902,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "pip install -r requirements.txt",
+            "blocks": [
+              {
+                "id": 9,
+                "text": "pip install -r requirements.txt",
+                "bbox": [
+                  [
+                    194.0,
+                    1226.0
+                  ],
+                  [
+                    602.0,
+                    1226.0
+                  ],
+                  [
+                    602.0,
+                    1257.0
+                  ],
+                  [
+                    194.0,
+                    1257.0
+                  ]
+                ],
+                "score": 0.9959540367126465,
+                "page": 1,
+                "x1": 194.0,
+                "y1": 1226.0,
+                "x2": 602.0,
+                "y2": 1257.0,
+                "w": 408.0,
+                "h": 31.0,
+                "cx": 398.0,
+                "cy": 1241.5
+              }
+            ],
+            "x1": 194.0,
+            "y1": 1226.0,
+            "x2": 602.0,
+            "y2": 1257.0,
+            "w": 408.0,
+            "h": 31.0,
+            "cx": 398.0,
+            "cy": 1241.5,
+            "score": 0.9959540367126465,
+            "type": "paragraph"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Step 1: 进入 backend",
+        "confidence": 0.9840506315231323,
+        "bbox": {
+          "x1": 69.66666666666667,
+          "y1": 7.333333333333333,
+          "x2": 433.0,
+          "y2": 46.333333333333336
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "cdD:\\AI-Graph-System\\backend",
+        "confidence": 0.990541398525238,
+        "bbox": {
+          "x1": 198.0,
+          "y1": 313.0,
+          "x2": 574.0,
+          "y2": 338.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "Step2：创建虚拟环境（只做一次）",
+        "confidence": 0.9642020463943481,
+        "bbox": {
+          "x1": 225.0,
+          "y1": 465.0,
+          "x2": 745.0,
+          "y2": 500.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "<>Bash",
+        "confidence": 0.9414908289909363,
+        "bbox": {
+          "x1": 197.0,
+          "y1": 559.0,
+          "x2": 297.0,
+          "y2": 585.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "py -3.10 -mvenv venv",
+        "confidence": 0.9115586280822754,
+        "bbox": {
+          "x1": 192.0,
+          "y1": 615.0,
+          "x2": 473.0,
+          "y2": 648.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "Step3：激活环境",
+        "confidence": 0.9602605104446411,
+        "bbox": {
+          "x1": 223.0,
+          "y1": 769.0,
+          "x2": 501.0,
+          "y2": 809.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "</>Bash",
+        "confidence": 0.9052720665931702,
+        "bbox": {
+          "x1": 195.0,
+          "y1": 862.0,
+          "x2": 299.0,
+          "y2": 894.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "venv\\Scripts\\activate",
+        "confidence": 0.9830840229988098,
+        "bbox": {
+          "x1": 195.0,
+          "y1": 921.0,
+          "x2": 472.0,
+          "y2": 950.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "Step4：安装所有依赖",
+        "confidence": 0.9837128520011902,
+        "bbox": {
+          "x1": 225.0,
+          "y1": 1075.0,
+          "x2": 565.0,
+          "y2": 1111.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "pip install -r requirements.txt",
+        "confidence": 0.9959540367126465,
+        "bbox": {
+          "x1": 194.0,
+          "y1": 1226.0,
+          "x2": 602.0,
+          "y2": 1257.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "Step 1: 进入 backend",
+        "blocks": [
+          {
+            "id": 0,
+            "text": "Step 1: 进入 backend",
+            "bbox": [
+              [
+                69.66666666666667,
+                7.333333333333333
+              ],
+              [
+                433.0,
+                7.333333333333333
+              ],
+              [
+                433.0,
+                46.333333333333336
+              ],
+              [
+                69.66666666666667,
+                46.333333333333336
+              ]
+            ],
+            "score": 0.9840506315231323,
+            "page": 1,
+            "x1": 69.66666666666667,
+            "y1": 7.333333333333333,
+            "x2": 433.0,
+            "y2": 46.333333333333336,
+            "w": 363.3333333333333,
+            "h": 39.0,
+            "cx": 251.33333333333334,
+            "cy": 26.833333333333336
+          }
+        ],
+        "x1": 69.66666666666667,
+        "y1": 7.333333333333333,
+        "x2": 433.0,
+        "y2": 46.333333333333336,
+        "w": 363.3333333333333,
+        "h": 39.0,
+        "cx": 251.33333333333334,
+        "cy": 26.833333333333336,
+        "score": 0.9840506315231323,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "cdD:\\AI-Graph-System\\backend",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "cdD:\\AI-Graph-System\\backend",
+            "bbox": [
+              [
+                198.0,
+                313.0
+              ],
+              [
+                574.0,
+                313.0
+              ],
+              [
+                574.0,
+                338.0
+              ],
+              [
+                198.0,
+                338.0
+              ]
+            ],
+            "score": 0.990541398525238,
+            "page": 1,
+            "x1": 198.0,
+            "y1": 313.0,
+            "x2": 574.0,
+            "y2": 338.0,
+            "w": 376.0,
+            "h": 25.0,
+            "cx": 386.0,
+            "cy": 325.5
+          }
+        ],
+        "x1": 198.0,
+        "y1": 313.0,
+        "x2": 574.0,
+        "y2": 338.0,
+        "w": 376.0,
+        "h": 25.0,
+        "cx": 386.0,
+        "cy": 325.5,
+        "score": 0.990541398525238,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "Step2：创建虚拟环境（只做一次）",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "Step2：创建虚拟环境（只做一次）",
+            "bbox": [
+              [
+                225.0,
+                465.0
+              ],
+              [
+                745.0,
+                465.0
+              ],
+              [
+                745.0,
+                500.0
+              ],
+              [
+                225.0,
+                500.0
+              ]
+            ],
+            "score": 0.9642020463943481,
+            "page": 1,
+            "x1": 225.0,
+            "y1": 465.0,
+            "x2": 745.0,
+            "y2": 500.0,
+            "w": 520.0,
+            "h": 35.0,
+            "cx": 485.0,
+            "cy": 482.5
+          }
+        ],
+        "x1": 225.0,
+        "y1": 465.0,
+        "x2": 745.0,
+        "y2": 500.0,
+        "w": 520.0,
+        "h": 35.0,
+        "cx": 485.0,
+        "cy": 482.5,
+        "score": 0.9642020463943481,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "<>Bash",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "<>Bash",
+            "bbox": [
+              [
+                197.0,
+                559.0
+              ],
+              [
+                297.0,
+                559.0
+              ],
+              [
+                297.0,
+                585.0
+              ],
+              [
+                197.0,
+                585.0
+              ]
+            ],
+            "score": 0.9414908289909363,
+            "page": 1,
+            "x1": 197.0,
+            "y1": 559.0,
+            "x2": 297.0,
+            "y2": 585.0,
+            "w": 100.0,
+            "h": 26.0,
+            "cx": 247.0,
+            "cy": 572.0
+          }
+        ],
+        "x1": 197.0,
+        "y1": 559.0,
+        "x2": 297.0,
+        "y2": 585.0,
+        "w": 100.0,
+        "h": 26.0,
+        "cx": 247.0,
+        "cy": 572.0,
+        "score": 0.9414908289909363,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "py -3.10 -mvenv venv",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "py -3.10 -mvenv venv",
+            "bbox": [
+              [
+                192.0,
+                615.0
+              ],
+              [
+                473.0,
+                615.0
+              ],
+              [
+                473.0,
+                648.0
+              ],
+              [
+                192.0,
+                648.0
+              ]
+            ],
+            "score": 0.9115586280822754,
+            "page": 1,
+            "x1": 192.0,
+            "y1": 615.0,
+            "x2": 473.0,
+            "y2": 648.0,
+            "w": 281.0,
+            "h": 33.0,
+            "cx": 332.5,
+            "cy": 631.5
+          }
+        ],
+        "x1": 192.0,
+        "y1": 615.0,
+        "x2": 473.0,
+        "y2": 648.0,
+        "w": 281.0,
+        "h": 33.0,
+        "cx": 332.5,
+        "cy": 631.5,
+        "score": 0.9115586280822754,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "Step3：激活环境",
+        "blocks": [
+          {
+            "id": 5,
+            "text": "Step3：激活环境",
+            "bbox": [
+              [
+                223.0,
+                769.0
+              ],
+              [
+                501.0,
+                769.0
+              ],
+              [
+                501.0,
+                809.0
+              ],
+              [
+                223.0,
+                809.0
+              ]
+            ],
+            "score": 0.9602605104446411,
+            "page": 1,
+            "x1": 223.0,
+            "y1": 769.0,
+            "x2": 501.0,
+            "y2": 809.0,
+            "w": 278.0,
+            "h": 40.0,
+            "cx": 362.0,
+            "cy": 789.0
+          }
+        ],
+        "x1": 223.0,
+        "y1": 769.0,
+        "x2": 501.0,
+        "y2": 809.0,
+        "w": 278.0,
+        "h": 40.0,
+        "cx": 362.0,
+        "cy": 789.0,
+        "score": 0.9602605104446411,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "</>Bash",
+        "blocks": [
+          {
+            "id": 6,
+            "text": "</>Bash",
+            "bbox": [
+              [
+                195.0,
+                862.0
+              ],
+              [
+                299.0,
+                862.0
+              ],
+              [
+                299.0,
+                894.0
+              ],
+              [
+                195.0,
+                894.0
+              ]
+            ],
+            "score": 0.9052720665931702,
+            "page": 1,
+            "x1": 195.0,
+            "y1": 862.0,
+            "x2": 299.0,
+            "y2": 894.0,
+            "w": 104.0,
+            "h": 32.0,
+            "cx": 247.0,
+            "cy": 878.0
+          }
+        ],
+        "x1": 195.0,
+        "y1": 862.0,
+        "x2": 299.0,
+        "y2": 894.0,
+        "w": 104.0,
+        "h": 32.0,
+        "cx": 247.0,
+        "cy": 878.0,
+        "score": 0.9052720665931702,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "venv\\Scripts\\activate",
+        "blocks": [
+          {
+            "id": 7,
+            "text": "venv\\Scripts\\activate",
+            "bbox": [
+              [
+                195.0,
+                921.0
+              ],
+              [
+                472.0,
+                921.0
+              ],
+              [
+                472.0,
+                950.0
+              ],
+              [
+                195.0,
+                950.0
+              ]
+            ],
+            "score": 0.9830840229988098,
+            "page": 1,
+            "x1": 195.0,
+            "y1": 921.0,
+            "x2": 472.0,
+            "y2": 950.0,
+            "w": 277.0,
+            "h": 29.0,
+            "cx": 333.5,
+            "cy": 935.5
+          }
+        ],
+        "x1": 195.0,
+        "y1": 921.0,
+        "x2": 472.0,
+        "y2": 950.0,
+        "w": 277.0,
+        "h": 29.0,
+        "cx": 333.5,
+        "cy": 935.5,
+        "score": 0.9830840229988098,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "Step4：安装所有依赖",
+        "blocks": [
+          {
+            "id": 8,
+            "text": "Step4：安装所有依赖",
+            "bbox": [
+              [
+                225.0,
+                1075.0
+              ],
+              [
+                565.0,
+                1075.0
+              ],
+              [
+                565.0,
+                1111.0
+              ],
+              [
+                225.0,
+                1111.0
+              ]
+            ],
+            "score": 0.9837128520011902,
+            "page": 1,
+            "x1": 225.0,
+            "y1": 1075.0,
+            "x2": 565.0,
+            "y2": 1111.0,
+            "w": 340.0,
+            "h": 36.0,
+            "cx": 395.0,
+            "cy": 1093.0
+          }
+        ],
+        "x1": 225.0,
+        "y1": 1075.0,
+        "x2": 565.0,
+        "y2": 1111.0,
+        "w": 340.0,
+        "h": 36.0,
+        "cx": 395.0,
+        "cy": 1093.0,
+        "score": 0.9837128520011902,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "pip install -r requirements.txt",
+        "blocks": [
+          {
+            "id": 9,
+            "text": "pip install -r requirements.txt",
+            "bbox": [
+              [
+                194.0,
+                1226.0
+              ],
+              [
+                602.0,
+                1226.0
+              ],
+              [
+                602.0,
+                1257.0
+              ],
+              [
+                194.0,
+                1257.0
+              ]
+            ],
+            "score": 0.9959540367126465,
+            "page": 1,
+            "x1": 194.0,
+            "y1": 1226.0,
+            "x2": 602.0,
+            "y2": 1257.0,
+            "w": 408.0,
+            "h": 31.0,
+            "cx": 398.0,
+            "cy": 1241.5
+          }
+        ],
+        "x1": 194.0,
+        "y1": 1226.0,
+        "x2": 602.0,
+        "y2": 1257.0,
+        "w": 408.0,
+        "h": 31.0,
+        "cx": 398.0,
+        "cy": 1241.5,
+        "score": 0.9959540367126465,
+        "type": "paragraph"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.0798,
+    "non_white_ratio": 0.0414
+  },
+  "summary_result": {
+    "summary": "介绍了进入项目目录、创建并激活Python虚拟环境，以及安装依赖的步骤。",
+    "text_type": "技术说明",
+    "repaired_text": "【第1页-正文模块1】 Step 1: 进入 backend cdD:\\AI-Graph-System\\backend Step2：创建虚拟环境（只做一次） <>Bash 【第1页-表格/数据区域】 py -3.10 -mvenv venv Step3：激活环境 </>Bash venv\\Scripts\\activate Step4：安装所有依赖 pip install -r requirements.txt",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-正文模块1】 Step 1: 进入 backend cdD:\\AI-Graph-System\\backend Step2：创建虚拟环境（只做一次） <>Bash 【第1页-表格/数据区域】 py -3.10 -mvenv venv Step3：激活环境 </>Bash venv\\Scripts\\activate Step4：安装所有依赖 pip install -r requirements.txt"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "Step 1: 进入 backend cd D:\\AI-Graph-System\\backend Step 2：创建虚拟环境（只做一次） py -3.10 -m venv venv Step 3：激活环境 venv\\Scripts\\activate Step 4：安装所有依赖 pip install -r requirements.txt",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "Step 1: 进入 backend cdD:\\AI-Graph-System\\backend Step2：创建虚拟环境（只做一次） <>Bash 【第1页-表格/数据区域】 py -3.10 -mvenv venv Step3：激活环境 </>Bash venv\\Scripts\\activate Step4：安装所有依赖 pip install -r requirements.txt"
+      }
+    ],
+    "summary": "在AI图谱系统后端项目中，通过进入backend目录，创建Python 3.10虚拟环境并激活，最后安装requirements.txt中的依赖包，完成开发环境配置。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "AI-Graph-System",
+        "type": "主题",
+        "category": "主题",
+        "description": "一个AI图谱系统项目",
+        "aliases": [
+          "AI-Graph-System"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "backend",
+        "type": "主题",
+        "category": "主题",
+        "description": "项目中的后端模块目录",
+        "aliases": [
+          "backend"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Python 3.10",
+        "type": "主题",
+        "category": "主题",
+        "description": "使用的Python版本",
+        "aliases": [
+          "Python 3.10"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "虚拟环境",
+        "type": "主题",
+        "category": "主题",
+        "description": "隔离Python依赖的环境",
+        "aliases": [
+          "虚拟环境",
+          "创建虚拟环境"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "venv",
+        "type": "主题",
+        "category": "主题",
+        "description": "Python内置的虚拟环境创建工具",
+        "aliases": [
+          "venv"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "requirements.txt",
+        "type": "文件",
+        "category": "文件",
+        "description": "包含项目依赖包列表的文件",
+        "aliases": [
+          "requirements.txt"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "安装依赖",
+        "type": "主题",
+        "category": "主题",
+        "description": "通过pip安装所需库的过程",
+        "aliases": [
+          "安装依赖"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "激活环境",
+        "type": "主题",
+        "category": "主题",
+        "description": "启用虚拟环境使其生效的操作",
+        "aliases": [
+          "激活环境"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "AI-Graph-System",
+        "target": "backend",
+        "relation": "包含",
+        "confidence": 0.9,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "虚拟环境",
+        "target": "Python 3.10",
+        "relation": "使用",
+        "confidence": 0.8,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "激活环境",
+        "target": "虚拟环境",
+        "relation": "参与",
+        "confidence": 0.85,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "安装依赖",
+        "target": "requirements.txt",
+        "relation": "使用",
+        "confidence": 0.9,
+        "raw_relation": "使用"
+      },
+      {
+        "source": "AI-Graph-System",
+        "target": "backend",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "backend",
+        "target": "虚拟环境",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "虚拟环境",
+        "target": "venv",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "venv",
+        "target": "requirements.txt",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "requirements.txt",
+        "target": "激活环境",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "AI-Graph-System",
+      "backend",
+      "Python 3.10",
+      "虚拟环境",
+      "venv",
+      "requirements.txt",
+      "安装依赖",
+      "激活环境"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-正文模块1】 Step 1: 进入 backend cdD:\\AI-Graph-System\\backend Step2：创建虚拟环境（只做一次） <>Bash 【第1页-表格/数据区域】 py -3.10 -mvenv venv Step3：激活环境 </>Bash venv\\Scripts\\activate Step4：安装所有依赖 pip install -r requirements.txt"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "AI-Graph-System",
+        "name": "AI-Graph-System",
+        "label": "AI-Graph-System",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "一个AI图谱系统项目",
+        "source": "llm",
+        "importance": 0.1331,
+        "symbolSize": 29.727092801473283
+      },
+      {
+        "id": "backend",
+        "name": "backend",
+        "label": "backend",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "项目中的后端模块目录",
+        "source": "llm",
+        "importance": 0.3513,
+        "symbolSize": 35.83513129725901
+      },
+      {
+        "id": "Python 3.10",
+        "name": "Python 3.10",
+        "label": "Python 3.10",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "使用的Python版本",
+        "source": "llm",
+        "importance": 0.3302,
+        "symbolSize": 35.245877392373586
+      },
+      {
+        "id": "虚拟环境",
+        "name": "虚拟环境",
+        "label": "虚拟环境",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "隔离Python依赖的环境",
+        "source": "llm",
+        "importance": 1.0,
+        "symbolSize": 54.0
+      },
+      {
+        "id": "venv",
+        "name": "venv",
+        "label": "venv",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "Python内置的虚拟环境创建工具",
+        "source": "llm",
+        "importance": 0.4823,
+        "symbolSize": 39.503211629876006
+      },
+      {
+        "id": "requirements.txt",
+        "name": "requirements.txt",
+        "label": "requirements.txt",
+        "type": "对象",
+        "category": "对象",
+        "group": 1,
+        "description": "包含项目依赖包列表的文件",
+        "source": "llm",
+        "importance": 0.6909,
+        "symbolSize": 45.344142010390016
+      },
+      {
+        "id": "安装依赖",
+        "name": "安装依赖",
+        "label": "安装依赖",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "通过pip安装所需库的过程",
+        "source": "llm",
+        "importance": 0.1331,
+        "symbolSize": 29.727092801473283
+      },
+      {
+        "id": "激活环境",
+        "name": "激活环境",
+        "label": "激活环境",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "启用虚拟环境使其生效的操作",
+        "source": "llm",
+        "importance": 0.5947,
+        "symbolSize": 42.652170428121345
+      }
+    ],
+    "edges": [
+      {
+        "source": "AI-Graph-System",
+        "target": "backend",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "backend",
+        "target": "虚拟环境",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "虚拟环境",
+        "target": "Python 3.10",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "虚拟环境",
+        "target": "venv",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "venv",
+        "target": "requirements.txt",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      },
+      {
+        "source": "requirements.txt",
+        "target": "激活环境",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      },
+      {
+        "source": "安装依赖",
+        "target": "requirements.txt",
+        "relation": "使用",
+        "raw_relation": "使用",
+        "label": "使用",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "激活环境",
+        "target": "虚拟环境",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.85,
+        "confidence": 0.85
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "虚拟环境",
+        "score": 1.0,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "requirements.txt",
+        "score": 0.6909,
+        "degree": 0.75,
+        "betweenness": 0.625,
+        "pagerank": 0.6959,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "激活环境",
+        "score": 0.5947,
+        "degree": 0.5,
+        "betweenness": 0.5,
+        "pagerank": 0.7368,
+        "reason": "该节点连接了不同信息分支，起到桥接作用。"
+      },
+      {
+        "name": "venv",
+        "score": 0.4823,
+        "degree": 0.5,
+        "betweenness": 0.4375,
+        "pagerank": 0.5025,
+        "reason": "该节点连接了不同信息分支，起到桥接作用。"
+      },
+      {
+        "name": "backend",
+        "score": 0.3513,
+        "degree": 0.5,
+        "betweenness": 0.3125,
+        "pagerank": 0.2688,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "AI-Graph-System": 0.25,
+        "backend": 0.5,
+        "Python 3.10": 0.25,
+        "虚拟环境": 1.0,
+        "venv": 0.5,
+        "requirements.txt": 0.75,
+        "安装依赖": 0.25,
+        "激活环境": 0.5
+      },
+      "betweenness": {
+        "AI-Graph-System": 0.0,
+        "backend": 0.3125,
+        "Python 3.10": 0.0,
+        "虚拟环境": 1.0,
+        "venv": 0.4375,
+        "requirements.txt": 0.625,
+        "安装依赖": 0.0,
+        "激活环境": 0.5
+      },
+      "pagerank": {
+        "AI-Graph-System": 0.14527614298868588,
+        "backend": 0.26876172296955486,
+        "Python 3.10": 0.6380247671762134,
+        "虚拟环境": 1.0,
+        "venv": 0.5025188955246431,
+        "requirements.txt": 0.6959055366419657,
+        "安装依赖": 0.14527614298868588,
+        "激活环境": 0.7368009310822626
+      },
+      "fusion": {
+        "AI-Graph-System": 0.13311045719547435,
+        "backend": 0.35125468918782193,
+        "Python 3.10": 0.33020990687048535,
+        "虚拟环境": 1.0,
+        "venv": 0.4822575582098573,
+        "requirements.txt": 0.6908622146567862,
+        "安装依赖": 0.13311045719547435,
+        "激活环境": 0.5947203724329051
+      }
+    },
+    "important_paths": [
+      [
+        "虚拟环境",
+        "venv",
+        "requirements.txt"
+      ],
+      [
+        "虚拟环境",
+        "venv",
+        "requirements.txt",
+        "激活环境"
+      ],
+      [
+        "虚拟环境",
+        "venv"
+      ],
+      [
+        "requirements.txt",
+        "激活环境"
+      ],
+      [
+        "requirements.txt",
+        "激活环境",
+        "虚拟环境",
+        "venv"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

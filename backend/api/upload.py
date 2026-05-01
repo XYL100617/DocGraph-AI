@@ -27,6 +27,7 @@ router = APIRouter()
 
 UPLOAD_DIR = "storage/images"
 CACHE_DIR = "storage/cache"
+MAX_GRAPH_TEXT_LEN = 3500
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(CACHE_DIR, exist_ok=True)
@@ -163,13 +164,42 @@ def build_full_graph_pipeline(llm_result):
 
     return llm_result, graph_data, analysis_result
 
+def get_graph_summary(llm_result, analysis_result):
+    llm_result = llm_result or {}
+
+    graph_summary = (
+        llm_result.get("graph_summary")
+        or llm_result.get("deep_summary")
+        or llm_result.get("deepAnalysis")
+        or llm_result.get("analysis")
+        or llm_result.get("summary")
+        or ""
+    )
+
+    if graph_summary:
+        return graph_summary
+
+    core_nodes = analysis_result.get("core_nodes", []) if analysis_result else []
+    core_names = "、".join([
+        n.get("name", "")
+        for n in core_nodes[:2]
+        if n.get("name")
+    ])
+
+    if core_names:
+        return f"AI已对识别内容进行进一步语义分析，核心信息集中在 {core_names} 等内容，并结合知识图谱完成结构化表达。"
+
+    return "AI已对识别内容进行进一步语义分析，并结合知识图谱完成结构化表达。"
 
 async def generate_graph_background(task_id: str, session_id: str = None):
     cache = load_cache(task_id)
     if not cache:
         return
 
-    if cache.get("graph") and cache.get("analysis") and cache.get("ai_result"):
+    if cache.get("graph_status") == "done" and cache.get("graph"):
+        return
+
+    if cache.get("graph_status") == "running":
         return
 
     try:
@@ -185,12 +215,18 @@ async def generate_graph_background(task_id: str, session_id: str = None):
             save_cache(task_id, cache)
             return
 
+        extracted_text = extracted_text[:MAX_GRAPH_TEXT_LEN]
+
         llm_result = graph_deep_extract(extracted_text)
         llm_result, graph_data, analysis_result = build_full_graph_pipeline(llm_result)
+
+        graph_summary = get_graph_summary(llm_result, analysis_result)
 
         cache["ai_result"] = llm_result
         cache["graph"] = graph_data
         cache["analysis"] = analysis_result
+        cache["graph_summary"] = graph_summary
+        cache["deep_summary"] = graph_summary
         cache["graph_status"] = "done"
         cache["graph_error"] = ""
         save_cache(task_id, cache)
@@ -213,7 +249,6 @@ async def generate_graph_background(task_id: str, session_id: str = None):
         cache["graph_status"] = "failed"
         cache["graph_error"] = str(e)
         save_cache(task_id, cache)
-
 
 @router.post("/upload/ocr-only")
 async def upload_ocr_only(
@@ -395,21 +430,31 @@ async def graph_after_summary(
     if not cache:
         return {"success": False, "error": "未找到缓存，请重新上传"}
 
-    if cache.get("graph") and cache.get("analysis") and cache.get("ai_result"):
+    # 1. 已完成：直接返回缓存，不重复调用大模型
+    if cache.get("graph_status") == "done" and cache.get("graph"):
+        graph_summary = (
+            cache.get("graph_summary")
+            or cache.get("deep_summary")
+            or get_graph_summary(cache.get("ai_result", {}), cache.get("analysis", {}))
+        )
+
         return {
             "success": True,
             "task_id": task_id,
             "status": "done",
-            "llm": cache.get("ai_result"),
-            "result": cache.get("ai_result"),
-            "graph": cache.get("graph"),
-            "analysis": cache.get("analysis"),
+            "llm": cache.get("ai_result", {}),
+            "result": cache.get("ai_result", {}),
+            "graph": cache.get("graph", {"nodes": [], "edges": []}),
+            "analysis": cache.get("analysis", {}),
+            "graphSummary": graph_summary,
+            "deepSummary": graph_summary,
             "ecla": {
                 "enabled": cache.get("ocr", {}).get("ecla_enabled", False),
                 "layout_type": cache.get("ocr", {}).get("layout_type", "")
             }
         }
 
+    # 2. 正在后台生成：不要重复生成
     if cache.get("graph_status") == "running":
         return {
             "success": True,
@@ -431,12 +476,18 @@ async def graph_after_summary(
             save_cache(task_id, cache)
             return {"success": False, "error": "OCR结果为空，无法生成图谱"}
 
+        extracted_text = extracted_text[:MAX_GRAPH_TEXT_LEN]
+
         result = graph_deep_extract(extracted_text)
         llm_result, graph_data, analysis_result = build_full_graph_pipeline(result)
+
+        graph_summary = get_graph_summary(llm_result, analysis_result)
 
         cache["ai_result"] = llm_result
         cache["graph"] = graph_data
         cache["analysis"] = analysis_result
+        cache["graph_summary"] = graph_summary
+        cache["deep_summary"] = graph_summary
         cache["graph_status"] = "done"
         cache["graph_error"] = ""
         save_cache(task_id, cache)
@@ -448,33 +499,32 @@ async def graph_after_summary(
         cache["graph_error"] = str(e)
         save_cache(task_id, cache)
 
-        llm_result = {
-            "summary": "",
-            "entities": [],
-            "relations": [],
-            "keywords": []
-        }
-
-        graph_data = {
-            "nodes": [],
-            "edges": []
-        }
-
-        analysis_result = {
-            "core_nodes": [],
-            "important_paths": [],
-            "metrics": {}
-        }
-
         return {
             "success": False,
             "task_id": task_id,
             "status": "failed",
             "error": str(e),
-            "llm": llm_result,
-            "result": llm_result,
-            "graph": graph_data,
-            "analysis": analysis_result
+            "llm": {
+                "summary": "",
+                "entities": [],
+                "relations": [],
+                "keywords": []
+            },
+            "result": {
+                "summary": "",
+                "entities": [],
+                "relations": [],
+                "keywords": []
+            },
+            "graph": {
+                "nodes": [],
+                "edges": []
+            },
+            "analysis": {
+                "core_nodes": [],
+                "important_paths": [],
+                "metrics": {}
+            }
         }
 
     if session_id:
@@ -489,14 +539,6 @@ async def graph_after_summary(
         except Exception as e:
             print("历史记录保存失败：", e)
 
-    graph_summary = (
-    llm_result.get("graph_summary")
-    or llm_result.get("deep_summary")
-    or llm_result.get("analysis")
-    or llm_result.get("summary")
-    or ""
-    )
-
     return {
         "success": True,
         "task_id": task_id,
@@ -505,17 +547,13 @@ async def graph_after_summary(
         "result": llm_result,
         "graph": graph_data,
         "analysis": analysis_result,
-
-        # ⭐ 新增：给前端 AI深度洞察 使用
         "graphSummary": graph_summary,
         "deepSummary": graph_summary,
-
         "ecla": {
             "enabled": cache.get("ocr", {}).get("ecla_enabled", False),
             "layout_type": cache.get("ocr", {}).get("layout_type", "")
         }
     }
-
 
 @router.post("/upload")
 async def upload_file(

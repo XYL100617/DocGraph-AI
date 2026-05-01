@@ -14,7 +14,7 @@ dist/
 
 # =========================
 # Storage (Backend User Data)
-# =========================
+# =======================
 backend/storage/images/
 backend/storage/pdf_pages/
 backend/storage/history.json

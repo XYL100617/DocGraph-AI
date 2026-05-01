@@ -1,0 +1,242 @@
+{
+  "text": "人不为己，天诛地灭",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "人不为己，天诛地灭",
+    "structured_text": "人不为己，天诛地灭",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "人不为己，天诛地灭",
+        "blocks": []
+      }
+    ],
+    "blocks": [],
+    "lines": [],
+    "ecla_enabled": false
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "summary_result": {
+    "summary": "强调人若不为自己着想，就会遭到天地的惩罚，表达极端利己主义思想。",
+    "text_type": "名言格言",
+    "repaired_text": "人不为己，天诛地灭",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "人不为己，天诛地灭"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "人不为己，天诛地灭",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "人不为己，天诛地灭"
+      }
+    ],
+    "summary": "该句强调个人自利的必要性，认为人若不为自己谋利，就会遭到天地的惩罚，体现极端个人主义价值观。",
+    "text_type": "名言格言",
+    "entities": [
+      {
+        "name": "天诛地灭",
+        "type": "主题",
+        "category": "主题",
+        "description": "天地毁灭的惩罚，象征极端后果",
+        "aliases": [
+          "天诛地灭"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "极端个人主义",
+        "type": "概念",
+        "category": "概念",
+        "description": "强调个人利益至上的价值取向",
+        "aliases": [
+          "极端个人主义"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "自利行为",
+        "type": "事件",
+        "category": "事件",
+        "description": "为自身利益而行动的行为逻辑",
+        "aliases": [
+          "自利行为"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "自利行为",
+        "target": "极端个人主义",
+        "relation": "体现",
+        "confidence": 0.7,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "极端个人主义",
+        "target": "天诛地灭",
+        "relation": "体现",
+        "confidence": 0.55,
+        "raw_relation": "weak_graph_center_repair"
+      }
+    ],
+    "keywords": [
+      "天诛地灭",
+      "极端个人主义",
+      "自利行为"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "人不为己，天诛地灭"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "天诛地灭",
+        "name": "天诛地灭",
+        "label": "天诛地灭",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "天地毁灭的惩罚，象征极端后果",
+        "source": "llm",
+        "importance": 0.55,
+        "symbolSize": 41.400000000000006
+      },
+      {
+        "id": "极端个人主义",
+        "name": "极端个人主义",
+        "label": "极端个人主义",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "强调个人利益至上的价值取向",
+        "source": "llm",
+        "importance": 0.8877,
+        "symbolSize": 50.8544447402532
+      },
+      {
+        "id": "自利行为",
+        "name": "自利行为",
+        "label": "自利行为",
+        "type": "事件",
+        "category": "事件",
+        "group": 0,
+        "description": "为自身利益而行动的行为逻辑",
+        "source": "llm",
+        "importance": 0.3055,
+        "symbolSize": 34.55374615184988
+      }
+    ],
+    "edges": [
+      {
+        "source": "极端个人主义",
+        "target": "天诛地灭",
+        "relation": "体现",
+        "raw_relation": "weak_graph_center_repair",
+        "label": "体现",
+        "weight": 0.55,
+        "confidence": 0.55
+      },
+      {
+        "source": "自利行为",
+        "target": "极端个人主义",
+        "relation": "体现",
+        "raw_relation": "属于",
+        "label": "体现",
+        "weight": 0.7,
+        "confidence": 0.7
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "极端个人主义",
+        "score": 0.8877,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.7191,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "天诛地灭",
+        "score": 0.55,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "自利行为",
+        "score": 0.3055,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 0.3887,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "天诛地灭": 0.5,
+        "极端个人主义": 1.0,
+        "自利行为": 0.5
+      },
+      "betweenness": {
+        "天诛地灭": 0.0,
+        "极端个人主义": 1.0,
+        "自利行为": 0.0
+      },
+      "pagerank": {
+        "天诛地灭": 1.0,
+        "极端个人主义": 0.719146851808321,
+        "自利行为": 0.3887273349865965
+      },
+      "fusion": {
+        "天诛地灭": 0.55,
+        "极端个人主义": 0.8876587407233284,
+        "自利行为": 0.3054909339946386
+      }
+    },
+    "important_paths": [
+      [
+        "极端个人主义",
+        "天诛地灭"
+      ],
+      [
+        "自利行为",
+        "极端个人主义"
+      ],
+      [
+        "自利行为",
+        "极端个人主义",
+        "天诛地灭"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

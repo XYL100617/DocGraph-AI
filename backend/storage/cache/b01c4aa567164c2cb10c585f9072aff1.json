@@ -1,0 +1,1532 @@
+{
+  "text": "【第1页-表格/数据区域】\n306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for\ntraining and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned\ninfrared-visible pairs with 34,407 annotations under varying illumination, sea-\ntraining and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned\ninfrared visible pairs with 34,407 annotations under varying illumination, sea-\nsons,andweather.wefollowEAEF17forthetrain/testsplit",
+  "file_path": "storage/images\\dfeda31618144877b56be052884b2100_屏幕截图 2026-03-05 194705.png",
+  "ocr": {
+    "raw_text": "306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for\ntraining and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned\ninfrared-visible pairs with 34,407 annotations under varying illumination, sea-\ntraining and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned\ninfrared visible pairs with 34,407 annotations under varying illumination, sea-\nsons,andweather.wefollowEAEF17forthetrain/testsplit",
+    "structured_text": "【第1页-表格/数据区域】\n306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for\ntraining and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned\ninfrared-visible pairs with 34,407 annotations under varying illumination, sea-\ntraining and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned\ninfrared visible pairs with 34,407 annotations under varying illumination, sea-\nsons,andweather.wefollowEAEF17forthetrain/testsplit",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "module": "标题",
+        "type": "title",
+        "text": "verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for\n306",
+        "blocks": [
+          {
+            "text": "verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+            "confidence": 0.9866886734962463,
+            "bbox": {
+              "x1": 78.0,
+              "y1": 3.6666666666666665,
+              "x2": 987.0,
+              "y2": 30.333333333333332
+            },
+            "type": "top_title"
+          },
+          {
+            "text": "306",
+            "confidence": 0.9297156929969788,
+            "bbox": {
+              "x1": 2.6666666666666665,
+              "y1": 9.333333333333334,
+              "x2": 33.0,
+              "y2": 27.0
+            },
+            "type": "top_title"
+          }
+        ]
+      },
+      {
+        "type": "table_like",
+        "title": "表格/数据区域",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "306",
+                "bbox": [
+                  [
+                    2.6666666666666665,
+                    9.333333333333334
+                  ],
+                  [
+                    33.0,
+                    9.333333333333334
+                  ],
+                  [
+                    33.0,
+                    27.0
+                  ],
+                  [
+                    2.6666666666666665,
+                    27.0
+                  ]
+                ],
+                "score": 0.9297156929969788,
+                "page": 1,
+                "x1": 2.6666666666666665,
+                "y1": 9.333333333333334,
+                "x2": 33.0,
+                "y2": 27.0,
+                "w": 30.333333333333332,
+                "h": 17.666666666666664,
+                "cx": 17.833333333333332,
+                "cy": 18.166666666666668
+              },
+              {
+                "id": 0,
+                "text": "verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+                "bbox": [
+                  [
+                    78.0,
+                    3.6666666666666665
+                  ],
+                  [
+                    987.0,
+                    3.6666666666666665
+                  ],
+                  [
+                    987.0,
+                    30.333333333333332
+                  ],
+                  [
+                    78.0,
+                    30.333333333333332
+                  ]
+                ],
+                "score": 0.9866886734962463,
+                "page": 1,
+                "x1": 78.0,
+                "y1": 3.6666666666666665,
+                "x2": 987.0,
+                "y2": 30.333333333333332,
+                "w": 909.0,
+                "h": 26.666666666666664,
+                "cx": 532.5,
+                "cy": 17.0
+              }
+            ],
+            "x1": 2.6666666666666665,
+            "y1": 3.6666666666666665,
+            "x2": 987.0,
+            "y2": 30.333333333333332,
+            "w": 984.3333333333334,
+            "h": 26.666666666666664,
+            "cx": 494.8333333333333,
+            "cy": 17.0,
+            "score": 0.9582021832466125,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned",
+                "bbox": [
+                  [
+                    78.0,
+                    36.0
+                  ],
+                  [
+                    987.0,
+                    36.0
+                  ],
+                  [
+                    987.0,
+                    61.666666666666664
+                  ],
+                  [
+                    78.0,
+                    61.666666666666664
+                  ]
+                ],
+                "score": 0.9798359870910645,
+                "page": 1,
+                "x1": 78.0,
+                "y1": 36.0,
+                "x2": 987.0,
+                "y2": 61.666666666666664,
+                "w": 909.0,
+                "h": 25.666666666666664,
+                "cx": 532.5,
+                "cy": 48.83333333333333
+              }
+            ],
+            "x1": 78.0,
+            "y1": 36.0,
+            "x2": 987.0,
+            "y2": 61.666666666666664,
+            "w": 909.0,
+            "h": 25.666666666666664,
+            "cx": 532.5,
+            "cy": 48.83333333333333,
+            "score": 0.9798359870910645,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "infrared-visible pairs with 34,407 annotations under varying illumination, sea-",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "infrared-visible pairs with 34,407 annotations under varying illumination, sea-",
+                "bbox": [
+                  [
+                    78.0,
+                    67.33333333333333
+                  ],
+                  [
+                    985.0,
+                    67.33333333333333
+                  ],
+                  [
+                    985.0,
+                    92.0
+                  ],
+                  [
+                    78.0,
+                    92.0
+                  ]
+                ],
+                "score": 0.9725754261016846,
+                "page": 1,
+                "x1": 78.0,
+                "y1": 67.33333333333333,
+                "x2": 985.0,
+                "y2": 92.0,
+                "w": 907.0,
+                "h": 24.66666666666667,
+                "cx": 531.5,
+                "cy": 79.66666666666666
+              }
+            ],
+            "x1": 78.0,
+            "y1": 67.33333333333333,
+            "x2": 985.0,
+            "y2": 92.0,
+            "w": 907.0,
+            "h": 24.66666666666667,
+            "cx": 531.5,
+            "cy": 79.66666666666666,
+            "score": 0.9725754261016846,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned",
+                "bbox": [
+                  [
+                    225.0,
+                    181.0
+                  ],
+                  [
+                    1141.0,
+                    181.0
+                  ],
+                  [
+                    1141.0,
+                    213.0
+                  ],
+                  [
+                    225.0,
+                    213.0
+                  ]
+                ],
+                "score": 0.9704311490058899,
+                "page": 1,
+                "x1": 225.0,
+                "y1": 181.0,
+                "x2": 1141.0,
+                "y2": 213.0,
+                "w": 916.0,
+                "h": 32.0,
+                "cx": 683.0,
+                "cy": 197.0
+              }
+            ],
+            "x1": 225.0,
+            "y1": 181.0,
+            "x2": 1141.0,
+            "y2": 213.0,
+            "w": 916.0,
+            "h": 32.0,
+            "cx": 683.0,
+            "cy": 197.0,
+            "score": 0.9704311490058899,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "infrared visible pairs with 34,407 annotations under varying illumination, sea-",
+            "blocks": [
+              {
+                "id": 5,
+                "text": "infrared visible pairs with 34,407 annotations under varying illumination, sea-",
+                "bbox": [
+                  [
+                    225.0,
+                    213.0
+                  ],
+                  [
+                    1140.0,
+                    213.0
+                  ],
+                  [
+                    1140.0,
+                    244.0
+                  ],
+                  [
+                    225.0,
+                    244.0
+                  ]
+                ],
+                "score": 0.9851208329200745,
+                "page": 1,
+                "x1": 225.0,
+                "y1": 213.0,
+                "x2": 1140.0,
+                "y2": 244.0,
+                "w": 915.0,
+                "h": 31.0,
+                "cx": 682.5,
+                "cy": 228.5
+              }
+            ],
+            "x1": 225.0,
+            "y1": 213.0,
+            "x2": 1140.0,
+            "y2": 244.0,
+            "w": 915.0,
+            "h": 31.0,
+            "cx": 682.5,
+            "cy": 228.5,
+            "score": 0.9851208329200745,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "sons,andweather.wefollowEAEF17forthetrain/testsplit",
+            "blocks": [
+              {
+                "id": 6,
+                "text": "sons,andweather.wefollowEAEF17forthetrain/testsplit",
+                "bbox": [
+                  [
+                    227.0,
+                    249.0
+                  ],
+                  [
+                    953.0,
+                    249.0
+                  ],
+                  [
+                    953.0,
+                    273.0
+                  ],
+                  [
+                    227.0,
+                    273.0
+                  ]
+                ],
+                "score": 0.982161819934845,
+                "page": 1,
+                "x1": 227.0,
+                "y1": 249.0,
+                "x2": 953.0,
+                "y2": 273.0,
+                "w": 726.0,
+                "h": 24.0,
+                "cx": 590.0,
+                "cy": 261.0
+              }
+            ],
+            "x1": 227.0,
+            "y1": 249.0,
+            "x2": 953.0,
+            "y2": 273.0,
+            "w": 726.0,
+            "h": 24.0,
+            "cx": 590.0,
+            "cy": 261.0,
+            "score": 0.982161819934845,
+            "type": "paragraph"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+        "confidence": 0.9866886734962463,
+        "bbox": {
+          "x1": 78.0,
+          "y1": 3.6666666666666665,
+          "x2": 987.0,
+          "y2": 30.333333333333332
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "306",
+        "confidence": 0.9297156929969788,
+        "bbox": {
+          "x1": 2.6666666666666665,
+          "y1": 9.333333333333334,
+          "x2": 33.0,
+          "y2": 27.0
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned",
+        "confidence": 0.9798359870910645,
+        "bbox": {
+          "x1": 78.0,
+          "y1": 36.0,
+          "x2": 987.0,
+          "y2": 61.666666666666664
+        },
+        "type": "text"
+      },
+      {
+        "text": "infrared-visible pairs with 34,407 annotations under varying illumination, sea-",
+        "confidence": 0.9725754261016846,
+        "bbox": {
+          "x1": 78.0,
+          "y1": 67.33333333333333,
+          "x2": 985.0,
+          "y2": 92.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned",
+        "confidence": 0.9704311490058899,
+        "bbox": {
+          "x1": 225.0,
+          "y1": 181.0,
+          "x2": 1141.0,
+          "y2": 213.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "infrared visible pairs with 34,407 annotations under varying illumination, sea-",
+        "confidence": 0.9851208329200745,
+        "bbox": {
+          "x1": 225.0,
+          "y1": 213.0,
+          "x2": 1140.0,
+          "y2": 244.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "sons,andweather.wefollowEAEF17forthetrain/testsplit",
+        "confidence": 0.982161819934845,
+        "bbox": {
+          "x1": 227.0,
+          "y1": 249.0,
+          "x2": 953.0,
+          "y2": 273.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "306",
+            "bbox": [
+              [
+                2.6666666666666665,
+                9.333333333333334
+              ],
+              [
+                33.0,
+                9.333333333333334
+              ],
+              [
+                33.0,
+                27.0
+              ],
+              [
+                2.6666666666666665,
+                27.0
+              ]
+            ],
+            "score": 0.9297156929969788,
+            "page": 1,
+            "x1": 2.6666666666666665,
+            "y1": 9.333333333333334,
+            "x2": 33.0,
+            "y2": 27.0,
+            "w": 30.333333333333332,
+            "h": 17.666666666666664,
+            "cx": 17.833333333333332,
+            "cy": 18.166666666666668
+          },
+          {
+            "id": 0,
+            "text": "verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for",
+            "bbox": [
+              [
+                78.0,
+                3.6666666666666665
+              ],
+              [
+                987.0,
+                3.6666666666666665
+              ],
+              [
+                987.0,
+                30.333333333333332
+              ],
+              [
+                78.0,
+                30.333333333333332
+              ]
+            ],
+            "score": 0.9866886734962463,
+            "page": 1,
+            "x1": 78.0,
+            "y1": 3.6666666666666665,
+            "x2": 987.0,
+            "y2": 30.333333333333332,
+            "w": 909.0,
+            "h": 26.666666666666664,
+            "cx": 532.5,
+            "cy": 17.0
+          }
+        ],
+        "x1": 2.6666666666666665,
+        "y1": 3.6666666666666665,
+        "x2": 987.0,
+        "y2": 30.333333333333332,
+        "w": 984.3333333333334,
+        "h": 26.666666666666664,
+        "cx": 494.8333333333333,
+        "cy": 17.0,
+        "score": 0.9582021832466125,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned",
+            "bbox": [
+              [
+                78.0,
+                36.0
+              ],
+              [
+                987.0,
+                36.0
+              ],
+              [
+                987.0,
+                61.666666666666664
+              ],
+              [
+                78.0,
+                61.666666666666664
+              ]
+            ],
+            "score": 0.9798359870910645,
+            "page": 1,
+            "x1": 78.0,
+            "y1": 36.0,
+            "x2": 987.0,
+            "y2": 61.666666666666664,
+            "w": 909.0,
+            "h": 25.666666666666664,
+            "cx": 532.5,
+            "cy": 48.83333333333333
+          }
+        ],
+        "x1": 78.0,
+        "y1": 36.0,
+        "x2": 987.0,
+        "y2": 61.666666666666664,
+        "w": 909.0,
+        "h": 25.666666666666664,
+        "cx": 532.5,
+        "cy": 48.83333333333333,
+        "score": 0.9798359870910645,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "infrared-visible pairs with 34,407 annotations under varying illumination, sea-",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "infrared-visible pairs with 34,407 annotations under varying illumination, sea-",
+            "bbox": [
+              [
+                78.0,
+                67.33333333333333
+              ],
+              [
+                985.0,
+                67.33333333333333
+              ],
+              [
+                985.0,
+                92.0
+              ],
+              [
+                78.0,
+                92.0
+              ]
+            ],
+            "score": 0.9725754261016846,
+            "page": 1,
+            "x1": 78.0,
+            "y1": 67.33333333333333,
+            "x2": 985.0,
+            "y2": 92.0,
+            "w": 907.0,
+            "h": 24.66666666666667,
+            "cx": 531.5,
+            "cy": 79.66666666666666
+          }
+        ],
+        "x1": 78.0,
+        "y1": 67.33333333333333,
+        "x2": 985.0,
+        "y2": 92.0,
+        "w": 907.0,
+        "h": 24.66666666666667,
+        "cx": 531.5,
+        "cy": 79.66666666666666,
+        "score": 0.9725754261016846,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned",
+            "bbox": [
+              [
+                225.0,
+                181.0
+              ],
+              [
+                1141.0,
+                181.0
+              ],
+              [
+                1141.0,
+                213.0
+              ],
+              [
+                225.0,
+                213.0
+              ]
+            ],
+            "score": 0.9704311490058899,
+            "page": 1,
+            "x1": 225.0,
+            "y1": 181.0,
+            "x2": 1141.0,
+            "y2": 213.0,
+            "w": 916.0,
+            "h": 32.0,
+            "cx": 683.0,
+            "cy": 197.0
+          }
+        ],
+        "x1": 225.0,
+        "y1": 181.0,
+        "x2": 1141.0,
+        "y2": 213.0,
+        "w": 916.0,
+        "h": 32.0,
+        "cx": 683.0,
+        "cy": 197.0,
+        "score": 0.9704311490058899,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "infrared visible pairs with 34,407 annotations under varying illumination, sea-",
+        "blocks": [
+          {
+            "id": 5,
+            "text": "infrared visible pairs with 34,407 annotations under varying illumination, sea-",
+            "bbox": [
+              [
+                225.0,
+                213.0
+              ],
+              [
+                1140.0,
+                213.0
+              ],
+              [
+                1140.0,
+                244.0
+              ],
+              [
+                225.0,
+                244.0
+              ]
+            ],
+            "score": 0.9851208329200745,
+            "page": 1,
+            "x1": 225.0,
+            "y1": 213.0,
+            "x2": 1140.0,
+            "y2": 244.0,
+            "w": 915.0,
+            "h": 31.0,
+            "cx": 682.5,
+            "cy": 228.5
+          }
+        ],
+        "x1": 225.0,
+        "y1": 213.0,
+        "x2": 1140.0,
+        "y2": 244.0,
+        "w": 915.0,
+        "h": 31.0,
+        "cx": 682.5,
+        "cy": 228.5,
+        "score": 0.9851208329200745,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "sons,andweather.wefollowEAEF17forthetrain/testsplit",
+        "blocks": [
+          {
+            "id": 6,
+            "text": "sons,andweather.wefollowEAEF17forthetrain/testsplit",
+            "bbox": [
+              [
+                227.0,
+                249.0
+              ],
+              [
+                953.0,
+                249.0
+              ],
+              [
+                953.0,
+                273.0
+              ],
+              [
+                227.0,
+                273.0
+              ]
+            ],
+            "score": 0.982161819934845,
+            "page": 1,
+            "x1": 227.0,
+            "y1": 249.0,
+            "x2": 953.0,
+            "y2": 273.0,
+            "w": 726.0,
+            "h": 24.0,
+            "cx": 590.0,
+            "cy": 261.0
+          }
+        ],
+        "x1": 227.0,
+        "y1": 249.0,
+        "x2": 953.0,
+        "y2": 273.0,
+        "w": 726.0,
+        "h": 24.0,
+        "cx": 590.0,
+        "cy": 261.0,
+        "score": 0.982161819934845,
+        "type": "paragraph"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.9903,
+    "non_white_ratio": 0.206
+  },
+  "summary_result": {
+    "summary": "介绍两个数据集的规模和划分：306个无人机视角图像含训练与测试对，M?FD数据集含4200对红外-可见光图像及标注，用于不同环境条件下的训练与测试。",
+    "text_type": "技术说明",
+    "repaired_text": "【第1页-表格/数据区域】 306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned infrared-visible pairs with 34,407 annotations under varying illumination, sea- training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned infrared visible pairs with 34,407 annotations under varying illumination, sea- sons,andweather.wefollowEAEF17forthetrain/testsplit",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-表格/数据区域】 306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned infrared-visible pairs with 34,407 annotations under varying illumination, sea- training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned infrared visible pairs with 34,407 annotations under varying illumination, sea- sons,andweather.wefollowEAEF17forthetrain/testsplit"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for training and 8,980 for testing. The M3FD dataset [18] comprises 4,200 aligned infrared-visible pairs with 34,407 annotations under varying illumination, seasons, and weather. We follow EAEF [17] for the train/test split.",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "M3FD dataset, 4,200 aligned infrared-visible pairs, 34,407 annotations, varying illumination, seasons, weather, 17,990 pairs training, 8,980 pairs testing, EAEF [17]"
+      }
+    ],
+    "summary": "该文本描述了M3FD数据集的构成，包含4,200对红外-可见光图像和34,407个标注，覆盖不同光照、季节与天气条件，训练集使用17,990对数据，测试集8,980对，划分方式参照EAEF[17]方法。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "M3FD dataset",
+        "type": "主题",
+        "category": "主题",
+        "description": "多模态红外-可见光图像数据集",
+        "aliases": [
+          "M3FD dataset"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "infrared-visible pairs",
+        "type": "主题",
+        "category": "主题",
+        "description": "配准的红外与可见光图像对",
+        "aliases": [
+          "infrared-visible pairs"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "34,407 annotations",
+        "type": "主题",
+        "category": "主题",
+        "description": "数据集中标注总数",
+        "aliases": [
+          "34,407 annotations"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "varying illumination",
+        "type": "主题",
+        "category": "主题",
+        "description": "变化的光照条件",
+        "aliases": [
+          "varying illumination"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "seasons",
+        "type": "主题",
+        "category": "主题",
+        "description": "季节变化条件",
+        "aliases": [
+          "seasons"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "weather",
+        "type": "主题",
+        "category": "主题",
+        "description": "气象条件变化",
+        "aliases": [
+          "weather"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "training",
+        "type": "主题",
+        "category": "主题",
+        "description": "模型训练阶段",
+        "aliases": [
+          "training"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "testing",
+        "type": "主题",
+        "category": "主题",
+        "description": "模型测试阶段",
+        "aliases": [
+          "testing"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "17,990 pairs",
+        "type": "主题",
+        "category": "主题",
+        "description": "用于训练的数据对数量",
+        "aliases": [
+          "17,990 pairs"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "8,980 pairs",
+        "type": "主题",
+        "category": "主题",
+        "description": "用于测试的数据对数量",
+        "aliases": [
+          "8,980 pairs"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "EAEF [17]",
+        "type": "主题",
+        "category": "主题",
+        "description": "用于训练/测试划分的基准方法",
+        "aliases": [
+          "EAEF [17]"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "drone viewpoints",
+        "type": "主题",
+        "category": "主题",
+        "description": "无人机拍摄视角",
+        "aliases": [
+          "drone viewpoints"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "altitudes",
+        "type": "主题",
+        "category": "主题",
+        "description": "飞行高度条件",
+        "aliases": [
+          "altitudes"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "M3FD dataset",
+        "target": "infrared-visible pairs",
+        "relation": "包含",
+        "confidence": 0.9,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "34,407 annotations",
+        "relation": "包含",
+        "confidence": 0.95,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "varying illumination",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "seasons",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "weather",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "training",
+        "relation": "参与",
+        "confidence": 0.8,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "testing",
+        "relation": "参与",
+        "confidence": 0.8,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "training",
+        "target": "17,990 pairs",
+        "relation": "生成",
+        "confidence": 0.9,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "testing",
+        "target": "8,980 pairs",
+        "relation": "生成",
+        "confidence": 0.9,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "drone viewpoints",
+        "target": "altitudes",
+        "relation": "体现",
+        "confidence": 0.7,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "drone viewpoints",
+        "relation": "包含",
+        "confidence": 0.85,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "infrared-visible pairs",
+        "target": "34,407 annotations",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "34,407 annotations",
+        "target": "varying illumination",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "varying illumination",
+        "target": "weather",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "weather",
+        "target": "training",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "training",
+        "target": "testing",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "M3FD dataset",
+      "infrared-visible pairs",
+      "34,407 annotations",
+      "varying illumination",
+      "seasons",
+      "weather",
+      "training",
+      "testing",
+      "17,990 pairs",
+      "8,980 pairs",
+      "EAEF [17]",
+      "drone viewpoints"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-表格/数据区域】 306 verse drone viewpoints, altitudes, and lighting conditions, with 17,990 pairs for training and 8,980 for testing. The M?FD dataset [18] comprises 4,200 aligned infrared-visible pairs with 34,407 annotations under varying illumination, sea- training and 8,980 for testing. The M?FD dataset | comprises 4,200 aligned infrared visible pairs with 34,407 annotations under varying illumination, sea- sons,andweather.wefollowEAEF17forthetrain/testsplit"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "M3FD dataset",
+        "name": "M3FD dataset",
+        "label": "M3FD dataset",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "多模态红外-可见光图像数据集",
+        "source": "llm",
+        "importance": 0.3975,
+        "symbolSize": 37.12879297215453
+      },
+      {
+        "id": "infrared-visible pairs",
+        "name": "infrared-visible pairs",
+        "label": "infrared-visible pairs",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "配准的红外与可见光图像对",
+        "source": "llm",
+        "importance": 0.1833,
+        "symbolSize": 31.133541031107725
+      },
+      {
+        "id": "34,407 annotations",
+        "name": "34,407 annotations",
+        "label": "34,407 annotations",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "数据集中标注总数",
+        "source": "llm",
+        "importance": 0.452,
+        "symbolSize": 38.65589766304372
+      },
+      {
+        "id": "varying illumination",
+        "name": "varying illumination",
+        "label": "varying illumination",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "变化的光照条件",
+        "source": "llm",
+        "importance": 0.6219,
+        "symbolSize": 43.41273362822527
+      },
+      {
+        "id": "seasons",
+        "name": "seasons",
+        "label": "seasons",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "季节变化条件",
+        "source": "llm",
+        "importance": 0.1452,
+        "symbolSize": 30.066610583388105
+      },
+      {
+        "id": "weather",
+        "name": "weather",
+        "label": "weather",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "气象条件变化",
+        "source": "llm",
+        "importance": 0.734,
+        "symbolSize": 46.551383926270574
+      },
+      {
+        "id": "training",
+        "name": "training",
+        "label": "training",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "模型训练阶段",
+        "source": "llm",
+        "importance": 0.85,
+        "symbolSize": 49.8
+      },
+      {
+        "id": "testing",
+        "name": "testing",
+        "label": "testing",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "模型测试阶段",
+        "source": "llm",
+        "importance": 0.4913,
+        "symbolSize": 39.757417720671214
+      },
+      {
+        "id": "17,990 pairs",
+        "name": "17,990 pairs",
+        "label": "17,990 pairs",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "用于训练的数据对数量",
+        "source": "llm",
+        "importance": 0.3417,
+        "symbolSize": 35.56798789848503
+      },
+      {
+        "id": "8,980 pairs",
+        "name": "8,980 pairs",
+        "label": "8,980 pairs",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "用于测试的数据对数量",
+        "source": "llm",
+        "importance": 0.3393,
+        "symbolSize": 35.4997845279046
+      },
+      {
+        "id": "EAEF [17]",
+        "name": "EAEF [17]",
+        "label": "EAEF [17]",
+        "type": "主题",
+        "category": "主题",
+        "group": 3,
+        "description": "用于训练/测试划分的基准方法",
+        "source": "llm",
+        "importance": 0.0975,
+        "symbolSize": 28.728792972154533
+      },
+      {
+        "id": "drone viewpoints",
+        "name": "drone viewpoints",
+        "label": "drone viewpoints",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "无人机拍摄视角",
+        "source": "llm",
+        "importance": 0.2058,
+        "symbolSize": 31.762764429541953
+      },
+      {
+        "id": "altitudes",
+        "name": "altitudes",
+        "label": "altitudes",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "飞行高度条件",
+        "source": "llm",
+        "importance": 0.2265,
+        "symbolSize": 32.34290542557532
+      }
+    ],
+    "edges": [
+      {
+        "source": "M3FD dataset",
+        "target": "infrared-visible pairs",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "34,407 annotations",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.95,
+        "confidence": 0.95
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "varying illumination",
+        "relation": "体现",
+        "raw_relation": "描述",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "seasons",
+        "relation": "体现",
+        "raw_relation": "描述",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "weather",
+        "relation": "体现",
+        "raw_relation": "描述",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "training",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "testing",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "M3FD dataset",
+        "target": "drone viewpoints",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "infrared-visible pairs",
+        "target": "34,407 annotations",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "34,407 annotations",
+        "target": "varying illumination",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "varying illumination",
+        "target": "weather",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "weather",
+        "target": "training",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "training",
+        "target": "17,990 pairs",
+        "relation": "生成",
+        "raw_relation": "生成",
+        "label": "生成",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "training",
+        "target": "testing",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "testing",
+        "target": "8,980 pairs",
+        "relation": "生成",
+        "raw_relation": "生成",
+        "label": "生成",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "drone viewpoints",
+        "target": "altitudes",
+        "relation": "体现",
+        "raw_relation": "关联",
+        "label": "体现",
+        "weight": 0.7,
+        "confidence": 0.7
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "training",
+        "score": 0.85,
+        "degree": 0.5,
+        "betweenness": 1.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "weather",
+        "score": 0.734,
+        "degree": 0.375,
+        "betweenness": 0.9231,
+        "pagerank": 0.8614,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "varying illumination",
+        "score": 0.6219,
+        "degree": 0.375,
+        "betweenness": 0.7692,
+        "pagerank": 0.6965,
+        "reason": "该节点连接了不同信息分支，起到桥接作用。"
+      },
+      {
+        "name": "testing",
+        "score": 0.4913,
+        "degree": 0.375,
+        "betweenness": 0.4615,
+        "pagerank": 0.6009,
+        "reason": "该节点连接了不同信息分支，起到桥接作用。"
+      },
+      {
+        "name": "34,407 annotations",
+        "score": 0.452,
+        "degree": 0.375,
+        "betweenness": 0.4615,
+        "pagerank": 0.5026,
+        "reason": "该节点连接了不同信息分支，起到桥接作用。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "M3FD dataset": 1.0,
+        "infrared-visible pairs": 0.25,
+        "34,407 annotations": 0.375,
+        "varying illumination": 0.375,
+        "seasons": 0.125,
+        "weather": 0.375,
+        "training": 0.5,
+        "testing": 0.375,
+        "17,990 pairs": 0.125,
+        "8,980 pairs": 0.125,
+        "EAEF [17]": 0.0,
+        "drone viewpoints": 0.25,
+        "altitudes": 0.125
+      },
+      "betweenness": {
+        "M3FD dataset": 0.0,
+        "infrared-visible pairs": 0.0,
+        "34,407 annotations": 0.46153846153846156,
+        "varying illumination": 0.7692307692307693,
+        "seasons": 0.0,
+        "weather": 0.9230769230769231,
+        "training": 1.0,
+        "testing": 0.46153846153846156,
+        "17,990 pairs": 0.0,
+        "8,980 pairs": 0.0,
+        "EAEF [17]": 0.0,
+        "drone viewpoints": 0.07692307692307693,
+        "altitudes": 0.0
+      },
+      "pagerank": {
+        "M3FD dataset": 0.24364222965665464,
+        "infrared-visible pairs": 0.2708518777774756,
+        "34,407 annotations": 0.5025870166179143,
+        "varying illumination": 0.6965352827398931,
+        "seasons": 0.26934023065965224,
+        "weather": 0.8613873011093232,
+        "training": 1.0,
+        "testing": 0.6009370217632266,
+        "17,990 pairs": 0.7605346337933064,
+        "8,980 pairs": 0.7544450471343392,
+        "EAEF [17]": 0.24364222965665464,
+        "drone viewpoints": 0.26934023065965224,
+        "altitudes": 0.4725808415692248
+      },
+      "fusion": {
+        "M3FD dataset": 0.39745689186266187,
+        "infrared-visible pairs": 0.18334075111099024,
+        "34,407 annotations": 0.4519963451087042,
+        "varying illumination": 0.6218833438651881,
+        "seasons": 0.1452360922638609,
+        "weather": 0.7339779973668061,
+        "training": 0.85,
+        "testing": 0.4913363471668291,
+        "17,990 pairs": 0.3417138535173226,
+        "8,980 pairs": 0.3392780188537357,
+        "EAEF [17]": 0.09745689186266186,
+        "drone viewpoints": 0.20581301534078397,
+        "altitudes": 0.22653233662768993
+      }
+    },
+    "important_paths": [
+      [
+        "weather",
+        "training"
+      ],
+      [
+        "varying illumination",
+        "weather",
+        "training"
+      ],
+      [
+        "training",
+        "testing"
+      ],
+      [
+        "varying illumination",
+        "weather"
+      ],
+      [
+        "weather",
+        "training",
+        "testing"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

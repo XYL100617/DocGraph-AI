@@ -1,0 +1,1160 @@
+{
+  "text": "【第1页-正文模块1】\nGiven an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo\nGiven an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,\nrespectively, where Ho and Wo denote the input spatial resolution. We construct\na single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-\ngions (see Sec.3.2).",
+  "file_path": "storage/images\\8720af27d8854453ae390579ced2a4b6_屏幕截图 2026-03-05 161234.png",
+  "ocr": {
+    "raw_text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo\nGiven an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,\nrespectively, where Ho and Wo denote the input spatial resolution. We construct\na single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-\ngions (see Sec.3.2).",
+    "structured_text": "【第1页-正文模块1】\nGiven an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo\nGiven an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,\nrespectively, where Ho and Wo denote the input spatial resolution. We construct\na single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-\ngions (see Sec.3.2).",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "module": "标题",
+        "type": "title",
+        "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+        "blocks": [
+          {
+            "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+            "confidence": 0.9769178032875061,
+            "bbox": {
+              "x1": 24.333333333333332,
+              "y1": 22.666666666666668,
+              "x2": 1055.3333333333333,
+              "y2": 62.0
+            },
+            "type": "top_title"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "title": "正文内容",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+            "blocks": [
+              {
+                "id": 0,
+                "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+                "bbox": [
+                  [
+                    24.333333333333332,
+                    22.666666666666668
+                  ],
+                  [
+                    1055.3333333333333,
+                    22.666666666666668
+                  ],
+                  [
+                    1055.3333333333333,
+                    62.0
+                  ],
+                  [
+                    24.333333333333332,
+                    62.0
+                  ]
+                ],
+                "score": 0.9769178032875061,
+                "page": 1,
+                "x1": 24.333333333333332,
+                "y1": 22.666666666666668,
+                "x2": 1055.3333333333333,
+                "y2": 62.0,
+                "w": 1031.0,
+                "h": 39.33333333333333,
+                "cx": 539.8333333333333,
+                "cy": 42.333333333333336
+              }
+            ],
+            "x1": 24.333333333333332,
+            "y1": 22.666666666666668,
+            "x2": 1055.3333333333333,
+            "y2": 62.0,
+            "w": 1031.0,
+            "h": 39.33333333333333,
+            "cx": 539.8333333333333,
+            "cy": 42.333333333333336,
+            "score": 0.9769178032875061,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,",
+                "bbox": [
+                  [
+                    170.0,
+                    170.0
+                  ],
+                  [
+                    1212.0,
+                    170.0
+                  ],
+                  [
+                    1212.0,
+                    214.0
+                  ],
+                  [
+                    170.0,
+                    214.0
+                  ]
+                ],
+                "score": 0.9677097201347351,
+                "page": 1,
+                "x1": 170.0,
+                "y1": 170.0,
+                "x2": 1212.0,
+                "y2": 214.0,
+                "w": 1042.0,
+                "h": 44.0,
+                "cx": 691.0,
+                "cy": 192.0
+              }
+            ],
+            "x1": 170.0,
+            "y1": 170.0,
+            "x2": 1212.0,
+            "y2": 214.0,
+            "w": 1042.0,
+            "h": 44.0,
+            "cx": 691.0,
+            "cy": 192.0,
+            "score": 0.9677097201347351,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "respectively, where Ho and Wo denote the input spatial resolution. We construct",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "respectively, where Ho and Wo denote the input spatial resolution. We construct",
+                "bbox": [
+                  [
+                    173.0,
+                    215.0
+                  ],
+                  [
+                    1195.0,
+                    215.0
+                  ],
+                  [
+                    1195.0,
+                    244.0
+                  ],
+                  [
+                    173.0,
+                    244.0
+                  ]
+                ],
+                "score": 0.9980199337005615,
+                "page": 1,
+                "x1": 173.0,
+                "y1": 215.0,
+                "x2": 1195.0,
+                "y2": 244.0,
+                "w": 1022.0,
+                "h": 29.0,
+                "cx": 684.0,
+                "cy": 229.5
+              }
+            ],
+            "x1": 173.0,
+            "y1": 215.0,
+            "x2": 1195.0,
+            "y2": 244.0,
+            "w": 1022.0,
+            "h": 29.0,
+            "cx": 684.0,
+            "cy": 229.5,
+            "score": 0.9980199337005615,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-",
+                "bbox": [
+                  [
+                    167.0,
+                    237.0
+                  ],
+                  [
+                    1198.0,
+                    237.0
+                  ],
+                  [
+                    1198.0,
+                    288.0
+                  ],
+                  [
+                    167.0,
+                    288.0
+                  ]
+                ],
+                "score": 0.9747560620307922,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 237.0,
+                "x2": 1198.0,
+                "y2": 288.0,
+                "w": 1031.0,
+                "h": 51.0,
+                "cx": 682.5,
+                "cy": 262.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 237.0,
+            "x2": 1198.0,
+            "y2": 288.0,
+            "w": 1031.0,
+            "h": 51.0,
+            "cx": 682.5,
+            "cy": 262.5,
+            "score": 0.9747560620307922,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "gions (see Sec.3.2).",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "gions (see Sec.3.2).",
+                "bbox": [
+                  [
+                    173.0,
+                    280.0
+                  ],
+                  [
+                    423.0,
+                    280.0
+                  ],
+                  [
+                    423.0,
+                    315.0
+                  ],
+                  [
+                    173.0,
+                    315.0
+                  ]
+                ],
+                "score": 0.9760597944259644,
+                "page": 1,
+                "x1": 173.0,
+                "y1": 280.0,
+                "x2": 423.0,
+                "y2": 315.0,
+                "w": 250.0,
+                "h": 35.0,
+                "cx": 298.0,
+                "cy": 297.5
+              }
+            ],
+            "x1": 173.0,
+            "y1": 280.0,
+            "x2": 423.0,
+            "y2": 315.0,
+            "w": 250.0,
+            "h": 35.0,
+            "cx": 298.0,
+            "cy": 297.5,
+            "score": 0.9760597944259644,
+            "type": "paragraph"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+        "confidence": 0.9769178032875061,
+        "bbox": {
+          "x1": 24.333333333333332,
+          "y1": 22.666666666666668,
+          "x2": 1055.3333333333333,
+          "y2": 62.0
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,",
+        "confidence": 0.9677097201347351,
+        "bbox": {
+          "x1": 170.0,
+          "y1": 170.0,
+          "x2": 1212.0,
+          "y2": 214.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "respectively, where Ho and Wo denote the input spatial resolution. We construct",
+        "confidence": 0.9980199337005615,
+        "bbox": {
+          "x1": 173.0,
+          "y1": 215.0,
+          "x2": 1195.0,
+          "y2": 244.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-",
+        "confidence": 0.9747560620307922,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 237.0,
+          "x2": 1198.0,
+          "y2": 288.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "gions (see Sec.3.2).",
+        "confidence": 0.9760597944259644,
+        "bbox": {
+          "x1": 173.0,
+          "y1": 280.0,
+          "x2": 423.0,
+          "y2": 315.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+        "blocks": [
+          {
+            "id": 0,
+            "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo",
+            "bbox": [
+              [
+                24.333333333333332,
+                22.666666666666668
+              ],
+              [
+                1055.3333333333333,
+                22.666666666666668
+              ],
+              [
+                1055.3333333333333,
+                62.0
+              ],
+              [
+                24.333333333333332,
+                62.0
+              ]
+            ],
+            "score": 0.9769178032875061,
+            "page": 1,
+            "x1": 24.333333333333332,
+            "y1": 22.666666666666668,
+            "x2": 1055.3333333333333,
+            "y2": 62.0,
+            "w": 1031.0,
+            "h": 39.33333333333333,
+            "cx": 539.8333333333333,
+            "cy": 42.333333333333336
+          }
+        ],
+        "x1": 24.333333333333332,
+        "y1": 22.666666666666668,
+        "x2": 1055.3333333333333,
+        "y2": 62.0,
+        "w": 1031.0,
+        "h": 39.33333333333333,
+        "cx": 539.8333333333333,
+        "cy": 42.333333333333336,
+        "score": 0.9769178032875061,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo,",
+            "bbox": [
+              [
+                170.0,
+                170.0
+              ],
+              [
+                1212.0,
+                170.0
+              ],
+              [
+                1212.0,
+                214.0
+              ],
+              [
+                170.0,
+                214.0
+              ]
+            ],
+            "score": 0.9677097201347351,
+            "page": 1,
+            "x1": 170.0,
+            "y1": 170.0,
+            "x2": 1212.0,
+            "y2": 214.0,
+            "w": 1042.0,
+            "h": 44.0,
+            "cx": 691.0,
+            "cy": 192.0
+          }
+        ],
+        "x1": 170.0,
+        "y1": 170.0,
+        "x2": 1212.0,
+        "y2": 214.0,
+        "w": 1042.0,
+        "h": 44.0,
+        "cx": 691.0,
+        "cy": 192.0,
+        "score": 0.9677097201347351,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "respectively, where Ho and Wo denote the input spatial resolution. We construct",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "respectively, where Ho and Wo denote the input spatial resolution. We construct",
+            "bbox": [
+              [
+                173.0,
+                215.0
+              ],
+              [
+                1195.0,
+                215.0
+              ],
+              [
+                1195.0,
+                244.0
+              ],
+              [
+                173.0,
+                244.0
+              ]
+            ],
+            "score": 0.9980199337005615,
+            "page": 1,
+            "x1": 173.0,
+            "y1": 215.0,
+            "x2": 1195.0,
+            "y2": 244.0,
+            "w": 1022.0,
+            "h": 29.0,
+            "cx": 684.0,
+            "cy": 229.5
+          }
+        ],
+        "x1": 173.0,
+        "y1": 215.0,
+        "x2": 1195.0,
+        "y2": 244.0,
+        "w": 1022.0,
+        "h": 29.0,
+        "cx": 684.0,
+        "cy": 229.5,
+        "score": 0.9980199337005615,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re-",
+            "bbox": [
+              [
+                167.0,
+                237.0
+              ],
+              [
+                1198.0,
+                237.0
+              ],
+              [
+                1198.0,
+                288.0
+              ],
+              [
+                167.0,
+                288.0
+              ]
+            ],
+            "score": 0.9747560620307922,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 237.0,
+            "x2": 1198.0,
+            "y2": 288.0,
+            "w": 1031.0,
+            "h": 51.0,
+            "cx": 682.5,
+            "cy": 262.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 237.0,
+        "x2": 1198.0,
+        "y2": 288.0,
+        "w": 1031.0,
+        "h": 51.0,
+        "cx": 682.5,
+        "cy": 262.5,
+        "score": 0.9747560620307922,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "gions (see Sec.3.2).",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "gions (see Sec.3.2).",
+            "bbox": [
+              [
+                173.0,
+                280.0
+              ],
+              [
+                423.0,
+                280.0
+              ],
+              [
+                423.0,
+                315.0
+              ],
+              [
+                173.0,
+                315.0
+              ]
+            ],
+            "score": 0.9760597944259644,
+            "page": 1,
+            "x1": 173.0,
+            "y1": 280.0,
+            "x2": 423.0,
+            "y2": 315.0,
+            "w": 250.0,
+            "h": 35.0,
+            "cx": 298.0,
+            "cy": 297.5
+          }
+        ],
+        "x1": 173.0,
+        "y1": 280.0,
+        "x2": 423.0,
+        "y2": 315.0,
+        "w": 250.0,
+        "h": 35.0,
+        "cx": 298.0,
+        "cy": 297.5,
+        "score": 0.9760597944259644,
+        "type": "paragraph"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 1.0132,
+    "non_white_ratio": 0.1284
+  },
+  "summary_result": {
+    "summary": "提出一种基于单通道热图感知先验的方法，用于增强RGB与红外图像中显著区域的融合效果。",
+    "text_type": "技术说明",
+    "repaired_text": "【第1页-正文模块1】 Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo, respectively, where Ho and Wo denote the input spatial resolution. We construct a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re- gions (see Sec.3.2).",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-正文模块1】 Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo, respectively, where Ho and Wo denote the input spatial resolution. We construct a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re- gions (see Sec.3.2)."
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "Given an RGB image and an infrared image, we denote them as I_r, I_i ∈ R^3×H_o×W_o, respectively, where H_o and W_o denote the input spatial resolution. We construct a single-channel heatmap perceptual prior H ∈ R^1×H_o×W_o to enhance salient regions (see Sec.3.2).",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "Given an RGB image and an infrared image, we denote them as I_r, I_i ∈ R^3×H_o×W_o, respectively, where H_o and W_o denote the input spatial resolution. We construct a single-channel heatmap perceptual prior H ∈ R^1×H_o×W_o to enhance salient regions (see Sec.3.2)."
+      }
+    ],
+    "summary": "该文本描述了基于RGB与红外图像构建单通道热图感知先验的方法，用于增强显著区域。输入图像具有相同的空间分辨率，方法旨在通过感知先验提升融合效果。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "RGB图像",
+        "type": "文件",
+        "category": "文件",
+        "description": "输入的彩色图像",
+        "aliases": [
+          "RGB图像"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "红外图像",
+        "type": "文件",
+        "category": "文件",
+        "description": "输入的热成像图像",
+        "aliases": [
+          "红外图像"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "I_r",
+        "type": "主题",
+        "category": "主题",
+        "description": "RGB图像的符号表示",
+        "aliases": [
+          "I_r"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "I_i",
+        "type": "主题",
+        "category": "主题",
+        "description": "红外图像的符号表示",
+        "aliases": [
+          "I_i"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "H_o",
+        "type": "主题",
+        "category": "主题",
+        "description": "输入图像的高度维度",
+        "aliases": [
+          "H_o"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "W_o",
+        "type": "主题",
+        "category": "主题",
+        "description": "输入图像的宽度维度",
+        "aliases": [
+          "W_o"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "空间分辨率",
+        "type": "主题",
+        "category": "主题",
+        "description": "图像在空间维度上的大小，由高度和宽度决定",
+        "aliases": [
+          "空间分辨率"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "单通道热图感知先验",
+        "type": "主题",
+        "category": "主题",
+        "description": "构造的用于增强显著区域的感知先验",
+        "aliases": [
+          "单通道热图感知先验"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "显著区域增强",
+        "type": "地点",
+        "category": "地点",
+        "description": "通过感知先验提升图像中重要区域的表达",
+        "aliases": [
+          "显著区域增强"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Sec.3.2",
+        "type": "主题",
+        "category": "主题",
+        "description": "文中引用的章节，可能详细说明感知先验构建方法",
+        "aliases": [
+          "Sec.3.2"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "RGB图像",
+        "target": "I_r",
+        "relation": "包含",
+        "confidence": 0.9,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "红外图像",
+        "target": "I_i",
+        "relation": "包含",
+        "confidence": 0.9,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "I_r",
+        "target": "H_o",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "I_r",
+        "target": "W_o",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "I_i",
+        "target": "H_o",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "I_i",
+        "target": "W_o",
+        "relation": "体现",
+        "confidence": 0.85,
+        "raw_relation": "关联"
+      },
+      {
+        "source": "H_o",
+        "target": "空间分辨率",
+        "relation": "体现",
+        "confidence": 0.9,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "W_o",
+        "target": "空间分辨率",
+        "relation": "体现",
+        "confidence": 0.9,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "单通道热图感知先验",
+        "target": "显著区域增强",
+        "relation": "服务于",
+        "confidence": 0.95,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "单通道热图感知先验",
+        "target": "显著区域增强",
+        "relation": "生成",
+        "confidence": 0.85,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "单通道热图感知先验",
+        "target": "Sec.3.2",
+        "relation": "体现",
+        "confidence": 0.8,
+        "raw_relation": "描述"
+      }
+    ],
+    "keywords": [
+      "RGB图像",
+      "红外图像",
+      "I_r",
+      "I_i",
+      "H_o",
+      "W_o",
+      "空间分辨率",
+      "单通道热图感知先验",
+      "显著区域增强",
+      "Sec.3.2"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-正文模块1】 Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo Given an RGB image and an infrared image, we denote them as I\", I E R3x Ho x Wo, respectively, where Ho and Wo denote the input spatial resolution. We construct a single-channel heatmap perceptual prior H E Rix Ho xWo to enhance salient re- gions (see Sec.3.2)."
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "RGB图像",
+        "name": "RGB图像",
+        "label": "RGB图像",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "输入的彩色图像",
+        "source": "llm",
+        "importance": 0.1744,
+        "symbolSize": 30.884401624668108
+      },
+      {
+        "id": "红外图像",
+        "name": "红外图像",
+        "label": "红外图像",
+        "type": "对象",
+        "category": "对象",
+        "group": 2,
+        "description": "输入的热成像图像",
+        "source": "llm",
+        "importance": 0.1744,
+        "symbolSize": 30.884401624668108
+      },
+      {
+        "id": "I_r",
+        "name": "I_r",
+        "label": "I_r",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "RGB图像的符号表示",
+        "source": "llm",
+        "importance": 0.7377,
+        "symbolSize": 46.656127322696946
+      },
+      {
+        "id": "I_i",
+        "name": "I_i",
+        "label": "I_i",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "红外图像的符号表示",
+        "source": "llm",
+        "importance": 0.7377,
+        "symbolSize": 46.656127322696946
+      },
+      {
+        "id": "H_o",
+        "name": "H_o",
+        "label": "H_o",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "输入图像的高度维度",
+        "source": "llm",
+        "importance": 0.6915,
+        "symbolSize": 45.36211749958931
+      },
+      {
+        "id": "W_o",
+        "name": "W_o",
+        "label": "W_o",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "输入图像的宽度维度",
+        "source": "llm",
+        "importance": 0.6915,
+        "symbolSize": 45.36211749958931
+      },
+      {
+        "id": "空间分辨率",
+        "name": "空间分辨率",
+        "label": "空间分辨率",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "图像在空间维度上的大小，由高度和宽度决定",
+        "source": "llm",
+        "importance": 0.6,
+        "symbolSize": 42.8
+      },
+      {
+        "id": "单通道热图感知先验",
+        "name": "单通道热图感知先验",
+        "label": "单通道热图感知先验",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "构造的用于增强显著区域的感知先验",
+        "source": "llm",
+        "importance": 0.2744,
+        "symbolSize": 33.684401624668105
+      },
+      {
+        "id": "显著区域增强",
+        "name": "显著区域增强",
+        "label": "显著区域增强",
+        "type": "地点",
+        "category": "地点",
+        "group": 1,
+        "description": "通过感知先验提升图像中重要区域的表达",
+        "source": "llm",
+        "importance": 0.207,
+        "symbolSize": 31.79710880244054
+      },
+      {
+        "id": "Sec.3.2",
+        "name": "Sec.3.2",
+        "label": "Sec.3.2",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "文中引用的章节，可能详细说明感知先验构建方法",
+        "source": "llm",
+        "importance": 0.2051,
+        "symbolSize": 31.743420144924514
+      }
+    ],
+    "edges": [
+      {
+        "source": "RGB图像",
+        "target": "I_r",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "红外图像",
+        "target": "I_i",
+        "relation": "包含",
+        "raw_relation": "包含",
+        "label": "包含",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "I_r",
+        "target": "H_o",
+        "relation": "体现",
+        "raw_relation": "关联",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "I_r",
+        "target": "W_o",
+        "relation": "体现",
+        "raw_relation": "关联",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "I_i",
+        "target": "H_o",
+        "relation": "体现",
+        "raw_relation": "关联",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "I_i",
+        "target": "W_o",
+        "relation": "体现",
+        "raw_relation": "关联",
+        "label": "体现",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "H_o",
+        "target": "空间分辨率",
+        "relation": "体现",
+        "raw_relation": "属于",
+        "label": "体现",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "W_o",
+        "target": "空间分辨率",
+        "relation": "体现",
+        "raw_relation": "属于",
+        "label": "体现",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "单通道热图感知先验",
+        "target": "显著区域增强",
+        "relation": "生成",
+        "raw_relation": "生成",
+        "label": "生成",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "单通道热图感知先验",
+        "target": "Sec.3.2",
+        "relation": "体现",
+        "raw_relation": "描述",
+        "label": "体现",
+        "weight": 0.8,
+        "confidence": 0.8
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "I_r",
+        "score": 0.7377,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.3443,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "I_i",
+        "score": 0.7377,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.3443,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "H_o",
+        "score": 0.6915,
+        "degree": 1.0,
+        "betweenness": 0.6667,
+        "pagerank": 0.4788,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "W_o",
+        "score": 0.6915,
+        "degree": 1.0,
+        "betweenness": 0.6667,
+        "pagerank": 0.4788,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "空间分辨率",
+        "score": 0.6,
+        "degree": 0.6667,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "RGB图像": 0.3333333333333333,
+        "红外图像": 0.3333333333333333,
+        "I_r": 1.0,
+        "I_i": 1.0,
+        "H_o": 1.0,
+        "W_o": 1.0,
+        "空间分辨率": 0.6666666666666666,
+        "单通道热图感知先验": 0.6666666666666666,
+        "显著区域增强": 0.3333333333333333,
+        "Sec.3.2": 0.3333333333333333
+      },
+      "betweenness": {
+        "RGB图像": 0.0,
+        "红外图像": 0.0,
+        "I_r": 1.0,
+        "I_i": 1.0,
+        "H_o": 0.6666666666666666,
+        "W_o": 0.6666666666666666,
+        "空间分辨率": 0.0,
+        "单通道热图感知先验": 0.0,
+        "显著区域增强": 0.0,
+        "Sec.3.2": 0.0
+      },
+      "pagerank": {
+        "RGB图像": 0.18610728791679512,
+        "红外图像": 0.18610728791679512,
+        "I_r": 0.34429708238365625,
+        "I_i": 0.34429708238365625,
+        "H_o": 0.47876049103475976,
+        "W_o": 0.47876049103475976,
+        "空间分辨率": 1.0,
+        "单通道热图感知先验": 0.18610728791679512,
+        "显著区域增强": 0.2675990002179054,
+        "Sec.3.2": 0.26280537008254595
+      },
+      "fusion": {
+        "RGB图像": 0.17444291516671806,
+        "红外图像": 0.17444291516671806,
+        "I_r": 0.7377188329534625,
+        "I_i": 0.7377188329534625,
+        "H_o": 0.6915041964139039,
+        "W_o": 0.6915041964139039,
+        "空间分辨率": 0.6,
+        "单通道热图感知先验": 0.27444291516671804,
+        "显著区域增强": 0.20703960008716216,
+        "Sec.3.2": 0.20512214803301837
+      }
+    },
+    "important_paths": [
+      [
+        "I_r",
+        "H_o"
+      ],
+      [
+        "I_r",
+        "W_o"
+      ],
+      [
+        "I_i",
+        "H_o"
+      ],
+      [
+        "I_i",
+        "W_o"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": "",
+  "graph_summary": "通过引入单通道热图感知先验，利用RGB与红外图像的共同空间分辨率特征，强化对显著区域的感知能力，提升多模态图像融合中的关键信息提取。",
+  "deep_summary": "通过引入单通道热图感知先验，利用RGB与红外图像的共同空间分辨率特征，强化对显著区域的感知能力，提升多模态图像融合中的关键信息提取。"
+}

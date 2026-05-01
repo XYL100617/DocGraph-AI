@@ -1,14 +1,16 @@
 <script setup>
 import { ref, onMounted } from "vue"
 import { useRouter } from "vue-router"
-import Graph from "../components/Graph.vue"
+import GraphLarge from "../components/GraphLarge.vue"
 
 const router = useRouter()
-
 const graphData = ref({
   nodes: [],
   edges: []
 })
+
+const graphSummary = ref("")
+const summary = ref("")
 
 const analysisResult = ref({
   core_nodes: [],
@@ -17,48 +19,54 @@ const analysisResult = ref({
 })
 
 const loadGraphData = () => {
-  graphData.value = {
-    nodes: [],
-    edges: []
-  }
-
-  analysisResult.value = {
-    core_nodes: [],
-    important_paths: [],
-    metrics: {}
-  }
-
-  const savedResult = sessionStorage.getItem("currentAnalysisResult")
-
-  if (!savedResult) {
-    return
-  }
+  const savedGraph = sessionStorage.getItem("currentGraphData")
+  const savedFull = sessionStorage.getItem("currentAnalysisResult")
 
   try {
-    const result = JSON.parse(savedResult)
-
-    if (result.graph && result.graph.nodes && result.graph.nodes.length > 0) {
-      graphData.value = {
-        nodes: result.graph.nodes || [],
-        edges: result.graph.edges || result.graph.links || []
-      }
+    if (savedGraph) {
+      graphData.value = JSON.parse(savedGraph)
     }
 
-    if (result.analysis) {
-      analysisResult.value = {
-        core_nodes: result.analysis.core_nodes || [],
-        important_paths: result.analysis.important_paths || [],
-        metrics: result.analysis.metrics || {}
+    if (savedFull) {
+      const data = JSON.parse(savedFull)
+
+      if (!graphData.value || !graphData.value.nodes?.length) {
+        graphData.value = data.graph || { nodes: [], edges: [] }
+      }
+
+      graphSummary.value =
+        data.graphSummary ||
+        data.deepSummary ||
+        data.analysis?.summary ||
+        data.llm?.deep_summary ||
+        data.llm?.analysis ||
+        ""
+
+      summary.value =
+        data.summary ||
+        data.llm?.summary ||
+        ""
+
+      analysisResult.value = data.analysis || {
+        core_nodes: [],
+        important_paths: [],
+        metrics: {}
       }
     }
-  } catch (err) {
-    console.error("解析 currentAnalysisResult 失败", err)
+  } catch (e) {
+    console.error("恢复图谱失败：", e)
+    graphData.value = { nodes: [], edges: [] }
   }
 }
 
 const formatScore = (value) => {
   const num = Number(value || 0)
   return num.toFixed(3)
+}
+
+const formatPath = (path) => {
+  if (Array.isArray(path)) return path.join(" → ")
+  return String(path || "")
 }
 
 const goBack = () => {
@@ -88,7 +96,7 @@ onMounted(() => {
       class="content"
     >
       <div class="graph-card">
-        <Graph :graphData="graphData" />
+        <GraphLarge :graphData="graphData" />
       </div>
 
       <div class="side-panel">
@@ -96,7 +104,7 @@ onMounted(() => {
           <h3>核心内容分析</h3>
 
           <div
-            v-if="analysisResult.core_nodes && analysisResult.core_nodes.length > 0"
+            v-if="analysisResult?.core_nodes && analysisResult.core_nodes.length > 0"
             class="core-list"
           >
             <div
@@ -127,7 +135,7 @@ onMounted(() => {
           <h3>关键关系路径</h3>
 
           <div
-            v-if="analysisResult.important_paths && analysisResult.important_paths.length > 0"
+            v-if="analysisResult?.important_paths && analysisResult.important_paths.length > 0"
             class="path-list"
           >
             <div
@@ -135,7 +143,7 @@ onMounted(() => {
               :key="index"
               class="path-item"
             >
-              {{ path.join(" → ") }}
+              {{ formatPath(path) }}
             </div>
           </div>
 
@@ -146,14 +154,15 @@ onMounted(() => {
 
         <div class="panel-card">
           <h3>图谱统计</h3>
-          <p>节点数量：{{ graphData.nodes.length }}</p>
-          <p>关系数量：{{ graphData.edges.length }}</p>
+          <p>节点数量：{{ graphData.nodes?.length || 0 }}</p>
+          <p>关系数量：{{ graphData.edges?.length || graphData.links?.length || 0 }}</p>
         </div>
 
         <div class="panel-card tip-card">
           <h3>说明</h3>
           <p>节点越大，表示其在当前图谱中的综合重要性越高。</p>
           <p>边上的文字表示实体之间的关系类型。</p>
+          <p>点击顶部颜色图例，可以按类型显示或隐藏对应节点。</p>
         </div>
       </div>
     </div>
@@ -170,10 +179,11 @@ onMounted(() => {
 
 <style scoped>
 .graph-page {
-  min-height: 100vh;
+  height: 100vh;
   background: #f4f6fb;
   padding: 24px;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .topbar {
@@ -212,11 +222,12 @@ onMounted(() => {
 
 .graph-card {
   height: calc(100vh - 130px);
-  min-height: 560px;
+  min-height: 680px;
   background: white;
   border-radius: 18px;
   padding: 14px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
 }
 
 .side-panel {
@@ -280,7 +291,8 @@ onMounted(() => {
   font-size: 14px;
 }
 
-.tip-card p {
+.tip-card p,
+.panel-card p {
   margin: 6px 0;
   color: #6b7280;
   font-size: 13px;

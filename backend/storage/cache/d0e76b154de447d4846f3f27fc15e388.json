@@ -1,0 +1,188 @@
+{
+  "text": "胡徐西",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "胡徐西",
+    "structured_text": "胡徐西",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "胡徐西",
+        "blocks": []
+      }
+    ],
+    "blocks": [],
+    "lines": [],
+    "ecla_enabled": false
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "summary_result": {
+    "summary": "无明确语义内容，疑似人名或随机字符组合。",
+    "text_type": "其他",
+    "repaired_text": "胡徐西",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "胡徐西"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "胡徐西",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "胡徐西"
+      }
+    ],
+    "summary": "文本仅包含一个疑似人名的词语，无明确事件、时间、地点或其他语义信息，无法判断具体含义。",
+    "text_type": "其他",
+    "entities": [
+      {
+        "name": "胡徐西",
+        "type": "人物",
+        "category": "人物",
+        "description": "短文本整体语义",
+        "aliases": [
+          "胡徐西"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "胡徐",
+        "type": "人物",
+        "category": "人物",
+        "description": "短文本中的局部语义",
+        "aliases": [
+          "胡徐"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "胡徐西",
+        "target": "胡徐",
+        "relation": "包含",
+        "confidence": 0.62,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "胡徐西",
+        "target": "胡徐",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "胡徐西",
+      "胡徐"
+    ],
+    "visual_notes": [],
+    "source": "ltp_ai_fallback_merge",
+    "source_text": "胡徐西"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "胡徐西",
+        "name": "胡徐西",
+        "label": "胡徐西",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "短文本整体语义",
+        "source": "llm",
+        "importance": 0.5162,
+        "symbolSize": 40.45405854493301
+      },
+      {
+        "id": "胡徐",
+        "name": "胡徐",
+        "label": "胡徐",
+        "type": "人物",
+        "category": "人物",
+        "group": 0,
+        "description": "短文本中的局部语义",
+        "source": "llm",
+        "importance": 0.7,
+        "symbolSize": 45.599999999999994
+      }
+    ],
+    "edges": [
+      {
+        "source": "胡徐西",
+        "target": "胡徐",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "胡徐",
+        "score": 0.7,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "胡徐西",
+        "score": 0.5162,
+        "degree": 1.0,
+        "betweenness": 0,
+        "pagerank": 0.5405,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "胡徐西": 1.0,
+        "胡徐": 1.0
+      },
+      "betweenness": {
+        "胡徐西": 0,
+        "胡徐": 0
+      },
+      "pagerank": {
+        "胡徐西": 0.540540941511876,
+        "胡徐": 1.0
+      },
+      "fusion": {
+        "胡徐西": 0.5162163766047504,
+        "胡徐": 0.7
+      }
+    },
+    "important_paths": [
+      [
+        "胡徐西",
+        "胡徐"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": "",
+  "graph_summary": "文本仅包含一个疑似人名的词语，无明确事件、时间、地点或其他语义信息，无法判断具体含义。",
+  "deep_summary": "文本仅包含一个疑似人名的词语，无明确事件、时间、地点或其他语义信息，无法判断具体含义。"
+}

@@ -1,0 +1,676 @@
+{
+  "text": "【第1页-标题】\nGZHOU UNIVEI 郑州大学\nZhengzhou University",
+  "file_path": "storage/images\\d15ccc3217ce407bab64b20ebde4e4ec_1753671539454.jpg",
+  "ocr": {
+    "raw_text": "GZHOU UNIVEI 郑州大学\nZhengzhou University",
+    "structured_text": "【第1页-标题】\nGZHOU UNIVEI 郑州大学\nZhengzhou University",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "type": "title",
+        "title": "GZHOU UNIVEI 郑州大学",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "GZHOU UNIVEI 郑州大学",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "GZHOU",
+                "bbox": [
+                  [
+                    432.0,
+                    921.0
+                  ],
+                  [
+                    704.0,
+                    921.0
+                  ],
+                  [
+                    704.0,
+                    1126.0
+                  ],
+                  [
+                    432.0,
+                    1126.0
+                  ]
+                ],
+                "score": 0.9619395136833191,
+                "page": 1,
+                "x1": 432.0,
+                "y1": 921.0,
+                "x2": 704.0,
+                "y2": 1126.0,
+                "w": 272.0,
+                "h": 205.0,
+                "cx": 568.0,
+                "cy": 1023.5
+              },
+              {
+                "id": 0,
+                "text": "UNIVEI",
+                "bbox": [
+                  [
+                    650.0,
+                    910.0
+                  ],
+                  [
+                    927.0,
+                    910.0
+                  ],
+                  [
+                    927.0,
+                    1142.0
+                  ],
+                  [
+                    650.0,
+                    1142.0
+                  ]
+                ],
+                "score": 0.8799424171447754,
+                "page": 1,
+                "x1": 650.0,
+                "y1": 910.0,
+                "x2": 927.0,
+                "y2": 1142.0,
+                "w": 277.0,
+                "h": 232.0,
+                "cx": 788.5,
+                "cy": 1026.0
+              },
+              {
+                "id": 1,
+                "text": "郑州大学",
+                "bbox": [
+                  [
+                    1187.0,
+                    917.0
+                  ],
+                  [
+                    2518.0,
+                    917.0
+                  ],
+                  [
+                    2518.0,
+                    1367.0
+                  ],
+                  [
+                    1187.0,
+                    1367.0
+                  ]
+                ],
+                "score": 0.8562257885932922,
+                "page": 1,
+                "x1": 1187.0,
+                "y1": 917.0,
+                "x2": 2518.0,
+                "y2": 1367.0,
+                "w": 1331.0,
+                "h": 450.0,
+                "cx": 1852.5,
+                "cy": 1142.0
+              }
+            ],
+            "x1": 432.0,
+            "y1": 910.0,
+            "x2": 2518.0,
+            "y2": 1367.0,
+            "w": 2086.0,
+            "h": 457.0,
+            "cx": 1475.0,
+            "cy": 1138.5,
+            "score": 0.8993692398071289,
+            "type": "title"
+          },
+          {
+            "page": 1,
+            "text": "Zhengzhou University",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "Zhengzhou University",
+                "bbox": [
+                  [
+                    1207.0,
+                    1350.0
+                  ],
+                  [
+                    2473.0,
+                    1350.0
+                  ],
+                  [
+                    2473.0,
+                    1478.0
+                  ],
+                  [
+                    1207.0,
+                    1478.0
+                  ]
+                ],
+                "score": 0.9972823858261108,
+                "page": 1,
+                "x1": 1207.0,
+                "y1": 1350.0,
+                "x2": 2473.0,
+                "y2": 1478.0,
+                "w": 1266.0,
+                "h": 128.0,
+                "cx": 1840.0,
+                "cy": 1414.0
+              }
+            ],
+            "x1": 1207.0,
+            "y1": 1350.0,
+            "x2": 2473.0,
+            "y2": 1478.0,
+            "w": 1266.0,
+            "h": 128.0,
+            "cx": 1840.0,
+            "cy": 1414.0,
+            "score": 0.9972823858261108,
+            "type": "paragraph"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "UNIVEI",
+        "confidence": 0.8799424171447754,
+        "bbox": {
+          "x1": 650.0,
+          "y1": 910.0,
+          "x2": 927.0,
+          "y2": 1142.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "郑州大学",
+        "confidence": 0.8562257885932922,
+        "bbox": {
+          "x1": 1187.0,
+          "y1": 917.0,
+          "x2": 2518.0,
+          "y2": 1367.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "GZHOU",
+        "confidence": 0.9619395136833191,
+        "bbox": {
+          "x1": 432.0,
+          "y1": 921.0,
+          "x2": 704.0,
+          "y2": 1126.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "Zhengzhou University",
+        "confidence": 0.9972823858261108,
+        "bbox": {
+          "x1": 1207.0,
+          "y1": 1350.0,
+          "x2": 2473.0,
+          "y2": 1478.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "GZHOU UNIVEI 郑州大学",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "GZHOU",
+            "bbox": [
+              [
+                432.0,
+                921.0
+              ],
+              [
+                704.0,
+                921.0
+              ],
+              [
+                704.0,
+                1126.0
+              ],
+              [
+                432.0,
+                1126.0
+              ]
+            ],
+            "score": 0.9619395136833191,
+            "page": 1,
+            "x1": 432.0,
+            "y1": 921.0,
+            "x2": 704.0,
+            "y2": 1126.0,
+            "w": 272.0,
+            "h": 205.0,
+            "cx": 568.0,
+            "cy": 1023.5
+          },
+          {
+            "id": 0,
+            "text": "UNIVEI",
+            "bbox": [
+              [
+                650.0,
+                910.0
+              ],
+              [
+                927.0,
+                910.0
+              ],
+              [
+                927.0,
+                1142.0
+              ],
+              [
+                650.0,
+                1142.0
+              ]
+            ],
+            "score": 0.8799424171447754,
+            "page": 1,
+            "x1": 650.0,
+            "y1": 910.0,
+            "x2": 927.0,
+            "y2": 1142.0,
+            "w": 277.0,
+            "h": 232.0,
+            "cx": 788.5,
+            "cy": 1026.0
+          },
+          {
+            "id": 1,
+            "text": "郑州大学",
+            "bbox": [
+              [
+                1187.0,
+                917.0
+              ],
+              [
+                2518.0,
+                917.0
+              ],
+              [
+                2518.0,
+                1367.0
+              ],
+              [
+                1187.0,
+                1367.0
+              ]
+            ],
+            "score": 0.8562257885932922,
+            "page": 1,
+            "x1": 1187.0,
+            "y1": 917.0,
+            "x2": 2518.0,
+            "y2": 1367.0,
+            "w": 1331.0,
+            "h": 450.0,
+            "cx": 1852.5,
+            "cy": 1142.0
+          }
+        ],
+        "x1": 432.0,
+        "y1": 910.0,
+        "x2": 2518.0,
+        "y2": 1367.0,
+        "w": 2086.0,
+        "h": 457.0,
+        "cx": 1475.0,
+        "cy": 1138.5,
+        "score": 0.8993692398071289,
+        "type": "title"
+      },
+      {
+        "page": 1,
+        "text": "Zhengzhou University",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "Zhengzhou University",
+            "bbox": [
+              [
+                1207.0,
+                1350.0
+              ],
+              [
+                2473.0,
+                1350.0
+              ],
+              [
+                2473.0,
+                1478.0
+              ],
+              [
+                1207.0,
+                1478.0
+              ]
+            ],
+            "score": 0.9972823858261108,
+            "page": 1,
+            "x1": 1207.0,
+            "y1": 1350.0,
+            "x2": 2473.0,
+            "y2": 1478.0,
+            "w": 1266.0,
+            "h": 128.0,
+            "cx": 1840.0,
+            "cy": 1414.0
+          }
+        ],
+        "x1": 1207.0,
+        "y1": 1350.0,
+        "x2": 2473.0,
+        "y2": 1478.0,
+        "w": 1266.0,
+        "h": 128.0,
+        "cx": 1840.0,
+        "cy": 1414.0,
+        "score": 0.9972823858261108,
+        "type": "paragraph"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.1654,
+    "non_white_ratio": 0.0541
+  },
+  "summary_result": {
+    "summary": "郑州大学的标题页，展示中英文校名。",
+    "text_type": "标题短语",
+    "repaired_text": "【第1页-标题】 GZHOU UNIVEI 郑州大学 Zhengzhou University",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-标题】 GZHOU UNIVEI 郑州大学 Zhengzhou University"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "郑州大学 Zhengzhou University",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "GZHOU UNIVEI 郑州大学 Zhengzhou University"
+      }
+    ],
+    "summary": "该文本为郑州大学的中英文名称标识，体现其作为教育机构的身份属性，常见于学校官方文件或页面标题位置。",
+    "text_type": "标题短语",
+    "entities": [
+      {
+        "name": "郑州大学",
+        "type": "组织",
+        "category": "组织",
+        "description": "中国的一所综合性大学，位于河南省郑州市",
+        "aliases": [
+          "郑州大学"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Zhengzhou University",
+        "type": "组织",
+        "category": "组织",
+        "description": "郑州大学的英文名称",
+        "aliases": [
+          "Zhengzhou University"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "河南省",
+        "type": "地点",
+        "category": "地点",
+        "description": "中国的一个省级行政区，郑州为其省会",
+        "aliases": [
+          "河南省"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "郑州市",
+        "type": "地点",
+        "category": "地点",
+        "description": "河南省省会城市，郑州大学所在地",
+        "aliases": [
+          "郑州市"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "郑州大学",
+        "target": "Zhengzhou University",
+        "relation": "包含",
+        "confidence": 0.9,
+        "raw_relation": "包含"
+      },
+      {
+        "source": "郑州大学",
+        "target": "郑州市",
+        "relation": "关联",
+        "confidence": 0.85,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "郑州市",
+        "target": "河南省",
+        "relation": "关联",
+        "confidence": 0.9,
+        "raw_relation": "属于"
+      },
+      {
+        "source": "郑州大学",
+        "target": "Zhengzhou University",
+        "relation": "关联",
+        "confidence": 0.45,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "郑州大学",
+      "Zhengzhou University",
+      "河南省",
+      "郑州市"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-标题】 GZHOU UNIVEI 郑州大学 Zhengzhou University"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "郑州大学",
+        "name": "郑州大学",
+        "label": "郑州大学",
+        "type": "组织",
+        "category": "组织",
+        "group": 0,
+        "description": "中国的一所综合性大学，位于河南省郑州市",
+        "source": "llm",
+        "importance": 0.4722,
+        "symbolSize": 39.22259375364362
+      },
+      {
+        "id": "Zhengzhou University",
+        "name": "Zhengzhou University",
+        "label": "Zhengzhou University",
+        "type": "组织",
+        "category": "组织",
+        "group": 0,
+        "description": "郑州大学的英文名称",
+        "source": "llm",
+        "importance": 0.3729,
+        "symbolSize": 36.44155471098347
+      },
+      {
+        "id": "河南省",
+        "name": "河南省",
+        "label": "河南省",
+        "type": "地点",
+        "category": "地点",
+        "group": 1,
+        "description": "中国的一个省级行政区，郑州为其省会",
+        "source": "llm",
+        "importance": 0.55,
+        "symbolSize": 41.400000000000006
+      },
+      {
+        "id": "郑州市",
+        "name": "郑州市",
+        "label": "郑州市",
+        "type": "人物",
+        "category": "人物",
+        "group": 1,
+        "description": "河南省省会城市，郑州大学所在地",
+        "source": "llm",
+        "importance": 0.868,
+        "symbolSize": 50.30285333973001
+      }
+    ],
+    "edges": [
+      {
+        "source": "郑州大学",
+        "target": "Zhengzhou University",
+        "relation": "关联",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "关联",
+        "weight": 0.45,
+        "confidence": 0.45
+      },
+      {
+        "source": "郑州大学",
+        "target": "郑州市",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "郑州市",
+        "target": "河南省",
+        "relation": "关联",
+        "raw_relation": "属于",
+        "label": "关联",
+        "weight": 0.9,
+        "confidence": 0.9
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "郑州市",
+        "score": 0.868,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.6699,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "河南省",
+        "score": 0.55,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "郑州大学",
+        "score": 0.4722,
+        "degree": 1.0,
+        "betweenness": 0.0,
+        "pagerank": 0.4306,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "Zhengzhou University",
+        "score": 0.3729,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 0.5573,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "郑州大学": 1.0,
+        "Zhengzhou University": 0.5,
+        "河南省": 0.5,
+        "郑州市": 1.0
+      },
+      "betweenness": {
+        "郑州大学": 0.0,
+        "Zhengzhou University": 0.0,
+        "河南省": 0.0,
+        "郑州市": 1.0
+      },
+      "pagerank": {
+        "郑州大学": 0.4305887280038944,
+        "Zhengzhou University": 0.5572816706235242,
+        "河南省": 1.0,
+        "郑州市": 0.6698976196187505
+      },
+      "fusion": {
+        "郑州大学": 0.4722354912015578,
+        "Zhengzhou University": 0.3729126682494097,
+        "河南省": 0.55,
+        "郑州市": 0.8679590478475001
+      }
+    },
+    "important_paths": [
+      [
+        "郑州市",
+        "河南省"
+      ],
+      [
+        "郑州大学",
+        "郑州市"
+      ],
+      [
+        "郑州大学",
+        "郑州市",
+        "河南省"
+      ],
+      [
+        "郑州大学",
+        "Zhengzhou University"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

@@ -1,0 +1,62 @@
+{
+  "text": "12",
+  "file_path": null,
+  "ocr": {
+    "raw_text": "12",
+    "structured_text": "12",
+    "layout_type": "text_input",
+    "modules": [
+      {
+        "module": "文本输入",
+        "text": "12",
+        "blocks": []
+      }
+    ],
+    "blocks": [],
+    "lines": [],
+    "ecla_enabled": false
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "纯文本输入或未检测",
+    "text_area_ratio": 0,
+    "non_white_ratio": 0
+  },
+  "summary_result": {
+    "summary": "",
+    "text_type": "其他",
+    "repaired_text": "",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [],
+    "visual_notes": []
+  },
+  "ai_result": {
+    "summary": "",
+    "text_type": "其他",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [],
+    "repaired_text": "",
+    "visual_notes": [],
+    "source": "fallback_graph_extract"
+  },
+  "graph": {
+    "nodes": [],
+    "edges": []
+  },
+  "analysis": {
+    "core_nodes": [],
+    "metrics": {
+      "degree": {},
+      "betweenness": {},
+      "pagerank": {},
+      "fusion": {}
+    },
+    "important_paths": []
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

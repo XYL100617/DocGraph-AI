@@ -1,0 +1,3503 @@
+{
+  "text": "【标题】\nExperiment Setups\n4.1\n\nDatasets: We evaluate HGCM-Net on benchmarks. The DroneVehicle dataset includes pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions. The InfraredVisible dataset contains 34,407 annotated infrared-visible pairs. The M^3F1 dataset has training data with 8,980 samples and testing data with 8,980 samples. Evaluation Metrics: We employ mAP50 over the aforementioned benchmarks. Implementation Details: All experiments are conducted on a single NVIDIA RTX 4090, with 8 epochs, a batch size of 8, using the Adam optimizer with a momentum of 0.95. The learning rate follows a schedule with a warm-up during the first 3 epochs, linearly increasing from 0.8 to 0.937, while the bias also increases linearly from 0.8 to 0.937.",
+  "file_path": "storage/images\\76974bd04b804150ba405a8be05070d5_屏幕截图 2026-03-05 195041.png",
+  "ocr": {
+    "raw_text": "4.1 Experiment Setups\nDatasets: We evaluate HGCM-Net on\nExperimentSetups\nDatasets:WeevaluateHGCM-Net on\nbenchmarks.TheDroneVehicledatase\npairs and 953,087vehicle annotations acl\nversedroneviewpoints,altitudes,andlig\ntraining and 8,980 for testing. The M?F1\ninfraredvisiblepairswith34,407annota\nsons,and weather.we follow EAEF17f\nEvaluationMetricsWeemploymAP50\ntheaforementionedbenchmarks.Specifica\nPrecisionatanIoUthresholdof0.50.whil\ntrainableparameters,reflectingmodelcor\nanddenselydistributedobjectsinDrone\nwhichiscomputedbyaveragingAPovel\n0.95with a step sizeof 0.0544]\nImplementationDetails:Allexperime\nconductedonasingleNVIDIARTX409\nepochswithabatchsizeof8andanir\nemployedastheoptimizer,withamome\n5 × 10-4.The learning rate follows the\nwarm-upduringthefirst3epochs.Itis\n2 × 10-3 by the end of training.During\nlinearlyfrom 0.8to0.937,while thebias",
+    "structured_text": "【标题】\nExperiment Setups\n4.1\n\nDatasets: We evaluate HGCM-Net on benchmarks. The DroneVehicle dataset includes pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions. The InfraredVisible dataset contains 34,407 annotated infrared-visible pairs. The M^3F1 dataset has training data with 8,980 samples and testing data with 8,980 samples. Evaluation Metrics: We employ mAP50 over the aforementioned benchmarks. Implementation Details: All experiments are conducted on a single NVIDIA RTX 4090, with 8 epochs, a batch size of 8, using the Adam optimizer with a momentum of 0.95. The learning rate follows a schedule with a warm-up during the first 3 epochs, linearly increasing from 0.8 to 0.937, while the bias also increases linearly from 0.8 to 0.937.",
+    "layout_type": "table_rebuilt",
+    "modules": [
+      {
+        "module": "标题",
+        "text": "Experiment Setups\n4.1"
+      },
+      {
+        "module": "表格",
+        "text": "| Datasets | Description |\n| --- | --- |\n| DroneVehicle | pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions |\n| InfraredVisible | 34,407 annotated infrared-visible pairs |\n| M^3F1 | training and 8,980 for testing |\n| Evaluation Metrics | mAP50 over the aforementioned benchmarks |\n| Implementation Details | conducted on a single NVIDIA RTX 4090, with 8 epochs, batch size of 8, Adam optimizer, momentum 0.95, learning rate schedule, warm-up during first 3 epochs, linearly from 0.8 to 0.937, bias linearly from 0.8 to 0.937 |\n"
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Experiment Setups",
+        "confidence": 0.9943117499351501,
+        "bbox": {
+          "x1": 85.66666666666667,
+          "y1": 22.666666666666668,
+          "x2": 339.3333333333333,
+          "y2": 47.333333333333336
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "4.1",
+        "confidence": 0.9990431666374207,
+        "bbox": {
+          "x1": 16.666666666666668,
+          "y1": 23.333333333333332,
+          "x2": 57.0,
+          "y2": 46.0
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "Datasets: We evaluate HGCM-Net on",
+        "confidence": 0.979438304901123,
+        "bbox": {
+          "x1": 17.0,
+          "y1": 77.0,
+          "x2": 483.3333333333333,
+          "y2": 100.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "ExperimentSetups",
+        "confidence": 0.9977649450302124,
+        "bbox": {
+          "x1": 229.0,
+          "y1": 169.0,
+          "x2": 490.0,
+          "y2": 200.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "Datasets:WeevaluateHGCM-Net on",
+        "confidence": 0.9819669723510742,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 225.0,
+          "x2": 634.0,
+          "y2": 252.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "benchmarks.TheDroneVehicledatase",
+        "confidence": 0.9983705282211304,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 259.0,
+          "x2": 642.0,
+          "y2": 282.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "pairs and 953,087vehicle annotations acl",
+        "confidence": 0.9582971334457397,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 288.0,
+          "x2": 645.0,
+          "y2": 317.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "versedroneviewpoints,altitudes,andlig",
+        "confidence": 0.9866276383399963,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 323.0,
+          "x2": 642.0,
+          "y2": 346.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "training and 8,980 for testing. The M?F1",
+        "confidence": 0.9618147015571594,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 350.0,
+          "x2": 645.0,
+          "y2": 380.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "infraredvisiblepairswith34,407annota",
+        "confidence": 0.9844449162483215,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 383.0,
+          "x2": 644.0,
+          "y2": 408.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "sons,and weather.we follow EAEF17f",
+        "confidence": 0.959514856338501,
+        "bbox": {
+          "x1": 165.0,
+          "y1": 414.0,
+          "x2": 645.0,
+          "y2": 441.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "EvaluationMetricsWeemploymAP50",
+        "confidence": 0.9952747225761414,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 493.0,
+          "x2": 642.0,
+          "y2": 524.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "theaforementionedbenchmarks.Specifica",
+        "confidence": 0.9944013357162476,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 526.0,
+          "x2": 642.0,
+          "y2": 552.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "PrecisionatanIoUthresholdof0.50.whil",
+        "confidence": 0.9760779142379761,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 561.0,
+          "x2": 639.0,
+          "y2": 581.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "trainableparameters,reflectingmodelcor",
+        "confidence": 0.9752058982849121,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 591.0,
+          "x2": 642.0,
+          "y2": 614.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "anddenselydistributedobjectsinDrone",
+        "confidence": 0.9970400929450989,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 621.0,
+          "x2": 644.0,
+          "y2": 647.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "whichiscomputedbyaveragingAPovel",
+        "confidence": 0.9761722087860107,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 653.0,
+          "x2": 646.0,
+          "y2": 680.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "0.95with a step sizeof 0.0544]",
+        "confidence": 0.943227231502533,
+        "bbox": {
+          "x1": 165.0,
+          "y1": 684.0,
+          "x2": 540.0,
+          "y2": 712.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "ImplementationDetails:Allexperime",
+        "confidence": 0.9942986369132996,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 714.0,
+          "x2": 644.0,
+          "y2": 743.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "conductedonasingleNVIDIARTX409",
+        "confidence": 0.9982021450996399,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 749.0,
+          "x2": 644.0,
+          "y2": 772.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "epochswithabatchsizeof8andanir",
+        "confidence": 0.9933031797409058,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 778.0,
+          "x2": 644.0,
+          "y2": 805.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "employedastheoptimizer,withamome",
+        "confidence": 0.995053768157959,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 810.0,
+          "x2": 645.0,
+          "y2": 838.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "5 × 10-4.The learning rate follows the",
+        "confidence": 0.9629166126251221,
+        "bbox": {
+          "x1": 164.0,
+          "y1": 838.0,
+          "x2": 637.0,
+          "y2": 870.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "warm-upduringthefirst3epochs.Itis",
+        "confidence": 0.9907582402229309,
+        "bbox": {
+          "x1": 166.0,
+          "y1": 873.0,
+          "x2": 638.0,
+          "y2": 899.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "2 × 10-3 by the end of training.During",
+        "confidence": 0.917198896408081,
+        "bbox": {
+          "x1": 164.0,
+          "y1": 902.0,
+          "x2": 645.0,
+          "y2": 932.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "linearlyfrom 0.8to0.937,while thebias",
+        "confidence": 0.9718589782714844,
+        "bbox": {
+          "x1": 167.0,
+          "y1": 938.0,
+          "x2": 633.0,
+          "y2": 962.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "4.1 Experiment Setups",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "4.1",
+            "bbox": [
+              [
+                16.666666666666668,
+                23.333333333333332
+              ],
+              [
+                57.0,
+                23.333333333333332
+              ],
+              [
+                57.0,
+                46.0
+              ],
+              [
+                16.666666666666668,
+                46.0
+              ]
+            ],
+            "score": 0.9990431666374207,
+            "page": 1,
+            "x1": 16.666666666666668,
+            "y1": 23.333333333333332,
+            "x2": 57.0,
+            "y2": 46.0,
+            "w": 40.33333333333333,
+            "h": 22.666666666666668,
+            "cx": 36.833333333333336,
+            "cy": 34.666666666666664
+          },
+          {
+            "id": 0,
+            "text": "Experiment Setups",
+            "bbox": [
+              [
+                85.66666666666667,
+                22.666666666666668
+              ],
+              [
+                339.3333333333333,
+                22.666666666666668
+              ],
+              [
+                339.3333333333333,
+                47.333333333333336
+              ],
+              [
+                85.66666666666667,
+                47.333333333333336
+              ]
+            ],
+            "score": 0.9943117499351501,
+            "page": 1,
+            "x1": 85.66666666666667,
+            "y1": 22.666666666666668,
+            "x2": 339.3333333333333,
+            "y2": 47.333333333333336,
+            "w": 253.66666666666663,
+            "h": 24.666666666666668,
+            "cx": 212.5,
+            "cy": 35.0
+          }
+        ],
+        "x1": 16.666666666666668,
+        "y1": 22.666666666666668,
+        "x2": 339.3333333333333,
+        "y2": 47.333333333333336,
+        "w": 322.66666666666663,
+        "h": 24.666666666666668,
+        "cx": 178.0,
+        "cy": 35.0,
+        "score": 0.9966774582862854,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "Datasets: We evaluate HGCM-Net on",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "Datasets: We evaluate HGCM-Net on",
+            "bbox": [
+              [
+                17.0,
+                77.0
+              ],
+              [
+                483.3333333333333,
+                77.0
+              ],
+              [
+                483.3333333333333,
+                100.0
+              ],
+              [
+                17.0,
+                100.0
+              ]
+            ],
+            "score": 0.979438304901123,
+            "page": 1,
+            "x1": 17.0,
+            "y1": 77.0,
+            "x2": 483.3333333333333,
+            "y2": 100.0,
+            "w": 466.3333333333333,
+            "h": 23.0,
+            "cx": 250.16666666666666,
+            "cy": 88.5
+          }
+        ],
+        "x1": 17.0,
+        "y1": 77.0,
+        "x2": 483.3333333333333,
+        "y2": 100.0,
+        "w": 466.3333333333333,
+        "h": 23.0,
+        "cx": 250.16666666666666,
+        "cy": 88.5,
+        "score": 0.979438304901123,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "ExperimentSetups",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "ExperimentSetups",
+            "bbox": [
+              [
+                229.0,
+                169.0
+              ],
+              [
+                490.0,
+                169.0
+              ],
+              [
+                490.0,
+                200.0
+              ],
+              [
+                229.0,
+                200.0
+              ]
+            ],
+            "score": 0.9977649450302124,
+            "page": 1,
+            "x1": 229.0,
+            "y1": 169.0,
+            "x2": 490.0,
+            "y2": 200.0,
+            "w": 261.0,
+            "h": 31.0,
+            "cx": 359.5,
+            "cy": 184.5
+          }
+        ],
+        "x1": 229.0,
+        "y1": 169.0,
+        "x2": 490.0,
+        "y2": 200.0,
+        "w": 261.0,
+        "h": 31.0,
+        "cx": 359.5,
+        "cy": 184.5,
+        "score": 0.9977649450302124,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "Datasets:WeevaluateHGCM-Net on",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "Datasets:WeevaluateHGCM-Net on",
+            "bbox": [
+              [
+                166.0,
+                225.0
+              ],
+              [
+                634.0,
+                225.0
+              ],
+              [
+                634.0,
+                252.0
+              ],
+              [
+                166.0,
+                252.0
+              ]
+            ],
+            "score": 0.9819669723510742,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 225.0,
+            "x2": 634.0,
+            "y2": 252.0,
+            "w": 468.0,
+            "h": 27.0,
+            "cx": 400.0,
+            "cy": 238.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 225.0,
+        "x2": 634.0,
+        "y2": 252.0,
+        "w": 468.0,
+        "h": 27.0,
+        "cx": 400.0,
+        "cy": 238.5,
+        "score": 0.9819669723510742,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "benchmarks.TheDroneVehicledatase",
+        "blocks": [
+          {
+            "id": 5,
+            "text": "benchmarks.TheDroneVehicledatase",
+            "bbox": [
+              [
+                166.0,
+                259.0
+              ],
+              [
+                642.0,
+                259.0
+              ],
+              [
+                642.0,
+                282.0
+              ],
+              [
+                166.0,
+                282.0
+              ]
+            ],
+            "score": 0.9983705282211304,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 259.0,
+            "x2": 642.0,
+            "y2": 282.0,
+            "w": 476.0,
+            "h": 23.0,
+            "cx": 404.0,
+            "cy": 270.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 259.0,
+        "x2": 642.0,
+        "y2": 282.0,
+        "w": 476.0,
+        "h": 23.0,
+        "cx": 404.0,
+        "cy": 270.5,
+        "score": 0.9983705282211304,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "pairs and 953,087vehicle annotations acl",
+        "blocks": [
+          {
+            "id": 6,
+            "text": "pairs and 953,087vehicle annotations acl",
+            "bbox": [
+              [
+                166.0,
+                288.0
+              ],
+              [
+                645.0,
+                288.0
+              ],
+              [
+                645.0,
+                317.0
+              ],
+              [
+                166.0,
+                317.0
+              ]
+            ],
+            "score": 0.9582971334457397,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 288.0,
+            "x2": 645.0,
+            "y2": 317.0,
+            "w": 479.0,
+            "h": 29.0,
+            "cx": 405.5,
+            "cy": 302.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 288.0,
+        "x2": 645.0,
+        "y2": 317.0,
+        "w": 479.0,
+        "h": 29.0,
+        "cx": 405.5,
+        "cy": 302.5,
+        "score": 0.9582971334457397,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "versedroneviewpoints,altitudes,andlig",
+        "blocks": [
+          {
+            "id": 7,
+            "text": "versedroneviewpoints,altitudes,andlig",
+            "bbox": [
+              [
+                166.0,
+                323.0
+              ],
+              [
+                642.0,
+                323.0
+              ],
+              [
+                642.0,
+                346.0
+              ],
+              [
+                166.0,
+                346.0
+              ]
+            ],
+            "score": 0.9866276383399963,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 323.0,
+            "x2": 642.0,
+            "y2": 346.0,
+            "w": 476.0,
+            "h": 23.0,
+            "cx": 404.0,
+            "cy": 334.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 323.0,
+        "x2": 642.0,
+        "y2": 346.0,
+        "w": 476.0,
+        "h": 23.0,
+        "cx": 404.0,
+        "cy": 334.5,
+        "score": 0.9866276383399963,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "training and 8,980 for testing. The M?F1",
+        "blocks": [
+          {
+            "id": 8,
+            "text": "training and 8,980 for testing. The M?F1",
+            "bbox": [
+              [
+                166.0,
+                350.0
+              ],
+              [
+                645.0,
+                350.0
+              ],
+              [
+                645.0,
+                380.0
+              ],
+              [
+                166.0,
+                380.0
+              ]
+            ],
+            "score": 0.9618147015571594,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 350.0,
+            "x2": 645.0,
+            "y2": 380.0,
+            "w": 479.0,
+            "h": 30.0,
+            "cx": 405.5,
+            "cy": 365.0
+          }
+        ],
+        "x1": 166.0,
+        "y1": 350.0,
+        "x2": 645.0,
+        "y2": 380.0,
+        "w": 479.0,
+        "h": 30.0,
+        "cx": 405.5,
+        "cy": 365.0,
+        "score": 0.9618147015571594,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "infraredvisiblepairswith34,407annota",
+        "blocks": [
+          {
+            "id": 9,
+            "text": "infraredvisiblepairswith34,407annota",
+            "bbox": [
+              [
+                166.0,
+                383.0
+              ],
+              [
+                644.0,
+                383.0
+              ],
+              [
+                644.0,
+                408.0
+              ],
+              [
+                166.0,
+                408.0
+              ]
+            ],
+            "score": 0.9844449162483215,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 383.0,
+            "x2": 644.0,
+            "y2": 408.0,
+            "w": 478.0,
+            "h": 25.0,
+            "cx": 405.0,
+            "cy": 395.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 383.0,
+        "x2": 644.0,
+        "y2": 408.0,
+        "w": 478.0,
+        "h": 25.0,
+        "cx": 405.0,
+        "cy": 395.5,
+        "score": 0.9844449162483215,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "sons,and weather.we follow EAEF17f",
+        "blocks": [
+          {
+            "id": 10,
+            "text": "sons,and weather.we follow EAEF17f",
+            "bbox": [
+              [
+                165.0,
+                414.0
+              ],
+              [
+                645.0,
+                414.0
+              ],
+              [
+                645.0,
+                441.0
+              ],
+              [
+                165.0,
+                441.0
+              ]
+            ],
+            "score": 0.959514856338501,
+            "page": 1,
+            "x1": 165.0,
+            "y1": 414.0,
+            "x2": 645.0,
+            "y2": 441.0,
+            "w": 480.0,
+            "h": 27.0,
+            "cx": 405.0,
+            "cy": 427.5
+          }
+        ],
+        "x1": 165.0,
+        "y1": 414.0,
+        "x2": 645.0,
+        "y2": 441.0,
+        "w": 480.0,
+        "h": 27.0,
+        "cx": 405.0,
+        "cy": 427.5,
+        "score": 0.959514856338501,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "EvaluationMetricsWeemploymAP50",
+        "blocks": [
+          {
+            "id": 11,
+            "text": "EvaluationMetricsWeemploymAP50",
+            "bbox": [
+              [
+                166.0,
+                493.0
+              ],
+              [
+                642.0,
+                493.0
+              ],
+              [
+                642.0,
+                524.0
+              ],
+              [
+                166.0,
+                524.0
+              ]
+            ],
+            "score": 0.9952747225761414,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 493.0,
+            "x2": 642.0,
+            "y2": 524.0,
+            "w": 476.0,
+            "h": 31.0,
+            "cx": 404.0,
+            "cy": 508.5
+          }
+        ],
+        "x1": 166.0,
+        "y1": 493.0,
+        "x2": 642.0,
+        "y2": 524.0,
+        "w": 476.0,
+        "h": 31.0,
+        "cx": 404.0,
+        "cy": 508.5,
+        "score": 0.9952747225761414,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "theaforementionedbenchmarks.Specifica",
+        "blocks": [
+          {
+            "id": 12,
+            "text": "theaforementionedbenchmarks.Specifica",
+            "bbox": [
+              [
+                166.0,
+                526.0
+              ],
+              [
+                642.0,
+                526.0
+              ],
+              [
+                642.0,
+                552.0
+              ],
+              [
+                166.0,
+                552.0
+              ]
+            ],
+            "score": 0.9944013357162476,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 526.0,
+            "x2": 642.0,
+            "y2": 552.0,
+            "w": 476.0,
+            "h": 26.0,
+            "cx": 404.0,
+            "cy": 539.0
+          }
+        ],
+        "x1": 166.0,
+        "y1": 526.0,
+        "x2": 642.0,
+        "y2": 552.0,
+        "w": 476.0,
+        "h": 26.0,
+        "cx": 404.0,
+        "cy": 539.0,
+        "score": 0.9944013357162476,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "PrecisionatanIoUthresholdof0.50.whil",
+        "blocks": [
+          {
+            "id": 13,
+            "text": "PrecisionatanIoUthresholdof0.50.whil",
+            "bbox": [
+              [
+                167.0,
+                561.0
+              ],
+              [
+                639.0,
+                561.0
+              ],
+              [
+                639.0,
+                581.0
+              ],
+              [
+                167.0,
+                581.0
+              ]
+            ],
+            "score": 0.9760779142379761,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 561.0,
+            "x2": 639.0,
+            "y2": 581.0,
+            "w": 472.0,
+            "h": 20.0,
+            "cx": 403.0,
+            "cy": 571.0
+          }
+        ],
+        "x1": 167.0,
+        "y1": 561.0,
+        "x2": 639.0,
+        "y2": 581.0,
+        "w": 472.0,
+        "h": 20.0,
+        "cx": 403.0,
+        "cy": 571.0,
+        "score": 0.9760779142379761,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "trainableparameters,reflectingmodelcor",
+        "blocks": [
+          {
+            "id": 14,
+            "text": "trainableparameters,reflectingmodelcor",
+            "bbox": [
+              [
+                167.0,
+                591.0
+              ],
+              [
+                642.0,
+                591.0
+              ],
+              [
+                642.0,
+                614.0
+              ],
+              [
+                167.0,
+                614.0
+              ]
+            ],
+            "score": 0.9752058982849121,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 591.0,
+            "x2": 642.0,
+            "y2": 614.0,
+            "w": 475.0,
+            "h": 23.0,
+            "cx": 404.5,
+            "cy": 602.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 591.0,
+        "x2": 642.0,
+        "y2": 614.0,
+        "w": 475.0,
+        "h": 23.0,
+        "cx": 404.5,
+        "cy": 602.5,
+        "score": 0.9752058982849121,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "anddenselydistributedobjectsinDrone",
+        "blocks": [
+          {
+            "id": 15,
+            "text": "anddenselydistributedobjectsinDrone",
+            "bbox": [
+              [
+                166.0,
+                621.0
+              ],
+              [
+                644.0,
+                621.0
+              ],
+              [
+                644.0,
+                647.0
+              ],
+              [
+                166.0,
+                647.0
+              ]
+            ],
+            "score": 0.9970400929450989,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 621.0,
+            "x2": 644.0,
+            "y2": 647.0,
+            "w": 478.0,
+            "h": 26.0,
+            "cx": 405.0,
+            "cy": 634.0
+          }
+        ],
+        "x1": 166.0,
+        "y1": 621.0,
+        "x2": 644.0,
+        "y2": 647.0,
+        "w": 478.0,
+        "h": 26.0,
+        "cx": 405.0,
+        "cy": 634.0,
+        "score": 0.9970400929450989,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "whichiscomputedbyaveragingAPovel",
+        "blocks": [
+          {
+            "id": 16,
+            "text": "whichiscomputedbyaveragingAPovel",
+            "bbox": [
+              [
+                167.0,
+                653.0
+              ],
+              [
+                646.0,
+                653.0
+              ],
+              [
+                646.0,
+                680.0
+              ],
+              [
+                167.0,
+                680.0
+              ]
+            ],
+            "score": 0.9761722087860107,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 653.0,
+            "x2": 646.0,
+            "y2": 680.0,
+            "w": 479.0,
+            "h": 27.0,
+            "cx": 406.5,
+            "cy": 666.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 653.0,
+        "x2": 646.0,
+        "y2": 680.0,
+        "w": 479.0,
+        "h": 27.0,
+        "cx": 406.5,
+        "cy": 666.5,
+        "score": 0.9761722087860107,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "0.95with a step sizeof 0.0544]",
+        "blocks": [
+          {
+            "id": 17,
+            "text": "0.95with a step sizeof 0.0544]",
+            "bbox": [
+              [
+                165.0,
+                684.0
+              ],
+              [
+                540.0,
+                684.0
+              ],
+              [
+                540.0,
+                712.0
+              ],
+              [
+                165.0,
+                712.0
+              ]
+            ],
+            "score": 0.943227231502533,
+            "page": 1,
+            "x1": 165.0,
+            "y1": 684.0,
+            "x2": 540.0,
+            "y2": 712.0,
+            "w": 375.0,
+            "h": 28.0,
+            "cx": 352.5,
+            "cy": 698.0
+          }
+        ],
+        "x1": 165.0,
+        "y1": 684.0,
+        "x2": 540.0,
+        "y2": 712.0,
+        "w": 375.0,
+        "h": 28.0,
+        "cx": 352.5,
+        "cy": 698.0,
+        "score": 0.943227231502533,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "ImplementationDetails:Allexperime",
+        "blocks": [
+          {
+            "id": 18,
+            "text": "ImplementationDetails:Allexperime",
+            "bbox": [
+              [
+                167.0,
+                714.0
+              ],
+              [
+                644.0,
+                714.0
+              ],
+              [
+                644.0,
+                743.0
+              ],
+              [
+                167.0,
+                743.0
+              ]
+            ],
+            "score": 0.9942986369132996,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 714.0,
+            "x2": 644.0,
+            "y2": 743.0,
+            "w": 477.0,
+            "h": 29.0,
+            "cx": 405.5,
+            "cy": 728.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 714.0,
+        "x2": 644.0,
+        "y2": 743.0,
+        "w": 477.0,
+        "h": 29.0,
+        "cx": 405.5,
+        "cy": 728.5,
+        "score": 0.9942986369132996,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "conductedonasingleNVIDIARTX409",
+        "blocks": [
+          {
+            "id": 19,
+            "text": "conductedonasingleNVIDIARTX409",
+            "bbox": [
+              [
+                167.0,
+                749.0
+              ],
+              [
+                644.0,
+                749.0
+              ],
+              [
+                644.0,
+                772.0
+              ],
+              [
+                167.0,
+                772.0
+              ]
+            ],
+            "score": 0.9982021450996399,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 749.0,
+            "x2": 644.0,
+            "y2": 772.0,
+            "w": 477.0,
+            "h": 23.0,
+            "cx": 405.5,
+            "cy": 760.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 749.0,
+        "x2": 644.0,
+        "y2": 772.0,
+        "w": 477.0,
+        "h": 23.0,
+        "cx": 405.5,
+        "cy": 760.5,
+        "score": 0.9982021450996399,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "epochswithabatchsizeof8andanir",
+        "blocks": [
+          {
+            "id": 20,
+            "text": "epochswithabatchsizeof8andanir",
+            "bbox": [
+              [
+                167.0,
+                778.0
+              ],
+              [
+                644.0,
+                778.0
+              ],
+              [
+                644.0,
+                805.0
+              ],
+              [
+                167.0,
+                805.0
+              ]
+            ],
+            "score": 0.9933031797409058,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 778.0,
+            "x2": 644.0,
+            "y2": 805.0,
+            "w": 477.0,
+            "h": 27.0,
+            "cx": 405.5,
+            "cy": 791.5
+          }
+        ],
+        "x1": 167.0,
+        "y1": 778.0,
+        "x2": 644.0,
+        "y2": 805.0,
+        "w": 477.0,
+        "h": 27.0,
+        "cx": 405.5,
+        "cy": 791.5,
+        "score": 0.9933031797409058,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "employedastheoptimizer,withamome",
+        "blocks": [
+          {
+            "id": 21,
+            "text": "employedastheoptimizer,withamome",
+            "bbox": [
+              [
+                166.0,
+                810.0
+              ],
+              [
+                645.0,
+                810.0
+              ],
+              [
+                645.0,
+                838.0
+              ],
+              [
+                166.0,
+                838.0
+              ]
+            ],
+            "score": 0.995053768157959,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 810.0,
+            "x2": 645.0,
+            "y2": 838.0,
+            "w": 479.0,
+            "h": 28.0,
+            "cx": 405.5,
+            "cy": 824.0
+          }
+        ],
+        "x1": 166.0,
+        "y1": 810.0,
+        "x2": 645.0,
+        "y2": 838.0,
+        "w": 479.0,
+        "h": 28.0,
+        "cx": 405.5,
+        "cy": 824.0,
+        "score": 0.995053768157959,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "5 × 10-4.The learning rate follows the",
+        "blocks": [
+          {
+            "id": 22,
+            "text": "5 × 10-4.The learning rate follows the",
+            "bbox": [
+              [
+                164.0,
+                838.0
+              ],
+              [
+                637.0,
+                838.0
+              ],
+              [
+                637.0,
+                870.0
+              ],
+              [
+                164.0,
+                870.0
+              ]
+            ],
+            "score": 0.9629166126251221,
+            "page": 1,
+            "x1": 164.0,
+            "y1": 838.0,
+            "x2": 637.0,
+            "y2": 870.0,
+            "w": 473.0,
+            "h": 32.0,
+            "cx": 400.5,
+            "cy": 854.0
+          }
+        ],
+        "x1": 164.0,
+        "y1": 838.0,
+        "x2": 637.0,
+        "y2": 870.0,
+        "w": 473.0,
+        "h": 32.0,
+        "cx": 400.5,
+        "cy": 854.0,
+        "score": 0.9629166126251221,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "warm-upduringthefirst3epochs.Itis",
+        "blocks": [
+          {
+            "id": 23,
+            "text": "warm-upduringthefirst3epochs.Itis",
+            "bbox": [
+              [
+                166.0,
+                873.0
+              ],
+              [
+                638.0,
+                873.0
+              ],
+              [
+                638.0,
+                899.0
+              ],
+              [
+                166.0,
+                899.0
+              ]
+            ],
+            "score": 0.9907582402229309,
+            "page": 1,
+            "x1": 166.0,
+            "y1": 873.0,
+            "x2": 638.0,
+            "y2": 899.0,
+            "w": 472.0,
+            "h": 26.0,
+            "cx": 402.0,
+            "cy": 886.0
+          }
+        ],
+        "x1": 166.0,
+        "y1": 873.0,
+        "x2": 638.0,
+        "y2": 899.0,
+        "w": 472.0,
+        "h": 26.0,
+        "cx": 402.0,
+        "cy": 886.0,
+        "score": 0.9907582402229309,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "2 × 10-3 by the end of training.During",
+        "blocks": [
+          {
+            "id": 24,
+            "text": "2 × 10-3 by the end of training.During",
+            "bbox": [
+              [
+                164.0,
+                902.0
+              ],
+              [
+                645.0,
+                902.0
+              ],
+              [
+                645.0,
+                932.0
+              ],
+              [
+                164.0,
+                932.0
+              ]
+            ],
+            "score": 0.917198896408081,
+            "page": 1,
+            "x1": 164.0,
+            "y1": 902.0,
+            "x2": 645.0,
+            "y2": 932.0,
+            "w": 481.0,
+            "h": 30.0,
+            "cx": 404.5,
+            "cy": 917.0
+          }
+        ],
+        "x1": 164.0,
+        "y1": 902.0,
+        "x2": 645.0,
+        "y2": 932.0,
+        "w": 481.0,
+        "h": 30.0,
+        "cx": 404.5,
+        "cy": 917.0,
+        "score": 0.917198896408081,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "linearlyfrom 0.8to0.937,while thebias",
+        "blocks": [
+          {
+            "id": 25,
+            "text": "linearlyfrom 0.8to0.937,while thebias",
+            "bbox": [
+              [
+                167.0,
+                938.0
+              ],
+              [
+                633.0,
+                938.0
+              ],
+              [
+                633.0,
+                962.0
+              ],
+              [
+                167.0,
+                962.0
+              ]
+            ],
+            "score": 0.9718589782714844,
+            "page": 1,
+            "x1": 167.0,
+            "y1": 938.0,
+            "x2": 633.0,
+            "y2": 962.0,
+            "w": 466.0,
+            "h": 24.0,
+            "cx": 400.0,
+            "cy": 950.0
+          }
+        ],
+        "x1": 167.0,
+        "y1": 938.0,
+        "x2": 633.0,
+        "y2": 962.0,
+        "w": 466.0,
+        "h": 24.0,
+        "cx": 400.0,
+        "cy": 950.0,
+        "score": 0.9718589782714844,
+        "type": "table_like"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "【第1页-正文模块1】\n4.1 Experiment Setups\nDatasets: We evaluate HGCM-Net on\nExperimentSetups\nDatasets:WeevaluateHGCM-Net on\nbenchmarks.TheDroneVehicledatase\npairs and 953,087vehicle annotations acl\nversedroneviewpoints,altitudes,andlig\n\n【第1页-表格/数据区域】\ntraining and 8,980 for testing. The M?F1\ninfraredvisiblepairswith34,407annota\nsons,and weather.we follow EAEF17f\nEvaluationMetricsWeemploymAP50\ntheaforementionedbenchmarks.Specifica\nPrecisionatanIoUthresholdof0.50.whil\ntrainableparameters,reflectingmodelcor\nanddenselydistributedobjectsinDrone\nwhichiscomputedbyaveragingAPovel\n0.95with a step sizeof 0.0544]\nImplementationDetails:Allexperime\nconductedonasingleNVIDIARTX409\nepochswithabatchsizeof8andanir\nemployedastheoptimizer,withamome\n5 × 10-4.The learning rate follows the\nwarm-upduringthefirst3epochs.Itis\n2 × 10-3 by the end of training.During\nlinearlyfrom 0.8to0.937,while thebias",
+    "raw_modules": [
+      {
+        "module": "标题",
+        "type": "title",
+        "text": "Experiment Setups\n4.1",
+        "blocks": [
+          {
+            "text": "Experiment Setups",
+            "confidence": 0.9943117499351501,
+            "bbox": {
+              "x1": 85.66666666666667,
+              "y1": 22.666666666666668,
+              "x2": 339.3333333333333,
+              "y2": 47.333333333333336
+            },
+            "type": "top_title"
+          },
+          {
+            "text": "4.1",
+            "confidence": 0.9990431666374207,
+            "bbox": {
+              "x1": 16.666666666666668,
+              "y1": 23.333333333333332,
+              "x2": 57.0,
+              "y2": 46.0
+            },
+            "type": "top_title"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "title": "正文内容",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "4.1 Experiment Setups",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "4.1",
+                "bbox": [
+                  [
+                    16.666666666666668,
+                    23.333333333333332
+                  ],
+                  [
+                    57.0,
+                    23.333333333333332
+                  ],
+                  [
+                    57.0,
+                    46.0
+                  ],
+                  [
+                    16.666666666666668,
+                    46.0
+                  ]
+                ],
+                "score": 0.9990431666374207,
+                "page": 1,
+                "x1": 16.666666666666668,
+                "y1": 23.333333333333332,
+                "x2": 57.0,
+                "y2": 46.0,
+                "w": 40.33333333333333,
+                "h": 22.666666666666668,
+                "cx": 36.833333333333336,
+                "cy": 34.666666666666664
+              },
+              {
+                "id": 0,
+                "text": "Experiment Setups",
+                "bbox": [
+                  [
+                    85.66666666666667,
+                    22.666666666666668
+                  ],
+                  [
+                    339.3333333333333,
+                    22.666666666666668
+                  ],
+                  [
+                    339.3333333333333,
+                    47.333333333333336
+                  ],
+                  [
+                    85.66666666666667,
+                    47.333333333333336
+                  ]
+                ],
+                "score": 0.9943117499351501,
+                "page": 1,
+                "x1": 85.66666666666667,
+                "y1": 22.666666666666668,
+                "x2": 339.3333333333333,
+                "y2": 47.333333333333336,
+                "w": 253.66666666666663,
+                "h": 24.666666666666668,
+                "cx": 212.5,
+                "cy": 35.0
+              }
+            ],
+            "x1": 16.666666666666668,
+            "y1": 22.666666666666668,
+            "x2": 339.3333333333333,
+            "y2": 47.333333333333336,
+            "w": 322.66666666666663,
+            "h": 24.666666666666668,
+            "cx": 178.0,
+            "cy": 35.0,
+            "score": 0.9966774582862854,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "Datasets: We evaluate HGCM-Net on",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "Datasets: We evaluate HGCM-Net on",
+                "bbox": [
+                  [
+                    17.0,
+                    77.0
+                  ],
+                  [
+                    483.3333333333333,
+                    77.0
+                  ],
+                  [
+                    483.3333333333333,
+                    100.0
+                  ],
+                  [
+                    17.0,
+                    100.0
+                  ]
+                ],
+                "score": 0.979438304901123,
+                "page": 1,
+                "x1": 17.0,
+                "y1": 77.0,
+                "x2": 483.3333333333333,
+                "y2": 100.0,
+                "w": 466.3333333333333,
+                "h": 23.0,
+                "cx": 250.16666666666666,
+                "cy": 88.5
+              }
+            ],
+            "x1": 17.0,
+            "y1": 77.0,
+            "x2": 483.3333333333333,
+            "y2": 100.0,
+            "w": 466.3333333333333,
+            "h": 23.0,
+            "cx": 250.16666666666666,
+            "cy": 88.5,
+            "score": 0.979438304901123,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "ExperimentSetups",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "ExperimentSetups",
+                "bbox": [
+                  [
+                    229.0,
+                    169.0
+                  ],
+                  [
+                    490.0,
+                    169.0
+                  ],
+                  [
+                    490.0,
+                    200.0
+                  ],
+                  [
+                    229.0,
+                    200.0
+                  ]
+                ],
+                "score": 0.9977649450302124,
+                "page": 1,
+                "x1": 229.0,
+                "y1": 169.0,
+                "x2": 490.0,
+                "y2": 200.0,
+                "w": 261.0,
+                "h": 31.0,
+                "cx": 359.5,
+                "cy": 184.5
+              }
+            ],
+            "x1": 229.0,
+            "y1": 169.0,
+            "x2": 490.0,
+            "y2": 200.0,
+            "w": 261.0,
+            "h": 31.0,
+            "cx": 359.5,
+            "cy": 184.5,
+            "score": 0.9977649450302124,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "Datasets:WeevaluateHGCM-Net on",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "Datasets:WeevaluateHGCM-Net on",
+                "bbox": [
+                  [
+                    166.0,
+                    225.0
+                  ],
+                  [
+                    634.0,
+                    225.0
+                  ],
+                  [
+                    634.0,
+                    252.0
+                  ],
+                  [
+                    166.0,
+                    252.0
+                  ]
+                ],
+                "score": 0.9819669723510742,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 225.0,
+                "x2": 634.0,
+                "y2": 252.0,
+                "w": 468.0,
+                "h": 27.0,
+                "cx": 400.0,
+                "cy": 238.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 225.0,
+            "x2": 634.0,
+            "y2": 252.0,
+            "w": 468.0,
+            "h": 27.0,
+            "cx": 400.0,
+            "cy": 238.5,
+            "score": 0.9819669723510742,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "benchmarks.TheDroneVehicledatase",
+            "blocks": [
+              {
+                "id": 5,
+                "text": "benchmarks.TheDroneVehicledatase",
+                "bbox": [
+                  [
+                    166.0,
+                    259.0
+                  ],
+                  [
+                    642.0,
+                    259.0
+                  ],
+                  [
+                    642.0,
+                    282.0
+                  ],
+                  [
+                    166.0,
+                    282.0
+                  ]
+                ],
+                "score": 0.9983705282211304,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 259.0,
+                "x2": 642.0,
+                "y2": 282.0,
+                "w": 476.0,
+                "h": 23.0,
+                "cx": 404.0,
+                "cy": 270.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 259.0,
+            "x2": 642.0,
+            "y2": 282.0,
+            "w": 476.0,
+            "h": 23.0,
+            "cx": 404.0,
+            "cy": 270.5,
+            "score": 0.9983705282211304,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "pairs and 953,087vehicle annotations acl",
+            "blocks": [
+              {
+                "id": 6,
+                "text": "pairs and 953,087vehicle annotations acl",
+                "bbox": [
+                  [
+                    166.0,
+                    288.0
+                  ],
+                  [
+                    645.0,
+                    288.0
+                  ],
+                  [
+                    645.0,
+                    317.0
+                  ],
+                  [
+                    166.0,
+                    317.0
+                  ]
+                ],
+                "score": 0.9582971334457397,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 288.0,
+                "x2": 645.0,
+                "y2": 317.0,
+                "w": 479.0,
+                "h": 29.0,
+                "cx": 405.5,
+                "cy": 302.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 288.0,
+            "x2": 645.0,
+            "y2": 317.0,
+            "w": 479.0,
+            "h": 29.0,
+            "cx": 405.5,
+            "cy": 302.5,
+            "score": 0.9582971334457397,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "versedroneviewpoints,altitudes,andlig",
+            "blocks": [
+              {
+                "id": 7,
+                "text": "versedroneviewpoints,altitudes,andlig",
+                "bbox": [
+                  [
+                    166.0,
+                    323.0
+                  ],
+                  [
+                    642.0,
+                    323.0
+                  ],
+                  [
+                    642.0,
+                    346.0
+                  ],
+                  [
+                    166.0,
+                    346.0
+                  ]
+                ],
+                "score": 0.9866276383399963,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 323.0,
+                "x2": 642.0,
+                "y2": 346.0,
+                "w": 476.0,
+                "h": 23.0,
+                "cx": 404.0,
+                "cy": 334.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 323.0,
+            "x2": 642.0,
+            "y2": 346.0,
+            "w": 476.0,
+            "h": 23.0,
+            "cx": 404.0,
+            "cy": 334.5,
+            "score": 0.9866276383399963,
+            "type": "paragraph"
+          }
+        ]
+      },
+      {
+        "type": "table_like",
+        "title": "表格/数据区域",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "training and 8,980 for testing. The M?F1",
+            "blocks": [
+              {
+                "id": 8,
+                "text": "training and 8,980 for testing. The M?F1",
+                "bbox": [
+                  [
+                    166.0,
+                    350.0
+                  ],
+                  [
+                    645.0,
+                    350.0
+                  ],
+                  [
+                    645.0,
+                    380.0
+                  ],
+                  [
+                    166.0,
+                    380.0
+                  ]
+                ],
+                "score": 0.9618147015571594,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 350.0,
+                "x2": 645.0,
+                "y2": 380.0,
+                "w": 479.0,
+                "h": 30.0,
+                "cx": 405.5,
+                "cy": 365.0
+              }
+            ],
+            "x1": 166.0,
+            "y1": 350.0,
+            "x2": 645.0,
+            "y2": 380.0,
+            "w": 479.0,
+            "h": 30.0,
+            "cx": 405.5,
+            "cy": 365.0,
+            "score": 0.9618147015571594,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "infraredvisiblepairswith34,407annota",
+            "blocks": [
+              {
+                "id": 9,
+                "text": "infraredvisiblepairswith34,407annota",
+                "bbox": [
+                  [
+                    166.0,
+                    383.0
+                  ],
+                  [
+                    644.0,
+                    383.0
+                  ],
+                  [
+                    644.0,
+                    408.0
+                  ],
+                  [
+                    166.0,
+                    408.0
+                  ]
+                ],
+                "score": 0.9844449162483215,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 383.0,
+                "x2": 644.0,
+                "y2": 408.0,
+                "w": 478.0,
+                "h": 25.0,
+                "cx": 405.0,
+                "cy": 395.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 383.0,
+            "x2": 644.0,
+            "y2": 408.0,
+            "w": 478.0,
+            "h": 25.0,
+            "cx": 405.0,
+            "cy": 395.5,
+            "score": 0.9844449162483215,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "sons,and weather.we follow EAEF17f",
+            "blocks": [
+              {
+                "id": 10,
+                "text": "sons,and weather.we follow EAEF17f",
+                "bbox": [
+                  [
+                    165.0,
+                    414.0
+                  ],
+                  [
+                    645.0,
+                    414.0
+                  ],
+                  [
+                    645.0,
+                    441.0
+                  ],
+                  [
+                    165.0,
+                    441.0
+                  ]
+                ],
+                "score": 0.959514856338501,
+                "page": 1,
+                "x1": 165.0,
+                "y1": 414.0,
+                "x2": 645.0,
+                "y2": 441.0,
+                "w": 480.0,
+                "h": 27.0,
+                "cx": 405.0,
+                "cy": 427.5
+              }
+            ],
+            "x1": 165.0,
+            "y1": 414.0,
+            "x2": 645.0,
+            "y2": 441.0,
+            "w": 480.0,
+            "h": 27.0,
+            "cx": 405.0,
+            "cy": 427.5,
+            "score": 0.959514856338501,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "EvaluationMetricsWeemploymAP50",
+            "blocks": [
+              {
+                "id": 11,
+                "text": "EvaluationMetricsWeemploymAP50",
+                "bbox": [
+                  [
+                    166.0,
+                    493.0
+                  ],
+                  [
+                    642.0,
+                    493.0
+                  ],
+                  [
+                    642.0,
+                    524.0
+                  ],
+                  [
+                    166.0,
+                    524.0
+                  ]
+                ],
+                "score": 0.9952747225761414,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 493.0,
+                "x2": 642.0,
+                "y2": 524.0,
+                "w": 476.0,
+                "h": 31.0,
+                "cx": 404.0,
+                "cy": 508.5
+              }
+            ],
+            "x1": 166.0,
+            "y1": 493.0,
+            "x2": 642.0,
+            "y2": 524.0,
+            "w": 476.0,
+            "h": 31.0,
+            "cx": 404.0,
+            "cy": 508.5,
+            "score": 0.9952747225761414,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "theaforementionedbenchmarks.Specifica",
+            "blocks": [
+              {
+                "id": 12,
+                "text": "theaforementionedbenchmarks.Specifica",
+                "bbox": [
+                  [
+                    166.0,
+                    526.0
+                  ],
+                  [
+                    642.0,
+                    526.0
+                  ],
+                  [
+                    642.0,
+                    552.0
+                  ],
+                  [
+                    166.0,
+                    552.0
+                  ]
+                ],
+                "score": 0.9944013357162476,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 526.0,
+                "x2": 642.0,
+                "y2": 552.0,
+                "w": 476.0,
+                "h": 26.0,
+                "cx": 404.0,
+                "cy": 539.0
+              }
+            ],
+            "x1": 166.0,
+            "y1": 526.0,
+            "x2": 642.0,
+            "y2": 552.0,
+            "w": 476.0,
+            "h": 26.0,
+            "cx": 404.0,
+            "cy": 539.0,
+            "score": 0.9944013357162476,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "PrecisionatanIoUthresholdof0.50.whil",
+            "blocks": [
+              {
+                "id": 13,
+                "text": "PrecisionatanIoUthresholdof0.50.whil",
+                "bbox": [
+                  [
+                    167.0,
+                    561.0
+                  ],
+                  [
+                    639.0,
+                    561.0
+                  ],
+                  [
+                    639.0,
+                    581.0
+                  ],
+                  [
+                    167.0,
+                    581.0
+                  ]
+                ],
+                "score": 0.9760779142379761,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 561.0,
+                "x2": 639.0,
+                "y2": 581.0,
+                "w": 472.0,
+                "h": 20.0,
+                "cx": 403.0,
+                "cy": 571.0
+              }
+            ],
+            "x1": 167.0,
+            "y1": 561.0,
+            "x2": 639.0,
+            "y2": 581.0,
+            "w": 472.0,
+            "h": 20.0,
+            "cx": 403.0,
+            "cy": 571.0,
+            "score": 0.9760779142379761,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "trainableparameters,reflectingmodelcor",
+            "blocks": [
+              {
+                "id": 14,
+                "text": "trainableparameters,reflectingmodelcor",
+                "bbox": [
+                  [
+                    167.0,
+                    591.0
+                  ],
+                  [
+                    642.0,
+                    591.0
+                  ],
+                  [
+                    642.0,
+                    614.0
+                  ],
+                  [
+                    167.0,
+                    614.0
+                  ]
+                ],
+                "score": 0.9752058982849121,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 591.0,
+                "x2": 642.0,
+                "y2": 614.0,
+                "w": 475.0,
+                "h": 23.0,
+                "cx": 404.5,
+                "cy": 602.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 591.0,
+            "x2": 642.0,
+            "y2": 614.0,
+            "w": 475.0,
+            "h": 23.0,
+            "cx": 404.5,
+            "cy": 602.5,
+            "score": 0.9752058982849121,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "anddenselydistributedobjectsinDrone",
+            "blocks": [
+              {
+                "id": 15,
+                "text": "anddenselydistributedobjectsinDrone",
+                "bbox": [
+                  [
+                    166.0,
+                    621.0
+                  ],
+                  [
+                    644.0,
+                    621.0
+                  ],
+                  [
+                    644.0,
+                    647.0
+                  ],
+                  [
+                    166.0,
+                    647.0
+                  ]
+                ],
+                "score": 0.9970400929450989,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 621.0,
+                "x2": 644.0,
+                "y2": 647.0,
+                "w": 478.0,
+                "h": 26.0,
+                "cx": 405.0,
+                "cy": 634.0
+              }
+            ],
+            "x1": 166.0,
+            "y1": 621.0,
+            "x2": 644.0,
+            "y2": 647.0,
+            "w": 478.0,
+            "h": 26.0,
+            "cx": 405.0,
+            "cy": 634.0,
+            "score": 0.9970400929450989,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "whichiscomputedbyaveragingAPovel",
+            "blocks": [
+              {
+                "id": 16,
+                "text": "whichiscomputedbyaveragingAPovel",
+                "bbox": [
+                  [
+                    167.0,
+                    653.0
+                  ],
+                  [
+                    646.0,
+                    653.0
+                  ],
+                  [
+                    646.0,
+                    680.0
+                  ],
+                  [
+                    167.0,
+                    680.0
+                  ]
+                ],
+                "score": 0.9761722087860107,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 653.0,
+                "x2": 646.0,
+                "y2": 680.0,
+                "w": 479.0,
+                "h": 27.0,
+                "cx": 406.5,
+                "cy": 666.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 653.0,
+            "x2": 646.0,
+            "y2": 680.0,
+            "w": 479.0,
+            "h": 27.0,
+            "cx": 406.5,
+            "cy": 666.5,
+            "score": 0.9761722087860107,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "0.95with a step sizeof 0.0544]",
+            "blocks": [
+              {
+                "id": 17,
+                "text": "0.95with a step sizeof 0.0544]",
+                "bbox": [
+                  [
+                    165.0,
+                    684.0
+                  ],
+                  [
+                    540.0,
+                    684.0
+                  ],
+                  [
+                    540.0,
+                    712.0
+                  ],
+                  [
+                    165.0,
+                    712.0
+                  ]
+                ],
+                "score": 0.943227231502533,
+                "page": 1,
+                "x1": 165.0,
+                "y1": 684.0,
+                "x2": 540.0,
+                "y2": 712.0,
+                "w": 375.0,
+                "h": 28.0,
+                "cx": 352.5,
+                "cy": 698.0
+              }
+            ],
+            "x1": 165.0,
+            "y1": 684.0,
+            "x2": 540.0,
+            "y2": 712.0,
+            "w": 375.0,
+            "h": 28.0,
+            "cx": 352.5,
+            "cy": 698.0,
+            "score": 0.943227231502533,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "ImplementationDetails:Allexperime",
+            "blocks": [
+              {
+                "id": 18,
+                "text": "ImplementationDetails:Allexperime",
+                "bbox": [
+                  [
+                    167.0,
+                    714.0
+                  ],
+                  [
+                    644.0,
+                    714.0
+                  ],
+                  [
+                    644.0,
+                    743.0
+                  ],
+                  [
+                    167.0,
+                    743.0
+                  ]
+                ],
+                "score": 0.9942986369132996,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 714.0,
+                "x2": 644.0,
+                "y2": 743.0,
+                "w": 477.0,
+                "h": 29.0,
+                "cx": 405.5,
+                "cy": 728.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 714.0,
+            "x2": 644.0,
+            "y2": 743.0,
+            "w": 477.0,
+            "h": 29.0,
+            "cx": 405.5,
+            "cy": 728.5,
+            "score": 0.9942986369132996,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "conductedonasingleNVIDIARTX409",
+            "blocks": [
+              {
+                "id": 19,
+                "text": "conductedonasingleNVIDIARTX409",
+                "bbox": [
+                  [
+                    167.0,
+                    749.0
+                  ],
+                  [
+                    644.0,
+                    749.0
+                  ],
+                  [
+                    644.0,
+                    772.0
+                  ],
+                  [
+                    167.0,
+                    772.0
+                  ]
+                ],
+                "score": 0.9982021450996399,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 749.0,
+                "x2": 644.0,
+                "y2": 772.0,
+                "w": 477.0,
+                "h": 23.0,
+                "cx": 405.5,
+                "cy": 760.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 749.0,
+            "x2": 644.0,
+            "y2": 772.0,
+            "w": 477.0,
+            "h": 23.0,
+            "cx": 405.5,
+            "cy": 760.5,
+            "score": 0.9982021450996399,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "epochswithabatchsizeof8andanir",
+            "blocks": [
+              {
+                "id": 20,
+                "text": "epochswithabatchsizeof8andanir",
+                "bbox": [
+                  [
+                    167.0,
+                    778.0
+                  ],
+                  [
+                    644.0,
+                    778.0
+                  ],
+                  [
+                    644.0,
+                    805.0
+                  ],
+                  [
+                    167.0,
+                    805.0
+                  ]
+                ],
+                "score": 0.9933031797409058,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 778.0,
+                "x2": 644.0,
+                "y2": 805.0,
+                "w": 477.0,
+                "h": 27.0,
+                "cx": 405.5,
+                "cy": 791.5
+              }
+            ],
+            "x1": 167.0,
+            "y1": 778.0,
+            "x2": 644.0,
+            "y2": 805.0,
+            "w": 477.0,
+            "h": 27.0,
+            "cx": 405.5,
+            "cy": 791.5,
+            "score": 0.9933031797409058,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "employedastheoptimizer,withamome",
+            "blocks": [
+              {
+                "id": 21,
+                "text": "employedastheoptimizer,withamome",
+                "bbox": [
+                  [
+                    166.0,
+                    810.0
+                  ],
+                  [
+                    645.0,
+                    810.0
+                  ],
+                  [
+                    645.0,
+                    838.0
+                  ],
+                  [
+                    166.0,
+                    838.0
+                  ]
+                ],
+                "score": 0.995053768157959,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 810.0,
+                "x2": 645.0,
+                "y2": 838.0,
+                "w": 479.0,
+                "h": 28.0,
+                "cx": 405.5,
+                "cy": 824.0
+              }
+            ],
+            "x1": 166.0,
+            "y1": 810.0,
+            "x2": 645.0,
+            "y2": 838.0,
+            "w": 479.0,
+            "h": 28.0,
+            "cx": 405.5,
+            "cy": 824.0,
+            "score": 0.995053768157959,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "5 × 10-4.The learning rate follows the",
+            "blocks": [
+              {
+                "id": 22,
+                "text": "5 × 10-4.The learning rate follows the",
+                "bbox": [
+                  [
+                    164.0,
+                    838.0
+                  ],
+                  [
+                    637.0,
+                    838.0
+                  ],
+                  [
+                    637.0,
+                    870.0
+                  ],
+                  [
+                    164.0,
+                    870.0
+                  ]
+                ],
+                "score": 0.9629166126251221,
+                "page": 1,
+                "x1": 164.0,
+                "y1": 838.0,
+                "x2": 637.0,
+                "y2": 870.0,
+                "w": 473.0,
+                "h": 32.0,
+                "cx": 400.5,
+                "cy": 854.0
+              }
+            ],
+            "x1": 164.0,
+            "y1": 838.0,
+            "x2": 637.0,
+            "y2": 870.0,
+            "w": 473.0,
+            "h": 32.0,
+            "cx": 400.5,
+            "cy": 854.0,
+            "score": 0.9629166126251221,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "warm-upduringthefirst3epochs.Itis",
+            "blocks": [
+              {
+                "id": 23,
+                "text": "warm-upduringthefirst3epochs.Itis",
+                "bbox": [
+                  [
+                    166.0,
+                    873.0
+                  ],
+                  [
+                    638.0,
+                    873.0
+                  ],
+                  [
+                    638.0,
+                    899.0
+                  ],
+                  [
+                    166.0,
+                    899.0
+                  ]
+                ],
+                "score": 0.9907582402229309,
+                "page": 1,
+                "x1": 166.0,
+                "y1": 873.0,
+                "x2": 638.0,
+                "y2": 899.0,
+                "w": 472.0,
+                "h": 26.0,
+                "cx": 402.0,
+                "cy": 886.0
+              }
+            ],
+            "x1": 166.0,
+            "y1": 873.0,
+            "x2": 638.0,
+            "y2": 899.0,
+            "w": 472.0,
+            "h": 26.0,
+            "cx": 402.0,
+            "cy": 886.0,
+            "score": 0.9907582402229309,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "2 × 10-3 by the end of training.During",
+            "blocks": [
+              {
+                "id": 24,
+                "text": "2 × 10-3 by the end of training.During",
+                "bbox": [
+                  [
+                    164.0,
+                    902.0
+                  ],
+                  [
+                    645.0,
+                    902.0
+                  ],
+                  [
+                    645.0,
+                    932.0
+                  ],
+                  [
+                    164.0,
+                    932.0
+                  ]
+                ],
+                "score": 0.917198896408081,
+                "page": 1,
+                "x1": 164.0,
+                "y1": 902.0,
+                "x2": 645.0,
+                "y2": 932.0,
+                "w": 481.0,
+                "h": 30.0,
+                "cx": 404.5,
+                "cy": 917.0
+              }
+            ],
+            "x1": 164.0,
+            "y1": 902.0,
+            "x2": 645.0,
+            "y2": 932.0,
+            "w": 481.0,
+            "h": 30.0,
+            "cx": 404.5,
+            "cy": 917.0,
+            "score": 0.917198896408081,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "linearlyfrom 0.8to0.937,while thebias",
+            "blocks": [
+              {
+                "id": 25,
+                "text": "linearlyfrom 0.8to0.937,while thebias",
+                "bbox": [
+                  [
+                    167.0,
+                    938.0
+                  ],
+                  [
+                    633.0,
+                    938.0
+                  ],
+                  [
+                    633.0,
+                    962.0
+                  ],
+                  [
+                    167.0,
+                    962.0
+                  ]
+                ],
+                "score": 0.9718589782714844,
+                "page": 1,
+                "x1": 167.0,
+                "y1": 938.0,
+                "x2": 633.0,
+                "y2": 962.0,
+                "w": 466.0,
+                "h": 24.0,
+                "cx": 400.0,
+                "cy": 950.0
+              }
+            ],
+            "x1": 167.0,
+            "y1": 938.0,
+            "x2": 633.0,
+            "y2": 962.0,
+            "w": 466.0,
+            "h": 24.0,
+            "cx": 400.0,
+            "cy": 950.0,
+            "score": 0.9718589782714844,
+            "type": "table_like"
+          }
+        ]
+      }
+    ]
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.7375,
+    "non_white_ratio": 0.2147
+  },
+  "summary_result": {
+    "summary": "在多个数据集上评估HGCM-Net模型，使用mAP50指标，实验基于单张RTX 4090显卡，8个epoch，Adam优化器及特定学习率调度。",
+    "text_type": "技术说明",
+    "repaired_text": "【标题】 Experiment Setups Datasets: We evaluate HGCM-Net on benchmarks. The DroneVehicle dataset includes pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions. The InfraredVisible dataset contains 34,407 annotated infrared-visible pairs. The M^3F1 dataset has training data with 8,980 samples and testing data with 8,980 samples. Evaluation Metrics: We employ mAP50 over the aforementioned benchmarks. Implementation Details: All experiments are conducted on a single NVIDIA RTX 4090, with 8 epochs, a batch size of 8, using the Adam optimizer with a momentum of 0.95. The learning rate follows a schedule with a warm-up during the first 3 epochs, linearly increasing from 0.8 to 0.937, while the bias also increases linearly from 0.8 to 0.937.",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【标题】 Experiment Setups Datasets: We evaluate HGCM-Net on benchmarks. The DroneVehicle dataset includes pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions. The InfraredVisible dataset contains 34,407 annotated infrared-visible pairs. The M^3F1 dataset has training data with 8,980 samples and testing data with 8,980 samples. Evaluation Metrics: We employ mAP50 over the aforementioned benchmarks. Implementation Details: All experiments are conducted on a single NVIDIA RTX 4090, with 8 epochs, a batch size of 8, using the Adam optimizer with a momentum of 0.95. The learning rate follows a schedule with a warm-up during the first 3 epochs, linearly increasing from 0.8 to 0.937, while the bias also increases linearly from 0.8 to 0.937."
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "Experiment Setups: Datasets include DroneVehicle with 953,087 vehicle annotations, InfraredVisible with 34,407 infrared-visible pairs, and M^3F1 with 8,980 training and testing samples each. Evaluation uses mAP50. Experiments run on a single NVIDIA RTX 4090 for 8 epochs, batch size 8, Adam optimizer with 0.95 momentum. Learning rate warms up over first 3 epochs, increasing from 0.8 to 0.937, same for bias.",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "实验设置包括数据集、评估指标与实现细节"
+      }
+    ],
+    "summary": "本实验在DroneVehicle、InfraredVisible和M^3F1三个数据集上评估HGCM-Net，采用mAP50作为评价指标。所有实验基于单张NVIDIA RTX 4090进行，训练8个epoch，批量大小为8，使用Adam优化器（动量0.95），学习率与偏差均在前3个epoch线性预热上升。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "HGCM-Net",
+        "type": "主题",
+        "category": "主题",
+        "description": "被评估的神经网络模型",
+        "aliases": [
+          "HGCM-Net"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "DroneVehicle dataset",
+        "type": "主题",
+        "category": "主题",
+        "description": "包含953,087车辆标注的数据集",
+        "aliases": [
+          "DroneVehicle dataset"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "InfraredVisible dataset",
+        "type": "主题",
+        "category": "主题",
+        "description": "包含34,407红外-可见光图像对的数据集",
+        "aliases": [
+          "InfraredVisible dataset"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "M^3F1 dataset",
+        "type": "主题",
+        "category": "主题",
+        "description": "训练与测试各含8,980样本的数据集",
+        "aliases": [
+          "M^3F1 dataset"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "mAP50",
+        "type": "主题",
+        "category": "主题",
+        "description": "用于评估模型性能的指标，即IoU阈值为0.5的平均精度",
+        "aliases": [
+          "mAP50"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "NVIDIA RTX 4090",
+        "type": "主题",
+        "category": "主题",
+        "description": "实验所用的GPU设备",
+        "aliases": [
+          "NVIDIA RTX 4090"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "8 epochs",
+        "type": "主题",
+        "category": "主题",
+        "description": "训练过程的迭代轮数",
+        "aliases": [
+          "8 epochs"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "batch size of 8",
+        "type": "主题",
+        "category": "主题",
+        "description": "每次训练输入的样本数量",
+        "aliases": [
+          "batch size of 8"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "Adam optimizer",
+        "type": "主题",
+        "category": "主题",
+        "description": "使用的优化算法",
+        "aliases": [
+          "Adam optimizer"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "momentum of 0.95",
+        "type": "主题",
+        "category": "主题",
+        "description": "Adam优化器中的动量参数",
+        "aliases": [
+          "momentum of 0.95"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "learning rate warm-up",
+        "type": "主题",
+        "category": "主题",
+        "description": "学习率在前3个epoch线性增加的策略",
+        "aliases": [
+          "learning rate warm-up"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "first 3 epochs",
+        "type": "主题",
+        "category": "主题",
+        "description": "学习率预热的时间段",
+        "aliases": [
+          "first 3 epochs"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "bias from 0.8 to 0.937",
+        "type": "主题",
+        "category": "主题",
+        "description": "偏差参数的同步调整",
+        "aliases": [
+          "bias from 0.8 to 0.937"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "DroneVehicle dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "InfraredVisible dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "M^3F1 dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "confidence": 0.9,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "mAP50",
+        "target": "HGCM-Net",
+        "relation": "服务于",
+        "confidence": 0.85,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "learning rate warm-up",
+        "target": "bias from 0.8 to 0.937",
+        "relation": "生成",
+        "confidence": 0.8,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "first 3 epochs",
+        "target": "learning rate warm-up",
+        "relation": "体现",
+        "confidence": 0.95,
+        "raw_relation": "描述"
+      },
+      {
+        "source": "HGCM-Net",
+        "target": "DroneVehicle dataset",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "DroneVehicle dataset",
+        "target": "InfraredVisible dataset",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "InfraredVisible dataset",
+        "target": "M^3F1 dataset",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "M^3F1 dataset",
+        "target": "mAP50",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "mAP50",
+        "target": "NVIDIA RTX 4090",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "HGCM-Net",
+      "DroneVehicle dataset",
+      "InfraredVisible dataset",
+      "M^3F1 dataset",
+      "mAP50",
+      "NVIDIA RTX 4090",
+      "8 epochs",
+      "batch size of 8",
+      "Adam optimizer",
+      "momentum of 0.95",
+      "learning rate warm-up",
+      "first 3 epochs"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【标题】 Experiment Setups Datasets: We evaluate HGCM-Net on benchmarks. The DroneVehicle dataset includes pairs and 953,087 vehicle annotations across various drone viewpoints, altitudes, and lighting conditions. The InfraredVisible dataset contains 34,407 annotated infrared-visible pairs. The M^3F1 dataset has training data with 8,980 samples and testing data with 8,980 samples. Evaluation Metrics: We employ mAP50 over the aforementioned benchmarks. Implementation Details: All experiments are conducted on a single NVIDIA RTX 4090, with 8 epochs, a batch size of 8, using the Adam optimizer with a momentum of 0.95. The learning rate follows a schedule with a warm-up during the first 3 epochs, linearly increasing from 0.8 to 0.937, while the bias also increases linearly from 0.8 to 0.937."
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "HGCM-Net",
+        "name": "HGCM-Net",
+        "label": "HGCM-Net",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "被评估的神经网络模型",
+        "source": "llm",
+        "importance": 0.9571,
+        "symbolSize": 52.8
+      },
+      {
+        "id": "DroneVehicle dataset",
+        "name": "DroneVehicle dataset",
+        "label": "DroneVehicle dataset",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "包含953,087车辆标注的数据集",
+        "source": "llm",
+        "importance": 0.8578,
+        "symbolSize": 50.01821204016488
+      },
+      {
+        "id": "InfraredVisible dataset",
+        "name": "InfraredVisible dataset",
+        "label": "InfraredVisible dataset",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "包含34,407红外-可见光图像对的数据集",
+        "source": "llm",
+        "importance": 0.6436,
+        "symbolSize": 44.0219430035245
+      },
+      {
+        "id": "M^3F1 dataset",
+        "name": "M^3F1 dataset",
+        "label": "M^3F1 dataset",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "训练与测试各含8,980样本的数据集",
+        "source": "llm",
+        "importance": 0.5294,
+        "symbolSize": 40.824559951756136
+      },
+      {
+        "id": "mAP50",
+        "name": "mAP50",
+        "label": "mAP50",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "用于评估模型性能的指标，即IoU阈值为0.5的平均精度",
+        "source": "llm",
+        "importance": 0.42,
+        "symbolSize": 37.759227332262604
+      },
+      {
+        "id": "NVIDIA RTX 4090",
+        "name": "NVIDIA RTX 4090",
+        "label": "NVIDIA RTX 4090",
+        "type": "主题",
+        "category": "主题",
+        "group": 2,
+        "description": "实验所用的GPU设备",
+        "source": "llm",
+        "importance": 0.1214,
+        "symbolSize": 29.39995970056689
+      },
+      {
+        "id": "8 epochs",
+        "name": "8 epochs",
+        "label": "8 epochs",
+        "type": "主题",
+        "category": "主题",
+        "group": 3,
+        "description": "训练过程的迭代轮数",
+        "source": "llm",
+        "importance": 0.0378,
+        "symbolSize": 27.058290573828543
+      },
+      {
+        "id": "batch size of 8",
+        "name": "batch size of 8",
+        "label": "batch size of 8",
+        "type": "主题",
+        "category": "主题",
+        "group": 4,
+        "description": "每次训练输入的样本数量",
+        "source": "llm",
+        "importance": 0.0378,
+        "symbolSize": 27.058290573828543
+      },
+      {
+        "id": "Adam optimizer",
+        "name": "Adam optimizer",
+        "label": "Adam optimizer",
+        "type": "主题",
+        "category": "主题",
+        "group": 5,
+        "description": "使用的优化算法",
+        "source": "llm",
+        "importance": 0.0378,
+        "symbolSize": 27.058290573828543
+      },
+      {
+        "id": "momentum of 0.95",
+        "name": "momentum of 0.95",
+        "label": "momentum of 0.95",
+        "type": "主题",
+        "category": "主题",
+        "group": 6,
+        "description": "Adam优化器中的动量参数",
+        "source": "llm",
+        "importance": 0.0378,
+        "symbolSize": 27.058290573828543
+      },
+      {
+        "id": "learning rate warm-up",
+        "name": "learning rate warm-up",
+        "label": "learning rate warm-up",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "学习率在前3个epoch线性增加的策略",
+        "source": "llm",
+        "importance": 0.2328,
+        "symbolSize": 32.51785236589414
+      },
+      {
+        "id": "first 3 epochs",
+        "name": "first 3 epochs",
+        "label": "first 3 epochs",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "学习率预热的时间段",
+        "source": "llm",
+        "importance": 0.0978,
+        "symbolSize": 28.738290573828543
+      },
+      {
+        "id": "bias from 0.8 to 0.937",
+        "name": "bias from 0.8 to 0.937",
+        "label": "bias from 0.8 to 0.937",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "偏差参数的同步调整",
+        "source": "llm",
+        "importance": 0.1572,
+        "symbolSize": 30.402499818924827
+      }
+    ],
+    "edges": [
+      {
+        "source": "HGCM-Net",
+        "target": "DroneVehicle dataset",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "DroneVehicle dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "DroneVehicle dataset",
+        "target": "InfraredVisible dataset",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "InfraredVisible dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "InfraredVisible dataset",
+        "target": "M^3F1 dataset",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "M^3F1 dataset",
+        "target": "HGCM-Net",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "M^3F1 dataset",
+        "target": "mAP50",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "mAP50",
+        "target": "HGCM-Net",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "mAP50",
+        "target": "NVIDIA RTX 4090",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "learning rate warm-up",
+        "target": "bias from 0.8 to 0.937",
+        "relation": "生成",
+        "raw_relation": "生成",
+        "label": "生成",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "first 3 epochs",
+        "target": "learning rate warm-up",
+        "relation": "体现",
+        "raw_relation": "描述",
+        "label": "体现",
+        "weight": 0.95,
+        "confidence": 0.95
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "HGCM-Net",
+        "score": 0.9571,
+        "degree": 1.0,
+        "betweenness": 0.8571,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "DroneVehicle dataset",
+        "score": 0.8578,
+        "degree": 0.6,
+        "betweenness": 1.0,
+        "pagerank": 0.9445,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "InfraredVisible dataset",
+        "score": 0.6436,
+        "degree": 0.6,
+        "betweenness": 1.0,
+        "pagerank": 0.4091,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "M^3F1 dataset",
+        "score": 0.5294,
+        "degree": 0.6,
+        "betweenness": 0.8571,
+        "pagerank": 0.2308,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "mAP50",
+        "score": 0.42,
+        "degree": 0.6,
+        "betweenness": 0.5714,
+        "pagerank": 0.1714,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "HGCM-Net": 1.0,
+        "DroneVehicle dataset": 0.6000000000000001,
+        "InfraredVisible dataset": 0.6000000000000001,
+        "M^3F1 dataset": 0.6000000000000001,
+        "mAP50": 0.6000000000000001,
+        "NVIDIA RTX 4090": 0.2,
+        "8 epochs": 0.0,
+        "batch size of 8": 0.0,
+        "Adam optimizer": 0.0,
+        "momentum of 0.95": 0.0,
+        "learning rate warm-up": 0.4,
+        "first 3 epochs": 0.2,
+        "bias from 0.8 to 0.937": 0.2
+      },
+      "betweenness": {
+        "HGCM-Net": 0.8571428571428571,
+        "DroneVehicle dataset": 1.0,
+        "InfraredVisible dataset": 1.0,
+        "M^3F1 dataset": 0.8571428571428571,
+        "mAP50": 0.5714285714285714,
+        "NVIDIA RTX 4090": 0.0,
+        "8 epochs": 0.0,
+        "batch size of 8": 0.0,
+        "Adam optimizer": 0.0,
+        "momentum of 0.95": 0.0,
+        "learning rate warm-up": 0.14285714285714285,
+        "first 3 epochs": 0.0,
+        "bias from 0.8 to 0.937": 0.0
+      },
+      "pagerank": {
+        "HGCM-Net": 1.0,
+        "DroneVehicle dataset": 0.9444832178718644,
+        "InfraredVisible dataset": 0.4091020538861162,
+        "M^3F1 dataset": 0.23076428140679772,
+        "mAP50": 0.17135958323773237,
+        "NVIDIA RTX 4090": 0.1535678304077581,
+        "8 epochs": 0.09449022980611993,
+        "batch size of 8": 0.09449022980611993,
+        "Adam optimizer": 0.09449022980611993,
+        "momentum of 0.95": 0.09449022980611993,
+        "learning rate warm-up": 0.17480824695483405,
+        "first 3 epochs": 0.09449022980611993,
+        "bias from 0.8 to 0.937": 0.24308034097543096
+      },
+      "fusion": {
+        "HGCM-Net": 0.9571428571428572,
+        "DroneVehicle dataset": 0.8577932871487457,
+        "InfraredVisible dataset": 0.6436408215544465,
+        "M^3F1 dataset": 0.5294485697055763,
+        "mAP50": 0.41997240472366437,
+        "NVIDIA RTX 4090": 0.12142713216310325,
+        "8 epochs": 0.037796091922447976,
+        "batch size of 8": 0.037796091922447976,
+        "Adam optimizer": 0.037796091922447976,
+        "momentum of 0.95": 0.037796091922447976,
+        "learning rate warm-up": 0.23278044163907646,
+        "first 3 epochs": 0.09779609192244798,
+        "bias from 0.8 to 0.937": 0.1572321363901724
+      }
+    },
+    "important_paths": [
+      [
+        "HGCM-Net",
+        "DroneVehicle dataset"
+      ],
+      [
+        "HGCM-Net",
+        "DroneVehicle dataset",
+        "InfraredVisible dataset"
+      ],
+      [
+        "HGCM-Net",
+        "DroneVehicle dataset",
+        "InfraredVisible dataset",
+        "M^3F1 dataset"
+      ],
+      [
+        "DroneVehicle dataset",
+        "InfraredVisible dataset"
+      ],
+      [
+        "DroneVehicle dataset",
+        "InfraredVisible dataset",
+        "M^3F1 dataset"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": ""
+}

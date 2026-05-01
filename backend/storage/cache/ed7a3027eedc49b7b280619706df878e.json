@@ -1,0 +1,1016 @@
+{
+  "text": "【第1页-正文模块1】\n</> Bash\n</>Bash\n\n【第1页-表格/数据区域】\npip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple\npip insta1l paddleocr==2.7.3",
+  "file_path": "storage/images\\10f91d634131492b9a7cf8b77da2a0e6_PixPin_2026-04-24_13-55-11.png",
+  "ocr": {
+    "raw_text": "</> Bash\n</>Bash\npip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple\npip insta1l paddleocr==2.7.3",
+    "structured_text": "【第1页-正文模块1】\n</> Bash\n</>Bash\n\n【第1页-表格/数据区域】\npip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple\npip insta1l paddleocr==2.7.3",
+    "layout_type": "ecla_enhanced",
+    "modules": [
+      {
+        "module": "标题",
+        "type": "title",
+        "text": "Bash\n</>",
+        "blocks": [
+          {
+            "text": "Bash",
+            "confidence": 0.9998121857643127,
+            "bbox": {
+              "x1": 69.0,
+              "y1": 26.0,
+              "x2": 127.0,
+              "y2": 51.666666666666664
+            },
+            "type": "top_title"
+          },
+          {
+            "text": "</>",
+            "confidence": 0.7792683243751526,
+            "bbox": {
+              "x1": 30.0,
+              "y1": 31.666666666666668,
+              "x2": 69.0,
+              "y2": 48.333333333333336
+            },
+            "type": "top_title"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "title": "正文内容",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "</> Bash",
+            "blocks": [
+              {
+                "id": 1,
+                "text": "</>",
+                "bbox": [
+                  [
+                    30.0,
+                    31.666666666666668
+                  ],
+                  [
+                    69.0,
+                    31.666666666666668
+                  ],
+                  [
+                    69.0,
+                    48.333333333333336
+                  ],
+                  [
+                    30.0,
+                    48.333333333333336
+                  ]
+                ],
+                "score": 0.7792683243751526,
+                "page": 1,
+                "x1": 30.0,
+                "y1": 31.666666666666668,
+                "x2": 69.0,
+                "y2": 48.333333333333336,
+                "w": 39.0,
+                "h": 16.666666666666668,
+                "cx": 49.5,
+                "cy": 40.0
+              },
+              {
+                "id": 0,
+                "text": "Bash",
+                "bbox": [
+                  [
+                    69.0,
+                    26.0
+                  ],
+                  [
+                    127.0,
+                    26.0
+                  ],
+                  [
+                    127.0,
+                    51.666666666666664
+                  ],
+                  [
+                    69.0,
+                    51.666666666666664
+                  ]
+                ],
+                "score": 0.9998121857643127,
+                "page": 1,
+                "x1": 69.0,
+                "y1": 26.0,
+                "x2": 127.0,
+                "y2": 51.666666666666664,
+                "w": 58.0,
+                "h": 25.666666666666664,
+                "cx": 98.0,
+                "cy": 38.83333333333333
+              }
+            ],
+            "x1": 30.0,
+            "y1": 26.0,
+            "x2": 127.0,
+            "y2": 51.666666666666664,
+            "w": 97.0,
+            "h": 25.666666666666664,
+            "cx": 78.5,
+            "cy": 38.83333333333333,
+            "score": 0.8895402550697327,
+            "type": "paragraph"
+          },
+          {
+            "page": 1,
+            "text": "</>Bash",
+            "blocks": [
+              {
+                "id": 2,
+                "text": "</>Bash",
+                "bbox": [
+                  [
+                    177.0,
+                    178.0
+                  ],
+                  [
+                    278.0,
+                    178.0
+                  ],
+                  [
+                    278.0,
+                    203.0
+                  ],
+                  [
+                    177.0,
+                    203.0
+                  ]
+                ],
+                "score": 0.940550684928894,
+                "page": 1,
+                "x1": 177.0,
+                "y1": 178.0,
+                "x2": 278.0,
+                "y2": 203.0,
+                "w": 101.0,
+                "h": 25.0,
+                "cx": 227.5,
+                "cy": 190.5
+              }
+            ],
+            "x1": 177.0,
+            "y1": 178.0,
+            "x2": 278.0,
+            "y2": 203.0,
+            "w": 101.0,
+            "h": 25.0,
+            "cx": 227.5,
+            "cy": 190.5,
+            "score": 0.940550684928894,
+            "type": "paragraph"
+          }
+        ]
+      },
+      {
+        "type": "table_like",
+        "title": "表格/数据区域",
+        "page": 1,
+        "lines": [
+          {
+            "page": 1,
+            "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple",
+            "blocks": [
+              {
+                "id": 3,
+                "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple",
+                "bbox": [
+                  [
+                    177.0,
+                    234.0
+                  ],
+                  [
+                    1149.0,
+                    234.0
+                  ],
+                  [
+                    1149.0,
+                    262.0
+                  ],
+                  [
+                    177.0,
+                    262.0
+                  ]
+                ],
+                "score": 0.9820356369018555,
+                "page": 1,
+                "x1": 177.0,
+                "y1": 234.0,
+                "x2": 1149.0,
+                "y2": 262.0,
+                "w": 972.0,
+                "h": 28.0,
+                "cx": 663.0,
+                "cy": 248.0
+              }
+            ],
+            "x1": 177.0,
+            "y1": 234.0,
+            "x2": 1149.0,
+            "y2": 262.0,
+            "w": 972.0,
+            "h": 28.0,
+            "cx": 663.0,
+            "cy": 248.0,
+            "score": 0.9820356369018555,
+            "type": "table_like"
+          },
+          {
+            "page": 1,
+            "text": "pip insta1l paddleocr==2.7.3",
+            "blocks": [
+              {
+                "id": 4,
+                "text": "pip insta1l paddleocr==2.7.3",
+                "bbox": [
+                  [
+                    175.0,
+                    267.0
+                  ],
+                  [
+                    545.0,
+                    267.0
+                  ],
+                  [
+                    545.0,
+                    296.0
+                  ],
+                  [
+                    175.0,
+                    296.0
+                  ]
+                ],
+                "score": 0.9629298448562622,
+                "page": 1,
+                "x1": 175.0,
+                "y1": 267.0,
+                "x2": 545.0,
+                "y2": 296.0,
+                "w": 370.0,
+                "h": 29.0,
+                "cx": 360.0,
+                "cy": 281.5
+              }
+            ],
+            "x1": 175.0,
+            "y1": 267.0,
+            "x2": 545.0,
+            "y2": 296.0,
+            "w": 370.0,
+            "h": 29.0,
+            "cx": 360.0,
+            "cy": 281.5,
+            "score": 0.9629298448562622,
+            "type": "table_like"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "text": "Bash",
+        "confidence": 0.9998121857643127,
+        "bbox": {
+          "x1": 69.0,
+          "y1": 26.0,
+          "x2": 127.0,
+          "y2": 51.666666666666664
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "</>",
+        "confidence": 0.7792683243751526,
+        "bbox": {
+          "x1": 30.0,
+          "y1": 31.666666666666668,
+          "x2": 69.0,
+          "y2": 48.333333333333336
+        },
+        "type": "top_title"
+      },
+      {
+        "text": "</>Bash",
+        "confidence": 0.940550684928894,
+        "bbox": {
+          "x1": 177.0,
+          "y1": 178.0,
+          "x2": 278.0,
+          "y2": 203.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple",
+        "confidence": 0.9820356369018555,
+        "bbox": {
+          "x1": 177.0,
+          "y1": 234.0,
+          "x2": 1149.0,
+          "y2": 262.0
+        },
+        "type": "text"
+      },
+      {
+        "text": "pip insta1l paddleocr==2.7.3",
+        "confidence": 0.9629298448562622,
+        "bbox": {
+          "x1": 175.0,
+          "y1": 267.0,
+          "x2": 545.0,
+          "y2": 296.0
+        },
+        "type": "text"
+      }
+    ],
+    "lines": [
+      {
+        "page": 1,
+        "text": "</> Bash",
+        "blocks": [
+          {
+            "id": 1,
+            "text": "</>",
+            "bbox": [
+              [
+                30.0,
+                31.666666666666668
+              ],
+              [
+                69.0,
+                31.666666666666668
+              ],
+              [
+                69.0,
+                48.333333333333336
+              ],
+              [
+                30.0,
+                48.333333333333336
+              ]
+            ],
+            "score": 0.7792683243751526,
+            "page": 1,
+            "x1": 30.0,
+            "y1": 31.666666666666668,
+            "x2": 69.0,
+            "y2": 48.333333333333336,
+            "w": 39.0,
+            "h": 16.666666666666668,
+            "cx": 49.5,
+            "cy": 40.0
+          },
+          {
+            "id": 0,
+            "text": "Bash",
+            "bbox": [
+              [
+                69.0,
+                26.0
+              ],
+              [
+                127.0,
+                26.0
+              ],
+              [
+                127.0,
+                51.666666666666664
+              ],
+              [
+                69.0,
+                51.666666666666664
+              ]
+            ],
+            "score": 0.9998121857643127,
+            "page": 1,
+            "x1": 69.0,
+            "y1": 26.0,
+            "x2": 127.0,
+            "y2": 51.666666666666664,
+            "w": 58.0,
+            "h": 25.666666666666664,
+            "cx": 98.0,
+            "cy": 38.83333333333333
+          }
+        ],
+        "x1": 30.0,
+        "y1": 26.0,
+        "x2": 127.0,
+        "y2": 51.666666666666664,
+        "w": 97.0,
+        "h": 25.666666666666664,
+        "cx": 78.5,
+        "cy": 38.83333333333333,
+        "score": 0.8895402550697327,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "</>Bash",
+        "blocks": [
+          {
+            "id": 2,
+            "text": "</>Bash",
+            "bbox": [
+              [
+                177.0,
+                178.0
+              ],
+              [
+                278.0,
+                178.0
+              ],
+              [
+                278.0,
+                203.0
+              ],
+              [
+                177.0,
+                203.0
+              ]
+            ],
+            "score": 0.940550684928894,
+            "page": 1,
+            "x1": 177.0,
+            "y1": 178.0,
+            "x2": 278.0,
+            "y2": 203.0,
+            "w": 101.0,
+            "h": 25.0,
+            "cx": 227.5,
+            "cy": 190.5
+          }
+        ],
+        "x1": 177.0,
+        "y1": 178.0,
+        "x2": 278.0,
+        "y2": 203.0,
+        "w": 101.0,
+        "h": 25.0,
+        "cx": 227.5,
+        "cy": 190.5,
+        "score": 0.940550684928894,
+        "type": "paragraph"
+      },
+      {
+        "page": 1,
+        "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple",
+        "blocks": [
+          {
+            "id": 3,
+            "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple",
+            "bbox": [
+              [
+                177.0,
+                234.0
+              ],
+              [
+                1149.0,
+                234.0
+              ],
+              [
+                1149.0,
+                262.0
+              ],
+              [
+                177.0,
+                262.0
+              ]
+            ],
+            "score": 0.9820356369018555,
+            "page": 1,
+            "x1": 177.0,
+            "y1": 234.0,
+            "x2": 1149.0,
+            "y2": 262.0,
+            "w": 972.0,
+            "h": 28.0,
+            "cx": 663.0,
+            "cy": 248.0
+          }
+        ],
+        "x1": 177.0,
+        "y1": 234.0,
+        "x2": 1149.0,
+        "y2": 262.0,
+        "w": 972.0,
+        "h": 28.0,
+        "cx": 663.0,
+        "cy": 248.0,
+        "score": 0.9820356369018555,
+        "type": "table_like"
+      },
+      {
+        "page": 1,
+        "text": "pip insta1l paddleocr==2.7.3",
+        "blocks": [
+          {
+            "id": 4,
+            "text": "pip insta1l paddleocr==2.7.3",
+            "bbox": [
+              [
+                175.0,
+                267.0
+              ],
+              [
+                545.0,
+                267.0
+              ],
+              [
+                545.0,
+                296.0
+              ],
+              [
+                175.0,
+                296.0
+              ]
+            ],
+            "score": 0.9629298448562622,
+            "page": 1,
+            "x1": 175.0,
+            "y1": 267.0,
+            "x2": 545.0,
+            "y2": 296.0,
+            "w": 370.0,
+            "h": 29.0,
+            "cx": 360.0,
+            "cy": 281.5
+          }
+        ],
+        "x1": 175.0,
+        "y1": 267.0,
+        "x2": 545.0,
+        "y2": 296.0,
+        "w": 370.0,
+        "h": 29.0,
+        "cx": 360.0,
+        "cy": 281.5,
+        "score": 0.9629298448562622,
+        "type": "table_like"
+      }
+    ],
+    "ecla_enabled": true,
+    "raw_structured_text": "",
+    "raw_modules": []
+  },
+  "visual_detection": {
+    "has_visual": false,
+    "reason": "主要内容为文字，使用文本模型分析",
+    "text_area_ratio": 0.2131,
+    "non_white_ratio": 0.0535
+  },
+  "summary_result": {
+    "summary": "安装PaddlePaddle和PaddleOCR的Python命令，使用清华源加速下载。",
+    "text_type": "技术说明",
+    "repaired_text": "【第1页-正文模块1】 </> Bash </>Bash 【第1页-表格/数据区域】 pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple pip insta1l paddleocr==2.7.3",
+    "entities": [],
+    "relations": [],
+    "keywords": [],
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "【第1页-正文模块1】 </> Bash </>Bash 【第1页-表格/数据区域】 pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple pip insta1l paddleocr==2.7.3"
+      }
+    ],
+    "visual_notes": [],
+    "source": "quick_summary"
+  },
+  "ai_result": {
+    "repaired_text": "Bash Bash pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple pip install paddleocr==2.7.3",
+    "modules": [
+      {
+        "module": "识别内容",
+        "text": "pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple pip install paddleocr==2.7.3"
+      }
+    ],
+    "summary": "在Bash环境中通过pip命令安装指定版本的PaddlePaddle和PaddleOCR库，使用清华源加速下载，用于搭建深度学习与OCR识别环境。",
+    "text_type": "技术说明",
+    "entities": [
+      {
+        "name": "Bash",
+        "type": "主题",
+        "category": "主题",
+        "description": "Unix shell和命令语言，用于执行安装命令",
+        "aliases": [
+          "Bash"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "pip",
+        "type": "主题",
+        "category": "主题",
+        "description": "Python包管理工具，用于安装库",
+        "aliases": [
+          "pip"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "paddlepaddle==2.6.2",
+        "type": "主题",
+        "category": "主题",
+        "description": "指定版本的PaddlePaddle深度学习框架",
+        "aliases": [
+          "paddlepaddle==2.6.2"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "paddleocr==2.7.3",
+        "type": "主题",
+        "category": "主题",
+        "description": "指定版本的PaddleOCR文字识别库",
+        "aliases": [
+          "paddleocr==2.7.3"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "安装PaddlePaddle",
+        "type": "主题",
+        "category": "主题",
+        "description": "执行命令安装深度学习框架的过程",
+        "aliases": [
+          "安装PaddlePaddle"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "安装PaddleOCR",
+        "type": "对象",
+        "category": "对象",
+        "description": "执行命令安装OCR识别库的过程",
+        "aliases": [
+          "安装PaddleOCR"
+        ],
+        "sources": [
+          "ai"
+        ]
+      },
+      {
+        "name": "搭建OCR环境",
+        "type": "主题",
+        "category": "主题",
+        "description": "成功配置可用于文字识别的Python环境",
+        "aliases": [
+          "搭建OCR环境"
+        ],
+        "sources": [
+          "ai"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "source": "pip",
+        "target": "paddlepaddle==2.6.2",
+        "relation": "生成",
+        "confidence": 0.9,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "pip",
+        "target": "paddleocr==2.7.3",
+        "relation": "生成",
+        "confidence": 0.9,
+        "raw_relation": "生成"
+      },
+      {
+        "source": "pip",
+        "target": "搭建OCR环境",
+        "relation": "服务于",
+        "confidence": 0.85,
+        "raw_relation": "服务于"
+      },
+      {
+        "source": "Bash",
+        "target": "安装PaddlePaddle",
+        "relation": "参与",
+        "confidence": 0.8,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "Bash",
+        "target": "安装PaddleOCR",
+        "relation": "参与",
+        "confidence": 0.8,
+        "raw_relation": "参与"
+      },
+      {
+        "source": "Bash",
+        "target": "pip",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "pip",
+        "target": "paddlepaddle==2.6.2",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      },
+      {
+        "source": "paddlepaddle==2.6.2",
+        "target": "paddleocr==2.7.3",
+        "relation": "体现",
+        "confidence": 0.58,
+        "raw_relation": "sentence_cooccurrence"
+      }
+    ],
+    "keywords": [
+      "Bash",
+      "pip",
+      "paddlepaddle==2.6.2",
+      "paddleocr==2.7.3",
+      "安装PaddlePaddle",
+      "安装PaddleOCR",
+      "搭建OCR环境"
+    ],
+    "visual_notes": [],
+    "ltp_entities": [],
+    "source": "ai",
+    "source_text": "【第1页-正文模块1】 </> Bash </>Bash 【第1页-表格/数据区域】 pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple pip insta1l paddleocr==2.7.3"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "Bash",
+        "name": "Bash",
+        "label": "Bash",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "Unix shell和命令语言，用于执行安装命令",
+        "source": "llm",
+        "importance": 0.3867,
+        "symbolSize": 36.82872381471736
+      },
+      {
+        "id": "pip",
+        "name": "pip",
+        "label": "pip",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "Python包管理工具，用于安装库",
+        "source": "llm",
+        "importance": 0.7983,
+        "symbolSize": 48.35288505457388
+      },
+      {
+        "id": "paddlepaddle==2.6.2",
+        "name": "paddlepaddle==2.6.2",
+        "label": "paddlepaddle==2.6.2",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "指定版本的PaddlePaddle深度学习框架",
+        "source": "llm",
+        "importance": 0.3537,
+        "symbolSize": 35.90364784625761
+      },
+      {
+        "id": "paddleocr==2.7.3",
+        "name": "paddleocr==2.7.3",
+        "label": "paddleocr==2.7.3",
+        "type": "主题",
+        "category": "主题",
+        "group": 0,
+        "description": "指定版本的PaddleOCR文字识别库",
+        "source": "llm",
+        "importance": 0.55,
+        "symbolSize": 41.400000000000006
+      },
+      {
+        "id": "安装PaddlePaddle",
+        "name": "安装PaddlePaddle",
+        "label": "安装PaddlePaddle",
+        "type": "主题",
+        "category": "主题",
+        "group": 1,
+        "description": "执行命令安装深度学习框架的过程",
+        "source": "llm",
+        "importance": 0.2872,
+        "symbolSize": 34.04136000762291
+      },
+      {
+        "id": "安装PaddleOCR",
+        "name": "安装PaddleOCR",
+        "label": "安装PaddleOCR",
+        "type": "对象",
+        "category": "对象",
+        "group": 1,
+        "description": "执行命令安装OCR识别库的过程",
+        "source": "llm",
+        "importance": 0.2872,
+        "symbolSize": 34.04136000762291
+      },
+      {
+        "id": "搭建OCR环境",
+        "name": "搭建OCR环境",
+        "label": "搭建OCR环境",
+        "type": "对象",
+        "category": "对象",
+        "group": 0,
+        "description": "成功配置可用于文字识别的Python环境",
+        "source": "llm",
+        "importance": 0.2982,
+        "symbolSize": 34.350595240250485
+      }
+    ],
+    "edges": [
+      {
+        "source": "Bash",
+        "target": "安装PaddlePaddle",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "Bash",
+        "target": "安装PaddleOCR",
+        "relation": "参与",
+        "raw_relation": "参与",
+        "label": "参与",
+        "weight": 0.8,
+        "confidence": 0.8
+      },
+      {
+        "source": "Bash",
+        "target": "pip",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "pip",
+        "target": "paddlepaddle==2.6.2",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      },
+      {
+        "source": "pip",
+        "target": "paddleocr==2.7.3",
+        "relation": "生成",
+        "raw_relation": "生成",
+        "label": "生成",
+        "weight": 0.9,
+        "confidence": 0.9
+      },
+      {
+        "source": "pip",
+        "target": "搭建OCR环境",
+        "relation": "服务于",
+        "raw_relation": "服务于",
+        "label": "服务于",
+        "weight": 0.85,
+        "confidence": 0.85
+      },
+      {
+        "source": "paddlepaddle==2.6.2",
+        "target": "paddleocr==2.7.3",
+        "relation": "体现",
+        "raw_relation": "sentence_cooccurrence",
+        "label": "体现",
+        "weight": 0.58,
+        "confidence": 0.58
+      }
+    ]
+  },
+  "analysis": {
+    "core_nodes": [
+      {
+        "name": "pip",
+        "score": 0.7983,
+        "degree": 1.0,
+        "betweenness": 1.0,
+        "pagerank": 0.4958,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "paddleocr==2.7.3",
+        "score": 0.55,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 1.0,
+        "reason": "该节点在图谱中被多条关系指向，是当前内容的核心主题。"
+      },
+      {
+        "name": "Bash",
+        "score": 0.3867,
+        "degree": 0.75,
+        "betweenness": 0.0,
+        "pagerank": 0.4044,
+        "reason": "该节点与多个信息点直接相连，是内容组织中的关键节点。"
+      },
+      {
+        "name": "paddlepaddle==2.6.2",
+        "score": 0.3537,
+        "degree": 0.5,
+        "betweenness": 0.0,
+        "pagerank": 0.5093,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      },
+      {
+        "name": "搭建OCR环境",
+        "score": 0.2982,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "pagerank": 0.5581,
+        "reason": "该节点在当前图谱中具有较高关联度。"
+      }
+    ],
+    "metrics": {
+      "degree": {
+        "Bash": 0.75,
+        "pip": 1.0,
+        "paddlepaddle==2.6.2": 0.5,
+        "paddleocr==2.7.3": 0.5,
+        "安装PaddlePaddle": 0.25,
+        "安装PaddleOCR": 0.25,
+        "搭建OCR环境": 0.25
+      },
+      "betweenness": {
+        "Bash": 0.0,
+        "pip": 1.0,
+        "paddlepaddle==2.6.2": 0.0,
+        "paddleocr==2.7.3": 0.0,
+        "安装PaddlePaddle": 0.0,
+        "安装PaddleOCR": 0.0,
+        "搭建OCR环境": 0.0
+      },
+      "pagerank": {
+        "Bash": 0.4043503405997639,
+        "pip": 0.4957933084440966,
+        "paddlepaddle==2.6.2": 0.5092542719872865,
+        "paddleocr==2.7.3": 1.0,
+        "安装PaddlePaddle": 0.5304785721091883,
+        "安装PaddleOCR": 0.5304785721091883,
+        "搭建OCR环境": 0.5580888607366504
+      },
+      "fusion": {
+        "Bash": 0.38674013623990555,
+        "pip": 0.7983173233776386,
+        "paddlepaddle==2.6.2": 0.3537017087949146,
+        "paddleocr==2.7.3": 0.55,
+        "安装PaddlePaddle": 0.2871914288436753,
+        "安装PaddleOCR": 0.2871914288436753,
+        "搭建OCR环境": 0.2982355442946602
+      }
+    },
+    "important_paths": [
+      [
+        "pip",
+        "paddleocr==2.7.3"
+      ],
+      [
+        "Bash",
+        "pip"
+      ],
+      [
+        "pip",
+        "paddlepaddle==2.6.2"
+      ],
+      [
+        "Bash",
+        "pip",
+        "paddleocr==2.7.3"
+      ],
+      [
+        "paddlepaddle==2.6.2",
+        "paddleocr==2.7.3"
+      ]
+    ]
+  },
+  "graph_status": "done",
+  "graph_error": "",
+  "graph_summary": "在Bash环境中通过pip命令安装指定版本的PaddlePaddle和PaddleOCR库，使用清华源加速下载，用于搭建深度学习与OCR识别环境。",
+  "deep_summary": "在Bash环境中通过pip命令安装指定版本的PaddlePaddle和PaddleOCR库，使用清华源加速下载，用于搭建深度学习与OCR识别环境。"
+}
